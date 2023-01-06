@@ -88,6 +88,8 @@
   --outline-small-size: 2px;
 
   --container-max-width: 968px;
+
+  --box-shadow-1: rgba(100, 100, 111, 0.05) 0px 0px 29px 0px;
 }
 
 /* Font size for large devices */
