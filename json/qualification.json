@@ -1,0 +1,49 @@
+{
+  "education": [
+    {
+      "id": 0,
+      "title": "TK Harapan 1 Medan",
+      "subtitle": "Kindergarten",
+      "date": "2009 - 2010",
+      "src": "https://www.google.com/search?q=TK Harapan 2 Medan"
+    },
+    {
+      "id": 1,
+      "title": "SD Harapan 2 Medan",
+      "subtitle": "Elementary School",
+      "date": "2010 - 2016",
+      "src": "https://www.google.com/search?q=SD Harapan 2 Medan"
+    },
+    {
+      "id": 2,
+      "title": "SMP Negeri 1 Medan",
+      "subtitle": "Junior High School",
+      "date": "2016 - 2019",
+      "src": "https://www.google.com/search?q=SMP Negeri 1 Medan"
+    },
+    {
+      "id": 3,
+      "title": "SMA Negeri 1 Medan",
+      "subtitle": "Senior High School",
+      "date": "2019 - 2022",
+      "src": "https://www.google.com/search?q=SMA Negeri 1 Medan"
+    },
+    {
+      "id": 4,
+      "title": "Bandung Institute of Technology",
+      "subtitle": "College",
+      "date": "2022 - now",
+      "src": "https://www.google.com/search?q=Institut Teknologi Bandung"
+    }
+  ],
+
+  "work": [
+    {
+      "id": 0,
+      "title": "Freelance",
+      "subtitle": "Game Development",
+      "date": "2021 - now",
+      "src": ""
+    }
+  ]
+}

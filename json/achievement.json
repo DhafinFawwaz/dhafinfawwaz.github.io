@@ -1,0 +1,111 @@
+[
+  {
+    "id": 0,
+    "title": "Silver Medal Olimpiade Sains Indonesia (OSI) 2019",
+    "subtitle": "Issued by Pelatihan Olimpiade Sains Indonesia (POSI)",
+    "date": "September 2019",
+    "description": "OSI is a city level olympiad consist of 9 fields which are informatics, mathematics, physics, chemistry, astronomy, geoscience, economics, biology, and geography.",
+    "img": "OSI.jpg",
+    "icon": "uil uil-brackets-curly"
+  },
+  {
+    "id": 1,
+    "title": "Gold Medal Olimpiade Sains Pra OSK (OSPO) 2020",
+    "subtitle": "Issued by Pelatihan Olimpiade Sains Indonesia (POSI)",
+    "date": "February 2020",
+    "description": "OSPO is a city level olympiad consist of 9 fields which are informatics, mathematics, physics, chemistry, astronomy, geoscience, economics, biology, and geography.",
+    "img": "OSPO.jpg",
+    "icon": "uil uil-brackets-curly"
+  },
+  {
+    "id": 2,
+    "title": "Silver Medal of National Science Competition city level 2020",
+    "subtitle": "Issued by The Ministry of Education, Culture, Research, and Technology",
+    "date": "March 2020",
+    "description": "National Science Competition or Kompetisi Sains Nasional (KSN), now Olimpiade Sains Nasional (OSN) is an official Olympiad by The Ministry of Education, Culture, Research, and Technology. This event followed by highschool throughout Indonesia. Started from city level elimination, then province level elimitation, and finally the National. The competition consist of 9 fields which are informatics, mathematics, physics, chemistry, astronomy, geoscience, economics, biology, and geography.",
+    "img": "KSN-K.jpg",
+    "icon": "uil uil-brackets-curly"
+  },
+  {
+    "id": 3,
+    "title": "Gold Medal Basic Science Competition (BSC) 2020",
+    "subtitle": "Issued by Pelatihan Olimpiade Sains Indonesia (POSI)",
+    "date": "September 2020",
+    "description": "BSC is a city level olympiad consist of 9 fields which are informatics, mathematics, physics, chemistry, astronomy, geoscience, economics, biology, and geography.",
+    "img": "BSC.jpg",
+    "icon": "uil uil-brackets-curly"
+  },
+  {
+    "id": 4,
+    "title": "5th Runner Up of Ruangguru Champion Online Edition5th",
+    "subtitle": "Issued by PT Ruang Raya Indonesia",
+    "date": "September 2020",
+    "description": "Ruangguru Champion is a competition held by one of the most popular cram school in Indonesia. This event was followed by highschool in all over Indonesia. This competition is a 'first come, first serve' quiz contest. The field being tested are what we usually learn at school, namely Math, Physics, Chemistry, and Biology. Me and my teamates manage to went through the regional stage and get 5th place in the national stage.",
+    "img": "Ruangguru Champion.jpg",
+    "icon": "uil uil-podium"
+  },
+  {
+    "id": 5,
+    "title": "Gold Medal Indonesian Youth Science Competition (IYSC) 2020",
+    "subtitle": "Issued by Pelatihan Olimpiade Sains Indonesia (POSI)",
+    "date": "October 2020",
+    "description": "IYSC is a province level olympiad consist of 9 fields which are informatics, mathematics, physics, chemistry, astronomy, geoscience, economics, biology, and geography.",
+    "img": "IYSC.jpg",
+    "icon": "uil uil-brackets-curly"
+  },
+  {
+    "id": 6,
+    "title": "Gold Medal Tryout Nasional Menjelang KSN-K 2021",
+    "subtitle": "Issued by Tesla Edu Center (TEC)",
+    "date": "May 2021",
+    "description": "Tryout Nasional Menjelang KSN-K is a province level olympiad consist of 9 fields which are informatics, mathematics, physics, chemistry, astronomy, geoscience, economics, biology, and geography.",
+    "img": "TEC.jpg",
+    "icon": "uil uil-brackets-curly"
+  },
+  {
+    "id": 7,
+    "title": "Gold Medal NSC 2021",
+    "subtitle": "Issued by Pelatihan Olimpiade Sains Indonesia",
+    "date": "August 2021",
+    "description": "NSC or National Science Competition is an olympiad consist of 9 fields which are informatics, mathematics, physics, chemistry, astronomy, geoscience, economics, biology, and geography. Indonesia'n translation of the name will sound like to the official one. But this competition is not official. Therefore, isn't attended by the students all over Indonesia.",
+    "img": "NSC.jpg",
+    "icon": "uil uil-brackets-curly"
+  },
+  {
+    "id": 8,
+    "title": "4th Runner Up of Olimpiade Sains Merdeka (OSM) 2021",
+    "subtitle": "Issued by PEMA University of Sumatera Utara",
+    "date": "September 2021",
+    "description": "NESO is a province level olympiad consist of 9 fields which are informatics, mathematics, physics, chemistry, astronomy, geoscience, economics, biology, and geography.",
+    "img": "OSM.jpg",
+    "icon": "uil uil-brackets-curly"
+  },
+  {
+    "id": 9,
+    "title": "Silver Medal Olimpiade Sains Nusantara 2021",
+    "subtitle": "Issued by Pelatihan Olimpiade Sains Indonesia (POSI)",
+    "date": "October 2021",
+    "description": "Olimpiade Sains Nusantara is a city level olympiad consist of 9 fields which are informatics, mathematics, physics, chemistry, astronomy, geoscience, economics, biology, and geography.",
+    "img": "OSN.jpg",
+    "icon": "uil uil-brackets-curly"
+  },
+  {
+    "id": 10,
+    "title": "Top 100 Finalist of National Science Competition 2021",
+    "subtitle": "Issued by The Ministry of Education, Culture, Research, and Technology",
+    "date": "November 2021",
+    "description": "National Science Competition or Kompetisi Sains Nasional (KSN), now Olimpiade Sains Nasional (OSN) is an official Olympiad by The Ministry of Education, Culture, Research, and Technology. This event followed by highschool throughout Indonesia. Started from city level elimination, then province level elimitation, and finally the National. The competition consist of 9 fields which are informatics, mathematics, physics, chemistry, astronomy, geoscience, economics, biology, and geography.",
+    "img": "KSN.jpg",
+    "icon": "uil uil-brackets-curly"
+  },
+  {
+    "id": 11,
+    "title": "2nd Winner of Game Development MAGE 7",
+    "subtitle": "Issued by Sepuluh Nopember Institute of Technology",
+    "date": "November 2021",
+    "description": "Game Development MAGE 7 is a National competition about Game Developement by Sepuluh Nopember Institute of Technology held for about 1.5 months of development. This competition started from creating proposal, then developing the game, and then pitch product presentation about the game.",
+    "img": "MAGE 7.jpg",
+    "icon": "uil uil-laptop"
+  }
+  
+]

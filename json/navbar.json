@@ -1,0 +1,33 @@
+[
+  {
+    "id": 0,
+    "title": "Home",
+    "href": "/#home",
+    "icon": "uil uil-estate"
+  },{
+    "id": 1,
+    "title": "Qualification",
+    "href": "/#qualification",
+    "icon": "uil uil-suitcase-alt"
+  },{
+    "id": 2,
+    "title": "Achievement",
+    "href": "/#achievement",
+    "icon": "uil uil-award"
+  },{
+    "id": 3,
+    "title": "Projects",
+    "href": "/#projects",
+    "icon": "uil uil-web-grid"
+  },{
+    "id": 4,
+    "title": "Contact",
+    "href": "/#contact",
+    "icon": "uil uil-user"
+  },{
+    "id": 5,
+    "title": "Tag",
+    "href": "/tag",
+    "icon": "uil uil-tag-alt"
+  }
+]

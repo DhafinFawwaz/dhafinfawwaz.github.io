@@ -1,0 +1,44 @@
+{
+  "gmail": {
+    "id": 0,
+    "title": "Gmail",
+    "value": "dhafin.fawwaz@gmail.com",
+    "href": "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dhafin.fawwaz@gmail.com",
+    "img": "https://api.iconify.design/mdi/gmail.svg"
+  },
+  "github": {
+    "id": 1,
+    "title": "Github",
+    "value": "DhafinFawwaz",
+    "href": "https://github.com/DhafinFawwaz",
+    "img": "https://api.iconify.design/mdi/github.svg"
+  },
+  "linkedin": {
+    "id": 2,
+    "title": "Linkedin",
+    "value": "Dhafin Fawwaz Ikramullah",
+    "href": "https://www.linkedin.com/in/dhafin-fawwaz-kramullah-a9567b169/",
+    "img": "https://api.iconify.design/mdi/linkedin.svg"
+  },
+  "whatsapp": {
+    "id": 3,
+    "title": "WhatsApp",
+    "value": "+628116292109",
+    "href": "https://wa.me/628116292109/?text=",
+    "img": "https://api.iconify.design/ri/whatsapp-fill.svg"
+  },
+  "line": {
+    "id": 4,
+    "title": "Line",
+    "value": "dhafin2109",
+    "href": "",
+    "img": "/img/icons/line.svg"
+  },
+  "instagram": {
+    "id": 5,
+    "title": "Instagram",
+    "value": "@dhafin_fawwaz",
+    "href": "https://www.instagram.com/dhafin_fawwaz",
+    "img": "https://api.iconify.design/uil/instagram-alt.svg"
+  }
+}
