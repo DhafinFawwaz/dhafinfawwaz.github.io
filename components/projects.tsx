@@ -120,13 +120,13 @@ export default function Projects({ activeTags }:ActiveTagsType) {
                   </div>
                 ):(project.imgs.length === 1) ? (
                   <div className={styles.imgs__1}>
-                    <ExportedImage src={`/img/projects/${project.slug}/${project.imgs[0]}`} alt={project.imgs[0]} width={512} height={512}/>
+                    <ExportedImage src={`/img/projects/${project.slug}/${project.imgs[0]}`} alt={project.imgs[0]} width={384} height={384}/>
                   </div>
                 ):(
                   <ul className={styles.img__flex__ul}>
                     {project.imgs.map((img, i) => (
                       <li key={i} className={styles.img__flex__li}>
-                        <ExportedImage className={styles.img__flex__img} src={`/img/projects/${project.slug}/${img}`} alt={img} width={512} height={512}/>
+                        <ExportedImage className={styles.img__flex__img} src={`/img/projects/${project.slug}/${img}`} alt={img} width={384} height={384}/>
                       </li>
 
                     ))}

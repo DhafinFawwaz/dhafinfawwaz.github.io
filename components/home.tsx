@@ -72,7 +72,7 @@ export default function Home() {
                     return (
                       <li key={i} className={styles.tool__icon}>
                         <Link href={`/tag/?tag=${tool.slug}`}>
-                          <ExportedImage src={tool.img} alt={tool.title} width={50} height={50}/>
+                          <img src={tool.img} alt={tool.title} width={32} height={32}/>
                         </Link>
                       </li>
                     )
