@@ -7,7 +7,7 @@ import contact from "../json/contact.json"
 
 export default function Footer() {
   return (
-    <footer className={styles.footer} id="contact">
+    <footer className={`section`} id="contact">
       <h2 className={`section__title ${styles.title}`}>Contact</h2>
       <span className={`section__subtitle ${styles.subtitle}`}>{"Reach me out :)"}</span>
 

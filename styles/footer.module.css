@@ -1,12 +1,4 @@
-.footer {
-  background-color: var(--first-color);
-  margin-top: var(--mb-3);
-  min-height: calc(100vh - var(--mb-3));
-}
 
-.title {
-  padding-top: var(--mb-3);
-}
 .subtitle {
   color: var(--title-color);
 }

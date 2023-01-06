@@ -173,6 +173,10 @@ img {
   height: auto;
 }
 
+footer {
+  background-color: var(--first-color);
+  min-height: calc(100vh - var(--mb-3));
+}
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: calc(var(--header-height) + 2rem) 0 4rem;
