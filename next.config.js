@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     loader: "custom",
-    imageSizes: [16, 96, 128],
-    deviceSizes: [256, 384, 1200],
+    imageSizes: [16, 32, 96, 128],
+    deviceSizes: [256, 384, 640, 1200],
   },
   env: {
     nextImageExportOptimizer_imageFolderPath: "public/img",
