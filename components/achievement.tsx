@@ -40,7 +40,7 @@ export default function Achievement() {
 
               <div className={`${styles.details} grid`}>
                 <div className={styles.img__container}>
-                  <ExportedImage className={styles.img} src={`/img/achievement/${content.img}`} alt={content.title} height={1024} width={1024} />
+                  <ExportedImage className={styles.img} src={`/img/achievement/${content.img}`} alt={content.title} height={256} width={256} />
                 </div>
                 <div className={styles.description__container}>
                   <p className={styles.description}>{content.description}</p>
