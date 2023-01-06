@@ -19,9 +19,14 @@
   height: 1.4rem;
   width: 1.4rem;
 }
+.tag__icon i {
+  transform: translate(-0.5px, 1px);
+}
 .tag__title {
   /* padding: var(--mb-0-25) var(--mb-0-5) var(--mb-0-25) 0; */
-  padding: 0 var(--mb-0-25);
+  padding-right: var(--mb-0-5);
+  padding-left: var(--mb-0-5);
+  transform: translateY(1px);
 }
 .tag {
   font-size: var(--smaller-font-size);

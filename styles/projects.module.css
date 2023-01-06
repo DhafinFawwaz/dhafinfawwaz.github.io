@@ -32,7 +32,7 @@
 .tag {
   font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
-  padding: var(--mb-0-25) var(--mb-0-5);
+  padding: var(--mb-0-35) var(--mb-0-5) var(--mb-0-25);
   margin: var(--mb-0-1);
   z-index: 1;
   
