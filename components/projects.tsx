@@ -66,7 +66,7 @@ export default function Projects({ activeTags }:ActiveTagsType) {
           
           <div className={styles.content}>
 
-            <Link scroll={false} as={`/project/${project.slug}`} href={`/?title=${project.slug}`} className={styles.link} onClick={() => onProjectClick(index)}></Link>
+            <Link scroll={false} as={`/project/${project.slug}`} href={`?title=${project.slug}`} className={styles.link} onClick={() => onProjectClick(index)}></Link>
             <ExportedImage src={`/img/projects/${project.slug}/${project.thumbnail}`} alt={project.title} width={256} height={256}/>
 
             <div className={styles.description}>
