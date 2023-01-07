@@ -39,7 +39,7 @@ export default function Home() {
         <div className={styles.data}>
           <h1 className={styles.title}>Dhafin Fawwaz<br/>Ikramullah</h1>
           <h4 className={styles.subtitle}>Software Developer | Programmer</h4>
-          <p className={styles.description}>{`An Indie Game Developer for fun, a particle vfx/shader enthusiast, and a math enjoyer. Currently my main specialities are in Mobile Development, Game Development, and Website Development. It will change in the future since i'm interested in learning more. Also note that this website is still far from finish.`}</p>
+          <p className={styles.description}>{`An Indie Game Developer for fun, a particle vfx/shader enthusiast, and a math enjoyer. Currently my main specialities are in Mobile, Game, and Web Development. It will change in the future since i'm interested in learning more. Also note that this website is still far from finish.`}</p>
 
           <Link href="/pdf/cv - dhafinfawwaz.pdf" target="_blank" className="button button--flex" onClick={() => {window.open("/pdf/cv - dhafinfawwaz.pdf");}}>
             Download CV
