@@ -8,6 +8,7 @@ const leagueSpartan = League_Spartan({
   subsets: ['latin'],
   weight: ["400", "600", "700", "800"],
   fallback: ["Roboto","Poppins", "sans-serif"],
+  variable: "--league-spartan"
 })
 
 // For google analytics

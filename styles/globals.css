@@ -1,8 +1,9 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://unicons.iconscout.com/release/v4.0.0/css/line.css");
-/* html {
-  -webkit-tap-highlight-color: rgba(100%, 30%, 30%, 50%);
-} */
+html, body {
+  font-family: var(--league-spartan);
+  /* -webkit-tap-highlight-color: rgba(100%, 30%, 30%, 50%); */
+}
 /*==================== VARIABLES CSS ====================*/
 :root {
   --header-height: 3rem;
