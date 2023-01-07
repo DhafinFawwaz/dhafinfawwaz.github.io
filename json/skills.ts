@@ -21,7 +21,7 @@ export const skills = [
     "devType": tags.filter(tag => tag.slug==="game-dev")[0],
     "tools": tags.filter(tag => 
       tag.slug==="android"
-      || tag.slug==="c#"
+      || tag.slug==="csharp"
       || tag.slug==="firebase"
       || tag.slug==="javascript"
       || tag.slug==="unity"
