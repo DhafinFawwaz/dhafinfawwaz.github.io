@@ -31,6 +31,7 @@ export const projects = [
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="pixi"
+      || tag.slug==="csharp"
       || tag.slug==="javascript"
       || tag.slug==="firebase"
       || tag.slug==="html"
