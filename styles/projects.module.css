@@ -7,7 +7,6 @@
 .content__container {
   display: flex;
   justify-content: center;
-  box-shadow: var(--box-shadow-1);
 }
 .content {
   position: relative;
@@ -17,6 +16,7 @@
 
   max-width: 16rem;
   width: 100%;
+  box-shadow: var(--box-shadow-1);
 
 }
 .link {
