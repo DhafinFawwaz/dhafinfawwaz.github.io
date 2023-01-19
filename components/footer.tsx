@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className={`section`} id="contact">
       <h2 className={`section__title ${styles.title}`}>Contact</h2>
-      <span className={`section__subtitle ${styles.subtitle}`}>{"Reach me out :)"}</span>
+      <span className={`section__subtitle ${styles.subtitle}`}>{"Opportunity for an internship would be nice :)"}</span>
 
       <div className={`container`}></div>
 

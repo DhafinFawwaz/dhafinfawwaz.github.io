@@ -31,7 +31,6 @@ export const projects = [
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="pixi"
-      || tag.slug==="csharp"
       || tag.slug==="javascript"
       || tag.slug==="firebase"
       || tag.slug==="html"
@@ -117,6 +116,7 @@ export const projects = [
       || tag.slug==="bootstrap"
       || tag.slug==="html"
       || tag.slug==="css"
+      || tag.slug==="sqlite"
     ),
     "description": "A website created for an assignment of Introduction to Computation in Bandung Institute of Technology. It's created with Django and some help from javascript for the client side.",
     "src": "https://github.com/DhafinFawwaz/Project-Book-Django",
@@ -207,9 +207,9 @@ export const projects = [
     ]
   },{
     "id": 10,
-    "title": "Very Optimized Coin",
-    "slug": "very-optimized-coin",
-    "thumbnail": "1920x1080 - 16x9.png",
+    "title": "Very Optimized Coins Shader",
+    "slug": "very-optimized-coins-shader",
+    "thumbnail": "Very Optimized Coins Shader.png",
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
@@ -219,10 +219,12 @@ export const projects = [
     ),
     "description": `A very optimized coin made with a lot of shader tricks as the result of years of my research and playing with shader.\n- The jump height varies\n- Initial phase of the spinning coins varies\n- Coin spins with the same speed as it's shadow, but the shadow didn't jump\n- Jumps with neither trigonometric function nor if statements but can still jump periodically\n- All of the parameters above can also be set to be with the same values as we want.\n- Without any C# Component, which means there's neiher Monobehaviour.Update() nor FixedUpdate(). All of it is made with shader.\n- With only 1 texture, 1 material, 1 shader (which are the requirement to make rendering with 1 batch possible)\nThe main problem in optimizing a game is mostly about rendering. Of course, you can make all of this with the default sprite shader that already exist in the engine, and make those animation individually with a C# component. This will still make it rendered in 1 batch since it uses only 1 shader and 1 material which is the default one that comes with the engine. But imagine thousands of Monobehaviour.Update() running from those thousands of instance of C# component. It's overkill. That's why we can use shader. But if we use shader, all of those coins will do it's animation simultaneously like a military march. With the shader in this project, all of those variation is made possible but with a drawback which makes tinting the sprite is not possible anymore. But this won't affect anything since we almost never need to tint a rendered sprite. This is not the only trick. Getting the decimal of Time.time, custom parabole function instead of sine function, etc. are also things a few of many tricks that makes all the above possible.
     `,
-    "src": "",
+    "src": "https://github.com/DhafinFawwaz/Unity-Optimized-Coins-Shader",
     "imgs": [
-      "1920x1080 - 16x9.png",
-      "810x14420 - 9x16.png",
+      "MonobehaviourUpdate.gif",
+      "MultiMaterial.gif",
+      "SingleMaterial.gif",
+      "Optimized.gif",
     ]
   }
 ]

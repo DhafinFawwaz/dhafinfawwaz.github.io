@@ -46,7 +46,7 @@
 .tag:hover {
   background-color: var(--third-color) !important;
   color: var(--first-color) !important;
-  transition: 0.15s var(--ease-out-quart);
+  transition: var(--transition-time) var(--ease-out-quart);
 }
 
 .container::after {

@@ -105,7 +105,7 @@ export const tags = [
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
   ),
   new Tag(20, "Ilustrator", "ilustrator", "#ff9008", "#ffffff",
-    "https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg"
+    "https://api.iconify.design/skill-icons/illustrator.svg"
   ),
   new Tag(21, "Java", "java", "#0e98e8", "#ffffff",
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
@@ -129,7 +129,7 @@ export const tags = [
     "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg"
   ),
   new Tag(28, "Photoshop", "photoshop", "#1117c2", "#ffffff",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"
+    "https://api.iconify.design/skill-icons/photoshop.svg"
   ),
   new Tag(29, "Pixi", "pixi", "#db143f", "#ffffff",
     "https://pixijs.download/pixijs-text.svg"

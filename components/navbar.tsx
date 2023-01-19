@@ -8,12 +8,30 @@ import { useEffect } from 'react'
 
 export default function Navbar() {
   const [active, setActive] = useState<string>(styles.inactive);
+  const [darkTheme, setDarkTheme] = useState<string>("sun");
   const [showScroll, setShowScroll] = useState<string>(styles.scroll__hidden);
 
   function onMenuClick(){
     setActive((isActive: string) => {
       if(isActive === styles.inactive)return styles.active;
       return styles.inactive;
+    })
+  }
+
+  function onThemeClick(){
+    setDarkTheme((isDarkTheme: string) => {
+      if(isDarkTheme === "moon")
+      {
+        document.body.classList.remove('dark-theme');
+        document.body.classList.add('light-theme');
+        return "sun";
+      }
+      else
+      {
+        document.body.classList.add('dark-theme');
+        document.body.classList.remove('light-theme');
+        return "moon";
+      }
     })
   }
 
@@ -61,9 +79,9 @@ export default function Navbar() {
 
         <div className={styles.btns}>
 
-          <div className={styles.theme} onClick={onMenuClick}>
+          <div className={styles.theme} onClick={onThemeClick}>
             <div>
-              <i className={`uil uil-moon change-theme`} id="theme-button"></i>
+              <i className={`uil uil-${darkTheme} change-theme`} id="theme-button"></i>
             </div>
           </div>
 

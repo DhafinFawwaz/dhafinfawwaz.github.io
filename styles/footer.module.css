@@ -23,7 +23,7 @@
 
 .content:hover {
   transform: scale(1.05);
-  transition: 0.15s var(--ease-out-back);
+  transition: var(--transition-time) var(--ease-out-back);
 }
 
 
@@ -48,7 +48,7 @@
 }
 .content {
   background-color: var(--third-color);
-  transition: 0.15s var(--ease-out-quart);
+  transition: var(--transition-time) var(--ease-out-quart);
   margin: var(--mb-0-5);
 
   justify-self: center;
@@ -84,7 +84,7 @@
 }
 
 .icon {
-  filter: invert(42%) sepia(53%) saturate(1352%) hue-rotate(320deg) brightness(119%) contrast(119%);
+  filter: invert(42%) sepia(53%) saturate(1352%) hue-rotate(var(--icon-hue-rotate)) brightness(119%) contrast(119%);
 }
 .header {
   font-size: var(--h3-font-size);

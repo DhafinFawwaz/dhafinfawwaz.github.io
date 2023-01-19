@@ -9,32 +9,22 @@ html, body {
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  /* Change favorite color */
-  --first-hue-color: 0;
-  --second-hue-color: 204; /* #f2f5f7 */
-  
-  /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
-  /* HSL color mode */
-  --first-color: hsl(var(--first-hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--first-hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--first-hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--first-hue-color), 92%, 85%);
-  
+  --first-color: #ff5f5f;
+  --first-color-alt: #d11111;;
   --second-color: white;
-  --third-color: hsl(var(--second-hue-color), 24%, 96%);
+  --third-color: #f2f5f7;
   --fourth-color: black;
 
-  --title-color: hsl(var(--first-hue-color), 8%, 15%);
-  --text-color: hsl(var(--first-hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--first-hue-color), 8%, 65%);
-  --input-color: hsl(var(--first-hue-color), 70%, 96%);
-
-  --body-color: var(--third-color);
-
+  --title-color: #292323;
+  --text-color: #7c6a6a;
+  --text-color-light: #ad9f9f;
+  --body-color: #f2f5f7;
   --container-color: #fff;
-  --scroll-bar-color: hsl(var(--first-hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--first-hue-color), 12%, 80%);
+
+  --icon-hue-rotate: 320deg;
+
+
   --scroll-bar-width: 0.8rem;
   --scroll-bar-height: 0.8rem;
 
@@ -83,14 +73,20 @@ html, body {
   --line-normal: 1.2rem;
   --line-medium: 1.5rem;
 
-  --ease-out-quart: cubic-bezier(.25,1,.5,1);
-  --ease-out-back: cubic-bezier(0.34, 5, 0.64, 1);
+  
 
   --outline-small-size: 2px;
 
   --container-max-width: 968px;
 
   --box-shadow-1: rgba(100, 100, 111, 0.05) 0px 0px 29px 0px;
+
+  --ease-out-quart: cubic-bezier(.25,1,.5,1);
+  --ease-out-back: cubic-bezier(0.34, 5, 0.64, 1);
+  --transition-time: .15s;
+  --transition-time-medium: .3s;
+
+  --transition-default: var(--transition-time) var(--ease-out-quart)
 }
 
 /* Font size for large devices */
@@ -110,14 +106,24 @@ html, body {
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   /* HSL color mode */
-  --first-color-second: hsl(var(--first-hue-color), 30%, 8%);
-  --title-color: hsl(var(--first-hue-color), 8%, 95%);
-  --text-color: hsl(var(--first-hue-color), 8%, 75%);
-  --input-color: hsl(var(--first-hue-color), 29%, 16%);
-  --body-color: hsl(var(--first-hue-color), 28%, 12%);
-  --container-color: hsl(var(--first-hue-color), 29%, 16%);
-  --scroll-bar-color: hsl(var(--first-hue-color), 12%, 48%);
-  --scroll-thumb-color: hsl(var(--first-hue-color), 12%, 80%);
+  --first-color: #6f56ff;
+  --first-color-alt: #5e11d1;;
+  --second-color: #272629;
+  --third-color: #19181a;
+  --fourth-color: black;
+
+  --title-color: #eaeaea;
+  --text-color: #cdcdcd;
+  --text-color-light: #a59fad;
+  --body-color: #19191a;
+  --container-color: #252427;
+
+  --icon-hue-rotate: 210deg;
+
+  transition: var(--transition-time) var(--ease-out-quart);
+}
+body.light-theme {
+  transition: var(--transition-time) var(--ease-out-quart);
 }
 
 /*========== Button Dark/Light ==========*/
@@ -252,7 +258,7 @@ footer {
 .button__icon {
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
-  transition: .15s;
+  transition: var(--transition-time);
 }
 
 .button--white {

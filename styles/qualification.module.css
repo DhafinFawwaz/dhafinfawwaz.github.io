@@ -23,7 +23,9 @@
   border: none;
   text-decoration: none;
   background-color: var(--third-color);
+  color: var(--title-color);
   padding: var(--mb-0-75);
+  transition: var(--transition-time) var(--ease-out-quart);
 }
 
 .button:hover {

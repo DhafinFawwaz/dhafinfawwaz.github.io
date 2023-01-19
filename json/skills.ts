@@ -22,9 +22,10 @@ export const skills = [
     "tools": tags.filter(tag => 
       tag.slug==="android"
       || tag.slug==="csharp"
+      || tag.slug==="hlsl"
+      || tag.slug==="unity"
       || tag.slug==="firebase"
       || tag.slug==="javascript"
-      || tag.slug==="unity"
       || tag.slug==="pixi"
     )
   },{
@@ -60,7 +61,6 @@ export const skills = [
       || tag.slug==="dotnet"
       || tag.slug==="python"
       || tag.slug==="unity"
-      || tag.slug==="hlsl"
     )
   },{
     "devType": tags.filter(tag => tag.slug==="other")[0],

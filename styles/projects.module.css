@@ -12,7 +12,7 @@
   position: relative;
   background-color: var(--container-color);
   transition: .3;
-  transition: 0.15s var(--ease-out-quart);
+  transition: var(--transition-time) var(--ease-out-quart);
 
   max-width: 16rem;
   width: 100%;
@@ -43,7 +43,7 @@
 .tag:hover {
   background-color: var(--third-color) !important;
   color: var(--first-color) !important;
-  transition: 0.15s var(--ease-out-quart);
+  transition: var(--transition-time) var(--ease-out-quart);
 }
 
 .tag__container::after {
@@ -57,7 +57,7 @@
 
 .content:hover {
   transform: scale(1.05);
-  transition: 0.15s var(--ease-out-back);
+  transition: var(--transition-time) var(--ease-out-back);
 }
 
 
@@ -80,7 +80,7 @@
   justify-content: center;
   padding: 0 1rem;
   z-index: var(--z-modal);
-  transition: .15s var(--ease-out-quart);
+  transition: var(--transition-time) var(--ease-out-quart);
   transform: scale(130%);
   opacity: 0;
   visibility: hidden;
@@ -154,7 +154,7 @@
   font-weight: var(--font-medium);
   
   width: 100%;
-  background-color: var(--second-color);
+  background-color: var(--container-color);
   
   display: flex;
   flex-direction: row-reverse;
@@ -165,7 +165,7 @@
   font-weight: var(--font-medium);
   
   width: 100%;
-  background-color: var(--second-color);
+  background-color: var(--container-color);
   
   display: flex;
   height: var(--header-height);
@@ -184,7 +184,7 @@
 }
 
 .modal__footer__not__allowed {
-  color: var(--text-color);
+  color: var(--text-color-light);
   background-color: var(--third-color);
   pointer-events: none;
 }

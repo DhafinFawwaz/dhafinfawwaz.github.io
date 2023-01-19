@@ -50,18 +50,18 @@
 
 .active .arrow {
   transform: rotate(-180deg);
-  transition: 0.3s var(--ease-out-quart);
+  transition: var(--transition-time-medium) var(--ease-out-quart);
 }
 .inactive .arrow {
-  transition: 0.3s var(--ease-out-quart);
+  transition: var(--transition-time-medium) var(--ease-out-quart);
 }
 
 .active {
   background-color: var(--second-color);
-  transition: 0.3s var(--ease-out-quart);
+  transition: var(--transition-time-medium) var(--ease-out-quart);
 }
 .inactive {
-  transition: 0.3s var(--ease-out-quart);
+  transition: var(--transition-time-medium) var(--ease-out-quart);
 }
 .inactive .details {
   row-gap: var(--mb-1);
@@ -71,8 +71,8 @@
 
   padding: 0 var(--mb-1);
 
-  transition: 0.3s var(--ease-out-quart);
-  background-color: var(--third-color);
+  transition: var(--transition-time-medium) var(--ease-out-quart);
+  background-color: var(--second-color);
 }
 .active .details {
   row-gap: var(--mb-1);
@@ -82,7 +82,7 @@
 
   padding: var(--mb-1) var(--mb-1);
   display: grid;
-  transition: 0.3s var(--ease-out-quart);
+  transition: var(--transition-time-medium) var(--ease-out-quart);
 
   background-color: var(--second-color);
 }
