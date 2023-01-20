@@ -19,7 +19,18 @@ type ActiveTagsType = {
 export default function Projects({ activeTags }:ActiveTagsType) {
 
   const [modalActive, setModalActive] = useState<boolean>(false);
-  const [project, setProject] = useState<Project>(projects[1]); //projects[1] has smaller size so its the default
+  const [project, setProject] = useState<Project>(
+    {
+      id: -1,
+      title: "",
+      slug: "",
+      thumbnail: "",
+      tags: [],
+      description: "",
+      src: "",
+      imgs: [],
+    }
+  ); //projects[1] has smaller size so its the default
 
   function NewlineText(props: NewlineTextProps):ReactElement {
     const text = props.text;
@@ -43,6 +54,18 @@ export default function Projects({ activeTags }:ActiveTagsType) {
   function onCloseClick(){
     window.history.replaceState(null, '', '/')
     setModalActive(false);
+    setProject(
+      {
+        id: -1,
+        title: "",
+        slug: "",
+        thumbnail: "",
+        tags: [],
+        description: "",
+        src: "",
+        imgs: [],
+      }
+    );
   }
   
   let filteredProjects = projects.filter(project => (
@@ -124,18 +147,18 @@ export default function Projects({ activeTags }:ActiveTagsType) {
         {(project.imgs.length === 4) ? (
           <div className={styles.imgs__4}>
             {project.imgs.map((img:string, i:number) => (
-              <Image key={i} className={styles.img__4} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={384} height={384}/>
+              <Image key={i} className={styles.img__4} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={320} height={180} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
             ))}
           </div>
         ):(project.imgs.length === 1) ? (
           <div className={styles.imgs__1}>
-            <Image src={`/img/projects/optimized/${project.slug}/${project.imgs[0]}`} alt={project.imgs[0]} width={1200} height={1200}/>
+            <Image src={`/img/projects/optimized/${project.slug}/${project.imgs[0]}`} alt={project.imgs[0]} width={1200} height={675} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
           </div>
         ):(
           <ul className={styles.img__flex__ul}>
             {project.imgs.map((img, i) => (
               <li key={i} className={styles.img__flex__li}>
-                <Image className={styles.img__flex__img} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={640} height={640}/>
+                <Image className={styles.img__flex__img} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={640} height={251} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
               </li>
 
             ))}

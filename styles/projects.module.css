@@ -208,12 +208,12 @@
 .modal__close {
   width: var(--header-height);
   height: var(--header-height);
-  color: var(--first-color);
   cursor: pointer;
   position: absolute;
 }
 .modal__close:hover {
   background-color: var(--third-color);
+  color: var(--first-color);
 }
 
 
