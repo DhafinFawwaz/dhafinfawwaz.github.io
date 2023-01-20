@@ -17,7 +17,11 @@ export default function ProjectByTag() {
 
 
   useEffect(() => {
-
+    window.scrollTo({
+      top: 0,
+      left: 0,
+    });
+    
     setActive(active.map((activeTag: ActiveTags) => 
       (tags.find(tag => tag.slug === selectedTagSlug)?.id === activeTag.id) ? 
         {isActive:true, id:activeTag.id}
