@@ -6,7 +6,6 @@ import Image from 'next/image'
 import { Project, projects } from '../json/projects'
 import React, { ReactElement, useState } from 'react'
 import { ActiveTags } from '../json/tags'
-import Details from './details'
 
 interface NewlineTextProps {
   text: string;
@@ -94,7 +93,7 @@ export default function Projects({ activeTags }:ActiveTagsType) {
         <div className={styles.content}>
 
           <Link scroll={false} as={`/project/${project.slug}`} href={`?title=${project.slug}`} className={styles.link} onClick={() => onProjectClick(index)}></Link>
-          <Image src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} width={640} height={640}/>
+          <Image src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} width={250} height={141} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
 
           <div className={styles.description}>
 

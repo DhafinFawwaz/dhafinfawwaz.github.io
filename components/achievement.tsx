@@ -40,7 +40,7 @@ export default function Achievement() {
 
               <div className={`${styles.details} grid`}>
                 <div className={styles.img__container}>
-                  <Image className={styles.img} src={`/img/achievement/optimized/${content.img}`} alt={content.title} height={512} width={512}/>
+                  <Image className={styles.img} src={`/img/achievement/optimized/${content.img}`} alt={content.title} height={512} width={512} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
                 </div>
                 <div className={styles.description__container}>
                   <p className={styles.description}>{content.description}</p>

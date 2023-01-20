@@ -86,18 +86,18 @@ export default function Details( { project }:Projects ) {
               {(project.imgs.length === 4) ? (
                 <div className={styles.imgs__4}>
                   {project.imgs.map((img:string, i:number) => (
-                    <Image key={i} className={styles.img__4} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={320} height={180} placeholder = 'blur'/>
+                    <Image key={i} className={styles.img__4} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={320} height={180} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
                   ))}
                 </div>
               ):(project.imgs.length === 1) ? (
                 <div className={styles.imgs__1}>
-                  <Image src={`/img/projects/optimized/${project.slug}/${project.imgs[0]}`} alt={project.imgs[0]} width={1200} height={675} placeholder = 'blur'/>
+                  <Image src={`/img/projects/optimized/${project.slug}/${project.imgs[0]}`} alt={project.imgs[0]} width={1200} height={675} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
                 </div>
               ):(
                 <ul className={styles.img__flex__ul}>
                   {project.imgs.map((img, i) => (
                     <li key={i} className={styles.img__flex__li}>
-                      <Image className={styles.img__flex__img} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={640} height={251} placeholder = 'blur'/>
+                      <Image className={styles.img__flex__img} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={640} height={251} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
                     </li>
 
                   ))}
