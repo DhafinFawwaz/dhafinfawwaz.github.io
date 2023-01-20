@@ -1,7 +1,6 @@
 import styles from '../styles/projects.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-// import ExportedImage from 'next-image-export-optimizer'
 
 import { Project, projects } from '../json/projects'
 import React, { ReactElement, useState } from 'react'

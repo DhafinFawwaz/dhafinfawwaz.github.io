@@ -1,7 +1,6 @@
 import styles from '../../styles/projects.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
-// import ExportedImage from 'next-image-export-optimizer'
 
 import { projects } from '../../json/projects'
 import { Projects } from '../../json/projects'

@@ -1,7 +1,6 @@
 import styles from '../styles/achievement.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-// import ExportedImage from 'next-image-export-optimizer'
 
 import achievement from '../json/achievement.json'
 import { useState } from 'react'

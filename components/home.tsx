@@ -1,7 +1,6 @@
 import styles from '../styles/home.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-// import ExportedImage from 'next-image-export-optimizer'
 
 import { useState } from 'react'
 import { skills } from '../json/skills'

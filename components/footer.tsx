@@ -1,5 +1,4 @@
 import Image from 'next/image'
-// import ExportedImage from 'next-image-export-optimizer'
 
 import styles from '../styles/footer.module.css'
 import contact from "../json/contact.json"
