@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ExportedImage from 'next-image-export-optimizer'
+// import ExportedImage from 'next-image-export-optimizer'
 
 import styles from '../styles/footer.module.css'
 import contact from "../json/contact.json"
@@ -30,7 +30,7 @@ export default function Footer() {
                 <div className={`${styles.type__container}`}>
 
                   <div className={styles.icon__container}>
-                    <ExportedImage className={styles.icon} src={value.img} alt={value.title} width={32} height={32}/>
+                    <Image className={styles.icon} src={value.img} alt={value.title} width={32} height={32}/>
                   </div>
 
                   <div className={styles.header__container}>

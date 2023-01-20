@@ -1,7 +1,7 @@
 import styles from '../styles/achievement.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import ExportedImage from 'next-image-export-optimizer'
+// import ExportedImage from 'next-image-export-optimizer'
 
 import achievement from '../json/achievement.json'
 import { useState } from 'react'
@@ -40,7 +40,7 @@ export default function Achievement() {
 
               <div className={`${styles.details} grid`}>
                 <div className={styles.img__container}>
-                  <ExportedImage className={styles.img} src={`/img/achievement/${content.img}`} alt={content.title} height={256} width={256} />
+                  <Image className={styles.img} src={`/img/achievement/optimized/${content.img}`} alt={content.title} height={512} width={512}/>
                 </div>
                 <div className={styles.description__container}>
                   <p className={styles.description}>{content.description}</p>

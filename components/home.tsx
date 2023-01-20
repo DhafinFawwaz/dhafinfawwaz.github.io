@@ -1,7 +1,7 @@
 import styles from '../styles/home.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import ExportedImage from 'next-image-export-optimizer'
+// import ExportedImage from 'next-image-export-optimizer'
 
 import { useState } from 'react'
 import { skills } from '../json/skills'
@@ -27,13 +27,13 @@ export default function Home() {
         <div className={styles.social}>
           {Object.values(contact).map((value, index) => (
             <a key={index} href={value.href} className={styles.social__icon} target="_blank" rel="noreferrer">
-              <ExportedImage src={value.img} width={32} height={32} alt={value.title}/>
+              <Image src={value.img} width={32} height={32} alt={value.title}/>
             </a>
           ))}
         </div>
 
         <div className={styles.img}>
-          <ExportedImage className={styles.img__profile} src="/img/home/Spongebob.jpg" alt="Profile photo" width={512} height={512} priority={true}/>
+          <Image className={styles.img__profile} src="/img/home/Spongebob.jpg" alt="Profile photo" width={512} height={512} priority={true}/>
         </div>
 
         <div className={styles.data}>
@@ -72,7 +72,7 @@ export default function Home() {
                     return (
                       <li key={i} className={styles.tool__icon}>
                         <Link href={`/tag/?tag=${tool.slug}`}>
-                          <img src={tool.img} alt={tool.title} width={32} height={32}/>
+                          <Image src={tool.img} alt={tool.title} width={32} height={32}/>
                         </Link>
                       </li>
                     )

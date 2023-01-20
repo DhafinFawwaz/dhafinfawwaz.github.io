@@ -78,7 +78,7 @@
   row-gap: var(--mb-1);
   overflow: hidden;
 
-  max-height: calc(24rem + (var(--mb-1) * 2));
+  max-height: calc(28rem + (var(--mb-1) * 2));
 
   padding: var(--mb-1) var(--mb-1);
   display: grid;
@@ -96,10 +96,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-height: 12rem;
+  max-height: 17rem;
 }
 .img{
-  max-height: 12rem;
+  max-height: 17rem;
   width: auto;
 }
 
@@ -110,7 +110,7 @@
   }
 
   .active .details {
-    max-height: calc(28rem + (var(--mb-1) * 2));
+    max-height: calc(30rem + (var(--mb-1) * 2));
   }
 }
 
@@ -128,12 +128,12 @@
     grid-column: 2;
   }
   .active .details {
-    max-height: calc(12rem + (var(--mb-1) * 2));
+    max-height: calc(17rem + (var(--mb-1) * 2));
   }
 }
 
 @media screen and (min-width: 768px) {
   .active .details {
-    max-height: calc(12rem + (var(--mb-1) * 2));
+    max-height: calc(17rem + (var(--mb-1) * 2));
   }
 }

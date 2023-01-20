@@ -70,7 +70,7 @@
 }
 .button__project:hover {
   background-color: var(--first-color-alt);
-  color: var(--second-color);
+  color: var(--fifth-color);
 }
 
 
@@ -246,7 +246,7 @@
   justify-self: center;
   align-items: center;
   
-  color: var(--third-color);
+  color: var(--fifth-color);
   font-weight: var(--font-medium);
 
   z-index: 1;

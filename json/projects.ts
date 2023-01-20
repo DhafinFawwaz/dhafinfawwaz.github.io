@@ -15,7 +15,7 @@ export const projects = [
       || tag.slug==="figma"
       || tag.slug==="tools"
     ),
-    "description": "A really usefull tool to animate UI in Unity Engine. It was born because i'm tired of writing and tweaking UI animations manually. With this tool, you can create UI animation easily with no code. You can simply drag and drop to create some smooth UI animation. There are some option that you can set such as the easing, duration, etc. You can also see the preview, drag the progress bar and also see the progress bar of each individual sequence. You can also make a custom sequence for non UI component with UnityEvent including the dynamic one. Adding function to call at certain time or at the end of animation is also possible with code.",
+    "description": "A really useful tool to animate UI in Unity Engine. It was born because i'm tired of writing and tweaking UI animations manually. With this tool, you can create UI animation easily with no code. You can simply drag and drop to create some smooth UI animation. There are some option that you can set such as the easing, duration, etc. You can also see the preview, drag the progress bar and also see the progress bar of each individual sequence. You can also make a custom sequence for non UI component with UnityEvent including the dynamic one. Adding function to call at certain time or at the end of animation is also possible with code.",
     "src": "https://github.com/DhafinFawwaz/Unity-AnimationUI",
     "imgs": [
       "PreviewAnimationUI.gif",
@@ -27,7 +27,7 @@ export const projects = [
     "id": 1,
     "title": "HexaTap",
     "slug": "hexatap",
-    "thumbnail": "HexaTap.jpg",
+    "thumbnail": "HexaTap.webp",
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="pixi"
@@ -39,14 +39,14 @@ export const projects = [
     "description": "Fast paced tapping  game playable on browser. This is my first website and was built for learning web development. I decided to make a game for my first website because i already have some knowledge in game development before.",
     "src": "https://hexatap-47a94.web.app/",
     "imgs": [
-      "DemoGameplay.jpg",
-      "HexaTap.jpg",
+      "DemoGameplay.webp",
+      "HexaTap.webp",
     ]
   },{
     "id": 2,
     "title": "Rangkiang Form",
     "slug": "rangkiang-form",
-    "thumbnail": "Rangkiang Form.png",
+    "thumbnail": "Rangkiang Form.webp",
     "tags": tags.filter(tag => 
       tag.slug==="web-dev"
       || tag.slug==="react"
@@ -59,14 +59,14 @@ export const projects = [
     "description": "A form website integrated with google spreadsheet (google docs) api. This was created because there's no option to put commas to separate number for currency input if we use google form. This is specially created.",
     "src": "",
     "imgs": [
-      "Preview Mobile.jpg",
-      "Preview Docs.png",
+      "Preview Mobile.webp",
+      "Preview Docs.webp",
     ]
   },{
     "id": 3,
     "title": "Leapy Leapy Fishy",
     "slug": "leapy-leapy-fishy",
-    "thumbnail": "Leapy Leapy Fishy.png",
+    "thumbnail": "Leapy Leapy Fishy.webp",
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
@@ -79,16 +79,16 @@ export const projects = [
     "description": "2nd winner for a Game Dev Competition MAGE 7 issued by Sepuluh Nopember Institute of Technology. Those 2 months of development were really painfull since i also have to study for an official national level Informatics competition by The Ministry of Education, Culture, Research, and Technology and also the amount of homework from my school. Name may be lame, but i'm still proud of it.",
     "src": "https://www.youtube.com/watch?v=M86PU0PGgaM",
     "imgs": [
-      "1.png",
-      "2.png",
-      "4.png",
-      "3.png",
+      "1.webp",
+      "2.webp",
+      "4.webp",
+      "3.webp",
     ]
   },{
     "id": 4,
     "title": "Portfolio",
     "slug": "portfolio",
-    "thumbnail": "Portfolio.png",
+    "thumbnail": "Portfolio.webp",
     "tags": tags.filter(tag => 
       tag.slug==="web-dev"
       || tag.slug==="next"
@@ -100,14 +100,14 @@ export const projects = [
     "description": "This website is made to showcase my works. An opportunity for an internship would be nice :). This website was created with Next js and react. It's currently not finished yet",
     "src": "dhafinfawwaz.github.io",
     "imgs": [
-      "Portfolio.png",
-      "Preview Mobile.jpg",
+      "Portfolio.webp",
+      "Preview Mobile.webp",
     ]
   },{
     "id": 5,
     "title": "Ecommerce Book",
     "slug": "ecommerce-book",
-    "thumbnail": "Ecommerce Book.png",
+    "thumbnail": "Ecommerce Book.webp",
     "tags": tags.filter(tag => 
       tag.slug==="web-dev"
       || tag.slug==="django"
@@ -121,14 +121,14 @@ export const projects = [
     "description": "A website created for an assignment of Introduction to Computation in Bandung Institute of Technology. It's created with Django and some help from javascript for the client side.",
     "src": "https://github.com/DhafinFawwaz/Project-Book-Django",
     "imgs": [
-      "Ecommerce Book.png",
-      "Preview Mobile.jpg",
+      "Ecommerce Book.webp",
+      "Preview Mobile.webp",
     ]
   },{
     "id": 6,
     "title": "Project Arthur",
     "slug": "project-arthur",
-    "thumbnail": "Project Arthur.gif",
+    "thumbnail": "Project Arthur.webp",
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
@@ -150,7 +150,7 @@ export const projects = [
     "id": 7,
     "title": "Grappling Crashers",
     "slug": "grappling-crashers",
-    "thumbnail": "Grappling Crashers.png",
+    "thumbnail": "Grappling Crashers.webp",
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
@@ -172,7 +172,7 @@ export const projects = [
     "id": 8,
     "title": "Cube Associator",
     "slug": "cube-associator",
-    "thumbnail": "Cube Associator.png",
+    "thumbnail": "Cube Associator.webp",
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
@@ -184,32 +184,32 @@ export const projects = [
     "description": "A game created as submission for GMTK game jam 2020. This was created when i was still a beginner in Game Development. It was both fun and frustating experience.",
     "src": "https://kitkatmt.itch.io/cube-associator",
     "imgs": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png",
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
     ]
   },{
     "id": 9,
     "title": "VFX-Shader Collection",
     "slug": "vfx-shader-collection",
-    "thumbnail": "1920x1080 - 16x9.png",
+    "thumbnail": "16x9.webp",
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
       || tag.slug==="hlsl"
     ),
-    "description": "My collections of game vfx made with some shaders and particle system. Everyting is created with a lot of shader tricks. Some of it have optimized version with many tricks with shader but with some drawbacks.",
+    "description": "My collections of game vfx made with some shaders and particle system. Everything is created with a lot of shader tricks. Some of it have optimized version with many tricks with shader but with some drawbacks.",
     "src": "",
     "imgs": [
-      "810x14420 - 9x16.png",
-      "1920x1080 - 16x9.png",
+      "9x16.webp",
+      "16x9.webp",
     ]
   },{
     "id": 10,
     "title": "Very Optimized Coins Shader",
     "slug": "very-optimized-coins-shader",
-    "thumbnail": "Very Optimized Coins Shader.png",
+    "thumbnail": "Very Optimized Coins Shader.webp",
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"

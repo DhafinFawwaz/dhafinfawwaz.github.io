@@ -83,6 +83,8 @@
   height: var(--mb-3);
   width: var(--mb-3);
   z-index: 2;
+
+  transition: var(--transition-time) var(--ease-out-quart);
 }
 .theme div {
   transform: translate(-0.25rem, -0.3rem);

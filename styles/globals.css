@@ -2,7 +2,7 @@
 @import url("https://unicons.iconscout.com/release/v4.0.0/css/line.css");
 html, body {
   font-family: var(--league-spartan);
-  /* -webkit-tap-highlight-color: rgba(100%, 30%, 30%, 50%); */
+  -webkit-tap-highlight-color: rgba(100%, 30%, 30%, 0%);
 }
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -15,6 +15,7 @@ html, body {
   --second-color: white;
   --third-color: #f2f5f7;
   --fourth-color: black;
+  --fifth-color: white;
 
   --title-color: #292323;
   --text-color: #7c6a6a;
@@ -243,7 +244,7 @@ footer {
 .button {
   display: inline-block;
   background-color: var(--first-color);
-  color: var(--second-color);
+  color: var(--fifth-color);
   padding: 1rem;
   font-weight: var(--font-medium);
 
