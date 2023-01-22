@@ -25,9 +25,15 @@ export default function Home() {
 
         <div className={styles.social}>
           {Object.values(contact).map((value, index) => (
-            <a key={index} href={value.href} className={styles.social__icon} target="_blank" rel="noreferrer">
-              <Image src={value.img} width={32} height={32} alt={value.title}/>
-            </a>
+            value.href === "" ? (
+              <div key={index} className={styles.social__icon}>
+                <Image src={value.img} width={32} height={32} alt={value.title}/>
+              </div>
+            ) : (
+              <a key={index} href={value.href} className={styles.social__icon} target="_blank" rel="noreferrer">
+                <Image src={value.img} width={32} height={32} alt={value.title}/>
+              </a>
+            )
           ))}
         </div>
 
