@@ -47,13 +47,13 @@ export default function ProjectByTag() {
   return (
     <>
       <Head>
-        <title>Dhafin Fawwaz | Tag</title>
+        <title>{`Dhafin Fawwaz | ${tags.find(tag => tag.slug === selectedTagSlug)?.title}`}</title>
         <meta name="keywords" content="tag"/>
         <meta name="description" content="Filter projects by tag"/>
       </Head>
 
       <section className={`section`}>
-        <h2 className="section__title">Projects</h2>
+        <h1 className="section__title">Projects</h1>
         <span className="section__subtitle">Filter projects by tag</span>
 
         <div className="container">
