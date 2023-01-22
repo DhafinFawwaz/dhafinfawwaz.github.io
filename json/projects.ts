@@ -148,8 +148,8 @@ export const projects = [
     ]
   },{
     "id": 7,
-    "title": "Grappling Crashers",
-    "slug": "grappling-crashers",
+    "title": "Grappler Crashers",
+    "slug": "grappler-crashers",
     "thumbnail": "Grappling Crashers.webp",
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
