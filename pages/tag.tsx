@@ -43,13 +43,15 @@ export default function ProjectByTag() {
 
   
   
-
+  const selectedTagTitle: string | undefined = tags.find(tag => tag.slug === selectedTagSlug)?.title;
+  const pageTitle = selectedTagTitle ? selectedTagTitle : "Tags";
+  const pageDescription = selectedTagTitle ? `Project with tag ${selectedTagTitle}` : "Filter projects with tags"; 
   return (
     <>
       <Head>
-        <title>{`Dhafin Fawwaz | ${tags.find(tag => tag.slug === selectedTagSlug)?.title}`}</title>
+        <title>{`Dhafin Fawwaz | ${pageTitle}`}</title>
         <meta name="keywords" content="tag"/>
-        <meta name="description" content="Filter projects by tag"/>
+        <meta name="description" content={`${pageDescription}`}/>
       </Head>
 
       <section className={`section`}>
