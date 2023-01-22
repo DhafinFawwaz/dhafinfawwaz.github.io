@@ -150,7 +150,7 @@ export const projects = [
     "id": 7,
     "title": "Grappler Crashers",
     "slug": "grappler-crashers",
-    "thumbnail": "Grappling Crashers.webp",
+    "thumbnail": "Grappler Crashers.webp",
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
