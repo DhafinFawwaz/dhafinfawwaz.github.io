@@ -45,7 +45,7 @@ export default function ProjectByTag() {
   
   const selectedTagTitle: string | undefined = tags.find(tag => tag.slug === selectedTagSlug)?.title;
   const pageTitle = selectedTagTitle ? selectedTagTitle : "Tags";
-  const pageDescription = selectedTagTitle ? `Project with tag ${selectedTagTitle}` : "Filter projects with tags"; 
+  const pageDescription = selectedTagTitle ? `Projects with tag ${selectedTagTitle}` : "Filter projects with tags"; 
   return (
     <>
       <Head>
