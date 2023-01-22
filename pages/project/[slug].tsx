@@ -106,7 +106,6 @@ export default function Details( { project }:Projects ) {
 
               
 
-              {/* <p className={styles.modal__description}>{project.description}</p> */}
               <NewlineText text={project.description}/>
 
             </div>
