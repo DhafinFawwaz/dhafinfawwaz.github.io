@@ -40,5 +40,12 @@
     "value": "@dhafin_fawwaz",
     "href": "https://www.instagram.com/dhafin_fawwaz",
     "img": "https://api.iconify.design/uil/instagram-alt.svg"
+  },
+  "discord": {
+    "id": 6,
+    "title": "Discord",
+    "value": "KitkatMT#3449",
+    "href": "",
+    "img": "https://api.iconify.design/ic/baseline-discord.svg"
   }
 }
