@@ -158,7 +158,8 @@
 }
 .active .tools__more:hover {
   background-color: var(--first-color-alt);
-  color: var(--second-color);
+  color: var(--fifth-color);
+  outline-color: var(--first-color-alt);
 }
 .active .tools__more {
   color: var(--first-color);
