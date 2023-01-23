@@ -191,22 +191,6 @@ export const projects = [
     ]
   },{
     "id": 9,
-    "title": "VFX-Shader Collection",
-    "slug": "vfx-shader-collection",
-    "thumbnail": "16x9.webp",
-    "tags": tags.filter(tag => 
-      tag.slug==="game-dev"
-      || tag.slug==="unity"
-      || tag.slug==="hlsl"
-    ),
-    "description": "My collections of game vfx made with some shaders and particle system. Everything is created with a lot of shader tricks. Some of it have optimized version with many tricks with shader but with some drawbacks.",
-    "src": "",
-    "imgs": [
-      "9x16.webp",
-      "16x9.webp",
-    ]
-  },{
-    "id": 10,
     "title": "Very Optimized Coins Shader",
     "slug": "very-optimized-coins-shader",
     "thumbnail": "Very Optimized Coins Shader.webp",
@@ -225,6 +209,41 @@ export const projects = [
       "MultiMaterial.gif",
       "SingleMaterial.gif",
       "Optimized.gif",
+    ]
+  },{
+    "id": 10,
+    "title": "Clustered Chaos",
+    "slug": "clustered-chaos",
+    "thumbnail": "Clustered Chaos.webp",
+    "tags": tags.filter(tag => 
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="csharp"
+      || tag.slug==="hlsl"
+    ),
+    "description": `A game made for submision at GIM Jam 2022. It gets an award as the best gameplay and the best apprentice game.`,
+    "src": "https://kitkatmt.itch.io/clustered-chaos",
+    "imgs": [
+      "1.gif",
+      "3.gif",
+      "4.gif",
+      "5.gif",
+    ]
+  },{
+    "id": 11,
+    "title": "VFX-Shader Collection",
+    "slug": "vfx-shader-collection",
+    "thumbnail": "16x9.webp",
+    "tags": tags.filter(tag => 
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="hlsl"
+    ),
+    "description": "My collections of game vfx made with some shaders and particle system. Everything is created with a lot of shader tricks. Some of it have optimized version with many tricks with shader but with some drawbacks.",
+    "src": "",
+    "imgs": [
+      "9x16.webp",
+      "16x9.webp",
     ]
   }
 ]
