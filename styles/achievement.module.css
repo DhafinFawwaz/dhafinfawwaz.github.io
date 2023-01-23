@@ -65,6 +65,7 @@
 }
 .inactive .details {
   row-gap: var(--mb-1);
+  column-gap: var(--mb-1);
   overflow: hidden;
 
   max-height: 0;
