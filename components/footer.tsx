@@ -20,10 +20,12 @@ export default function Footer() {
               
               <div className={styles.content}>
 
-                {(value.href !== "") ? (
+                {(value.href.slice(0, 2) !== "/#") ? (
                   <a href={value.href} className={styles.link} target="_blank" rel="noreferrer"></a>
 
-                ): (<></>) }
+                ): (
+                  <></>
+                ) }
 
 
                 <div className={`${styles.type__container}`}>
