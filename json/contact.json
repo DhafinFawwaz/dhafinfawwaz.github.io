@@ -31,7 +31,7 @@
     "id": 4,
     "title": "Line",
     "value": "dhafin2109",
-    "href": "",
+    "href": "/#contact",
     "img": "/img/icons/line.svg"
   },
   "instagram": {
@@ -45,7 +45,7 @@
     "id": 6,
     "title": "Discord",
     "value": "KitkatMT#3449",
-    "href": "",
+    "href": "https://discordapp.com/channels/@me/KitkatMT#3449/",
     "img": "https://api.iconify.design/ic/baseline-discord.svg"
   }
 }

@@ -30,7 +30,7 @@ export default function Home() {
                 <Image src={value.img} width={32} height={32} alt={value.title}/>
               </div>
             ) : (
-              <a key={index} href={value.href} className={styles.social__icon} target="_blank" rel="noreferrer">
+              <a key={index} href={value.href} className={styles.social__icon} target={value.href.slice(0, 2) === "/#" ? "_self" : "_blank"} rel="noreferrer">
                 <Image src={value.img} width={32} height={32} alt={value.title}/>
               </a>
             )
