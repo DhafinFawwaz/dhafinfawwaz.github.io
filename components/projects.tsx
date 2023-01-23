@@ -27,6 +27,7 @@ export default function Projects({ activeTags }:ActiveTagsType) {
       description: "",
       src: "",
       imgs: [],
+      blurDataURLs: []
     }
   ); //projects[1] has smaller size so its the default
 
@@ -62,6 +63,7 @@ export default function Projects({ activeTags }:ActiveTagsType) {
         description: "",
         src: "",
         imgs: [],
+        blurDataURLs: []
       }
     );
   }
@@ -79,7 +81,7 @@ export default function Projects({ activeTags }:ActiveTagsType) {
 
 
   
-
+  const blurDataURL16x9 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAIAAAC0SDtlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAABJJREFUeJxjeEIiYBjVMCg0AAB6foDQu5BAxwAAAABJRU5ErkJggg==";
   return (
 <>
   <ul className={`${styles.container} container grid`}>
@@ -92,7 +94,7 @@ export default function Projects({ activeTags }:ActiveTagsType) {
         <div className={styles.content}>
 
           <Link scroll={false} as={`/project/${project.slug}`} href={`?title=${project.slug}`} className={styles.link} onClick={() => onProjectClick(index)}></Link>
-          <Image src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} width={250} height={141} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
+          <Image src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} width={250} height={141} placeholder = 'blur' blurDataURL={blurDataURL16x9}/>
 
           <div className={styles.description}>
 
@@ -145,18 +147,18 @@ export default function Projects({ activeTags }:ActiveTagsType) {
         {(project.imgs.length === 4) ? (
           <div className={styles.imgs__4}>
             {project.imgs.map((img:string, i:number) => (
-              <Image key={i} className={styles.img__4} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={320} height={180} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
+              <Image key={i} className={styles.img__4} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={320} height={180} placeholder = 'blur' blurDataURL={project.blurDataURLs[i]}/>
             ))}
           </div>
         ):(project.imgs.length === 1) ? (
           <div className={styles.imgs__1}>
-            <Image src={`/img/projects/optimized/${project.slug}/${project.imgs[0]}`} alt={project.imgs[0]} width={1200} height={675} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
+            <Image src={`/img/projects/optimized/${project.slug}/${project.imgs[0]}`} alt={project.imgs[0]} width={1200} height={675} placeholder = 'blur' blurDataURL={project.blurDataURLs[0]}/>
           </div>
         ):(
           <ul className={styles.img__flex__ul}>
             {project.imgs.map((img, i) => (
               <li key={i} className={styles.img__flex__li}>
-                <Image className={styles.img__flex__img} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={640} height={251} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
+                <Image className={styles.img__flex__img} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={640} height={251} placeholder = 'blur' blurDataURL={project.blurDataURLs[i]}/>
               </li>
 
             ))}

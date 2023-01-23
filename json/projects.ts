@@ -1,6 +1,10 @@
 import { tags } from "./tags";
 import { Tag } from "./tags";
 
+const blurDataURL16x9 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAIAAAC0SDtlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAABJJREFUeJxjeEIiYBjVMCg0AAB6foDQu5BAxwAAAABJRU5ErkJggg==";
+const blurDataURL9x16 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAIAAABLKsIUAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAABFJREFUeJxjeIIbMIzKDXo5AL1wgNDWSlfHAAAAAElFTkSuQmCC";
+
+
 export const projects = [
   {
     "id": 0,
@@ -22,6 +26,12 @@ export const projects = [
       "DemoSettings.gif",
       "DemoUpgrade.gif",
       "DemoStart.gif",
+    ],
+    "blurDataURLs": [
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
     ]
   },{
     "id": 1,
@@ -41,6 +51,10 @@ export const projects = [
     "imgs": [
       "DemoGameplay.webp",
       "HexaTap.webp",
+    ],
+    "blurDataURLs": [
+      blurDataURL9x16, 
+      blurDataURL16x9,
     ]
   },{
     "id": 2,
@@ -61,6 +75,10 @@ export const projects = [
     "imgs": [
       "Preview Mobile.webp",
       "Preview Docs.webp",
+    ],
+    "blurDataURLs": [
+      blurDataURL9x16,
+      blurDataURL16x9, 
     ]
   },{
     "id": 3,
@@ -83,6 +101,12 @@ export const projects = [
       "2.webp",
       "4.webp",
       "3.webp",
+    ],
+    "blurDataURLs": [
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
     ]
   },{
     "id": 4,
@@ -102,6 +126,10 @@ export const projects = [
     "imgs": [
       "Portfolio.webp",
       "Preview Mobile.webp",
+    ],
+    "blurDataURLs": [
+      blurDataURL16x9, 
+      blurDataURL9x16,
     ]
   },{
     "id": 5,
@@ -123,6 +151,10 @@ export const projects = [
     "imgs": [
       "Ecommerce Book.webp",
       "Preview Mobile.webp",
+    ],
+    "blurDataURLs": [
+      blurDataURL16x9, 
+      blurDataURL9x16,
     ]
   },{
     "id": 6,
@@ -145,6 +177,12 @@ export const projects = [
       "2.gif",
       "3.gif",
       "4.gif",
+    ],
+    "blurDataURLs": [
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
     ]
   },{
     "id": 7,
@@ -167,6 +205,12 @@ export const projects = [
       "2.gif",
       "3.gif",
       "4.gif",
+    ],
+    "blurDataURLs": [
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
     ]
   },{
     "id": 8,
@@ -188,6 +232,12 @@ export const projects = [
       "2.webp",
       "3.webp",
       "4.webp",
+    ],
+    "blurDataURLs": [
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
     ]
   },{
     "id": 9,
@@ -209,6 +259,12 @@ export const projects = [
       "MultiMaterial.gif",
       "SingleMaterial.gif",
       "Optimized.gif",
+    ],
+    "blurDataURLs": [
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
     ]
   },{
     "id": 10,
@@ -228,6 +284,12 @@ export const projects = [
       "3.gif",
       "4.gif",
       "5.gif",
+    ],
+    "blurDataURLs": [
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
+      blurDataURL16x9, 
     ]
   },{
     "id": 11,
@@ -244,6 +306,10 @@ export const projects = [
     "imgs": [
       "9x16.webp",
       "16x9.webp",
+    ],
+    "blurDataURLs": [
+      blurDataURL9x16, 
+      blurDataURL16x9, 
     ]
   }
 ]
@@ -257,6 +323,7 @@ export interface Project {
   description: string;
   src: string;
   imgs: string[];
+  blurDataURLs: string[];
 }
 
 export interface Projects {
