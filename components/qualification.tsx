@@ -20,7 +20,7 @@ export default function Qualification() {
         <span className={`${styles.subtitle}`}>{element.subtitle}</span>
 
         <div className={`${styles.calendar}`}>
-          <i className="uil uil-calendar-alt"></i>{element.date}
+          <i className="uil uil-calendar-alt"></i>{` ${element.date}`}
         </div>
       </>
     );
