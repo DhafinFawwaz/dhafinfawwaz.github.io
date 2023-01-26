@@ -32,6 +32,9 @@ export const projects = [
       blurDataURL16x9, 
       blurDataURL16x9, 
       blurDataURL16x9, 
+    ],
+    "widths": [
+      320, 320, 320, 320
     ]
   },{
     "id": 1,
@@ -55,6 +58,9 @@ export const projects = [
     "blurDataURLs": [
       blurDataURL9x16, 
       blurDataURL16x9,
+    ],
+    "widths": [
+      154, 486
     ]
   },{
     "id": 2,
@@ -79,6 +85,9 @@ export const projects = [
     "blurDataURLs": [
       blurDataURL9x16,
       blurDataURL16x9, 
+    ],
+    "widths": [
+      154, 486
     ]
   },{
     "id": 3,
@@ -107,6 +116,9 @@ export const projects = [
       blurDataURL16x9, 
       blurDataURL16x9, 
       blurDataURL16x9, 
+    ],
+    "widths": [
+      320, 320, 320, 320
     ]
   },{
     "id": 4,
@@ -130,6 +142,9 @@ export const projects = [
     "blurDataURLs": [
       blurDataURL16x9, 
       blurDataURL9x16,
+    ],
+    "widths": [
+      492, 148
     ]
   },{
     "id": 5,
@@ -155,6 +170,9 @@ export const projects = [
     "blurDataURLs": [
       blurDataURL16x9, 
       blurDataURL9x16,
+    ],
+    "widths": [
+      469, 171
     ]
   },{
     "id": 6,
@@ -183,6 +201,9 @@ export const projects = [
       blurDataURL16x9, 
       blurDataURL16x9, 
       blurDataURL16x9, 
+    ],
+    "widths": [
+      320, 320, 320, 320
     ]
   },{
     "id": 7,
@@ -211,6 +232,9 @@ export const projects = [
       blurDataURL16x9, 
       blurDataURL16x9, 
       blurDataURL16x9, 
+    ],
+    "widths": [
+      320, 320, 320, 320
     ]
   },{
     "id": 8,
@@ -238,6 +262,9 @@ export const projects = [
       blurDataURL16x9, 
       blurDataURL16x9, 
       blurDataURL16x9, 
+    ],
+    "widths": [
+      320, 320, 320, 320
     ]
   },{
     "id": 9,
@@ -265,6 +292,9 @@ export const projects = [
       blurDataURL16x9, 
       blurDataURL16x9, 
       blurDataURL16x9, 
+    ],
+    "widths": [
+      320, 320, 320, 320
     ]
   },{
     "id": 10,
@@ -290,6 +320,9 @@ export const projects = [
       blurDataURL16x9, 
       blurDataURL16x9, 
       blurDataURL16x9, 
+    ],
+    "widths": [
+      320, 320, 320, 320
     ]
   },{
     "id": 11,
@@ -310,6 +343,9 @@ export const projects = [
     "blurDataURLs": [
       blurDataURL9x16, 
       blurDataURL16x9, 
+    ],
+    "widths": [
+      154, 486
     ]
   }
 ]
@@ -324,6 +360,7 @@ export interface Project {
   src: string;
   imgs: string[];
   blurDataURLs: string[];
+  widths: number[];
 }
 
 export interface Projects {
