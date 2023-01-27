@@ -4,7 +4,17 @@ import { Tag } from "./tags";
 const blurDataURL16x9 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAIAAAC0SDtlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAABJJREFUeJxjeEIiYBjVMCg0AAB6foDQu5BAxwAAAABJRU5ErkJggg==";
 const blurDataURL9x16 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAIAAABLKsIUAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAABFJREFUeJxjeIIbMIzKDXo5AL1wgNDWSlfHAAAAAElFTkSuQmCC";
 
-const blurDataURL16x9bluelight = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY3gro/IfAAVUAi3GPZKdAAAAAElFTkSuQmCC";
+
+const blue = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY2BY9OI/AAS6AopXiWMyAAAAAElFTkSuQmCC";
+const bluedark = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY2DQy/4PAAJkAZl/AiRYAAAAAElFTkSuQmCC";
+const bluelight = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY3j76ft/AAl8A9a49/U9AAAAAElFTkSuQmCC";
+const brownlight = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY/h/uu8/AAh9A1iRVUieAAAAAElFTkSuQmCC";
+const graydark = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY7CwsPgPAAL8AahMRHs7AAAAAElFTkSuQmCC";
+const graylight = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY7hy5cp/AAh4A3zas3NuAAAAAElFTkSuQmCC";
+const green = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY2B4wfUfAAPQAfIQ5Md8AAAAAElFTkSuQmCC"
+const greenlight = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY9j6TPY/AAbEAriqyasLAAAAAElFTkSuQmCC";
+const orange = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY/hfr/4fAAbLAqUa4S1PAAAAAElFTkSuQmCC";
+const redlight = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY/hUXPwfAAcLAth5aE22AAAAAElFTkSuQmCC";
 
 
 export const projects = [
@@ -13,7 +23,7 @@ export const projects = [
     "title": "AnimationUI",
     "slug": "animationui",
     "thumbnail": "AnimationUI.webp",
-    "blurDataURL": blurDataURL16x9,
+    "blurDataURL": graydark,
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="csharp"
@@ -27,22 +37,22 @@ export const projects = [
     "imageDetails": [
       {
         "img": "PreviewAnimationUI.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": graydark,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "DemoSettings.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": redlight,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "DemoUpgrade.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": redlight,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "DemoStart.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": redlight,
         "width": 319.6,
         "height": 179.78,
       }
@@ -52,7 +62,7 @@ export const projects = [
     "title": "HexaTap",
     "slug": "hexatap",
     "thumbnail": "HexaTap.webp",
-    "blurDataURL": blurDataURL16x9,
+    "blurDataURL": bluedark,
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="pixi"
@@ -66,12 +76,12 @@ export const projects = [
     "imageDetails": [
       {
         "img": "DemoGameplay.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": bluedark,
         "width": 153.2,
         "height": 276.58,
       },{
         "img": "HexaTap.webp",
-        "blurDataURL": blurDataURL16x9,
+        "blurDataURL": bluedark,
         "width": 486,
         "height": 276.58,
       }
@@ -81,7 +91,7 @@ export const projects = [
     "title": "Rangkiang Form",
     "slug": "rangkiang-form",
     "thumbnail": "Rangkiang Form.webp",
-    "blurDataURL": blurDataURL16x9,
+    "blurDataURL": bluelight,
     "tags": tags.filter(tag => 
       tag.slug==="web-dev"
       || tag.slug==="react"
@@ -96,12 +106,12 @@ export const projects = [
     "imageDetails": [
       {
         "img": "Preview Mobile.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": bluelight,
         "width": 155.79,
         "height": 275.11,
       },{
         "img": "Preview Docs.webp",
-        "blurDataURL": blurDataURL16x9,
+        "blurDataURL": bluelight,
         "width": 483.41,
         "height": 275.11,
       }
@@ -111,7 +121,7 @@ export const projects = [
     "title": "Leapy Leapy Fishy",
     "slug": "leapy-leapy-fishy",
     "thumbnail": "Leapy Leapy Fishy.webp",
-    "blurDataURL": blurDataURL16x9,
+    "blurDataURL": blue,
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
@@ -126,22 +136,22 @@ export const projects = [
     "imageDetails": [
       {
         "img": "1.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": blue,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "2.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": blue,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "3.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": brownlight,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "4.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": blue,
         "width": 319.6,
         "height": 179.78,
       }
@@ -151,7 +161,7 @@ export const projects = [
     "title": "Portfolio",
     "slug": "portfolio",
     "thumbnail": "Portfolio.webp",
-    "blurDataURL": blurDataURL16x9,
+    "blurDataURL": graylight,
     "tags": tags.filter(tag => 
       tag.slug==="web-dev"
       || tag.slug==="next"
@@ -165,12 +175,12 @@ export const projects = [
     "imageDetails": [
       {
         "img": "Portfolio.webp",
-        "blurDataURL": blurDataURL16x9,
+        "blurDataURL": graylight,
         "width": 491.25,
         "height": 279.52,
       },{
         "img": "Preview Mobile.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": graylight,
         "width": 147.95,
         "height": 279.52,
       }
@@ -180,7 +190,7 @@ export const projects = [
     "title": "Ecommerce Book",
     "slug": "ecommerce-book",
     "thumbnail": "Ecommerce Book.webp",
-    "blurDataURL": blurDataURL16x9,
+    "blurDataURL": blue,
     "tags": tags.filter(tag => 
       tag.slug==="web-dev"
       || tag.slug==="django"
@@ -196,12 +206,12 @@ export const projects = [
     "imageDetails": [
       {
         "img": "Ecommerce Book.webp",
-        "blurDataURL": blurDataURL16x9,
+        "blurDataURL": blue,
         "width": 468.19,
         "height": 251.19,
       },{
         "img": "Preview Mobile.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": blue,
         "width": 171.01,
         "height": 251.19,
       }
@@ -211,7 +221,7 @@ export const projects = [
     "title": "Project Arthur",
     "slug": "project-arthur",
     "thumbnail": "Project Arthur.webp",
-    "blurDataURL": blurDataURL16x9,
+    "blurDataURL": greenlight,
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
@@ -226,22 +236,22 @@ export const projects = [
     "imageDetails": [
       {
         "img": "Project Arthur.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": greenlight,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "2.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": greenlight,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "3.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": greenlight,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "4.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": greenlight,
         "width": 319.6,
         "height": 179.78,
       }
@@ -251,7 +261,7 @@ export const projects = [
     "title": "Grappler Crashers",
     "slug": "grappler-crashers",
     "thumbnail": "Grappler Crashers.webp",
-    "blurDataURL": blurDataURL16x9,
+    "blurDataURL": orange,
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
@@ -266,22 +276,22 @@ export const projects = [
     "imageDetails": [
       {
         "img": "1.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": blue,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "2.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": blue,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "3.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": blue,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "4.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": blue,
         "width": 319.6,
         "height": 179.78,
       }
@@ -291,7 +301,7 @@ export const projects = [
     "title": "Cube Associator",
     "slug": "cube-associator",
     "thumbnail": "Cube Associator.webp",
-    "blurDataURL": blurDataURL16x9,
+    "blurDataURL": redlight,
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
@@ -305,22 +315,22 @@ export const projects = [
     "imageDetails": [
       {
         "img": "1.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": graydark,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "2.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": graydark,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "3.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": graydark,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "4.webp",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": graydark,
         "width": 319.6,
         "height": 179.78,
       }
@@ -330,7 +340,7 @@ export const projects = [
     "title": "Very Optimized Coins Shader",
     "slug": "very-optimized-coins-shader",
     "thumbnail": "Very Optimized Coins Shader.webp",
-    "blurDataURL": blurDataURL16x9,
+    "blurDataURL": green,
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
@@ -344,22 +354,22 @@ export const projects = [
     "imageDetails": [
       {
         "img": "MonobehaviourUpdate.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": green,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "MultiMaterial.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": green,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "SingleMaterial.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": green,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "Optimized.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": green,
         "width": 319.6,
         "height": 179.78,
       }
@@ -369,7 +379,7 @@ export const projects = [
     "title": "Clustered Chaos",
     "slug": "clustered-chaos",
     "thumbnail": "Clustered Chaos.webp",
-    "blurDataURL": blurDataURL16x9,
+    "blurDataURL": greenlight,
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
       || tag.slug==="unity"
@@ -381,22 +391,22 @@ export const projects = [
     "imageDetails": [
       {
         "img": "1.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": greenlight,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "3.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": greenlight,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "4.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": greenlight,
         "width": 319.6,
         "height": 179.78,
       },{
         "img": "5.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": greenlight,
         "width": 319.6,
         "height": 179.78,
       }
@@ -414,17 +424,6 @@ export const projects = [
     ),
     "description": "My collections of game vfx made with some shaders and particle system. Everything is created with a lot of shader tricks. Some of it have optimized version with many tricks with shader but with some drawbacks.",
     "src": "",
-    "imgs": [
-      "9x16.webp",
-      "16x9.webp",
-    ],
-    "blurDataURLs": [
-      blurDataURL9x16, 
-      blurDataURL16x9, 
-    ],
-    "widths": [
-      154, 486
-    ],
     "imageDetails": [
       {
         "img": "9x16.webp",
