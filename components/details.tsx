@@ -60,7 +60,7 @@ export default function Details({ project, modalActive, onCloseClick, isBlur }: 
         ):(
           <ul className={styles.img__flex__ul}>
             {project.imgs.map((img, i) => (
-              <li key={i} style={{ minWidth: `${project.widths[i]/project.widths.reduce((partialSum, a) => partialSum + a, 0) * 100}%` }}>
+              <li key={i} style={{ minWidth: `${project.widths[i]/project.widths.reduce((partialSum, a) => partialSum + a, 0) * 97}%`}}> {/*97 because its subtracted by gap*/}
                 <Image className={styles.img__flex__img} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={project.widths[i]} height={277} placeholder = 'blur' blurDataURL={project.blurDataURLs[i]}/>
               </li>
             ))}

@@ -24,6 +24,7 @@
   height: 100%;
   position: absolute;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .tag__container {
