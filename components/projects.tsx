@@ -25,12 +25,11 @@ export default function Projects({ activeTags }:ActiveTagsType) {
       title: "",
       slug: "",
       thumbnail: "",
+      blurDataURL: "",
       tags: [],
       description: "",
       src: "",
-      imgs: [],
-      blurDataURLs: [],
-      widths: []
+      imageDetails: []
     }
   ); 
 
@@ -62,12 +61,11 @@ export default function Projects({ activeTags }:ActiveTagsType) {
         title: "",
         slug: "",
         thumbnail: "",
+        blurDataURL: "",
         tags: [],
         description: "",
         src: "",
-        imgs: [],
-        blurDataURLs: [],
-        widths: []
+        imageDetails: []
       }
     );
   }
@@ -102,7 +100,7 @@ export default function Projects({ activeTags }:ActiveTagsType) {
           
 
           
-          <Image src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} width={250} height={141} placeholder = 'blur' blurDataURL={blurDataURL16x9}/>
+          <Image src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} width={250} height={141} placeholder = 'blur' blurDataURL={project.blurDataURL}/>
 
           <div className={styles.description}>
 

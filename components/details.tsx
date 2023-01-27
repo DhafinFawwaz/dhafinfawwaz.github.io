@@ -51,17 +51,17 @@ export default function Details({ project, modalActive, onCloseClick, isBlur }: 
 
       <div className={styles.modal__body}>
 
-        {(project.imgs.length === 4) ? (
+        {(project.imageDetails.length === 4) ? (
           <div className={styles.imgs__4}>
-            {project.imgs.map((img:string, i:number) => (
-              <Image key={i} className={styles.img__4} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={project.widths[i]} height={180} placeholder = 'blur' blurDataURL={project.blurDataURLs[i]}/>
+            {project.imageDetails.map((imageDetail, i) => (
+              <Image key={i} className={styles.img__4} src={`/img/projects/optimized/${project.slug}/${imageDetail.img}`} alt={imageDetail.img} width={imageDetail.width} height={imageDetail.height} placeholder = 'blur' blurDataURL={imageDetail.blurDataURL}/>
             ))}
           </div>
         ):(
           <ul className={styles.img__flex__ul}>
-            {project.imgs.map((img, i) => (
-              <li key={i} style={{ minWidth: `${project.widths[i]/project.widths.reduce((partialSum, a) => partialSum + a, 0) * 97}%`}}> {/*97 because its subtracted by gap*/}
-                <Image className={styles.img__flex__img} src={`/img/projects/optimized/${project.slug}/${img}`} alt={img} width={project.widths[i]} height={277} placeholder = 'blur' blurDataURL={project.blurDataURLs[i]}/>
+            {project.imageDetails.map((imageDetail, i) => (
+              <li key={i} style={{ minWidth: `${imageDetail.width/ Object.values(project.imageDetails).reduce((t, {width}) => t + width, 0) * 97}%`}}> {/*97 because its subtracted by gap*/}
+                <Image className={styles.img__flex__img} src={`/img/projects/optimized/${project.slug}/${imageDetail.img}`} alt={imageDetail.img} width={imageDetail.width} height={imageDetail.width} placeholder = 'blur' blurDataURL={imageDetail.blurDataURL}/>
               </li>
             ))}
           </ul>
