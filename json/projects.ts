@@ -437,6 +437,32 @@ export const projects = [
         "height": 277,
       }
     ]
+  },{
+    "id": 12,
+    "title": "Unfinished Collection",
+    "slug": "unfinished-collection",
+    "thumbnail": "16x9.webp",
+    "blurDataURL": blurDataURL16x9,
+    "tags": tags.filter(tag => 
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="csharp"
+    ),
+    "description": "My collection of project that is still on progress but has long since touched. These are projects that i wanted to make from start again with the knowledge i have now but don't have time to do it yet.",
+    "src": "",
+    "imageDetails": [
+      {
+        "img": "1.gif",
+        "blurDataURL": blurDataURL9x16,
+        "width": 154,
+        "height": 277,
+      },{
+        "img": "2.gif",
+        "blurDataURL": blurDataURL16x9,
+        "width": 486,
+        "height": 277,
+      }
+    ]
   }
 ]
 
