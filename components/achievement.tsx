@@ -20,6 +20,9 @@ export default function Achievement() {
     }
   }
 
+  const blurDataURL16x9 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAIAAAC0SDtlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAABJJREFUeJxjeEIiYBjVMCg0AAB6foDQu5BAxwAAAABJRU5ErkJggg==";
+  const graydark = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY7CwsPgPAAL8AahMRHs7AAAAAElFTkSuQmCC";
+
   return (
       <ul className={`${styles.container} container grid`}>
 
@@ -38,8 +41,8 @@ export default function Achievement() {
               </div>
 
               <div className={`${styles.details} grid`}>
-                <div className={styles.img__container}>
-                  <Image className={styles.img} src={`/img/achievement/optimized/${content.img}`} alt={content.title} height={512} width={512} placeholder = 'blur' blurDataURL='/img/placeholder/16x9.png'/>
+                <div className={styles.img__container} style={{ minHeight: 210}}>
+                  <Image className={styles.img} src={`/img/achievement/optimized/${content.img}`} alt={content.title} height={210} width={280} placeholder = 'blur' blurDataURL={graydark}/>
                 </div>
                 <div className={styles.description__container}>
                   <p className={styles.description}>{content.description}</p>

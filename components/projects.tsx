@@ -83,7 +83,6 @@ export default function Projects({ activeTags }:ActiveTagsType) {
 
 
   
-  const blurDataURL16x9 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAIAAAC0SDtlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAABJJREFUeJxjeEIiYBjVMCg0AAB6foDQu5BAxwAAAABJRU5ErkJggg==";
   return (
 <>
   <ul className={`${styles.container} container grid`}>
