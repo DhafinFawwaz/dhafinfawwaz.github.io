@@ -413,32 +413,6 @@ export const projects = [
     ]
   },{
     "id": 11,
-    "title": "VFX-Shader Collection",
-    "slug": "vfx-shader-collection",
-    "thumbnail": "16x9.webp",
-    "blurDataURL": blurDataURL16x9,
-    "tags": tags.filter(tag => 
-      tag.slug==="game-dev"
-      || tag.slug==="unity"
-      || tag.slug==="hlsl"
-    ),
-    "description": "My collections of game vfx made with some shaders and particle system. Everything is created with a lot of shader tricks. Some of it have optimized version with many tricks with shader but with some drawbacks.",
-    "src": "",
-    "imageDetails": [
-      {
-        "img": "9x16.webp",
-        "blurDataURL": blurDataURL9x16,
-        "width": 154,
-        "height": 277,
-      },{
-        "img": "16x9.webp",
-        "blurDataURL": blurDataURL16x9,
-        "width": 486,
-        "height": 277,
-      }
-    ]
-  },{
-    "id": 12,
     "title": "Unfinished Collection",
     "slug": "unfinished-collection",
     "thumbnail": "16x9.webp",
@@ -458,6 +432,32 @@ export const projects = [
         "height": 277,
       },{
         "img": "2.gif",
+        "blurDataURL": blurDataURL16x9,
+        "width": 486,
+        "height": 277,
+      }
+    ]
+  },{
+    "id": 12,
+    "title": "VFX-Shader Collection",
+    "slug": "vfx-shader-collection",
+    "thumbnail": "16x9.webp",
+    "blurDataURL": blurDataURL16x9,
+    "tags": tags.filter(tag => 
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="hlsl"
+    ),
+    "description": "My collections of game vfx made with some shaders and particle system. Everything is created with a lot of shader tricks. Some of it have optimized version with many tricks with shader but with some drawbacks.",
+    "src": "",
+    "imageDetails": [
+      {
+        "img": "9x16.webp",
+        "blurDataURL": blurDataURL9x16,
+        "width": 154,
+        "height": 277,
+      },{
+        "img": "16x9.webp",
         "blurDataURL": blurDataURL16x9,
         "width": 486,
         "height": 277,
