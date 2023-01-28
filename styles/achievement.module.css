@@ -102,6 +102,8 @@
 }
 .img{
   max-height: 17rem;
+  width: auto;
+  min-height: 9rem;
 }
 
 
