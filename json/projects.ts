@@ -427,12 +427,12 @@ export const projects = [
     "imageDetails": [
       {
         "img": "1.gif",
-        "blurDataURL": blurDataURL9x16,
+        "blurDataURL": graydark,
         "width": 154,
         "height": 277,
       },{
         "img": "2.gif",
-        "blurDataURL": blurDataURL16x9,
+        "blurDataURL": bluelight,
         "width": 486,
         "height": 277,
       }
