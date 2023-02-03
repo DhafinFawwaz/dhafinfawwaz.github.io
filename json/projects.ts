@@ -171,7 +171,7 @@ export const projects = [
       || tag.slug==="css"
     ),
     "description": "This website is made to showcase my works. An opportunity for an internship would be nice :). This website was created with Next js and react. It's currently not finished yet",
-    "src": "dhafinfawwaz.github.io",
+    "src": "https://dhafinfawwaz.github.io/",
     "imageDetails": [
       {
         "img": "Portfolio.webp",
