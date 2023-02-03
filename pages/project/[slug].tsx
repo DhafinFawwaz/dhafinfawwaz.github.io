@@ -45,19 +45,6 @@ export default function DetailsFromURL( { project }:Projects ) {
     router.push("/#projects")
   }
 
-  function NewlineText(props: NewlineTextProps):ReactElement {
-    const text = props.text;
-    return (<>{text.split('\n').map((str:string, index:number) => (
-      (str.substring(0,2) === "- ") ? (
-        <div key={index} className={styles.modal__description__point}>
-          <div>-</div>
-          <p className={styles.modal__description}>{str.split("- ")[1]}</p>
-        </div>
-      ):(
-        <p key={index} className={styles.modal__description}>{str}</p>
-      )
-    ))}</>)
-  }
 
   return (
     <>
