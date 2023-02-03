@@ -49,7 +49,7 @@ export default function DetailsFromURL( { project }:Projects ) {
   return (
     <>
       <Head>
-        <title>Dhafin Fawwaz | {project.title}</title>
+        <title>{`${project.title} | Dhafin Fawwaz Ikramullah`}</title>
         <meta name="author" content="Dhafin Fawwaz Ikramullah"></meta>
         <meta name="keywords" content={project.title}/>
         <meta name="description" content={project.description}/>

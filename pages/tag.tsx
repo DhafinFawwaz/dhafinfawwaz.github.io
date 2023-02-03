@@ -49,7 +49,7 @@ export default function ProjectByTag() {
   return (
     <>
       <Head>
-        <title>{`Dhafin Fawwaz | ${pageTitle}`}</title>
+        <title>{`${pageTitle} | Dhafin Fawwaz Ikramullah`}</title>
         <meta name="keywords" content="tag"/>
         <meta name="description" content={`${pageDescription}`}/>
       </Head>
