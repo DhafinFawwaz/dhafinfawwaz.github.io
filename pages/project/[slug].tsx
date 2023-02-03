@@ -29,7 +29,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     props: {project: null},
   };
   const slug = context.params.slug;
-  const data = JSON.parse(JSON.stringify(projects.filter(project => project.slug === slug)[0]));
+  const data = JSON.parse(JSON.stringify(projects.find(project => project.slug === slug)));
   return {
     props: {project: data},
   };
