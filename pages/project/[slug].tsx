@@ -35,9 +35,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   };
 };
 
-interface NewlineTextProps {
-  text: string;
-}
+
 export default function DetailsFromURL( { project }:Projects ) {
   const router = useRouter();
 
