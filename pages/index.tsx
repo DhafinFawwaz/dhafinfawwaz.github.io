@@ -18,9 +18,10 @@ export default function Index() {
     <>
       
       <Head>
-        <title>Dhafin Fawwaz</title>
-        <meta name="keywords" content="programmer"/>
-        <meta name="description" content="Dhafin Fawwaz Ikramullah portfolio which consist of projects about Mobile Development, Game Development, and Web Development"/>
+        <title>Dhafin Fawwaz Ikramullah</title>
+        <meta name="keywords" content="Dhafin Fawwaz"/>
+        <meta name="author" content="Dhafin Fawwaz Ikramullah"></meta>
+        <meta name="description" content="Portfolio which consist of projects about Mobile Development, Game Development, and Web Development"/>
       </Head>
 
 

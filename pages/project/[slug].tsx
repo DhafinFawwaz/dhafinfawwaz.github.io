@@ -63,6 +63,7 @@ export default function DetailsFromURL( { project }:Projects ) {
     <>
       <Head>
         <title>Dhafin Fawwaz | {project.title}</title>
+        <meta name="author" content="Dhafin Fawwaz Ikramullah"></meta>
         <meta name="keywords" content={project.title}/>
         <meta name="description" content={project.description}/>
       </Head>
