@@ -463,6 +463,79 @@ export const projects = [
         "height": 277,
       }
     ]
+  },{
+    "id": 13,
+    "title": "Flavy",
+    "slug": "flavy",
+    "thumbnail": "Flavy.webp",
+    "blurDataURL": bluelight,
+    "tags": tags.filter(tag => 
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="hlsl"
+      || tag.slug==="csharp"
+    ),
+    "description": "A game to introduce the new campus branch of Bandung Institute of Technology to the student that will attend it. I work as freelance and was part of this project as programmer, animator, and realtime vfx creation. I took care of some things like shader for transition and particle vfx, and UI. I'm also the one that animate the character in this game. This project was created back when i was still in highschool and i still don't know whether i can attend Bandung Institute of Technology later. Through some effort, i manage to get accepted to Bandung Institute of Technology and meet with the other people who contribute to this.",
+    "src": "",
+    "imageDetails": [
+      {
+        "img": "Map.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "Field.webp",
+        "blurDataURL": graydark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "Album.webp",
+        "blurDataURL": bluelight,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "Leaderboard.webp",
+        "blurDataURL": bluelight,
+        "width": 319.6,
+        "height": 179.78,
+      }
+    ]
+  },{
+    "id": 14,
+    "title": "Legenda Gunung Tampomas",
+    "slug": "legenda-gunung-tampomas",
+    "thumbnail": "Legenda Gunung Tampomas.webp",
+    "blurDataURL": orange,
+    "tags": tags.filter(tag => 
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="csharp"
+    ),
+    "description": "A story book game for kids to tell the Legend of Tampomas Mountain. I work as freelance programmer and animator in this project. I also used Audacity, a tool for sfx creation, to help me mark at which seconds for each word to create the dub of the naration. It's a really simple project but i learn many things about managing many simple things in this project.",
+    "src": "",
+    "imageDetails": [
+      {
+        "img": "Volcano.webp",
+        "blurDataURL": orange,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "Search.webp",
+        "blurDataURL": brownlight,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "Count.webp",
+        "blurDataURL": orange,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "Ending.webp",
+        "blurDataURL": bluelight,
+        "width": 319.6,
+        "height": 179.78,
+      }
+    ]
   }
 ]
 
