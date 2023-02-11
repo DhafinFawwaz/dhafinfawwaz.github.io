@@ -441,7 +441,7 @@ export const projects = [
     "id": 12,
     "title": "VFX-Shader Collection",
     "slug": "vfx-shader-collection",
-    "thumbnail": "16x9.webp",
+    "thumbnail": "VFX-Shader Collection.webp",
     "blurDataURL": blurDataURL16x9,
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
@@ -452,15 +452,25 @@ export const projects = [
     "src": "",
     "imageDetails": [
       {
-        "img": "9x16.webp",
-        "blurDataURL": blurDataURL9x16,
-        "width": 154,
-        "height": 277,
+        "img": "1.gif",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
       },{
-        "img": "16x9.webp",
-        "blurDataURL": blurDataURL16x9,
-        "width": 486,
-        "height": 277,
+        "img": "2.gif",
+        "blurDataURL": bluelight,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "3.gif",
+        "blurDataURL": greenlight,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "4.gif",
+        "blurDataURL": orange,
+        "width": 319.6,
+        "height": 179.78,
       }
     ]
   },{
@@ -476,7 +486,7 @@ export const projects = [
       || tag.slug==="csharp"
     ),
     "description": "A game to introduce the new campus branch of Bandung Institute of Technology to the student that will attend it. I work as freelance and was part of this project as programmer, animator, and realtime vfx creation. I took care of some things like shader for transition and particle vfx, and UI. I'm also the one that animate the character in this game. This project was created back when i was still in highschool and i still don't know whether i can attend Bandung Institute of Technology later. Through some effort, i manage to get accepted to Bandung Institute of Technology and meet with the other people who contribute to this.",
-    "src": "",
+    "src": "https://joshia-t.itch.io/flavy",
     "imageDetails": [
       {
         "img": "Map.webp",
