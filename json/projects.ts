@@ -415,7 +415,7 @@ export const projects = [
     "id": 11,
     "title": "Unfinished Collection",
     "slug": "unfinished-collection",
-    "thumbnail": "16x9.webp",
+    "thumbnail": "Unfinished Collection.webp",
     "blurDataURL": blurDataURL16x9,
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
