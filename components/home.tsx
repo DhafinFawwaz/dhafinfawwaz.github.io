@@ -38,7 +38,7 @@ export default function Home() {
         </div>
 
         <div className={styles.img}>
-          <Image className={styles.img__profile} src="/img/home/Spongebob.jpg" alt="Profile photo" width={512} height={512} priority={true}/>
+          <Image className={styles.img__profile} src="/img/home/Profile Photo.png" alt="Profile photo" width={512} height={512} priority={true}/>
         </div>
 
         <div className={styles.data}>

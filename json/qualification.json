@@ -31,7 +31,7 @@
     {
       "id": 4,
       "title": "Bandung Institute of Technology",
-      "subtitle": "College",
+      "subtitle": "Undergraduate of Informatics",
       "date": "2022 - now",
       "src": "https://www.google.com/search?q=Institut Teknologi Bandung"
     }
@@ -40,8 +40,14 @@
   "work": [
     {
       "id": 0,
-      "title": "Freelance",
-      "subtitle": "Game Development",
+      "title": "Flavy",
+      "subtitle": "Freelance Game Development",
+      "date": "2021 - now",
+      "src": "https://joshia-t.itch.io/flavy"
+    },{
+      "id": 1,
+      "title": "Legend of Tampoemas Mountain",
+      "subtitle": "Freelance Game Development",
       "date": "2021 - now",
       "src": ""
     }
