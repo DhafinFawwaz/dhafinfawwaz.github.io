@@ -546,6 +546,43 @@ export const projects = [
         "height": 179.78,
       }
     ]
+  },{
+    "id": 15,
+    "title": "Snake 4D",
+    "slug": "snake-4d",
+    "thumbnail": "Snake 4D.webp",
+    "blurDataURL": orange,
+    "tags": tags.filter(tag => 
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="csharp"
+      || tag.slug==="hlsl"
+    ),
+    "description": "The usual snake game but with a twist which is the ability for the snake to move to the 4th dimension. I's an old game that i made back when i'm still in highschool and is still a beginner. I managed to get +1000 downloads on this game probably because i finally understand the market after publishing some games before.",
+    "src": "",
+    "imageDetails": [
+      {
+        "img": "1.webp",
+        "blurDataURL": green,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "2.webp",
+        "blurDataURL": greenlight,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "3.webp",
+        "blurDataURL": brownlight,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "4.webp",
+        "blurDataURL": graylight,
+        "width": 319.6,
+        "height": 179.78,
+      }
+    ]
   }
 ]
 

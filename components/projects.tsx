@@ -99,7 +99,7 @@ export default function Projects({ activeTags }:ActiveTagsType) {
           
 
           
-          <Image src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} width={250} height={141} placeholder = 'blur' blurDataURL={project.blurDataURL}/>
+          <Image src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} width={256} height={141} placeholder = 'blur' blurDataURL={project.blurDataURL}/>
 
           <div className={styles.description}>
 
