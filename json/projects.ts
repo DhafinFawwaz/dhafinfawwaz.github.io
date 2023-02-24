@@ -559,7 +559,7 @@ export const projects = [
       || tag.slug==="hlsl"
     ),
     "description": "The usual snake game but with a twist which is the ability for the snake to move to the 4th dimension. I's an old game that i made back when i'm still in highschool and is still a beginner. I managed to get +1000 downloads on this game probably because i finally understand the market after publishing some games before.",
-    "src": "",
+    "src": "https://play.google.com/store/apps/details?id=com.sppAghetti.Snake4D&hl=en&gl=US",
     "imageDetails": [
       {
         "img": "1.webp",
