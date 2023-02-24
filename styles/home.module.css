@@ -301,7 +301,7 @@
   }
   .description {
     margin-top: var(--mb-1);
-    margin-bottom: var(--mb-2);
+    /* margin-bottom: var(--mb-2); */
   }
 
   .img{

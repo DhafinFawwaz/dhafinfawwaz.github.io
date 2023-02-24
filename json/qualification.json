@@ -5,6 +5,7 @@
       "title": "TK Harapan 1 Medan",
       "subtitle": "Kindergarten",
       "date": "2009 - 2010",
+      "target": "_blank",
       "src": "https://www.google.com/search?q=TK Harapan 2 Medan"
     },
     {
@@ -12,6 +13,7 @@
       "title": "SD Harapan 2 Medan",
       "subtitle": "Elementary School",
       "date": "2010 - 2016",
+      "target": "_blank",
       "src": "https://www.google.com/search?q=SD Harapan 2 Medan"
     },
     {
@@ -19,6 +21,7 @@
       "title": "SMP Negeri 1 Medan",
       "subtitle": "Junior High School",
       "date": "2016 - 2019",
+      "target": "_blank",
       "src": "https://www.google.com/search?q=SMP Negeri 1 Medan"
     },
     {
@@ -26,6 +29,7 @@
       "title": "SMA Negeri 1 Medan",
       "subtitle": "Senior High School",
       "date": "2019 - 2022",
+      "target": "_blank",
       "src": "https://www.google.com/search?q=SMA Negeri 1 Medan"
     },
     {
@@ -33,6 +37,7 @@
       "title": "Bandung Institute of Technology",
       "subtitle": "Undergraduate of Informatics",
       "date": "2022 - now",
+      "target": "_blank",
       "src": "https://www.google.com/search?q=Institut Teknologi Bandung"
     }
   ],
@@ -43,13 +48,15 @@
       "title": "Flavy",
       "subtitle": "Freelance Game Development",
       "date": "2021 - now",
-      "src": "https://joshia-t.itch.io/flavy"
+      "target": "_self",
+      "src": "/project/flavy"
     },{
       "id": 1,
       "title": "Legend of Tampoemas Mountain",
       "subtitle": "Freelance Game Development",
       "date": "2021 - now",
-      "src": ""
+      "target": "_self",
+      "src": "/project/legenda-gunung-tampomas"
     }
   ]
 }
