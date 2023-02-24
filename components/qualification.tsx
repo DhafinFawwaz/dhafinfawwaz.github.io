@@ -36,7 +36,7 @@ export default function Qualification() {
                 {generateQualificationBox(element)}
               </div>
             ):(
-              <a href={element.src} target="_blank" rel="noreferrer" className={styles.data__container}>
+              <a href={element.src} target={element.target} rel="noreferrer" className={styles.data__container}>
                 {generateQualificationBox(element)}
               </a>
             )}
@@ -72,7 +72,7 @@ export default function Qualification() {
                 {generateQualificationBox(element)}
               </div>
             ):(
-              <a href={element.src} target="_blank" rel="noreferrer" className={styles.data__container}>
+              <a href={element.src} target={element.target} rel="noreferrer" className={styles.data__container}>
                 {generateQualificationBox(element)}
               </a>
             )}
@@ -132,5 +132,6 @@ export interface Qualification {
   title: string;
   subtitle: string;
   date: string;
+  target: string;
   src: string;
 }
