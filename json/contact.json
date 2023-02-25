@@ -32,7 +32,7 @@
     "title": "Line",
     "value": "dhafin2109",
     "href": "/#contact",
-    "img": "/img/icons/line.svg"
+    "img": "https://api.iconify.design/ri/line-fill.svg"
   },
   "instagram": {
     "id": 5,
