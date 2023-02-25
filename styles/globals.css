@@ -299,10 +299,9 @@ footer.section {
 
 
 .home{
-  padding: 0rem 0 2rem;
+  padding: 3rem 0 2rem;
   max-width: calc(var(--max-width)- var(--mb-2));
   min-height: 100vh;
-  margin: 0;
 }
 
 

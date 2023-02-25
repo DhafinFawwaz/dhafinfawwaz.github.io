@@ -176,13 +176,13 @@ export const projects = [
       {
         "img": "Portfolio.webp",
         "blurDataURL": graylight,
-        "width": 491.25,
-        "height": 279.52,
+        "width": 810.55,
+        "height": 379,
       },{
         "img": "Preview Mobile.webp",
         "blurDataURL": graylight,
-        "width": 147.95,
-        "height": 279.52,
+        "width": 211,
+        "height": 480,
       }
     ]
   },{
