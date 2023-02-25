@@ -1,0 +1,12 @@
+User-agent: Googlebot-Image
+Disallow: /img/achievement/ 
+Disallow: /img/achievement/optimized/
+Allow: /img/achievement/optimized/MAGE 7.webp
+Allow: /img/achievement/optimized/KSN.webp
+Disallow: /img/placeholder/
+Disallow: /img/projects/
+Allow: /img/projects/optimized/
+Disallow: /img/projects/optimized/cube-associator
+Disallow: /img/projects/optimized/ecommerce-book
+Disallow: /img/projects/optimized/project-arthur
+Disallow: /img/projects/optimized/very-optimized-coins
