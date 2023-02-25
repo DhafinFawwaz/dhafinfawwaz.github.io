@@ -161,7 +161,7 @@ export const projects = [
     "title": "Portfolio",
     "slug": "portfolio",
     "thumbnail": "Portfolio.webp",
-    "blurDataURL": graylight,
+    "blurDataURL": graydark,
     "tags": tags.filter(tag => 
       tag.slug==="web-dev"
       || tag.slug==="next"
@@ -175,7 +175,7 @@ export const projects = [
     "imageDetails": [
       {
         "img": "Portfolio.webp",
-        "blurDataURL": graylight,
+        "blurDataURL": graydark,
         "width": 810.55,
         "height": 379,
       },{
