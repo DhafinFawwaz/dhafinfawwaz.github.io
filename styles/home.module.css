@@ -8,7 +8,6 @@
 .content{
   grid-template-columns: .5fr 3fr;
   gap: 0 1rem;
-  padding-top: 3.5rem;
 }
 
 .social{

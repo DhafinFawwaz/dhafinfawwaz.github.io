@@ -187,11 +187,16 @@ footer {
   background-color: var(--first-color);
   min-height: calc(100vh - var(--mb-3));
 }
+footer.section {
+  padding: 4rem 0 0 0;
+}
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: calc(var(--header-height) + 2rem) 0 4rem;
   min-height: 100vh;
 }
+
+
 
 .section__title {
   font-size: var(--h1-font-size);
