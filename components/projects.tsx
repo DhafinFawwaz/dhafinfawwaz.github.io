@@ -49,7 +49,7 @@ export default function Projects({ activeTags }:ActiveTagsType) {
 
 
   function onProjectClick(clickedProject: number){
-    setProject(projects[clickedProject]);
+    setProject(filteredProjects[clickedProject]);
     setModalActive(true);
   }
   function onCloseClick(){
