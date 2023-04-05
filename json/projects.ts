@@ -100,6 +100,7 @@ export const projects = [
       || tag.slug==="css"
       || tag.slug==="vercel"
       || tag.slug==="express"
+      || tag.slug==="node"
     ),
     "description": "A form website integrated with google spreadsheet (google docs) api. This was created because there's no option to put commas to separate number for currency input if we use google form. This is specially created.",
     "src": "",
