@@ -46,7 +46,7 @@ export default function Home() {
           <h4 className={styles.subtitle}>Software Engineer | Programmer</h4>
           <p className={styles.description}>{`An Indie Game Developer for fun, a particle vfx/shader enthusiast, and a math enjoyer. My current main specialities are in Mobile, Game, and Web Development which will change in the future since I'm interested in learning more. I've published a game with +1000 installs, worked inside and led teams on projects, and able to work in fast paced environment or under pressure.`}</p>
 
-          <Link href="/pdf/cv - dhafinfawwaz.pdf" target="_blank" className="button button--flex" onClick={() => {window.open("/pdf/Dhafin Fawwaz Ikramullah - CV.pdf");}}>
+          <Link href="/pdf/Dhafin Fawwaz Ikramullah - CV.pdf" target="_blank" className="button button--flex" onClick={() => {window.open("/pdf/Dhafin Fawwaz Ikramullah - CV.pdf");}}>
             Download CV
           </Link>
 
