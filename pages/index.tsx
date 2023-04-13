@@ -24,7 +24,7 @@ export default function Index() {
         <meta name="description" content="Portfolio which consist of projects about Mobile Development, Game Development, and Web Development"/>
       </Head>
 
-
+      
 
       <section className={`home section`} id="home">
         <Home></Home>

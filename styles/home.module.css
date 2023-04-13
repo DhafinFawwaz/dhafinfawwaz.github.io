@@ -1,8 +1,15 @@
 /*==================== HOME ====================*/
 
-
+.maxwidth_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .container{
+  position: absolute;
   gap: 0.5rem;
+  transform: translateY(-50%);
+  top: 50%;
 }
 
 .content{
@@ -64,7 +71,8 @@
 
 .button__project {
   color: var(--first-color);
-  background-color: var(--third-color);
+  /* background-color: var(--third-color); */
+  background-color: transparent;
   transition: var(--transition-time) var(--ease-out-quart);
 }
 .button__project:hover {
@@ -269,15 +277,18 @@
     height: 180px;
     width: auto;
   }
-
-
-
   /* .tools{
     height: 2.2rem;
   } */
-  
 }
-
+@media screen and (max-width: 420px){
+  .container{
+    gap: 0.5rem;
+    transform: unset;
+    top: unset;
+    margin-top: -3rem;
+  }
+}
 /* For medium devices */
 
 @media screen and (min-width: 568px){

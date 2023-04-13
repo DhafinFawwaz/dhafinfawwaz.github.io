@@ -9,6 +9,9 @@ export default function Layout({ children } : LayourProps) {
   return (
     <>
       <Navbar/>
+      <div className={`background`}>
+        <div className={`background_child`}></div>
+      </div>
       { children }
       <Footer/>
     </>
