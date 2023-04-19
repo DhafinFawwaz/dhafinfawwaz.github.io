@@ -42,7 +42,7 @@ html, body {
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
-  --title-line-height: 1.7rem;
+  --title-line-height: 1rem;
 
   --normal-icon-size: 1.25rem;
   --big-icon-size: 1.5rem;
@@ -95,6 +95,8 @@ html, body {
 /* Font size for large devices */
 @media screen and (min-width: 768px) {
   :root {
+    --mb-1: 1rem;
+
     --big-font-size: 4rem;
     --h1-font-size: 3rem;
     --h2-font-size: 2rem;

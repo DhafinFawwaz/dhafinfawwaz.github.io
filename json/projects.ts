@@ -577,7 +577,7 @@ export const projects = [
     ]
   },{
     "id": 16,
-    "title": "Snake 4D",
+    "title": "Snake 4D [+1000 Installs]",
     "slug": "snake-4d",
     "thumbnail": "Snake 4D.webp",
     "blurDataURL": orange,
