@@ -8,7 +8,7 @@ import { useEffect } from 'react'
 
 export default function Navbar() {
   const [active, setActive] = useState<string>(styles.inactive);
-  const [darkTheme, setDarkTheme] = useState<string>("sun");
+  const [darkTheme, setDarkTheme] = useState<string>("moon");
   const [showScroll, setShowScroll] = useState<string>(styles.scroll__hidden);
 
   function onMenuClick(){

@@ -188,6 +188,33 @@ export const projects = [
     ]
   },{
     "id": 5,
+    "title": "QR Code Reminder With ChatGPT API",
+    "slug": "expiration-reminder",
+    "thumbnail": "Expiration Reminder.webp",
+    "blurDataURL": bluelight,
+    "tags": tags.filter(tag => 
+      tag.slug==="mobile-dev"
+      || tag.slug==="web-dev"
+      || tag.slug==="flutter"
+      || tag.slug==="dart"
+      || tag.slug==="sqlite"
+      || tag.slug==="vercel"
+      || tag.slug==="node"
+      || tag.slug==="mongodb"
+      || tag.slug==="express"
+    ),
+    "description": "Mobile app that reminds you when a product is about to expire with qr code to add the reminder. This app was created with flutter and dart. It also has an extra feature which is an auto-generated description integrated with ChatGPT API. ",
+    "src": "",
+    "imageDetails": [
+      {
+        "img": "Expiration Reminder.webp",
+        "blurDataURL": bluelight,
+        "width": 700,
+        "height": 400,
+      },
+    ]
+  },{
+    "id": 6,
     "title": "Ecommerce Book",
     "slug": "ecommerce-book",
     "thumbnail": "Ecommerce Book.webp",
@@ -201,6 +228,7 @@ export const projects = [
       || tag.slug==="html"
       || tag.slug==="css"
       || tag.slug==="sqlite"
+      || tag.slug==="heroku"
     ),
     "description": "A website created for an assignment of Introduction to Computation in Bandung Institute of Technology. It's created with Django and some help from javascript for the client side.",
     "src": "https://github.com/DhafinFawwaz/Project-Book-Django",
@@ -218,7 +246,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 6,
+    "id": 7,
     "title": "Project Arthur",
     "slug": "project-arthur",
     "thumbnail": "Project Arthur.webp",
@@ -258,7 +286,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 7,
+    "id": 8,
     "title": "Grappler Crashers",
     "slug": "grappler-crashers",
     "thumbnail": "Grappler Crashers.webp",
@@ -298,7 +326,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 8,
+    "id": 9,
     "title": "Cube Associator",
     "slug": "cube-associator",
     "thumbnail": "Cube Associator.webp",
@@ -337,7 +365,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 9,
+    "id": 10,
     "title": "Very Optimized Coins Shader",
     "slug": "very-optimized-coins-shader",
     "thumbnail": "Very Optimized Coins Shader.webp",
@@ -376,7 +404,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 10,
+    "id": 11,
     "title": "Clustered Chaos",
     "slug": "clustered-chaos",
     "thumbnail": "Clustered Chaos.webp",
@@ -413,7 +441,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 11,
+    "id": 12,
     "title": "Unfinished Collection",
     "slug": "unfinished-collection",
     "thumbnail": "Unfinished Collection.webp",
@@ -439,7 +467,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 12,
+    "id": 13,
     "title": "VFX-Shader Collection",
     "slug": "vfx-shader-collection",
     "thumbnail": "VFX-Shader Collection.webp",
@@ -475,7 +503,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 13,
+    "id": 14,
     "title": "Flavy",
     "slug": "flavy",
     "thumbnail": "Flavy.webp",
@@ -512,7 +540,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 14,
+    "id": 15,
     "title": "Legenda Gunung Tampomas",
     "slug": "legenda-gunung-tampomas",
     "thumbnail": "Legenda Gunung Tampomas.webp",
@@ -548,7 +576,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 15,
+    "id": 16,
     "title": "Snake 4D",
     "slug": "snake-4d",
     "thumbnail": "Snake 4D.webp",

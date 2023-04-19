@@ -57,6 +57,12 @@ export default function Details({ project, modalActive, onCloseClick, isBlur }: 
               <Image key={i} className={styles.img__4} src={`/img/projects/optimized/${project.slug}/${imageDetail.img}`} alt={imageDetail.img} width={imageDetail.width} height={imageDetail.height} placeholder = 'blur' blurDataURL={imageDetail.blurDataURL}/>
             ))}
           </div>
+        ):(project.imageDetails.length === 1) ? (
+          <div className={styles.imgs__1}>
+            {project.imageDetails.map((imageDetail, i) => (
+              <Image key={i} className={styles.img__1} src={`/img/projects/optimized/${project.slug}/${imageDetail.img}`} alt={imageDetail.img} width={imageDetail.width} height={imageDetail.height} placeholder = 'blur' blurDataURL={imageDetail.blurDataURL}/>
+            ))}
+          </div>
         ):(
           <ul className={styles.img__flex__ul}>
             {project.imageDetails.map((imageDetail, i) => (
