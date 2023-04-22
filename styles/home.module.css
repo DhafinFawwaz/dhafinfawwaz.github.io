@@ -6,9 +6,9 @@
   justify-content: center;
 }
 .container{
-  position: absolute;
+  /* position: absolute; */
   gap: 0.5rem;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   top: 50%;
 }
 
