@@ -86,13 +86,13 @@ export default function Qualification() {
     <div className={`container`}>
       <div className={`${styles.tabs}`}>
 
-        <button className={`${styles.button} ${active[0]}`} onClick={() => onPageClick(0)}>
+        <div className={`${styles.button} ${active[0]}`} onClick={() => onPageClick(0)}>
           <i className="uil uil-graduation-cap qualification__icon"></i> Education
-        </button>
+        </div>
 
-        <button className={`${styles.button} ${active[1]}`} onClick={() => onPageClick(1)}>
+        <div className={`${styles.button} ${active[1]}`} onClick={() => onPageClick(1)}>
           <i className="uil uil-briefcase qualification__icon"></i> Work
-        </button>
+        </div>
 
       </div>
 
