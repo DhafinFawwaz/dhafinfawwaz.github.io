@@ -59,6 +59,45 @@ export const projects = [
     ]
   },{
     "id": 1,
+    "title": "Pace Break",
+    "slug": "pace-break",
+    "thumbnail": "Pace Break.webp",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag => 
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="csharp"
+      || tag.slug==="hlsl"
+      || tag.slug==="blender"
+      || tag.slug==="figma"
+    ),
+    "description": "Fast paced platformer combat game to showcase my programming and technical artist skills.",
+    "src": "https://kitkatmt.itch.io/pacebreak",
+    "imageDetails": [
+      {
+        "img": "1.gif",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "1.gif",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "1.gif",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "1.gif",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }
+    ]
+  },{
+    "id": 2,
     "title": "HexaTap",
     "slug": "hexatap",
     "thumbnail": "HexaTap.webp",
@@ -87,7 +126,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 2,
+    "id": 3,
     "title": "Rangkiang Form",
     "slug": "rangkiang-form",
     "thumbnail": "Rangkiang Form.webp",
@@ -118,7 +157,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 3,
+    "id": 4,
     "title": "Leapy Leapy Fishy",
     "slug": "leapy-leapy-fishy",
     "thumbnail": "Leapy Leapy Fishy.webp",
@@ -158,7 +197,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 4,
+    "id": 5,
     "title": "Portfolio",
     "slug": "portfolio",
     "thumbnail": "Portfolio.webp",
@@ -187,7 +226,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 5,
+    "id": 6,
     "title": "QR Code Reminder With ChatGPT API",
     "slug": "expiration-reminder",
     "thumbnail": "Expiration Reminder.webp",
@@ -214,7 +253,7 @@ export const projects = [
       },
     ]
   },{
-    "id": 6,
+    "id": 7,
     "title": "Ecommerce Book",
     "slug": "ecommerce-book",
     "thumbnail": "Ecommerce Book.webp",
@@ -246,7 +285,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 7,
+    "id": 8,
     "title": "Project Arthur",
     "slug": "project-arthur",
     "thumbnail": "Project Arthur.webp",
@@ -286,7 +325,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 8,
+    "id": 9,
     "title": "Grappler Crashers",
     "slug": "grappler-crashers",
     "thumbnail": "Grappler Crashers.webp",
@@ -326,7 +365,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 9,
+    "id": 10,
     "title": "Cube Associator",
     "slug": "cube-associator",
     "thumbnail": "Cube Associator.webp",
@@ -365,7 +404,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 10,
+    "id": 11,
     "title": "Very Optimized Coins Shader",
     "slug": "very-optimized-coins-shader",
     "thumbnail": "Very Optimized Coins Shader.webp",
@@ -404,7 +443,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 11,
+    "id": 12,
     "title": "Clustered Chaos",
     "slug": "clustered-chaos",
     "thumbnail": "Clustered Chaos.webp",
@@ -441,7 +480,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 12,
+    "id": 13,
     "title": "Unfinished Collection",
     "slug": "unfinished-collection",
     "thumbnail": "Unfinished Collection.webp",
@@ -467,7 +506,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 13,
+    "id": 14,
     "title": "VFX-Shader Collection",
     "slug": "vfx-shader-collection",
     "thumbnail": "VFX-Shader Collection.webp",
@@ -503,7 +542,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 14,
+    "id": 15,
     "title": "Flavy",
     "slug": "flavy",
     "thumbnail": "Flavy.webp",
@@ -540,7 +579,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 15,
+    "id": 16,
     "title": "Legenda Gunung Tampomas",
     "slug": "legenda-gunung-tampomas",
     "thumbnail": "Legenda Gunung Tampomas.webp",
@@ -576,7 +615,7 @@ export const projects = [
       }
     ]
   },{
-    "id": 16,
+    "id": 17,
     "title": "Snake 4D [+1000 Installs]",
     "slug": "snake-4d",
     "thumbnail": "Snake 4D.webp",
