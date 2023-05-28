@@ -80,17 +80,17 @@ export const projects = [
         "width": 319.6,
         "height": 179.78,
       },{
-        "img": "1.gif",
+        "img": "2.gif",
         "blurDataURL": bluedark,
         "width": 319.6,
         "height": 179.78,
       },{
-        "img": "1.gif",
+        "img": "3.gif",
         "blurDataURL": bluedark,
         "width": 319.6,
         "height": 179.78,
       },{
-        "img": "1.gif",
+        "img": "4.gif",
         "blurDataURL": bluedark,
         "width": 319.6,
         "height": 179.78,
