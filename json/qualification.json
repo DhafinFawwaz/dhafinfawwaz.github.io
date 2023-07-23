@@ -57,6 +57,13 @@
       "date": "2022 - 2022",
       "target": "_self",
       "src": "/project/legenda-gunung-tampomas"
+    },{
+      "id": 2,
+      "title": "Kirana & Laplip",
+      "subtitle": "Freelance Game Development",
+      "date": "2023 - 2023",
+      "target": "_self",
+      "src": "/project/kirana-dan-laplip"
     }
   ]
 }

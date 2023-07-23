@@ -651,6 +651,42 @@ export const projects = [
         "height": 179.78,
       }
     ]
+  },{
+    "id": 18,
+    "title": "Kirana & Laplip",
+    "slug": "kirana-dan-laplip",
+    "thumbnail": "kirana dan Laplip.webp",
+    "blurDataURL": orange,
+    "tags": tags.filter(tag => 
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="csharp"
+    ),
+    "description": "A story book game for kids to tell the story of Kirana & Laplip. I work as freelance programmer and animator in this project. It's a really simple project but i learn many things about managing many simple things in this project.",
+    "src": "",
+    "imageDetails": [
+      {
+        "img": "1.webp",
+        "blurDataURL": orange,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "2.webp",
+        "blurDataURL": brownlight,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "3.webp",
+        "blurDataURL": orange,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "4.webp",
+        "blurDataURL": bluelight,
+        "width": 319.6,
+        "height": 179.78,
+      }
+    ]
   }
 ]
 
@@ -671,8 +707,4 @@ interface ImageDetail {
   blurDataURL: string;
   width: number;
   height: number;
-}
-
-export interface Projects {
-  project: Project;
 }

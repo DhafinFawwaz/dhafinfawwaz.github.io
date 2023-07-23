@@ -3,7 +3,6 @@ import Image from 'next/image'
 
 import { Project, projects } from '../json/projects'
 import React, { ReactElement, useState } from 'react'
-import { ActiveTags } from '../json/tags'
 
 interface NewlineTextProps {
   text: string;

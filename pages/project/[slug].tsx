@@ -1,11 +1,9 @@
 import styles from '../../styles/projects.module.css'
 import Head from 'next/head'
-import Image from 'next/image'
 
 import { projects } from '../../json/projects'
-import { Projects } from '../../json/projects'
-import { GetStaticPaths, GetStaticProps } from 'next';
-import { ReactElement } from 'react'
+import { Project } from '../../json/projects'
+import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
 import { useRouter } from 'next/router'
 import Details from '../../components/details'
 
@@ -23,7 +21,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   }
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<{project: Project}> = async (context) => {
   
   if(!context.params)return {
     props: {project: null},
@@ -35,8 +33,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
   };
 };
 
-
-export default function DetailsFromURL( { project }:Projects ) {
+// Used when user copy the url when the project details is shown and paste it to the browser
+export default function DetailsFromURL( { project } :InferGetStaticPropsType<typeof getStaticProps> ) {
   const router = useRouter();
 
   function onCloseClick(){
