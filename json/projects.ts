@@ -655,7 +655,7 @@ export const projects = [
     "id": 18,
     "title": "Kirana & Laplip",
     "slug": "kirana-dan-laplip",
-    "thumbnail": "kirana dan Laplip.webp",
+    "thumbnail": "Kirana dan Laplip.webp",
     "blurDataURL": orange,
     "tags": tags.filter(tag => 
       tag.slug==="game-dev"
