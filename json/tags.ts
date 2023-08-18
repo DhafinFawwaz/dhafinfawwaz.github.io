@@ -78,10 +78,10 @@ export const tags = [
     "https://cdn.worldvectorlogo.com/logos/django.svg"
   ),
   new Tag(11, ".NET", "dotnet", "#001aff", "#ffffff",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg"
+    "https://api.iconify.design/skill-icons/dotnet.svg"
   ),
   new Tag(12, "Express", "express", "#83c90a", "#ffffff",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+    "https://api.iconify.design/skill-icons/expressjs-dark.svg"
   ),
   new Tag(13, "Figma", "figma", "#ff0a43", "#ffffff",
     "https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
@@ -117,13 +117,13 @@ export const tags = [
     "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg"
   ),
   new Tag(24, "MongoDB", "mongodb", "#5cdb0d", "#ffffff",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+    "https://api.iconify.design/skill-icons/mongodb.svg"
   ),
   new Tag(25, "Next", "next", "#710ddb", "#ffffff",
-    "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
+    "https://api.iconify.design/logos/nextjs-icon.svg"
   ),
   new Tag(26, "Node", "node", "#11bf2e", "#ffffff",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+    "https://api.iconify.design/logos/nodejs-icon-alt.svg"
   ),
   new Tag(27, "Pandas", "pandas", "#0b239c", "#ffffff",
     "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg"
@@ -153,12 +153,24 @@ export const tags = [
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
   ),
   new Tag(36, "Unity", "unity", "#1600a8", "#ffffff",
-    "https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg"
+    "https://api.iconify.design/skill-icons/unity-dark.svg"
   ),
   new Tag(37, "Vercel", "vercel", "#4413ad", "#ffffff",
     "https://api.iconify.design/logos/vercel-icon.svg"
   ),
   new Tag(38, "HLSL", "hlsl", "#1323ad", "#ffffff",
     "https://api.iconify.design/vscode-icons/file-type-hlsl.svg"
+  ),
+  new Tag(39, "Svelte Kit", "sveltekit", "#ff4800", "#ffffff",
+    "https://api.iconify.design/vscode-icons/file-type-svelte.svg"
+  ),
+  new Tag(40, "MySQL", "mysql", "#0d6eff", "#ffffff",
+    "https://api.iconify.design/skill-icons/mysql-dark.svg"
+  ),
+  new Tag(41, "PlanetScale", "planetscale", "#2b2b2b", "#ffffff",
+    "https://api.iconify.design/logos/planetscale.svg"
+  ),
+  new Tag(42, "Cloudinary", "cloudinary", "#6638d9", "#ffffff",
+    "https://api.iconify.design/logos/cloudinary-icon.svg"
   )
 ]

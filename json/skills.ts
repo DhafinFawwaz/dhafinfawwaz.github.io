@@ -51,6 +51,10 @@ export const skills = [
       || tag.slug==="sqlite"
       || tag.slug==="typescript"
       || tag.slug==="vercel"
+      || tag.slug==="sveltekit"
+      || tag.slug==="mysql"
+      || tag.slug==="planetscale"
+      || tag.slug==="cloudinary"
     )
   },{
     "devType": tags.filter(tag => tag.slug==="desktop-dev")[0],

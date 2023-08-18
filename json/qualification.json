@@ -65,5 +65,23 @@
       "target": "_self",
       "src": "/project/kirana-dan-laplip"
     }
+  ],
+
+  "organization": [
+    {
+      "id": 0,
+      "title": "BAKMISS",
+      "subtitle": "Leader of Science and Technology",
+      "date": "2020 - 2021",
+      "target": "_blank",
+      "src": "https://www.google.com/search?q=BAKMISS smansa"
+    },{
+      "id": 1,
+      "title": "GIM ITB",
+      "subtitle": "Leader of New Member Admission",
+      "date": "2023 - 2024",
+      "target": "_blank",
+      "src": "https://www.google.com/search?q=GIM ITB"
+    }
   ]
 }

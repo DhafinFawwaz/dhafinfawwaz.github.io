@@ -5,7 +5,7 @@ import qualification from '../json/qualification.json'
 import { useState } from 'react'
 
 export default function Qualification() {
-  const [active, setActive] = useState([styles.active, ""]);
+  const [active, setActive] = useState([styles.active, "", ""]);
   
 
   function onPageClick(clickedPage: number) {
@@ -94,6 +94,10 @@ export default function Qualification() {
           <i className="uil uil-briefcase qualification__icon"></i> Work
         </div>
 
+        <div className={`${styles.button} ${active[2]}`} onClick={() => onPageClick(2)}>
+          <i className="uil uil-users-alt qualification__icon"></i> Organization
+        </div>
+
       </div>
 
       <div className={`${styles.sections}`}>
@@ -107,7 +111,6 @@ export default function Qualification() {
           
           {[...qualification.education].reverse().map(generateQualifications)}
           
-
         </div>
 
         {/* <!--==================== Work ====================--> */}
@@ -116,6 +119,15 @@ export default function Qualification() {
           <span className={`${styles.rounder} ${styles.last}`}></span>
           
           {[...qualification.work].reverse().map(generateQualifications)}
+          
+        </div>
+
+        {/* <!--==================== Organization ====================--> */}
+        <div className={`${styles.content} ${active[2]}`} data-content id="organization">
+          
+          <span className={`${styles.rounder} ${styles.last}`}></span>
+          
+          {[...qualification.organization].reverse().map(generateQualifications)}
           
         </div>
 
