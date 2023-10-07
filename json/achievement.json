@@ -106,6 +106,15 @@
     "description": "Game Development MAGE 7 is a National competition about Game Development by Sepuluh Nopember Institute of Technology held for about 1.5 months of development. This competition started from creating proposal, then developing the game, and then pitch product presentation about the game.",
     "img": "MAGE 7.webp",
     "icon": "uil uil-laptop"
+  },
+  {
+    "id": 12,
+    "title": "Finalist Game Development Gemastik XVI",
+    "subtitle": "Issued by The Ministry of Education, Culture, Research, and Technology",
+    "date": "September 2023",
+    "description": "Game Development Gemastik XVI is a National competition about Game Development by Ministry of Education, Culture, Research, and Technology held for about 2 months of development. This competition started from research, creating proposal, developing the game, video editing, scientific paper, copyright documents, and then pitch product presentation about the game.",
+    "img": "GemastikXVI.webp",
+    "icon": "uil uil-laptop"
   }
   
 ]
