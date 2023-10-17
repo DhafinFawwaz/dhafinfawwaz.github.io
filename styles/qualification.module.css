@@ -28,8 +28,14 @@
   transition: var(--transition-time) var(--ease-out-quart);
   
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 0.5rem;
 }
-
+.button__text {
+  transform: translateY(0.2rem);
+}
 
 
 
@@ -95,7 +101,6 @@
 
 .button.active {
   color: var(--first-color);
-  display: block;
 }
 
 .last {
@@ -121,6 +126,13 @@
 @media screen and (max-width: 350px) {
   .data {
     gap: .5rem;
+  }
+}
+
+/* education, work, organization button icon */
+@media screen and (max-width: 470px) {
+  .button {
+    flex-direction: column;
   }
 }
 

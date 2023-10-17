@@ -5,7 +5,7 @@ import qualification from '../json/qualification.json'
 import { useState } from 'react'
 
 export default function Qualification() {
-  const [active, setActive] = useState([styles.active, "", ""]);
+  const [active, setActive] = useState(["", styles.active, ""]);
   
 
   function onPageClick(clickedPage: number) {
@@ -87,15 +87,15 @@ export default function Qualification() {
       <div className={`${styles.tabs}`}>
 
         <div className={`${styles.button} ${active[0]}`} onClick={() => onPageClick(0)}>
-          <i className="uil uil-graduation-cap qualification__icon"></i> Education
+          <i className="uil uil-graduation-cap qualification__icon"></i><div className={`${styles.button__text}`}>Education</div>
         </div>
 
         <div className={`${styles.button} ${active[1]}`} onClick={() => onPageClick(1)}>
-          <i className="uil uil-briefcase qualification__icon"></i> Work
+          <i className="uil uil-briefcase qualification__icon"></i><div className={`${styles.button__text}`}>Work</div>
         </div>
 
         <div className={`${styles.button} ${active[2]}`} onClick={() => onPageClick(2)}>
-          <i className="uil uil-users-alt qualification__icon"></i> Organization
+          <i className="uil uil-users-alt qualification__icon"></i><div className={`${styles.button__text}`}>Organization</div>
         </div>
 
       </div>

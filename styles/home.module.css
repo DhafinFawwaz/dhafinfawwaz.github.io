@@ -62,6 +62,13 @@
   margin-bottom: var(--mb-0-5);
   margin-top: var(--mb-0-25);
 }
+.subsubtitle{
+  font-size: var(--h5-font-size);
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-5);
+  margin-top: var(--mb-0-25);
+}
 
 .description{
   margin-bottom: var(--mb-1);
