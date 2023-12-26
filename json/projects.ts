@@ -769,7 +769,7 @@ export const projects = [
     "id": 21,
     "title": "SiAbsen",
     "slug": "siabsen",
-    "thumbnail": "SiAbsen.webp",
+    "thumbnail": "siabsen.webp",
     "blurDataURL": bluedark,
     "tags": tags.filter(tag => 
       tag.slug==="web-dev"
@@ -788,7 +788,7 @@ export const projects = [
         "width": 134,
         "height": 288,
       },{
-        "img": "SiAbsen.webp",
+        "img": "siabsen.webp",
         "blurDataURL": bluedark,
         "width": 486,
         "height": 277,
