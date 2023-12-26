@@ -16,10 +16,6 @@ export class Tag {
   }
 }
 
-// export type ActiveTags = {
-//   isActive: boolean;
-//   id: number;
-// };
 export interface ActiveTags {
   isActive: boolean;
   id: number;
@@ -172,5 +168,11 @@ export const tags = [
   ),
   new Tag(42, "Cloudinary", "cloudinary", "#6638d9", "#ffffff",
     "https://api.iconify.design/logos/cloudinary-icon.svg"
-  )
+  ),
+  new Tag(43, "PostgreSQL", "postgresql", "#0d6eff", "#ffffff",
+    "https://api.iconify.design/skill-icons/postgresql-dark.svg"
+  ),
+  new Tag(44, "Supabase", "supabase", "#0d6eff", "#ffffff",
+    "https://api.iconify.design/skill-icons/supabase-dark.svg"
+  ),
 ]

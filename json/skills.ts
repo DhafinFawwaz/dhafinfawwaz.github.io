@@ -49,11 +49,13 @@ export const skills = [
       || tag.slug==="python"
       || tag.slug==="react"
       || tag.slug==="sqlite"
+      || tag.slug==="postgresql"
       || tag.slug==="typescript"
       || tag.slug==="vercel"
       || tag.slug==="sveltekit"
       || tag.slug==="mysql"
       || tag.slug==="planetscale"
+      || tag.slug==="supabase"
       || tag.slug==="cloudinary"
     )
   },{

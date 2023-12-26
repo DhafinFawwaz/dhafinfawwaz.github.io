@@ -687,6 +687,112 @@ export const projects = [
         "height": 179.78,
       }
     ]
+  },{
+    "id": 19,
+    "title": "Linear Equation System Matrix",
+    "slug": "linear-equation-system-matrix",
+    "thumbnail": "Linear Equation System Matrix.webp",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag => 
+      tag.slug==="desktop-dev"
+      || tag.slug==="java"
+    ),
+    "description": "A java program with GUI to implement things about Linear Equation System with Matrix in Linear Algebra. It contains implementation for many function such as Gauss Elimination, Gauss-jordan Elimination, Matrix Inverse with many method, Matrix Determinant, Cramer's rule, Polynomial Interpolation, Bicubic Interpolation, Multiple Linear Regression, and image enlargement with Interpolation. It's made with Java Swing for the GUI and a lot of things needs to be overiden to make it looks good. This project gets the highest score in my college year.",
+    "src": "https://github.com/ganadipa/Algeo01-22066",
+    "imageDetails": [
+      {
+        "img": "1.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "2.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "3.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "4.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }
+    ]
+  },{
+    "id": 20,
+    "title": "Ocular",
+    "slug": "ocular",
+    "thumbnail": "Ocular.webp",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag => 
+      tag.slug==="web-dev"
+      || tag.slug==="c"
+      || tag.slug==="typescript"
+      || tag.slug==="python"
+      || tag.slug==="next"
+      || tag.slug==="django"
+      || tag.slug==="tailwind"
+      || tag.slug==="sqlite"
+      || tag.slug==="react"
+    ),
+    "description": "Implementation of Linear Algebra in Content-Based Image Retrieval for reverse image search with a website. The frontend is made with Next.js and the backend is made with django and c. The c program is used to calculate the heavy image processing. It also uses caching and multiprocessing to speed up the whole process. It has some features such as searching based on texture, searching based on color, dataset upload, pdf export for search result, web scrapping, and automatic camera to capture image. This project gets the 2nd highest score in my college year.",
+    "src": "https://github.com/DhafinFawwaz/Algeo02-22043",
+    "imageDetails": [
+      {
+        "img": "1.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "2.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "3.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "4.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }
+    ]
+  },{
+    "id": 21,
+    "title": "SiAbsen",
+    "slug": "siabsen",
+    "thumbnail": "SiAbsen.webp",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag => 
+      tag.slug==="web-dev"
+      || tag.slug==="next"
+      || tag.slug==="react"
+      || tag.slug==="postgresql"
+      || tag.slug==="vercel"
+      || tag.slug==="firebase"
+    ),
+    "description": "Notification bot for attendance presence in my college. It's made because i oftenly forget to fill the attendance presence form. It's usefull for me and my friends.",
+    "src": "https://siabsen.vercel.app/",
+    "imageDetails": [
+      {
+        "img": "1.webp",
+        "blurDataURL": bluedark,
+        "width": 134,
+        "height": 288,
+      },{
+        "img": "siabsen.webp",
+        "blurDataURL": bluedark,
+        "width": 486,
+        "height": 277,
+      }
+    ]
   }
 ]
 
