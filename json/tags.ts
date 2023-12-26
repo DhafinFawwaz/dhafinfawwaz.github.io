@@ -175,4 +175,7 @@ export const tags = [
   new Tag(44, "Supabase", "supabase", "#0d6eff", "#ffffff",
     "https://api.iconify.design/skill-icons/supabase-dark.svg"
   ),
+  new Tag(45, "Vite", "vite", "#0d6eff", "#ffffff",
+    "https://api.iconify.design/skill-icons/vite-dark.svg"
+  ),
 ]

@@ -109,6 +109,7 @@ export const projects = [
       || tag.slug==="firebase"
       || tag.slug==="html"
       || tag.slug==="css"
+      || tag.slug==="vite"
     ),
     "description": "Fast paced tapping  game playable on browser. This is my first website and was built for learning web development. I decided to make a game for my first website because i already have some knowledge in game development before.",
     "src": "https://hexatap-47a94.web.app/",
@@ -787,7 +788,7 @@ export const projects = [
         "width": 134,
         "height": 288,
       },{
-        "img": "siabsen.webp",
+        "img": "SiAbsen.webp",
         "blurDataURL": bluedark,
         "width": 486,
         "height": 277,
