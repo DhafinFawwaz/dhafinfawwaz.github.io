@@ -779,7 +779,7 @@ export const projects = [
       || tag.slug==="vercel"
       || tag.slug==="firebase"
     ),
-    "description": "Notification bot for attendance presence in my college. It's made because i oftenly forget to fill the attendance presence form. It's usefull for me and my friends.",
+    "description": "Notification bot for attendance presence in my college. It's made because i oftenly forget to fill the attendance presence form. It's usefull for me and my friends. It's made with only free services which are vercel and inggest api.",
     "src": "https://siabsen.vercel.app/",
     "imageDetails": [
       {
