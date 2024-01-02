@@ -32,7 +32,7 @@ export const projects = [
       || tag.slug==="figma"
       || tag.slug==="tools"
     ),
-    "description": "A really useful tool to animate UI in Unity Engine. It was born because i'm tired of writing and tweaking UI animations manually. With this tool, you can create UI animation easily with no code. You can simply drag and drop to create some smooth UI animation. There are some option that you can set such as the easing, duration, etc. You can also see the preview, drag the progress bar and also see the progress bar of each individual sequence. You can also make a custom sequence for non UI component with UnityEvent including the dynamic one. Adding function to call at certain time or at the end of animation is also possible with code.",
+    "description": "A really useful tool to animate UI in Unity Engine. It was born because i'm tired of writing and tweaking UI animations manually. With this tool, you can create UI animation easily with no code. You can simply drag and drop to create some smooth UI animation. There are some option that you can set such as the easing, duration, etc. You can also see the preview, drag the progress bar and also see the progress bar of each individual sequence. You can also make a custom sequence for non UI component with UnityEvent including the dynamic one. Adding function to call at certain time or at the end of animation is also possible with code. Features:\n- Sequence for Animating values of RectTransform, Image, Camera, CanvasGroup, Transform, and Dynamic UnityEvent.\n- Sequence for instant method such as Set Active All Input, Play SFX, Wait before executing next \n- sequence, Set Active GameObject, Loading scene, and UnityEvent\n- Preview animation in edit mode with Progress bar both globally and in each sequence.\n- Reorderable sequences.\n- Addable function to call at the end of animation or at certain determined time.\n- Public variables for every sequence.\n- Custom ButtonUI as bonus.\n- Demo.\n- Others.",
     "src": "https://github.com/DhafinFawwaz/Unity-AnimationUI",
     "imageDetails": [
       {
@@ -199,31 +199,31 @@ export const projects = [
     ]
   },{
     "id": 5,
-    "title": "Portfolio",
-    "slug": "portfolio",
-    "thumbnail": "Portfolio.webp",
-    "blurDataURL": graydark,
+    "title": "SiAbsen",
+    "slug": "siabsen",
+    "thumbnail": "siabsen.webp",
+    "blurDataURL": bluedark,
     "tags": tags.filter(tag => 
       tag.slug==="web-dev"
       || tag.slug==="next"
-      || tag.slug==="typescript"
       || tag.slug==="react"
-      || tag.slug==="html"
-      || tag.slug==="css"
+      || tag.slug==="postgresql"
+      || tag.slug==="vercel"
+      || tag.slug==="firebase"
     ),
-    "description": "This website is made to showcase my works. An opportunity for an internship would be nice :). This website was created with Next js and react. It's currently not finished yet",
-    "src": "https://dhafinfawwaz.github.io/",
+    "description": "Notification bot for attendance presence in my college. It's made because i oftenly forget to fill the attendance presence form. It's usefull for me and my friends. It's made with only free services which are vercel and inggest api.",
+    "src": "https://siabsen.vercel.app/",
     "imageDetails": [
       {
-        "img": "Portfolio.webp",
-        "blurDataURL": graydark,
-        "width": 810.55,
-        "height": 379,
+        "img": "1.webp",
+        "blurDataURL": bluedark,
+        "width": 134,
+        "height": 288,
       },{
-        "img": "Preview Mobile.webp",
-        "blurDataURL": graylight,
-        "width": 211,
-        "height": 480,
+        "img": "siabsen.webp",
+        "blurDataURL": bluedark,
+        "width": 486,
+        "height": 277,
       }
     ]
   },{
@@ -255,34 +255,39 @@ export const projects = [
     ]
   },{
     "id": 7,
-    "title": "Ecommerce Book",
-    "slug": "ecommerce-book",
-    "thumbnail": "Ecommerce Book.webp",
-    "blurDataURL": blue,
+    "title": "VFX Mesh Generator",
+    "slug": "vfx-mesh-generator",
+    "thumbnail": "VFX Mesh Generator.webp",
+    "blurDataURL": graylight,
     "tags": tags.filter(tag => 
-      tag.slug==="web-dev"
-      || tag.slug==="django"
-      || tag.slug==="python"
-      || tag.slug==="javascript"
-      || tag.slug==="bootstrap"
-      || tag.slug==="html"
-      || tag.slug==="css"
-      || tag.slug==="sqlite"
-      || tag.slug==="heroku"
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="csharp"
+      || tag.slug==="tools"
     ),
-    "description": "A website created for an assignment of Introduction to Computation in Bandung Institute of Technology. It's created with Django and some help from javascript for the client side.",
-    "src": "https://github.com/DhafinFawwaz/Project-Book-Django",
+    "description": "As a technical artist, its really annoying having to switch to Blender to make an adjustment to a 3d mesh when making a VFX. It can generate mesh with many kinds of variation in a short time. There's also a bonus which is the debug texture to preview the uv coordinate of the mesh. Features:\n- Generate primitive uv mapped 3d mesh with controllable properties\n- Edit the mesh dynamically on runtime\n- Auto update mesh on editor\n- Flip normals\n- Save mesh\n- Bonus utilites for debugging like debug texture",
+    "src": "https://github.com/DhafinFawwaz/Unity-VFX-Mesh-Generator",
     "imageDetails": [
       {
-        "img": "Ecommerce Book.webp",
-        "blurDataURL": blue,
-        "width": 468.19,
-        "height": 251.19,
+        "img": "1.webp",
+        "blurDataURL": graylight,
+        "width": 319.6,
+        "height": 179.78,
       },{
-        "img": "Preview Mobile.webp",
-        "blurDataURL": blue,
-        "width": 171.01,
-        "height": 251.19,
+        "img": "2.webp",
+        "blurDataURL": graylight,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "3.webp",
+        "blurDataURL": graylight,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "4.webp",
+        "blurDataURL": graylight,
+        "width": 319.6,
+        "height": 179.78,
       }
     ]
   },{
@@ -767,31 +772,90 @@ export const projects = [
     ]
   },{
     "id": 21,
-    "title": "SiAbsen",
-    "slug": "siabsen",
-    "thumbnail": "siabsen.webp",
-    "blurDataURL": bluedark,
+    "title": "Portfolio",
+    "slug": "portfolio",
+    "thumbnail": "Portfolio.webp",
+    "blurDataURL": graydark,
     "tags": tags.filter(tag => 
       tag.slug==="web-dev"
       || tag.slug==="next"
+      || tag.slug==="typescript"
       || tag.slug==="react"
-      || tag.slug==="postgresql"
-      || tag.slug==="vercel"
-      || tag.slug==="firebase"
+      || tag.slug==="html"
+      || tag.slug==="css"
     ),
-    "description": "Notification bot for attendance presence in my college. It's made because i oftenly forget to fill the attendance presence form. It's usefull for me and my friends. It's made with only free services which are vercel and inggest api.",
-    "src": "https://siabsen.vercel.app/",
+    "description": "This website is made to showcase my works. An opportunity for an internship would be nice :). This website was created with Next js and react. It's currently not finished yet",
+    "src": "https://dhafinfawwaz.github.io/",
+    "imageDetails": [
+      {
+        "img": "Portfolio.webp",
+        "blurDataURL": graydark,
+        "width": 810.55,
+        "height": 379,
+      },{
+        "img": "Preview Mobile.webp",
+        "blurDataURL": graylight,
+        "width": 211,
+        "height": 480,
+      }
+    ]
+  },{
+    "id": 22,
+    "title": "Ecommerce Book",
+    "slug": "ecommerce-book",
+    "thumbnail": "Ecommerce Book.webp",
+    "blurDataURL": blue,
+    "tags": tags.filter(tag => 
+      tag.slug==="web-dev"
+      || tag.slug==="django"
+      || tag.slug==="python"
+      || tag.slug==="javascript"
+      || tag.slug==="bootstrap"
+      || tag.slug==="html"
+      || tag.slug==="css"
+      || tag.slug==="sqlite"
+      || tag.slug==="heroku"
+    ),
+    "description": "A website created for an assignment of Introduction to Computation in Bandung Institute of Technology. It's created with Django and some help from javascript for the client side.",
+    "src": "https://github.com/DhafinFawwaz/Project-Book-Django",
+    "imageDetails": [
+      {
+        "img": "Ecommerce Book.webp",
+        "blurDataURL": blue,
+        "width": 468.19,
+        "height": 251.19,
+      },{
+        "img": "Preview Mobile.webp",
+        "blurDataURL": blue,
+        "width": 171.01,
+        "height": 251.19,
+      }
+    ]
+  },{
+    "id": 23,
+    "title": "Reusable Finite State Machine with Editor",
+    "slug": "reusable-finite-state-machine-with-editor",
+    "thumbnail": "Reusable Finite State Machine with Editor.webp",
+    "blurDataURL": graylight,
+    "tags": tags.filter(tag => 
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="csharp"
+      || tag.slug==="tools"
+    ),
+    "description": "Implementation of state design pattern in Object Oriented Programming with reusable base class for the state machine and includes the editor to make creating and updating state easier. Features:\n- Reusable base class for state machine\n- Can add custom function that can be overriden on any state, for example the OnHurt one.\n- An editor to view what are the states and to create a new state including automaticallyit in \n- the states (the U of Core<T,U>)\n- Bonus feature for a good implementation for HitRequest and HitResult",
+    "src": "https://github.com/DhafinFawwaz/Unity-Reusable-Finite-State-Machine-With-Editor",
     "imageDetails": [
       {
         "img": "1.webp",
-        "blurDataURL": bluedark,
-        "width": 134,
-        "height": 288,
+        "blurDataURL": graylight,
+        "width": 300,
+        "height": 179.78,
       },{
-        "img": "siabsen.webp",
-        "blurDataURL": bluedark,
-        "width": 486,
-        "height": 277,
+        "img": "2.webp",
+        "blurDataURL": graylight,
+        "width": 335,
+        "height": 179.78,
       }
     ]
   }
