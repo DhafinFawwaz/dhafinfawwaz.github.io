@@ -50,7 +50,7 @@ export const tags = [
     "https://download.blender.org/branding/community/blender_community_badge_white.svg"
   ),
   new Tag(3, "Bootstrap", "bootstrap", "#920dff", "#ffffff",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+    "https://api.iconify.design/skill-icons/bootstrap.svg"
   ),
   new Tag(4, "C", "c", "#0412b5", "#ffffff",
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
@@ -86,7 +86,7 @@ export const tags = [
     "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
   ),
   new Tag(15, "Flask", "flask", "#ff0a2f", "#ffffff",
-    "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
+    "https://api.iconify.design/skill-icons/flask-light.svg"
   ),
   new Tag(16, "Flutter", "flutter", "#0ab1ff", "#ffffff",
     "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg"
@@ -152,7 +152,7 @@ export const tags = [
     "https://api.iconify.design/skill-icons/unity-dark.svg"
   ),
   new Tag(37, "Vercel", "vercel", "#4413ad", "#ffffff",
-    "https://api.iconify.design/logos/vercel-icon.svg"
+    "https://api.iconify.design/skill-icons/vercel-light.svg"
   ),
   new Tag(38, "HLSL", "hlsl", "#1323ad", "#ffffff",
     "https://api.iconify.design/vscode-icons/file-type-hlsl.svg"
@@ -164,7 +164,7 @@ export const tags = [
     "https://api.iconify.design/skill-icons/mysql-dark.svg"
   ),
   new Tag(41, "PlanetScale", "planetscale", "#2b2b2b", "#ffffff",
-    "https://api.iconify.design/logos/planetscale.svg"
+    "https://api.iconify.design/skill-icons/planetscale-light.svg"
   ),
   new Tag(42, "Cloudinary", "cloudinary", "#6638d9", "#ffffff",
     "https://api.iconify.design/logos/cloudinary-icon.svg"
@@ -178,4 +178,18 @@ export const tags = [
   new Tag(45, "Vite", "vite", "#0d6eff", "#ffffff",
     "https://api.iconify.design/skill-icons/vite-dark.svg"
   ),
+  new Tag(46, "Go", "go", "#00acd7", "#ffffff",
+    "https://api.iconify.design/skill-icons/golang.svg"
+  ),
+  new Tag(47, "Fiber", "fiber", "#00acd7", "#ffffff",
+    "https://docs.gofiber.io/img/logo-dark.svg"
+  ),
+  new Tag(48, "Laravel", "laravel", "#ff2d20", "#ffffff",
+    "https://api.iconify.design/skill-icons/laravel-dark.svg"
+  ),
+  new Tag(49, "PHP", "php", "#242938", "#ffffff",
+    "https://api.iconify.design/skill-icons/php-dark.svg"
+  ),
+  
+  
 ]

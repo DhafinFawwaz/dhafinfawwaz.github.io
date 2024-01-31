@@ -57,6 +57,11 @@ export const skills = [
       || tag.slug==="planetscale"
       || tag.slug==="supabase"
       || tag.slug==="cloudinary"
+      || tag.slug==="vite"
+      || tag.slug==="go"
+      || tag.slug==="fiber"
+      || tag.slug==="laravel"
+      || tag.slug==="php"
     )
   },{
     "devType": tags.filter(tag => tag.slug==="desktop-dev")[0],

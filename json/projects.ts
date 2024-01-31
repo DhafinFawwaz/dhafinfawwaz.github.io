@@ -858,6 +858,43 @@ export const projects = [
         "height": 179.78,
       }
     ]
+  },{
+    "id": 24,
+    "title": "Auth with Many Frameworks",
+    "slug": "auth-with-many-frameworks",
+    "thumbnail": "Auth with Multiple Frameworks.webp",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag => 
+      tag.slug==="web-dev"
+      || tag.slug==="tailwind"
+      || tag.slug==="typescript"
+      || tag.slug==="next"
+      || tag.slug==="node"
+      || tag.slug==="express"
+      || tag.slug==="javascript"
+      || tag.slug==="python"
+      || tag.slug==="django"
+      || tag.slug==="go"
+      || tag.slug==="fiber"
+      || tag.slug==="php"
+      || tag.slug==="laravel"
+      || tag.slug==="supabase"
+    ),
+    "description": "Implementation of Authentication with Next js and Next Auth as frontend and multiple backend frameworks. It implements the best way to block access to certain page, and redirect the user. It also block access to certain api endpoints if the user is not authenticated.",
+    "src": "https://github.com/DhafinFawwaz/Auth-With-Many-Frameworks",
+    "imageDetails": [
+      {
+        "img": "1.webp",
+        "blurDataURL": graylight,
+        "width": 300,
+        "height": 179.78,
+      },{
+        "img": "Auth with Multiple Frameworks.webp",
+        "blurDataURL": graylight,
+        "width": 335,
+        "height": 179.78,
+      }
+    ]
   }
 ]
 
