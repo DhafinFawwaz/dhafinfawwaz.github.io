@@ -895,6 +895,33 @@ export const projects = [
         "height": 179.78,
       }
     ]
+  },{
+    "id": 25,
+    "title": "HitBox System with Editor",
+    "slug": "hitbox-system-with-editor",
+    "thumbnail": "HitBox System with Editor.webp",
+    "blurDataURL": graylight,
+    "tags": tags.filter(tag => 
+      tag.slug==="game-dev"
+      || tag.slug==="unity"
+      || tag.slug==="csharp"
+      || tag.slug==="tools"
+    ),
+    "description": "A flexible Hitbox system with its visualization and easy edit when animating. It uses the built in 2d Collider which makes it easily customizable. It supports circle and rectangle hitbox. It's already tested and has guaranteed hit on every frame, doesn't matter the framerate, as long as its using the physics update like using animate physics in animator. Features: \n- Easily edit hitbox when using animator. \n- Has HitboxCaster and HitboxReceiver. These can be customized with using layer and collision matrix to make custom things lika shield or guard. \n- Visualization with color when certain hitbox is collided. \n- Guaranteed to hit a certain hitbox only once, then reset when the HitboxCaster is disabled.",
+    "src": "https://github.com/DhafinFawwaz/2D-HitBox-System-with-Editor",
+    "imageDetails": [
+      {
+        "img": "HitBox System with Editor.webp",
+        "blurDataURL": graylight,
+        "width": 300,
+        "height": 179.78,
+      },{
+        "img": "2.webp",
+        "blurDataURL": graylight,
+        "width": 335,
+        "height": 179.78,
+      }
+    ]
   }
 ]
 
