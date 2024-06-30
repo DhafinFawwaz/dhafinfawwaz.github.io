@@ -1062,7 +1062,7 @@ export const projects = [
     "thumbnail": "oslahpokoknya.png",
     "blurDataURL": bluedark,
     "tags": tags.filter(tag =>
-      tag.slug === "desktop-dev"
+      tag.slug === "os-dev"
       || tag.slug === "c"
       || tag.slug === "assembly"
       || tag.slug === "qemu"
