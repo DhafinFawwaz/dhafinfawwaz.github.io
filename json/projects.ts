@@ -997,6 +997,45 @@ export const projects = [
         "height": 179.78,
       }
     ]
+  }, {
+    "id": 28,
+    "title": "WikiRace Solver",
+    "slug": "wikirace-solver",
+    "thumbnail": "wikirace-solver.webp",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag =>
+      tag.slug === "web-dev"
+      || tag.slug === "javascript"
+      || tag.slug === "tailwind"
+      || tag.slug === "pixi"
+      || tag.slug === "go"
+      || tag.slug === "fiber"
+    ),
+    "description": "Solve Wikirace with web scrapping, multithreading, and implementation of Breadth First Search Algorithm and Iterative Deepening Search Algorithm. It's made with Go Fiber for the backend and Pixi.js for the frontend.",
+    "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
+    "imageDetails": [
+      {
+        "img": "1.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }, {
+        "img": "2.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }, {
+        "img": "3.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }, {
+        "img": "4.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }
+    ]
   },
 ]
 
