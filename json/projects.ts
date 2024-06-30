@@ -960,7 +960,44 @@ export const projects = [
         "height": 179.78,
       }
     ]
-  }
+  }, {
+    "id": 27,
+    "title": "Le Mari",
+    "slug": "le-mari",
+    "thumbnail": "le-mari.webp",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag =>
+      tag.slug === "desktop-dev"
+      || tag.slug === "python"
+      || tag.slug === "flet"
+      || tag.slug === "ci-cd"
+    ),
+    "description": "An app to manage your outfit.",
+    "src": "https://github.com/DhafinFawwaz/LeMari",
+    "imageDetails": [
+      {
+        "img": "4.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }, {
+        "img": "5.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }, {
+        "img": "2.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }, {
+        "img": "1.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }
+    ]
+  },
 ]
 
 export interface Project {

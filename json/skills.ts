@@ -72,6 +72,7 @@ export const skills = [
       || tag.slug==="dotnet"
       || tag.slug==="python"
       || tag.slug==="unity"
+      || tag.slug==="flet"
     )
   },{
     "devType": tags.filter(tag => tag.slug==="other")[0],

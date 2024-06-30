@@ -190,6 +190,9 @@ export const tags = [
   new Tag(49, "PHP", "php", "#242938", "#ffffff",
     "https://api.iconify.design/skill-icons/php-dark.svg"
   ),
+  new Tag(50, "Flet", "flet", "#EE3167", "#ffffff",
+    "https://flet.dev/img/logo.svg"
+  ),
   
   
 ]
