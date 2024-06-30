@@ -27,6 +27,7 @@ export const skills = [
       || tag.slug==="firebase"
       || tag.slug==="javascript"
       || tag.slug==="pixi"
+      || tag.slug==="phaser"
     )
   },{
     "devType": tags.filter(tag => tag.slug==="web-dev")[0],

@@ -971,6 +971,7 @@ export const projects = [
       || tag.slug === "python"
       || tag.slug === "flet"
       || tag.slug === "ci-cd"
+      || tag.slug === "sqlite"
     ),
     "description": "An app to manage your outfit.",
     "src": "https://github.com/DhafinFawwaz/LeMari",
