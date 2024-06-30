@@ -1036,6 +1036,27 @@ export const projects = [
         "height": 179.78,
       }
     ]
+  }, {
+    "id": 29,
+    "title": "Breach Protocol Solver",
+    "slug": "breach-protocol-solver",
+    "thumbnail": "breach-protocol-solver.webp",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag =>
+      tag.slug === "desktop-dev"
+      || tag.slug === "python"
+      || tag.slug === "qt"
+    ),
+    "description": "Cyberpunk 2077 Breach Protocol solver made in Python with implementation of the Brute Force Algorithm.",
+    "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
+    "imageDetails": [
+      {
+        "img": "breach-protocol-solver.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },
+    ]
   },
 ]
 
