@@ -62,6 +62,7 @@ export const skills = [
       || tag.slug==="fiber"
       || tag.slug==="laravel"
       || tag.slug==="php"
+      || tag.slug==="docker"
     )
   },{
     "devType": tags.filter(tag => tag.slug==="desktop-dev")[0],
@@ -73,6 +74,13 @@ export const skills = [
       || tag.slug==="python"
       || tag.slug==="unity"
       || tag.slug==="flet"
+    )
+  },{
+    "devType": tags.filter(tag => tag.slug==="os-dev")[0],
+    "tools": tags.filter(tag => 
+      tag.slug==="c"
+      || tag.slug==="assembly"
+      || tag.slug==="qemu"
     )
   },{
     "devType": tags.filter(tag => tag.slug==="other")[0],

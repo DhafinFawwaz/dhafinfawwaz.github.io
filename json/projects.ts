@@ -998,6 +998,100 @@ export const projects = [
       }
     ]
   }, {
+    "id": 31,
+    "title": "Farmer Rancher Mayor Simulator",
+    "slug": "farmer-rancher-mayor-simulator",
+    "thumbnail": "farmer-rancher-mayor-simulator.webp",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag =>
+      tag.slug === "desktop-dev"
+      || tag.slug === "c++"
+      || tag.slug === "qt"
+    ),
+    "description": "A game written in c++ and qt about Farmer, Rancher & Mayor Simulator",
+    "src": "https://github.com/DhafinFawwaz/Tubes-OOP-1",
+    "imageDetails": [
+      {
+        "img": "1.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "2.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "3.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "4.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },
+    ]
+  }, {
+    "id": 29,
+    "title": "Breach Protocol Solver",
+    "slug": "breach-protocol-solver",
+    "thumbnail": "breach-protocol-solver.webp",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag =>
+      tag.slug === "desktop-dev"
+      || tag.slug === "python"
+      || tag.slug === "qt"
+    ),
+    "description": "Cyberpunk 2077 Breach Protocol solver made in Python with implementation of the Brute Force Algorithm.",
+    "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
+    "imageDetails": [
+      {
+        "img": "breach-protocol-solver.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      },
+    ]
+  }, {
+    "id": 30,
+    "title": "OSLahPokoknya",
+    "slug": "oslahpokoknya",
+    "thumbnail": "oslahpokoknya.png",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag =>
+      tag.slug === "desktop-dev"
+      || tag.slug === "c"
+      || tag.slug === "assembly"
+      || tag.slug === "qemu"
+    ),
+    "description": "A really cool Operating System made with C and Assembly",
+    "src": "https://github.com/DhafinFawwaz/OsLahPokoknya",
+    "imageDetails": [
+      {
+        "img": "1.png",
+        "blurDataURL": graydark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "2.png",
+        "blurDataURL": graydark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "3.png",
+        "blurDataURL": graydark,
+        "width": 319.6,
+        "height": 179.78,
+      },{
+        "img": "4.png",
+        "blurDataURL": graydark,
+        "width": 319.6,
+        "height": 179.78,
+      },
+    ]
+  }, {
     "id": 28,
     "title": "WikiRace Solver",
     "slug": "wikirace-solver",
@@ -1010,6 +1104,7 @@ export const projects = [
       || tag.slug === "pixi"
       || tag.slug === "go"
       || tag.slug === "fiber"
+      || tag.slug === "docker"
     ),
     "description": "Solve Wikirace with web scrapping, multithreading, and implementation of Breadth First Search Algorithm and Iterative Deepening Search Algorithm. It's made with Go Fiber for the backend and Pixi.js for the frontend.",
     "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
@@ -1035,27 +1130,6 @@ export const projects = [
         "width": 319.6,
         "height": 179.78,
       }
-    ]
-  }, {
-    "id": 29,
-    "title": "Breach Protocol Solver",
-    "slug": "breach-protocol-solver",
-    "thumbnail": "breach-protocol-solver.webp",
-    "blurDataURL": bluedark,
-    "tags": tags.filter(tag =>
-      tag.slug === "desktop-dev"
-      || tag.slug === "python"
-      || tag.slug === "qt"
-    ),
-    "description": "Cyberpunk 2077 Breach Protocol solver made in Python with implementation of the Brute Force Algorithm.",
-    "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
-    "imageDetails": [
-      {
-        "img": "breach-protocol-solver.webp",
-        "blurDataURL": bluedark,
-        "width": 319.6,
-        "height": 179.78,
-      },
     ]
   },
 ]
