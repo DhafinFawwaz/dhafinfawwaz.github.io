@@ -2,22 +2,6 @@ import { tags } from "./tags";
 
 export const skills = [
   {
-    "devType": tags.filter(tag => tag.slug==="mobile-dev")[0],
-    "tools": tags.filter(tag => 
-      tag.slug==="android" 
-      || tag.slug==="c"
-      || tag.slug==="cplusplus"
-      || tag.slug==="csharp"
-      || tag.slug==="dart"
-      || tag.slug==="firebase"
-      || tag.slug==="flutter"
-      || tag.slug==="java"
-      || tag.slug==="kotlin"
-      || tag.slug==="node"
-      || tag.slug==="qt"
-      || tag.slug==="unity"
-    )
-  },{
     "devType": tags.filter(tag => tag.slug==="game-dev")[0],
     "tools": tags.filter(tag => 
       tag.slug==="android"
@@ -64,6 +48,22 @@ export const skills = [
       || tag.slug==="laravel"
       || tag.slug==="php"
       || tag.slug==="docker"
+    )
+  },{
+    "devType": tags.filter(tag => tag.slug==="mobile-dev")[0],
+    "tools": tags.filter(tag => 
+      tag.slug==="android" 
+      || tag.slug==="c"
+      || tag.slug==="cplusplus"
+      || tag.slug==="csharp"
+      || tag.slug==="dart"
+      || tag.slug==="firebase"
+      || tag.slug==="flutter"
+      || tag.slug==="java"
+      || tag.slug==="kotlin"
+      || tag.slug==="node"
+      || tag.slug==="qt"
+      || tag.slug==="unity"
     )
   },{
     "devType": tags.filter(tag => tag.slug==="desktop-dev")[0],
