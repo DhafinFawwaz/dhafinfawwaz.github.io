@@ -85,24 +85,31 @@
     {
       "id": 0,
       "title": "BAKMISS",
-      "subtitle": "Leader of Science and Technology",
+      "subtitle": "Head of Science and Technology",
       "date": "2020 - 2021",
       "target": "_blank",
       "src": "https://www.google.com/search?q=BAKMISS smansa"
     },{
       "id": 1,
       "title": "GIM ITB",
-      "subtitle": "Leader of New Member Admission",
+      "subtitle": "Head of New Member Admission",
       "date": "2023 - 2024",
       "target": "_blank",
       "src": "https://www.google.com/search?q=GIM ITB"
     },{
       "id": 2,
       "title": "GIM ITB",
-      "subtitle": "Vice Leader of Research and Development",
+      "subtitle": "Vice Chairman of Research and Development",
       "date": "2023 - 2024",
       "target": "_blank",
       "src": "https://www.google.com/search?q=GIM ITB"
+    },{
+      "id": 3,
+      "title": "HMIF Pra-Gemastik ITB 2024",
+      "subtitle": "Head of Gamedev Committee of Pra-Gemastik ITB 2024 in Himpunan Mahasiswa Teknik Informatika (HMIF)",
+      "date": "2024 - 2024",
+      "target": "_blank",
+      "src": "https://www.google.com/search?q=Pra Gemastik ITB"
     }
   ]
 }

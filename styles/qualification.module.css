@@ -66,6 +66,7 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-25);
+  line-height: 1rem;
 }
 
 .subtitle {
@@ -73,6 +74,7 @@
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-0-75);
   color: var(--text-color-light);
+  line-height: 0.95rem;
 }
 
 .calendar {
