@@ -208,6 +208,9 @@ export const tags = [
   new Tag(54, "Phaser", "phaser", "#1467db", "#ffffff",
     "https://cdn.phaser.io/images/logo/phaser-planet-small.png  "
   ),
+  new Tag(55, "Nginx", "nginx", "#009900", "#ffffff",
+    "https://api.iconify.design/skill-icons/nginx.svg  "
+  ),
   
   
 ]

@@ -1131,6 +1131,46 @@ export const projects = [
         "height": 179.78,
       }
     ]
+  }, {
+    "id": 32,
+    "title": "Film Store",
+    "slug": "film-store",
+    "thumbnail": "details_lg.webp",
+    "blurDataURL": bluedark,
+    "tags": tags.filter(tag =>
+      tag.slug === "web-dev"
+      || tag.slug === "django"
+      || tag.slug === "docker"
+      || tag.slug === "nginx"
+      || tag.slug === "python"
+      || tag.slug === "tailwind"
+      || tag.slug === "javascript"
+    ),
+    "description": "Website about buying movie. It implements things like database, file storage, authentication, caching, polling, static file serving, automated end to end testing, deployment, and many more.",
+    "src": "https://github.com/DhafinFawwaz/Film-Store",
+    "imageDetails": [
+      {
+        "img": "explore_lg.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }, {
+        "img": "details2_lg.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }, {
+        "img": "review_lg.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }, {
+        "img": "register_lg.webp",
+        "blurDataURL": bluedark,
+        "width": 319.6,
+        "height": 179.78,
+      }
+    ]
   },
 ]
 

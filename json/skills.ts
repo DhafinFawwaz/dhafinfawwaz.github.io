@@ -48,6 +48,7 @@ export const skills = [
       || tag.slug==="laravel"
       || tag.slug==="php"
       || tag.slug==="docker"
+      || tag.slug==="nginx"
     )
   },{
     "devType": tags.filter(tag => tag.slug==="mobile-dev")[0],
