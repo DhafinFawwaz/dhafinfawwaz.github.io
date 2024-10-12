@@ -1,7 +1,7 @@
 import ProjectsJson from "@/data/projects.json";
 import tagsJsonImported from "@/data/tags.json";
 import { Project, Tag } from "@/types/type";
-import ProjectCard from "@/components/ProjectCard";
+import ProjectCard from "@/components/projectcard";
 
 const tagsMap: {[key: string]: Tag} = tagsJsonImported;
 

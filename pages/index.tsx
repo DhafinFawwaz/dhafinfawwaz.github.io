@@ -1,10 +1,10 @@
 import Head from "next/head";
-import ProfilePage from "@/components/Profile";
-import SkillPage from "@/components/Skills";
+import ProfilePage from "@/components/profile";
+import SkillPage from "@/components/skills";
 import Qualification from "@/components/qualification";
 import AchievementPage from "@/components/achievement";
 import ProjectPage from "@/components/projects";
-import ContactPage from "@/components/Contact";
+import ContactPage from "@/components/contact";
 
 export default function Home() {
   return (<>
