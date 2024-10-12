@@ -170,7 +170,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
 
             </div>
             
-            <div className="w-full mt-2">
+            <div className="w-full mt-2 mb-4">
                 <p className="text-md font-normal text-justify">{project.description}</p>
             </div>
 
