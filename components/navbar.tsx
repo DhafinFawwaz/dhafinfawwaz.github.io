@@ -1,110 +1,56 @@
-import styles from '../styles/navbar.module.css'
-import Link from 'next/link'
-import Image from 'next/image'
-import menus from "../json/navbar.json"
-import { useState } from 'react'
-import { useEffect } from 'react'
+import navbarJson from '@/data/navbar.json';
+import Link from 'next/link';
+import { NavbarItem } from '@/types/type';
 
+const navbarMap: {[key: string]: NavbarItem} = navbarJson;
 
-export default function Navbar() {
-  const [active, setActive] = useState<string>(styles.inactive);
-  const [darkTheme, setDarkTheme] = useState<string>("moon");
-  const [showScroll, setShowScroll] = useState<string>(styles.scroll__hidden);
-
-  function onMenuClick(){
-    setActive((isActive: string) => {
-      if(isActive === styles.inactive)return styles.active;
-      return styles.inactive;
-    })
-  }
-
-  function onThemeClick(){
-    setDarkTheme((isDarkTheme: string) => {
-      if(isDarkTheme === "moon")
-      {
-        document.body.classList.remove('dark-theme');
-        document.body.classList.add('light-theme');
-        return "sun";
-      }
-      else
-      {
-        document.body.classList.add('dark-theme');
-        document.body.classList.remove('light-theme');
-        return "moon";
-      }
-    })
-  }
-
-  useEffect(function onFirstMount() {
-    let isHidden:Boolean = false;
-    function onScroll(){
-      if(window.scrollY >= 80){
-        if(isHidden)return;
-        isHidden = true;
-        setShowScroll(styles.scroll__hidden);
-      }
-      else{
-        if(!isHidden)return;
-        isHidden = false;
-        setShowScroll(styles.scroll__show);
-      }
-    }
-    window.addEventListener("scroll", onScroll);
-  }, []);
-
-
-  return (
-  <>
-    <header className={styles.header} id="header">
-      <nav className={`${styles.nav} container`}>
-        <Link scroll={false} href="/#home" className={styles.logo}>
-          <div className={styles.link}>
-            Dhafin
-          </div>
-        </Link>
-
-        <div className={`${styles.menu} ${active}`} id="nav-menu">
-          <div className={`${styles.list} grid`}>
-            {menus.map((menu, index) => (
-                <Link scroll={false} href={menu.href} className={styles.item} key={index}>
-                  <div className={styles.link}>
-                    <i className={`${menu.icon} ${styles.icon}`}></i>
-                    <div className={styles.icon__title}>{menu.title}</div>
-                  </div>
-                </Link>
-              )
-            )}
-          </div>
+export default function NavbarPage() {
+    return <nav className="bg-night-900 fixed flex justify-center z-50 drop-shadow-sm w-full">
+    <div className="hidden sm:flex py-2 w-full justify-between max-w-4xl px-6">
+        <div className="flex gap-2">
+            <a href="/#profile" className="nav-button">
+                <img src="/favicon.ico" className="h-4 mt-1 scale-125" alt=""/>
+                Dhafin
+            </a>
         </div>
-
-        <div className={styles.btns}>
-
-          <div className={styles.theme} onClick={onThemeClick}>
-            <div>
-              <i className={`uil uil-${darkTheme} change-theme`} id="theme-button"></i>
-            </div>
-          </div>
-
-
-          <div className={styles.toggle} id="nav-toggle" onClick={onMenuClick}>
-            <div>
-              <i className={`uil uil-apps`}></i>
-            </div>
-          </div>
-
+        <div className="flex gap-2">
+            {Object.keys(navbarMap).map((key, index) => {
+                return <a key={index} href={`/#${key}`} className="nav-button">
+                <img src={navbarMap[key].img} alt={navbarMap[key].title} className='mt-1 max-h-4'/>{navbarMap[key].title}
+                </a>
+            })}
+            <Link href={"/tag"} className="nav-button">
+                <img src={"https://api.iconify.design/mdi/tag.svg?color=%23ffffff"} alt={"tag"} className='mt-1'/>Tag
+            </Link>
         </div>
-
-      </nav>
-
-    </header>
-
-    <div className={`${styles.scroll} ${showScroll}`}>
-      <a href="#qualification" className={`${styles.scroll__button} button--flex`}>
-        <i className="uil uil-mouse"></i>
-        <span className={styles.scroll__title}>&nbsp;Scroll down</span>
-        <i className={`uil uil-arrow-down ${styles.scroll__arrow}`}></i>
-      </a>
     </div>
-  </>
-  )
+
+    <input type="checkbox" id="nav-toggle" className="hidden peer" />
+    <div className="sm:hidden flex justify-between p-2 w-full">
+        <a href="/#profile" className="nav-button">
+            <img src="/favicon.ico" className="h-4 mt-1" alt=""/>
+            Dhafin
+        </a>
+        <label htmlFor="nav-toggle" className="cursor-pointer flex justify-center w-9 p-2 hover:bg-night-800 hover:shadow-rim-sm active:bg-indigo-600 rounded-lg">
+            <img src="https://api.iconify.design/tabler/menu-2.svg?color=%23ffffff" alt="menu-icon"/>
+        </label>
+    </div>
+
+    
+    <div className="invisible sm:invisible fixed right-0 mt-14 mr-2 flex peer-checked:visible scale-50 peer-checked:scale-100 duration-150 ease-out-expo origin-top-right opacity-0 peer-checked:opacity-100 shadow-rim-sm rounded-xl bg-night-900 drop-shadow-md">
+        <div className="flex flex-col p-2">
+            <a href={`/`} className="nav-button">
+                <img src={"/favicon.ico"} alt="Dhafin Favicon" className='mt-1 max-h-4'/>Dhafin
+            </a>
+            {Object.keys(navbarMap).map((key, index) => {
+                return <a key={index} href={`/#${key}`} className="nav-button">
+                <img src={navbarMap[key].img} alt={navbarMap[key].title} className='mt-1 max-h-4'/>{navbarMap[key].title}
+                </a>
+            })}
+            <Link href={"/tag"} className="nav-button">
+                <img src={"https://api.iconify.design/mdi/tag.svg?color=%23ffffff"} alt={"tag"} className='mt-1'/>Tag
+            </Link>
+        </div>
+    </div>
+</nav>
 }

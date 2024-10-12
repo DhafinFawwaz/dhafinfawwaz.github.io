@@ -1,96 +1,138 @@
-import styles from '../styles/tag.module.css'
-import Head from 'next/head'
-import Link from 'next/link'
-import Projects from '../components/projects'
-import { tags, ActiveTags } from '../json/tags'
-import React, { useEffect, useState } from 'react'
-import { useRouter } from 'next/router'
+import Image from "next/image";
+import Head from "next/head";
+import NavbarPage from "@/components/Navbar";
 
-export default function ProjectByTag() {
-  const router = useRouter();
-  const selectedTagSlug = router.query.tag; //selecting tag from projects
-  
-  
-  let initialActive:ActiveTags[] = []
-  tags.forEach(tag => initialActive.push({isActive:false, id:tag.id}))
-  const [active, setActive] = useState<ActiveTags[]>(initialActive);
+import ProjectsJson from "@/data/projects.json";
+import tagsJsonImported from "@/data/tags.json";
+import { Project, Tag } from "@/types/type";
+import ProjectCard from "@/components/ProjectCard";
+import { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
+
+const tagsMap: {[key: string]: Tag} = tagsJsonImported;
+const ProjectsList: Project[] = ProjectsJson;
+
+export default function TagPage() {
+
+    const [activeTag, setActiveTag] = useState<{[key: string]: boolean}>({});
+
+    // handle clicking tag from project section in home
+    useEffect(() => {
+        const searchParams = new URLSearchParams(window.location.search);
+        const tag = searchParams.getAll('tag');
+        let newActiveTag: {[key: string]: boolean} = {};
+        for(let i = 0; i < tag.length; i++){
+            newActiveTag[tag[i]] = true;
+        }
+        setActiveTag(newActiveTag);
+    }, [])
+
+    function refreshUrl(activeTag: {[key: string]: boolean}) {
+        let newUrl = "/tag?";
+        for(let tag in activeTag){
+            if(activeTag[tag])
+                newUrl += "tag=" + tag + "&";
+        }
+        newUrl = newUrl.slice(0, newUrl.length - 1);
+        window.history.pushState({}, "", newUrl);
+    }
+        
+
+    function toggleTag(tag: string) {
+        const newActiveTag = {...activeTag, [tag]: !activeTag[tag]};
+        setActiveTag(newActiveTag);
+        refreshUrl(newActiveTag);
+    }
+    function enableTag(tag: string) {
+        const newActiveTag = {...activeTag, [tag]: true};
+        setActiveTag(newActiveTag);
+        refreshUrl(newActiveTag);
+    }
+    function disableTag(tag: string) {
+        const newActiveTag = {...activeTag, [tag]: false};
+        setActiveTag(newActiveTag);
+        refreshUrl(newActiveTag);
+    }
+
+    function disableAllTag() {
+        let newActiveTag: {[key: string]: boolean} = {};
+        for(let tag in activeTag){
+            newActiveTag[tag] = false;
+        }
+        setActiveTag(newActiveTag);
+        refreshUrl(newActiveTag);
+    }
+
+    function renderAllProjects() {
+        return ProjectsList.map((item, index) => {
+            return <ProjectCard activeTag={activeTag} onTagClicked={(tag) => toggleTag(tag.slug!)} key={index} project={item} tags={item.tags.map(tag => {
+                return {
+                        name: tagsMap[tag].name,
+                        color: tagsMap[tag].color, 
+                        icon: tagsMap[tag].icon, 
+                        slug: tag
+                    }
+                }
+            )}></ProjectCard>
+        });
+    }
+    function renderTaggedProjects() {
+        let result: JSX.Element[] = [];
+
+        for(let i = 0; i < ProjectsList.length; i++){
+            const item = ProjectsList[i];
+            if(item.tags.some(tag => activeTag[tag]))
+                result.push(<ProjectCard activeTag={activeTag} onTagClicked={(tag) => toggleTag(tag.slug!)} key={i} project={item} tags={item.tags.map(tag => {
+                    return {
+                            name: tagsMap[tag].name,
+                            color: tagsMap[tag].color, 
+                            icon: tagsMap[tag].icon, 
+                            slug: tag
+                        }
+                    }
+                )}></ProjectCard>);
+        }
+        return result;
+    }
 
 
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-    });
+    return <>
+    <Head>
+      <title>Tag | Dhafin Fawwaz Ikramullah</title>
+      <meta name="keywords" content="Dhafin Fawwaz"/>
+      <meta name="author" content="Dhafin Fawwaz Ikramullah"></meta>
+      <meta name="description" content="Portfolio which consist of projects about Mobile Development, Game Development, and Web Development"/>
+    </Head>
+    <main className="w-full flex justify-center">
+      <div className="max-w-4xl mb-4">
+        <section id="tags">
+            <h2>Tags</h2>
+            <h3 className='text-zinc-400 text-sm font-medium'>Filter projects by tags</h3>
+            <br/>
+            <div className="gap-1 flex w-full flex-wrap">
+                {Object.keys(tagsMap).map((tag, index) => {
+                    if(!activeTag[tag])
+                        return <button key={index} onClick={() => enableTag(tag)} className={`text-2xs xs:text-xs font-semibold bg-night-600 px-2 rounded-lg py-0.5 grow text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 focus:bg-night-800 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800`}>{tagsMap[tag].name}</button>
+                    else
+                        return <button key={index} onClick={() => disableTag(tag)} className={`text-2xs xs:text-xs font-semibold bg-indigo-600 px-2 rounded-lg py-0.5 grow text-center z-40 hover:bg-indigo-700 active:bg-indigo-800 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800`}>{tagsMap[tag].name}</button>
+                })}
+                <div style={{flexGrow: 1000000}}></div>
+            </div>
+
+
+            <div className="mt-2 flex justify-end">
+                <button onClick={() => disableAllTag()} className={`text-xs font-bold bg-night-600 px-3 rounded-lg py-1 text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800`}>Disable All</button>
+            </div>
+
+            <br />
+
+            <div className="gap-4 grid grid-cols-1 2xs:grid-cols-2 md:grid-cols-3 place-items-center">
+                {Object.keys(activeTag).every(tag => !activeTag[tag]) ? renderAllProjects(): renderTaggedProjects()}
+            </div>
+        </section>
+
+      </div>
+    </main>
     
-    setActive(active.map((activeTag: ActiveTags) => 
-      (tags.find(tag => tag.slug === selectedTagSlug)?.id === activeTag.id) ? 
-        {isActive:true, id:activeTag.id}
-        : {isActive:activeTag.isActive, id:activeTag.id}
-    ));
-
-  }, [router.query.tag]);
-  
-  
-
-  function onTagClick(clickedId: number){
-    router.replace('/tag', undefined, { shallow: true });
-    setActive(active.map((activeTag: ActiveTags) => 
-      (clickedId === activeTag.id) ? 
-        {isActive:!activeTag.isActive, id:activeTag.id}
-        : {isActive:activeTag.isActive, id:activeTag.id}
-    ));
-  }
-
-  
-  
-  const selectedTagTitle: string | undefined = tags.find(tag => tag.slug === selectedTagSlug)?.title;
-  const pageTitle = selectedTagTitle ? selectedTagTitle : "Tags";
-  const pageDescription = selectedTagTitle ? `Projects with tag ${selectedTagTitle}` : "Filter projects with tags"; 
-  return (
-    <>
-      <Head>
-        <title>{`${pageTitle} | Dhafin Fawwaz Ikramullah`}</title>
-        <meta name="keywords" content="tag"/>
-        <meta name="description" content={`${pageDescription}`}/>
-      </Head>
-
-      <section className={`section`}>
-        <h1 className="section__title">Projects</h1>
-        <span className="section__subtitle">Filter projects by tag</span>
-
-        <div className="container">
-
-          <div className={styles.container}>
-            {tags.map((tag) => (
-              <div key={tag.id}
-              
-              style={{backgroundColor: tag.bgColor, color: tag.textColor}} 
-              
-              className={`${styles.tag} ${(active.find(child => child.id===tag.id)?.isActive) ? (styles.active):(styles.inactive)}`} onClick={() => onTagClick(tag.id)}>
-
-                  <div className={styles.tag__icon} style={{backgroundColor: tag.bgColor}}>
-                    {active.find(child => child.id===tag.id)?.isActive ? (
-                      <i className="uil uil-check"></i>   
-                    ):(
-                      <i className="uil uil-times"></i>
-                    )}
-                  </div>
-                  <div className={styles.tag__title__container}>
-                    <div className={styles.tag__title}>
-                      {tag.title}
-                    </div>
-                  </div>
-                
-              </div>)
-
-            )}
-          </div>
-
-        </div>
-
-        <Projects activeTags={active}/>
-      </section>
-
     </>
-  )
 }

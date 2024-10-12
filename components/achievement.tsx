@@ -1,60 +1,44 @@
-import styles from '../styles/achievement.module.css'
-import Link from 'next/link'
-import Image from 'next/image'
+import achievementJson from "@/data/achievement.json";
+import { Achievement } from "@/types/type";
 
-import achievement from '../json/achievement.json'
-import { useState } from 'react'
+const achievementList: Achievement[] = achievementJson;
 
-achievement.reverse();
+export default function AchievementPage() {
+    
+    return <section id="achievement">
+        <h2>Achievement</h2>
+        <h3 className='text-zinc-400 text-sm font-medium'>What i achieve throughout My Journey</h3>
+        <br/>
 
-export default function Achievement() {
-  const [active, setActive] = useState<string[]>(Array.from({length: achievement.length}, () => styles.inactive));
+        <div className="flex flex-col-reverse gap-2">
+            {achievementList.map((item, index) => <div key={index} className="bg-night-900 achievement-bg rounded-xl shadow-rim-sm overflow-hidden drop-shadow-lg">
 
-  function onAchievementClick(clickedAchievement: number){
-    if(active[clickedAchievement] === styles.inactive){
-      setActive(active.map((isActive: string, index: number) => 
-        (clickedAchievement === index) ? styles.active : styles.inactive
-      ));
-    }else{
-      setActive(active.map(() => styles.inactive));
-    }
-  }
+                    <label id={"achievement-label-"+index} htmlFor={"achievement-"+index} className="flex p-2 hover:bg-night-500 cursor-pointer rounded-xl active:bg-indigo-700">
+                        <div className="w-12 flex justify-center items-center">
+                            <img src={item.icon} alt={item.title} className=""/>
+                        </div>
+                        <div className="w-full">
+                            <h5 className="text-md font-bold">{item.title}</h5>
+                            <h6 className="text-sm font-normal text-zinc-400 text-wrap">[{item.date}] - {item.subtitle}</h6>
+                        </div>
+                    </label>    
 
-  const blurDataURL16x9 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAIAAAC0SDtlAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAABJJREFUeJxjeEIiYBjVMCg0AAB6foDQu5BAxwAAAABJRU5ErkJggg==";
-  const graydark = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAANSURBVBhXY7CwsPgPAAL8AahMRHs7AAAAAElFTkSuQmCC";
-
-  return (
-      <ul className={`${styles.container} container grid`}>
-
-        {achievement.map((content, index) => {
-          return (
-            <li className = { active[index] } key={index}>
-              
-              <div className={`${styles.header}`} onClick={() => onAchievementClick(index)}>
-                <i className={`${content.icon} ${styles.icon}`}></i>
-
-                <div>
-                  <h3 className={`${styles.title}`}>{content.title}</h3>
-                  <span className={`${styles.subtitle}`}> <b>[{content.date}]</b> - {content.subtitle}</span>
+                    {/* details */}
+                    <input type="checkbox" id={"achievement-"+index} name={"Achievement"} value={index} className="hidden peer"/>
+                    <div className="xs:grid-cols-6 px-4 gap-4 peer-checked:mb-4 peer-checked:mt-2 duration-150 max-h-0 grid peer-checked:max-h-[60rem] ease-out-expo">
+                        <div className="bg-night-800 rounded-xl min-h-40 xs:col-span-3 md:col-span-2">
+                            <img src={`img/achievement/optimized/${item.img}`} alt={item.title}  className="object-cover w-full xs:h-full rounded-lg"/>
+                        </div>
+                        <p className="text-justify text-sm xs:col-span-3 md:col-span-4">{item.description}</p>
+                    </div>
                 </div>
-                <i className={`uil uil-angle-down ${styles.arrow}`}></i>
-              </div>
+                
 
-              <div className={`${styles.details} grid`}>
-                <div className={styles.img__container} style={{ minHeight: 210}}>
-                  <Image className={styles.img} src={`/img/achievement/optimized/${content.img}`} alt={content.title} height={210} width={280} placeholder = 'blur' blurDataURL={graydark}/>
-                </div>
-                <div className={styles.description__container}>
-                  <p className={styles.description}>{content.description}</p>
-                </div>
-              </div>
-              
-            </li>
-          )
-        })}
+                
+            )}
+        </div>
 
-      </ul>
-  )
+
+    </section>
+
 }
-
-

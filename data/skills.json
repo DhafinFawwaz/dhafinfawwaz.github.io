@@ -1,0 +1,81 @@
+{
+    "game-dev": [
+        "csharp",
+        "hlsl",
+        "unity",
+        "firebase",
+        "javascript",
+        "pixi",
+        "phaser"
+    ],
+    "web-dev": [
+        "angular",
+        "css",
+        "d3",
+        "django",
+        "express",
+        "bootstrap",
+        "firebase",
+        "flask",
+        "heroku",
+        "html",
+        "javascript",
+        "mongodb",
+        "next",
+        "node",
+        "pixi",
+        "python",
+        "react",
+        "sqlite",
+        "postgresql",
+        "typescript",
+        "vercel",
+        "svelte",
+        "mysql",
+        "planetscale",
+        "supabase",
+        "cloudinary",
+        "vite",
+        "go",
+        "fiber",
+        "laravel",
+        "php",
+        "docker",
+        "nginx"
+    ],
+    "mobile-dev": [
+        "c",
+        "cplusplus",
+        "csharp",
+        "dart",
+        "firebase",
+        "flutter",
+        "java",
+        "kotlin",
+        "node",
+        "qt",
+        "unity"
+    ],
+    "desktop-dev": [
+        "cplusplus",
+        "csharp",
+        "java",
+        "dotnet",
+        "python",
+        "unity",
+        "flet"
+    ],
+    "os-dev": [
+        "c",
+        "assembly",
+        "qemu"
+    ],
+    "other": [
+        "blender",
+        "figma",
+        "git",
+        "ilustrator",
+        "photoshop"
+    ]
+
+}

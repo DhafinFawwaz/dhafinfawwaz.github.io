@@ -1,149 +1,82 @@
-import styles from '../styles/qualification.module.css'
-import Link from 'next/link'
-import Image from 'next/image'
-import qualification from '../json/qualification.json'
-import { useState } from 'react'
+import qualificationJson from '@/data/qualification.json';
+import { Qualification } from '@/types/type';
 
-export default function Qualification() {
-  const [active, setActive] = useState(["", styles.active, ""]);
-  
-
-  function onPageClick(clickedPage: number) {
-    setActive(active.map((isActive: string, index: number) => 
-      (clickedPage === index) ? styles.active : ""
-    ));
-  }
-  function generateQualificationBox(element: Qualification){
-    return (
-      <>
-        <h3 className={`${styles.title}`}>{element.title}</h3>
-        <span className={`${styles.subtitle}`}>{element.subtitle}</span>
-
-        <div className={`${styles.calendar}`}>
-          <i className="uil uil-calendar-alt"></i>{` ${element.date}`}
-        </div>
-      </>
-    );
-  }
-  function generateQualifications(element: Qualification){
-    return (
-      <div key={element.id} className={`${styles.data}`}>
-        
-        {(element.id % 2 === 0) ? (
-          <>
-            {(element.src === "") ? (
-              <div className={styles.data__container}>
-                {generateQualificationBox(element)}
-              </div>
-            ):(
-              <a href={element.src} target={element.target} rel="noreferrer" className={styles.data__container}>
-                {generateQualificationBox(element)}
-              </a>
-            )}
-
-            {(element.id === 0) ? (
-              <div>
-                <span className={`${styles.rounder}`}></span>
-              </div>
-            ): (
-              <div>
-                <span className={`${styles.rounder}`}></span>
-                <span className={`${styles.line}`}></span>
-              </div>
-            )}
-          </>
-        ) : (
-          <>
-            <div></div>
-
-            {(element.id === 0) ? (
-              <div>
-                <span className={`${styles.rounder}`}></span>
-              </div>
-            ): (
-              <div>
-                <span className={`${styles.rounder}`}></span>
-                <span className={`${styles.line}`}></span>
-              </div>
-            )}
-
-            {(element.src === "") ? (
-              <div className={styles.data__container}>
-                {generateQualificationBox(element)}
-              </div>
-            ):(
-              <a href={element.src} target={element.target} rel="noreferrer" className={styles.data__container}>
-                {generateQualificationBox(element)}
-              </a>
-            )}
-          </>
-        )}
-        
-      </div>
-    );
-  }
-  return (
-    <div className={`container`}>
-      <div className={`${styles.tabs}`}>
-
-        <div className={`${styles.button} ${active[0]}`} onClick={() => onPageClick(0)}>
-          <i className="uil uil-graduation-cap qualification__icon"></i><div className={`${styles.button__text}`}>Education</div>
-        </div>
-
-        <div className={`${styles.button} ${active[1]}`} onClick={() => onPageClick(1)}>
-          <i className="uil uil-briefcase qualification__icon"></i><div className={`${styles.button__text}`}>Work</div>
-        </div>
-
-        <div className={`${styles.button} ${active[2]}`} onClick={() => onPageClick(2)}>
-          <i className="uil uil-users-alt qualification__icon"></i><div className={`${styles.button__text}`}>Organization</div>
-        </div>
-
-      </div>
-
-      <div className={`${styles.sections}`}>
-        
+const QualificationMap: {[key: string]: Qualification[]}  = qualificationJson;
 
 
-        {/* <!--==================== Education ====================--> */}
-        <div className={`${styles.content} ${active[0]}`} data-content id="education">
-          
-          <span className={`${styles.rounder} ${styles.last}`}></span>
-          
-          {[...qualification.education].reverse().map(generateQualifications)}
-          
-        </div>
+export default function QualificationPage() {
+    const education = QualificationMap["education"];
+    const work = QualificationMap["work"];
+    const organization = QualificationMap["organization"];
 
-        {/* <!--==================== Work ====================--> */}
-        <div className={`${styles.content} ${active[1]}`} data-content id="work">
-          
-          <span className={`${styles.rounder} ${styles.last}`}></span>
-          
-          {[...qualification.work].reverse().map(generateQualifications)}
-          
-        </div>
+    function generate(education: Qualification[]) {
+        return education.map((item, index) => {
+        return <div key={index} className='flex'>
+                <div>
+                    {index === 0 ? <div className="qualification-last mt-2"></div> : <></>}
+                    <div className='w-3 h-3 absolute bg-indigo-600 rotate-45 mt-2'></div>
+                    {index === education.length - 1 ?  
+                    <div className='w-3'></div>
+                    : 
+                    <div className='h-full w-3 flex justify-center mt-2'>
+                        <div className='w-[2px] h-full bg-indigo-600'></div>
+                    </div>
+                    }
+                </div>
+                
+                <a href={item.src} target={item.target} className='ml-3 hover:bg-night-900 p-2 mr-4 rounded-lg w-full active:bg-indigo-700'>
+                    <h5 className="font-bold text-sm xs:text-md leading-4">{item.title}</h5>
+                    <h6 className='font-medium text-zinc-400 text-xs xs:text-sm leading-3 xs:leading-5 mt-0 xs:mt-0.5'>{item.subtitle}</h6>
+                    <h6 className='font-medium flex text-[0.66rem] text-zinc-400 gap-1'>
+                        <img className='h-3 -translate-y-[0.05rem]' src="https://api.iconify.design/lets-icons/date-range-fill.svg?color=%2364748b" alt="date"/>
+                        {item.date}
+                    </h6>
+                </a>
+            </div>
+        })
+    }
 
-        {/* <!--==================== Organization ====================--> */}
-        <div className={`${styles.content} ${active[2]}`} data-content id="organization">
-          
-          <span className={`${styles.rounder} ${styles.last}`}></span>
-          
-          {[...qualification.organization].reverse().map(generateQualifications)}
-          
-        </div>
+    return <section id="qualification">
+    <h2>Qualification</h2>
+    <h3 className='text-zinc-400 text-sm font-medium'>My Journey</h3>
+    <br/>
 
-
-
-      </div>
+    
+    <div className="grid grid-cols-3 2xs:gap-4 gap-2 qualification-buttons-group">
+        <label id="education-label" htmlFor="education-radio" className=" qualification-button shadow-rim-sm">
+            <img src="https://api.iconify.design/zondicons/education.svg?color=%23ffffff" alt="education"/>
+            <div className='text-sm xs:text-lg'>Education</div>
+        </label>
+        <label id="work-label" htmlFor="work-radio" className="qualification-button shadow-rim-sm">
+            <img src="https://api.iconify.design/material-symbols/work.svg?color=%23ffffff" alt="work"/> 
+            <div className='text-xs 2xs:text-sm xs:text-lg'>Work</div>
+        </label>
+        <label id="organization-label" htmlFor="organization-radio" className="qualification-button shadow-rim-sm">
+            <img src="https://api.iconify.design/mdi/people.svg?color=%23ffffff" alt="organization"/>
+            <div className='text-xs 2xs:text-sm xs:text-lg'>Organization</div>
+        </label>
     </div>
-  )
-}
+
+    
+    <div className="qualification-grid grid sm:grid-cols-3 mt-2">
+        <input type="radio" id="education-radio" name="qualification-radio" className="hidden peer/education"/>
+        <div className="sm:block peer-checked/education:block hidden mt-1">
+            {generate(education)}
+        </div>
 
 
-export interface Qualification {
-  id: number;
-  title: string;
-  subtitle: string;
-  date: string;
-  target: string;
-  src: string;
+        <input type="radio" id="work-radio" name="qualification-radio" className="hidden peer/work" defaultChecked/>
+        <div className="sm:block peer-checked/work:block hidden mt-1">
+            {generate(work)}
+        </div>
+
+
+        <input type="radio" id="organization-radio" name="qualification-radio" className="hidden peer/organization" />
+        <div className="sm:block peer-checked/organization:block hidden mt-1">
+            {generate(organization)}
+        </div>
+    </div>
+    
+    
+</section>
 }

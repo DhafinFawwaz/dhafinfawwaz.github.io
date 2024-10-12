@@ -1,0 +1,18 @@
+{
+    "qualification": {
+        "title": "Qualification",
+        "img": "https://api.iconify.design/material-symbols/work.svg?color=%23ffffff"
+    },
+    "achievement": {
+        "title": "Achievement",
+        "img": "https://api.iconify.design/mdi/achievement-variant.svg?color=%23ffffff"
+    },
+    "project": {
+        "title": "Project",
+        "img": "https://api.iconify.design/uis/window-grid.svg?color=%23ffffff"
+    },
+    "contact": {
+        "title": "Contact",
+        "img": "https://api.iconify.design/mdi/user.svg?color=%23ffffff"
+    }
+}

@@ -1,51 +1,44 @@
 {
   "gmail": {
-    "id": 0,
     "title": "Gmail",
     "value": "dhafin.fawwaz@gmail.com",
     "href": "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dhafin.fawwaz@gmail.com",
-    "img": "https://api.iconify.design/mdi/gmail.svg"
+    "img": "https://api.iconify.design/mdi/gmail.svg?color=%23ffffff"
   },
   "github": {
-    "id": 1,
     "title": "Github",
     "value": "DhafinFawwaz",
     "href": "https://github.com/DhafinFawwaz",
-    "img": "https://api.iconify.design/mdi/github.svg"
+    "img": "https://api.iconify.design/mdi/github.svg?color=%23ffffff"
   },
   "linkedin": {
-    "id": 2,
     "title": "Linkedin",
     "value": "Dhafin Fawwaz Ikramullah",
     "href": "https://www.linkedin.com/in/dhafinfawwaz/",
-    "img": "https://api.iconify.design/mdi/linkedin.svg"
+    "img": "https://api.iconify.design/mdi/linkedin.svg?color=%23ffffff"
   },
   "whatsapp": {
-    "id": 3,
     "title": "WhatsApp",
     "value": "+628116292109",
     "href": "https://wa.me/628116292109/?text=",
-    "img": "https://api.iconify.design/ri/whatsapp-fill.svg"
+    "img": "https://api.iconify.design/ri/whatsapp-fill.svg?color=%23ffffff"
   },
   "line": {
-    "id": 4,
     "title": "Line",
     "value": "dhafin210904",
-    "href": "/#contact",
-    "img": "https://api.iconify.design/ri/line-fill.svg"
+    "href": "",
+    "img": "https://api.iconify.design/ri/line-fill.svg?color=%23ffffff"
   },
   "instagram": {
-    "id": 5,
     "title": "Instagram",
     "value": "@dhafin_fawwaz",
     "href": "https://www.instagram.com/dhafin_fawwaz",
-    "img": "https://api.iconify.design/uil/instagram-alt.svg"
+    "img": "https://api.iconify.design/uil/instagram-alt.svg?color=%23ffffff"
   },
   "discord": {
-    "id": 6,
     "title": "Discord",
     "value": "kitkatmt",
-    "href": "https://discordapp.com/channels/@me/KitkatMT#3449/",
-    "img": "https://api.iconify.design/ic/baseline-discord.svg"
+    "href": "https://discordapp.com/channels/@me/kitkatmt/",
+    "img": "https://api.iconify.design/ic/baseline-discord.svg?color=%23ffffff"
   }
 }

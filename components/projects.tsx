@@ -1,141 +1,32 @@
-import styles from '../styles/projects.module.css'
-import Link from 'next/link'
-import Image from 'next/image'
+import ProjectsJson from "@/data/projects.json";
+import tagsJsonImported from "@/data/tags.json";
+import { Project, Tag } from "@/types/type";
+import ProjectCard from "@/components/ProjectCard";
 
-import { Project, projects } from '../json/projects'
-import React, { ReactElement, useState } from 'react'
-import { ActiveTags } from '../json/tags'
-import Details from './details'
+const tagsMap: {[key: string]: Tag} = tagsJsonImported;
 
-interface NewlineTextProps {
-  text: string;
-}
+const ProjectsList: Project[] = ProjectsJson;
 
-type ActiveTagsType = {
-  activeTags: ActiveTags[];
-}
+export default function ProjectPage() {
 
-export default function Projects({ activeTags }:ActiveTagsType) {
+    return <section id="project">
+    <h2>Project</h2>
+    <h3 className='text-zinc-400 text-sm font-medium'>Collection of projects that i built or involved in</h3>
+    <br/>
 
-  const [modalActive, setModalActive] = useState<boolean>(false);
-  const [project, setProject] = useState<Project>(
-    {
-      id: -1,
-      title: "",
-      slug: "",
-      thumbnail: "",
-      blurDataURL: "",
-      tags: [],
-      description: "",
-      src: "",
-      imageDetails: []
-    }
-  ); 
+    <div className="gap-4 grid grid-cols-1 2xs:grid-cols-2 md:grid-cols-3 place-items-center 2xs:place-items-start">
+        {ProjectsList.map((item, index) => {
+            return <ProjectCard key={index} project={item} tags={item.tags.map(tag => {
+                return {
+                        name: tagsMap[tag].name,
+                        color: tagsMap[tag].color, 
+                        icon: tagsMap[tag].icon, 
+                        slug: tag
+                    }
+                }
+            )}></ProjectCard>
+        })}
+    </div>
 
-  function NewlineText(props: NewlineTextProps):ReactElement {
-    const text = props.text;
-    return (<>{text.split('\n').map((str:string, index:number) => (
-      (str.substring(0,2) === "- ") ? (
-        <div key={index} className={styles.modal__description__point}>
-          <div>-</div>
-          <p className={styles.modal__description}>{str.split("- ")[1]}</p>
-        </div>
-      ):(
-        <p key={index} className={styles.modal__description}>{str}</p>
-      )
-    ))}</>)
-  }
-
-
-  function onProjectClick(clickedProject: number){
-    setProject(filteredProjects[clickedProject]);
-    setModalActive(true);
-  }
-  function onCloseClick(){
-    window.history.replaceState(null, '', '/')
-    setModalActive(false);
-    setProject(
-      {
-        id: -1,
-        title: "",
-        slug: "",
-        thumbnail: "",
-        blurDataURL: "",
-        tags: [],
-        description: "",
-        src: "",
-        imageDetails: []
-      }
-    );
-  }
-  
-  let filteredProjects = projects.filter(project => (
-    project.tags.some(tag => (
-      (activeTags.some(activeTag => (
-        (activeTag.id === tag.id) && (activeTag.isActive)
-      )))
-    ))
-  ))
-
-  if(!activeTags.some(activeTag => activeTag.isActive === true))filteredProjects = projects;
-
-
-
-  
-  return (
-<>
-  <ul className={`${styles.container} container grid`}>
-    
-    {filteredProjects.map((project, index) => (
-
-
-      <li key={index} className={styles.content__container}>
-        
-        <div className={styles.content}>
-
-          <Link scroll={false} as={`/project/${project.slug}`} href={`?title=${project.slug}`} className={styles.link} onClick={() => onProjectClick(index)}></Link>
-          
-          
-
-          
-          <Image src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} width={256} height={141} placeholder = 'blur' blurDataURL={project.blurDataURL}/>
-
-          <div className={styles.description}>
-
-            <div>
-              <h3 className={`${styles.title}`}>{project.title}</h3>
-            </div>
-
-            <div className={styles.tag__container}>
-              {project.tags.map((tag, i) => (
-                <Link key={i} href={`/tag/?tag=${tag.slug}`}
-                
-                style={{backgroundColor: tag.bgColor, color: tag.textColor}} 
-                
-                className={styles.tag}>
-
-                  {tag.title}
-                  
-                </Link>)
-
-              )}
-
-            </div>
-          </div>
-
-        </div>
-
-
-      </li>
-
-    ))}
-  </ul>
-
-  <Details project={project} modalActive={modalActive} onCloseClick={ () => onCloseClick() } isBlur={false}/>
- 
-
-
-
-</>
-  )
+</section>
 }
