@@ -1,7 +1,7 @@
 import ProjectsJson from "@/data/projects.json";
 import tagsJsonImported from "@/data/tags.json";
 import { Tag, Project } from "@/types/type";
-import Details from "@/components/Details";
+import Details from "@/components/details";
 import Head from 'next/head'
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
 

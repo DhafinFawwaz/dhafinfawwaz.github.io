@@ -1,9 +1,9 @@
 import Head from "next/head";
 import ProfilePage from "@/components/Profile";
 import SkillPage from "@/components/Skills";
-import Qualification from "@/components/Qualification";
-import AchievementPage from "@/components/Achievement";
-import ProjectPage from "@/components/Projects";
+import Qualification from "@/components/qualification";
+import AchievementPage from "@/components/achievement";
+import ProjectPage from "@/components/projects";
 import ContactPage from "@/components/Contact";
 
 export default function Home() {
