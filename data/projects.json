@@ -1,6 +1,7 @@
 [
   {
       "title": "AnimationUI",
+      "subtitle": "Unity Package for animating UI",
       "slug": "animationui",
       "thumbnail": "AnimationUI.webp",
       "color": "gray",
@@ -47,6 +48,7 @@
   },
   {
       "title": "Pace Break",
+      "subtitle": "Platformer combat game inspired by Hollow Knight",
       "slug": "pace-break",
       "thumbnail": "Pace Break.webp",
       "color": "#ffffff",
@@ -92,7 +94,168 @@
       ]
   },
   {
+    "title": "Financial Streams",
+    "subtitle": "Financial management game winning 1st place at Gemastik XVII",
+    "slug": "financial-streams",
+    "thumbnail": "https://img.itch.zone/aW1hZ2UvMjk2NjUxOC8xNzc1Nzg2MS5wbmc=/original/aoFMfL.png",
+    "color": "bluedark",
+    "tags": [
+        "game-dev",
+        "unity",
+        "figma",
+        "csharp",
+        "blender",
+        "hlsl"
+    ],
+    "description": "Financial management game winning 1st place at Gemastik XVII.",
+    "src": "https://kitkatmt.itch.io/financial-streams",
+    "imageDetails": [
+        {
+            "img": "DemoGameplay.webp",
+            "color": "bluedark",
+            "type": 1,
+            "width": 269,
+            "height": 480
+        },
+        {
+            "img": "HexaTap.webp",
+            "color": "bluedark",
+            "type": 0,
+            "width": 640,
+            "height": 360
+        }
+    ]
+    },
+    {
+        "title": "Bezier Curve Generator",
+        "subtitle": "Interactive bezier curve generator with animated visualization",
+        "slug": "bezier-curve-generator",
+        "thumbnail": "bezier-curve-generator.webp",
+        "color": "bluedark",
+        "tags": [
+            "web-dev",
+            "pixi",
+            "tailwind",
+            "javascript",
+            "vercel"
+        ],
+        "description": "Interactive Bezier Curve Generator with really cool animation. It can generate Bezier Curve with any number of control points with either Brute Force or Divide and Conquer algorithm. The process of generating the curve can be shown with animation. It also has some nice feature such as dragable input points, navigation in viewport by zooming or dragging, and others. Of course, it's also mobile responsive.",
+        "src": "https://beziercurvegenerator.vercel.app/",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            },
+            {
+                "img": "2.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            },
+            {
+                "img": "3.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            },
+            {
+                "img": "4.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            }
+        ]
+    },
+    {
+        "title": "Film Store",
+        "subtitle": "Website about buying movie.",
+        "slug": "film-store",
+        "thumbnail": "details_lg.webp",
+        "color": "bluedark",
+        "tags": [
+            "web-dev",
+            "django",
+            "docker",
+            "nginx",
+            "python",
+            "tailwind",
+            "javascript"
+        ],
+        "description": "Website about buying movie. It implements things like database, file storage, authentication, caching, polling, static file serving, automated end to end testing, deployment, and many more.",
+        "src": "https://github.com/DhafinFawwaz/Film-Store",
+        "imageDetails": [
+            {
+                "img": "explore_lg.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 289
+            },
+            {
+                "img": "details2_lg.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 289
+            },
+            {
+                "img": "review_lg.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 289
+            },
+            {
+                "img": "register_lg.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 289
+            }
+        ]
+    },
+    {
+      "title": "Functional Defense",
+      "subtitle": "Gamification of math function/curve. A Finalist of Gemastik XVI",
+      "slug": "functional-defense",
+      "thumbnail": "functional-defense.png",
+      "color": "bluedark",
+      "tags": [
+          "game-dev",
+          "unity",
+          "figma",
+          "csharp",
+          "blender",
+          "hlsl"
+      ],
+      "description": "Financial management game winning 1st place at Gemastik XVII.",
+      "src": "https://kitkatmt.itch.io/financial-streams",
+      "imageDetails": [
+          {
+              "img": "DemoGameplay.webp",
+              "color": "bluedark",
+              "type": 1,
+              "width": 269,
+              "height": 480
+          },
+          {
+              "img": "HexaTap.webp",
+              "color": "bluedark",
+              "type": 0,
+              "width": 640,
+              "height": 360
+          }
+      ]
+      },
+  {
       "title": "HexaTap",
+      "subtitle": "Highly optimized fast paced web game",
       "slug": "hexatap",
       "thumbnail": "HexaTap.webp",
       "color": "bluedark",
@@ -126,6 +289,7 @@
   },
   {
       "title": "Rangkiang Form",
+      "subtitle": "Special made form with Google Sheets API",
       "slug": "rangkiang-form",
       "thumbnail": "Rangkiang Form.webp",
       "color": "bluelight",
@@ -160,6 +324,7 @@
   },
   {
       "title": "Leapy Leapy Fishy",
+      "subtitle": "3D Fast Paced Fish Game Winning 2nd Place at MAGE 7 ITS",
       "slug": "leapy-leapy-fishy",
       "thumbnail": "Leapy Leapy Fishy.webp",
       "color": "blue",
@@ -206,52 +371,8 @@
       ]
   },
   {
-      "title": "Bezier Curve Generator",
-      "slug": "bezier-curve-generator",
-      "thumbnail": "bezier-curve-generator.webp",
-      "color": "bluedark",
-      "tags": [
-          "web-dev",
-          "pixi",
-          "tailwind",
-          "javascript",
-          "vercel"
-      ],
-      "description": "Interactive Bezier Curve Generator with really cool animation. It can generate Bezier Curve with any number of control points with either Brute Force or Divide and Conquer algorithm. The process of generating the curve can be shown with animation. It also has some nice feature such as dragable input points, navigation in viewport by zooming or dragging, and others. Of course, it's also mobile responsive.",
-      "src": "https://beziercurvegenerator.vercel.app/",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 360
-          },
-          {
-              "img": "2.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 360
-          },
-          {
-              "img": "3.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 360
-          },
-          {
-              "img": "4.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 360
-          }
-      ]
-  },
-  {
       "title": "SiAbsen",
+      "subtitle": "Notification bot for attendance presence in my college",
       "slug": "siabsen",
       "thumbnail": "siabsen.webp",
       "color": "bluedark",
@@ -284,6 +405,7 @@
   },
   {
       "title": "QR Code Reminder With ChatGPT API",
+      "subtitle": "Reminds you when a product is about to expire with qr code",
       "slug": "expiration-reminder",
       "thumbnail": "Expiration Reminder.webp",
       "color": "bluelight",
@@ -312,6 +434,7 @@
   },
   {
       "title": "VFX Mesh Generator",
+      "subtitle": "Generate editable 3d object for creating Realtime VFX",
       "slug": "vfx-mesh-generator",
       "thumbnail": "VFX Mesh Generator.webp",
       "color": "graylight",
@@ -356,6 +479,7 @@
   },
   {
       "title": "Project Arthur",
+      "subtitle": "A Top Down pixel art game made for GIM submission",
       "slug": "project-arthur",
       "thumbnail": "Project Arthur.webp",
       "color": "greenlight",
@@ -403,6 +527,7 @@
   },
   {
       "title": "Grappler Crashers",
+      "subtitle": "Game built for a submission in GIM",
       "slug": "grappler-crashers",
       "thumbnail": "Grappler Crashers.webp",
       "color": "orange",
@@ -450,6 +575,7 @@
   },
   {
       "title": "Cube Associator",
+      "subtitle": "Chaotic game built for a submission in GIM",
       "slug": "cube-associator",
       "thumbnail": "Cube Associator.webp",
       "color": "redlight",
@@ -496,6 +622,7 @@
   },
   {
       "title": "Very Optimized Coins Shader",
+      "subtitle": "Made with a lot of shader tricks, result of years of my research.",
       "slug": "very-optimized-coins-shader",
       "thumbnail": "Very Optimized Coins Shader.webp",
       "color": "green",
@@ -541,6 +668,7 @@
   },
   {
       "title": "Clustered Chaos",
+      "subtitle": "Chaotic game getting awards as the best gameplay and the best apprentice game at GIM Jam.",
       "slug": "clustered-chaos",
       "thumbnail": "Clustered Chaos.webp",
       "color": "greenlight",
@@ -585,6 +713,7 @@
   },
   {
       "title": "Unfinished Collection",
+      "subtitle": "Collection of project that is still on progress but has long since touched.",
       "slug": "unfinished-collection",
       "thumbnail": "Unfinished Collection.webp",
       "color": "color16x9",
@@ -614,6 +743,7 @@
   },
   {
       "title": "VFX-Shader Collection",
+      "subtitle": "My collection of created Realtime VFX with shader.",
       "slug": "vfx-shader-collection",
       "thumbnail": "VFX-Shader Collection.webp",
       "color": "color16x9",
@@ -657,6 +787,7 @@
   },
   {
       "title": "Flavy",
+      "subtitle": "A game to introduce the new campus branch of ITB.",
       "slug": "flavy",
       "thumbnail": "Flavy.webp",
       "color": "bluelight",
@@ -701,6 +832,7 @@
   },
   {
       "title": "Legenda Gunung Tampomas",
+      "subtitle": "Story book kids game to tell the Legend of Tampomas Mountain.",
       "slug": "legenda-gunung-tampomas",
       "thumbnail": "Legenda Gunung Tampomas.webp",
       "color": "orange",
@@ -743,7 +875,97 @@
       ]
   },
   {
+      "title": "Kirana & Laplip",
+      "subtitle": "Story book kids game to tell the story of Kirana & Laplip",
+      "slug": "kirana-dan-laplip",
+      "thumbnail": "Kirana dan Laplip.webp",
+      "color": "orange",
+      "tags": [
+          "game-dev",
+          "unity",
+          "csharp"
+      ],
+      "description": "A story book game for kids to tell the story of Kirana & Laplip. I work as freelance programmer and animator in this project. It's a really simple project but i learn many things about managing many simple things in this project.",
+      "src": "",
+      "imageDetails": [
+          {
+              "img": "1.webp",
+              "color": "orange",
+              "type": 0,
+              "width": 640,
+              "height": 444
+          },
+          {
+              "img": "2.webp",
+              "color": "brownlight",
+              "type": 0,
+              "width": 640,
+              "height": 444
+          },
+          {
+              "img": "3.webp",
+              "color": "orange",
+              "type": 0,
+              "width": 640,
+              "height": 444
+          },
+          {
+              "img": "4.webp",
+              "color": "bluelight",
+              "type": 0,
+              "width": 640,
+              "height": 444
+          }
+      ]
+  },
+  {
+      "title": "Dewi Sri",
+      "subtitle": "Story book kids game to tell the story of Dewi Sri",
+      "slug": "dewi-sri",
+      "thumbnail": "Dewi Sri.webp",
+      "color": "orange",
+      "tags": [
+          "game-dev",
+          "unity",
+          "csharp",
+          "hlsl"
+      ],
+      "description": "A story book game for kids to tell the story of Kirana & Laplip. I work as freelance programmer and animator in this project. It's a really simple project but i learn many things about managing many simple things in this project.",
+      "src": "",
+      "imageDetails": [
+          {
+              "img": "1.webp",
+              "color": "orange",
+              "type": 0,
+              "width": 640,
+              "height": 444
+          },
+          {
+              "img": "2.webp",
+              "color": "brownlight",
+              "type": 0,
+              "width": 640,
+              "height": 444
+          },
+          {
+              "img": "3.webp",
+              "color": "orange",
+              "type": 0,
+              "width": 640,
+              "height": 444
+          },
+          {
+              "img": "4.webp",
+              "color": "bluelight",
+              "type": 0,
+              "width": 640,
+              "height": 444
+          }
+      ]
+  },
+  {
       "title": "Snake 4D [+5000 Installs]",
+      "subtitle": "Snake game... but 4D!",
       "slug": "snake-4d",
       "thumbnail": "Snake 4D.webp",
       "color": "orange",
@@ -787,50 +1009,8 @@
       ]
   },
   {
-      "title": "Kirana & Laplip",
-      "slug": "kirana-dan-laplip",
-      "thumbnail": "Kirana dan Laplip.webp",
-      "color": "orange",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp"
-      ],
-      "description": "A story book game for kids to tell the story of Kirana & Laplip. I work as freelance programmer and animator in this project. It's a really simple project but i learn many things about managing many simple things in this project.",
-      "src": "",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "orange",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          },
-          {
-              "img": "2.webp",
-              "color": "brownlight",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          },
-          {
-              "img": "3.webp",
-              "color": "orange",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          },
-          {
-              "img": "4.webp",
-              "color": "bluelight",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          }
-      ]
-  },
-  {
       "title": "Linear Equation System Matrix",
+      "subtitle": "Java program with GUI to implement things about Linear Equation System.",
       "slug": "linear-equation-system-matrix",
       "thumbnail": "Linear Equation System Matrix.webp",
       "color": "bluedark",
@@ -873,6 +1053,7 @@
   },
   {
       "title": "Ocular",
+      "subtitle": "Content-Based Image Retrieval for reverse image search",
       "slug": "ocular",
       "thumbnail": "Ocular.webp",
       "color": "bluedark",
@@ -922,6 +1103,7 @@
   },
   {
       "title": "Portfolio",
+      "subtitle": "My main interactive web portfolio",
       "slug": "portfolio",
       "thumbnail": "Portfolio.webp",
       "color": "graydark",
@@ -954,6 +1136,7 @@
   },
   {
       "title": "Ecommerce Book",
+      "subtitle": "Simple book store",
       "slug": "ecommerce-book",
       "thumbnail": "Ecommerce Book.webp",
       "color": "blue",
@@ -989,6 +1172,7 @@
   },
   {
       "title": "Reusable Finite State Machine with Editor",
+      "subtitle": "Unity package for Generic based FSM. It's big brain OOP.",
       "slug": "reusable-finite-state-machine-with-editor",
       "thumbnail": "Reusable Finite State Machine with Editor.webp",
       "color": "graylight",
@@ -1019,6 +1203,7 @@
   },
   {
       "title": "Auth with Many Frameworks",
+      "subtitle": "Authentication implementation with many frameworks.",
       "slug": "auth-with-many-frameworks",
       "thumbnail": "Auth with Multiple Frameworks.webp",
       "color": "bluedark",
@@ -1059,6 +1244,7 @@
   },
   {
       "title": "HitBox System with Editor",
+      "subtitle": "Unity package for hitbox system.",
       "slug": "hitbox-system-with-editor",
       "thumbnail": "HitBox System with Editor.webp",
       "color": "graylight",
@@ -1089,6 +1275,7 @@
   },
   {
       "title": "Le Mari",
+      "subtitle": "An app to manage your outfit.",
       "slug": "le-mari",
       "thumbnail": "le-mari.webp",
       "color": "bluedark",
@@ -1134,6 +1321,7 @@
   },
   {
       "title": "Farmer Rancher Mayor Simulator",
+      "subtitle": "Game written in c++ and qt about Farmer, Rancher & Mayor Simulator.",
       "slug": "farmer-rancher-mayor-simulator",
       "thumbnail": "farmer-rancher-mayor-simulator.webp",
       "color": "bluedark",
@@ -1177,6 +1365,7 @@
   },
   {
       "title": "Breach Protocol Solver",
+      "subtitle": "Cyberpunk 2077 Breach Protocol solver with Brute Force.",
       "slug": "breach-protocol-solver",
       "thumbnail": "breach-protocol-solver.webp",
       "color": "bluedark",
@@ -1199,6 +1388,7 @@
   },
   {
       "title": "OSLahPokoknya",
+      "subtitle": "A really cool Operating System made with C and Assembly",
       "slug": "oslahpokoknya",
       "thumbnail": "oslahpokoknya.png",
       "color": "bluedark",
@@ -1243,6 +1433,7 @@
   },
   {
       "title": "WikiRace Solver",
+      "subtitle": "A really cool Operating System made with C and Assembly",
       "slug": "wikirace-solver",
       "thumbnail": "wikirace-solver.webp",
       "color": "bluedark",
@@ -1285,53 +1476,6 @@
               "type": 0,
               "width": 640,
               "height": 359
-          }
-      ]
-  },
-  {
-      "title": "Film Store",
-      "slug": "film-store",
-      "thumbnail": "details_lg.webp",
-      "color": "bluedark",
-      "tags": [
-          "web-dev",
-          "django",
-          "docker",
-          "nginx",
-          "python",
-          "tailwind",
-          "javascript"
-      ],
-      "description": "Website about buying movie. It implements things like database, file storage, authentication, caching, polling, static file serving, automated end to end testing, deployment, and many more.",
-      "src": "https://github.com/DhafinFawwaz/Film-Store",
-      "imageDetails": [
-          {
-              "img": "explore_lg.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 289
-          },
-          {
-              "img": "details2_lg.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 289
-          },
-          {
-              "img": "review_lg.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 289
-          },
-          {
-              "img": "register_lg.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 289
           }
       ]
   }

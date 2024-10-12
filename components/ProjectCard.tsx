@@ -9,6 +9,7 @@ export default function ProjectCard({project, tags, onTagClicked, activeTag}: {p
         </div>
         <div className="p-4">
             <h3 className="font-bold z-40 text-slate-50 text-left text-xl sm:text-2xl sm:leading-7">{project.title}</h3>
+            <p className="font-semibold text-zinc-400 text-sm leading-4 mt-1">{project.subtitle}</p>
             <ul className="flex flex-wrap gap-1 mt-3 tag-list">
 
                 {/* tag page */}

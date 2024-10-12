@@ -32,6 +32,7 @@ export type NavbarItem = {
 
 export type Project = {
     title: string;
+    subtitle: string;
     slug: string;
     thumbnail: string;
     color: string;
