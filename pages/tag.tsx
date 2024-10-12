@@ -1,13 +1,10 @@
-import Image from "next/image";
 import Head from "next/head";
-import NavbarPage from "@/components/Navbar";
 
 import ProjectsJson from "@/data/projects.json";
 import tagsJsonImported from "@/data/tags.json";
 import { Project, Tag } from "@/types/type";
 import ProjectCard from "@/components/ProjectCard";
 import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
 
 const tagsMap: {[key: string]: Tag} = tagsJsonImported;
 const ProjectsList: Project[] = ProjectsJson;
@@ -20,7 +17,7 @@ export default function TagPage() {
     useEffect(() => {
         const searchParams = new URLSearchParams(window.location.search);
         const tag = searchParams.getAll('tag');
-        let newActiveTag: {[key: string]: boolean} = {};
+        const newActiveTag: {[key: string]: boolean} = {};
         for(let i = 0; i < tag.length; i++){
             newActiveTag[tag[i]] = true;
         }
@@ -29,7 +26,7 @@ export default function TagPage() {
 
     function refreshUrl(activeTag: {[key: string]: boolean}) {
         let newUrl = "/tag?";
-        for(let tag in activeTag){
+        for(const tag in activeTag){
             if(activeTag[tag])
                 newUrl += "tag=" + tag + "&";
         }
@@ -55,8 +52,8 @@ export default function TagPage() {
     }
 
     function disableAllTag() {
-        let newActiveTag: {[key: string]: boolean} = {};
-        for(let tag in activeTag){
+        const newActiveTag: {[key: string]: boolean} = {};
+        for(const tag in activeTag){
             newActiveTag[tag] = false;
         }
         setActiveTag(newActiveTag);
@@ -77,7 +74,7 @@ export default function TagPage() {
         });
     }
     function renderTaggedProjects() {
-        let result: JSX.Element[] = [];
+        const result: JSX.Element[] = [];
 
         for(let i = 0; i < ProjectsList.length; i++){
             const item = ProjectsList[i];

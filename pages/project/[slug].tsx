@@ -4,8 +4,6 @@ import { Tag, Project } from "@/types/type";
 import Details from "@/components/Details";
 import Head from 'next/head'
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
-import { useRouter } from 'next/router'
-import NavbarPage from "@/components/Navbar";
 
 const tagsJson: {[key: string]: Tag} = tagsJsonImported;
 const ProjectsData: Project[] = ProjectsJson;

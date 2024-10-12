@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Head from "next/head";
 import ProfilePage from "@/components/Profile";
 import SkillPage from "@/components/Skills";
@@ -6,7 +5,6 @@ import Qualification from "@/components/Qualification";
 import AchievementPage from "@/components/Achievement";
 import ProjectPage from "@/components/Projects";
 import ContactPage from "@/components/Contact";
-import NavbarPage from "@/components/Navbar";
 
 export default function Home() {
   return (<>

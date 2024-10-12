@@ -8,10 +8,10 @@ export default function NavbarPage() {
     return <nav className="bg-night-900 fixed flex justify-center z-50 drop-shadow-sm w-full">
     <div className="hidden sm:flex py-2 w-full justify-between max-w-4xl px-6">
         <div className="flex gap-2">
-            <a href="/#profile" className="nav-button">
+            <Link href="/#profile" className="nav-button">
                 <img src="/favicon.ico" className="h-4 mt-1 scale-125" alt=""/>
                 Dhafin
-            </a>
+            </Link>
         </div>
         <div className="flex gap-2">
             {Object.keys(navbarMap).map((key, index) => {
@@ -27,10 +27,10 @@ export default function NavbarPage() {
 
     <input type="checkbox" id="nav-toggle" className="hidden peer" />
     <div className="sm:hidden flex justify-between p-2 w-full">
-        <a href="/#profile" className="nav-button">
+        <Link href="/#profile" className="nav-button">
             <img src="/favicon.ico" className="h-4 mt-1" alt=""/>
             Dhafin
-        </a>
+        </Link>
         <label htmlFor="nav-toggle" className="cursor-pointer flex justify-center w-9 p-2 hover:bg-night-800 hover:shadow-rim-sm active:bg-indigo-600 rounded-lg">
             <img src="https://api.iconify.design/tabler/menu-2.svg?color=%23ffffff" alt="menu-icon"/>
         </label>
