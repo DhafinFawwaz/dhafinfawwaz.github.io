@@ -5,6 +5,7 @@ import Qualification from "@/components/Qualification";
 import AchievementPage from "@/components/Achievement";
 import ProjectPage from "@/components/Projects";
 import ContactPage from "@/components/Contact";
+import NavbarPage from "@/components/Navbar";
 
 export default function Home() {
   return (<>
@@ -16,6 +17,7 @@ export default function Home() {
     </Head>
     <main className="w-full flex justify-center">
       <div className="max-w-4xl">
+        <NavbarPage></NavbarPage>
         <ProfilePage/>
         <SkillPage></SkillPage>
         <Qualification></Qualification>

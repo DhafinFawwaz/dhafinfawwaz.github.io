@@ -146,8 +146,17 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
                     </div>
                 </div>
                 
-                <div className="w-24">
-                    <a href={project.src} target="_blank" className="flex items-center justify-center bg-indigo-600 rounded-lg m-0 text-center cursor-pointer text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 shadow-rim-sm ring-indigo-900
+                <div className="whitespace-nowrap">
+                    {project.src === "" ? 
+                    
+                    <div className="flex items-center justify-center bg-night-600 rounded-lg m-0 text-center cursor-not-allowed text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 shadow-rim-sm ring-night-900 px-4">
+                        <img className="-rotate-45 scale-115" src={"https://api.iconify.design/mingcute/arrow-right-fill.svg?color=%23666666"} alt="next"/>
+                        <div className="text-sm translate-y-0.5 text-night-300">Visit Not Allowed</div>
+                    </div>
+                    
+                    :
+                    
+                    <a href={project.src} target="_blank" className="flex items-center justify-center bg-indigo-600 rounded-lg m-0 text-center cursor-pointer text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 px-4 shadow-rim-sm ring-indigo-900
                         hover:scale-105
                         hover:bg-indigo-700
                         focus:ring-4 
@@ -156,6 +165,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
                         <img className="-rotate-45 scale-115" src={"https://api.iconify.design/mingcute/arrow-right-fill.svg?color=%23ffffff"} alt="next"/>
                         <div className="text-sm translate-y-0.5">Visit</div>
                     </a>
+                    }
                 </div>
 
             </div>
