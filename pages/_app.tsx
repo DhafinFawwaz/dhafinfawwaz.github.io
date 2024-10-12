@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Script>
 
     <main className={`${leageSpartan.className}`}>
-      <NavbarPage></NavbarPage>
+      {router.pathname.includes("/project") ? <></> :<NavbarPage></NavbarPage>}
       <Component {...pageProps} />
     </main>
   </>

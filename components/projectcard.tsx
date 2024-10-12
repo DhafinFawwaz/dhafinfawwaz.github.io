@@ -2,7 +2,14 @@ import Link from "next/link";
 import { Project, Tag } from "@/types/type";
 
 export default function ProjectCard({project, tags, onTagClicked, activeTag}: {project: Project, tags: Tag[], onTagClicked?: (tag: Tag) => void, activeTag?: {[key: string]: boolean}}) {
-    return <div className="flex flex-col bg-night-900 rounded-xl overflow-hidden max-w-72 w-full drop-shadow-lg ease-out-back duration-150 hover:scale-106 active:scale-108 active:bg-night-800 relative">
+    
+    // function removeHash() {
+    //     if (window.location.hash) {
+    //         history.replaceState(null, null, window.location.pathname + "#" + project.slug);
+    //     }
+    // }
+    
+    return <div id={project.slug} className="flex flex-col bg-night-900 rounded-xl overflow-hidden max-w-72 w-full drop-shadow-lg ease-out-back duration-150 hover:scale-106 active:scale-108 active:bg-night-800 relative">
         <Link href={`/project/${project.slug}`} className="z-30 w-full hover:cursor-pointer absolute h-full"></Link>
         <div className="relative h-40 2xs:h-32 sm:h-40 bg-night-800">
             <img src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} className="w-full h-full object-cover"/>

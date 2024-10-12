@@ -1,130 +1,144 @@
 [
-  {
-      "title": "AnimationUI",
-      "subtitle": "Unity Package for animating UI",
-      "slug": "animationui",
-      "thumbnail": "AnimationUI.webp",
-      "color": "gray",
-      "tags": [
-          "game-dev",
-          "csharp",
-          "unity",
-          "ilustrator",
-          "figma",
-          "tools"
-      ],
-      "description": "A really useful tool to animate UI in Unity Engine. It was born because i'm tired of writing and tweaking UI animations manually. With this tool, you can create UI animation easily with no code. You can simply drag and drop to create some smooth UI animation. There are some option that you can set such as the easing, duration, etc. You can also see the preview, drag the progress bar and also see the progress bar of each individual sequence. You can also make a custom sequence for non UI component with UnityEvent including the dynamic one. Adding function to call at certain time or at the end of animation is also possible with code. Features:\n- Sequence for Animating values of RectTransform, Image, Camera, CanvasGroup, Transform, and Dynamic UnityEvent.\n- Sequence for instant method such as Set Active All Input, Play SFX, Wait before executing next \n- sequence, Set Active GameObject, Loading scene, and UnityEvent\n- Preview animation in edit mode with Progress bar both globally and in each sequence.\n- Reorderable sequences.\n- Addable function to call at the end of animation or at certain determined time.\n- Public variables for every sequence.\n- Custom ButtonUI as bonus.\n- Demo.\n- Others.",
-      "src": "https://github.com/DhafinFawwaz/Unity-AnimationUI",
-      "imageDetails": [
-          {
-              "img": "PreviewAnimationUI.gif",
-              "color": "gray",
-              "type": 0,
-              "width": 480,
-              "height": 270
-          },
-          {
-              "img": "DemoSettings.gif",
-              "color": "gray",
-              "type": 0,
-              "width": 480,
-              "height": 270
-          },
-          {
-              "img": "DemoUpgrade.gif",
-              "color": "gray",
-              "type": 0,
-              "width": 480,
-              "height": 270
-          },
-          {
-              "img": "DemoStart.gif",
-              "color": "gray",
-              "type": 0,
-              "width": 480,
-              "height": 270
-          }
-      ]
-  },
-  {
-      "title": "Pace Break",
-      "subtitle": "Platformer combat game inspired by Hollow Knight",
-      "slug": "pace-break",
-      "thumbnail": "Pace Break.webp",
-      "color": "#ffffff",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "hlsl",
-          "blender",
-          "figma"
-      ],
-      "description": "Fast paced platformer combat game to showcase my programming and technical artist skills.",
-      "src": "https://kitkatmt.itch.io/pacebreak",
-      "imageDetails": [
-          {
-              "img": "1.gif",
-              "color": "bluedark",
-              "type": 0,
-              "width": 480,
-              "height": 269
-          },
-          {
-              "img": "2.gif",
-              "color": "bluedark",
-              "type": 0,
-              "width": 400,
-              "height": 224
-          },
-          {
-              "img": "3.gif",
-              "color": "bluedark",
-              "type": 0,
-              "width": 400,
-              "height": 224
-          },
-          {
-              "img": "4.gif",
-              "color": "bluedark",
-              "type": 0,
-              "width": 400,
-              "height": 224
-          }
-      ]
-  },
-  {
-    "title": "Financial Streams",
-    "subtitle": "Financial management game winning 1st place at Gemastik XVII",
-    "slug": "financial-streams",
-    "thumbnail": "https://img.itch.zone/aW1hZ2UvMjk2NjUxOC8xNzc1Nzg2MS5wbmc=/original/aoFMfL.png",
-    "color": "bluedark",
-    "tags": [
-        "game-dev",
-        "unity",
-        "figma",
-        "csharp",
-        "blender",
-        "hlsl"
-    ],
-    "description": "Financial management game winning 1st place at Gemastik XVII.",
-    "src": "https://kitkatmt.itch.io/financial-streams",
-    "imageDetails": [
-        {
-            "img": "DemoGameplay.webp",
-            "color": "bluedark",
-            "type": 1,
-            "width": 269,
-            "height": 480
-        },
-        {
-            "img": "HexaTap.webp",
-            "color": "bluedark",
-            "type": 0,
-            "width": 640,
-            "height": 360
-        }
-    ]
+    {
+        "title": "AnimationUI",
+        "subtitle": "Unity Package for animating UI",
+        "slug": "animationui",
+        "thumbnail": "AnimationUI.webp",
+        "color": "gray",
+        "tags": [
+            "game-dev",
+            "csharp",
+            "unity",
+            "ilustrator",
+            "figma",
+            "tools"
+        ],
+        "description": "A really useful tool to animate UI in Unity Engine. It was born because i'm tired of writing and tweaking UI animations manually. With this tool, you can create UI animation easily with no code. You can simply drag and drop to create some smooth UI animation. There are some option that you can set such as the easing, duration, etc. You can also see the preview, drag the progress bar and also see the progress bar of each individual sequence. You can also make a custom sequence for non UI component with UnityEvent including the dynamic one. Adding function to call at certain time or at the end of animation is also possible with code. Features:\n- Sequence for Animating values of RectTransform, Image, Camera, CanvasGroup, Transform, and Dynamic UnityEvent.\n- Sequence for instant method such as Set Active All Input, Play SFX, Wait before executing next \n- sequence, Set Active GameObject, Loading scene, and UnityEvent\n- Preview animation in edit mode with Progress bar both globally and in each sequence.\n- Reorderable sequences.\n- Addable function to call at the end of animation or at certain determined time.\n- Public variables for every sequence.\n- Custom ButtonUI as bonus.\n- Demo.\n- Others.",
+        "src": "https://github.com/DhafinFawwaz/Unity-AnimationUI",
+        "imageDetails": [
+            {
+                "img": "PreviewAnimationUI.gif",
+                "color": "gray",
+                "type": 0,
+                "width": 480,
+                "height": 270
+            },
+            {
+                "img": "DemoSettings.gif",
+                "color": "gray",
+                "type": 0,
+                "width": 480,
+                "height": 270
+            },
+            {
+                "img": "DemoUpgrade.gif",
+                "color": "gray",
+                "type": 0,
+                "width": 480,
+                "height": 270
+            },
+            {
+                "img": "DemoStart.gif",
+                "color": "gray",
+                "type": 0,
+                "width": 480,
+                "height": 270
+            }
+        ]
+    },
+    {
+        "title": "Pace Break",
+        "subtitle": "Platformer combat game inspired by Hollow Knight",
+        "slug": "pace-break",
+        "thumbnail": "Pace Break.webp",
+        "color": "#ffffff",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "hlsl",
+            "blender",
+            "figma"
+        ],
+        "description": "Fast paced platformer combat game to showcase my programming and technical artist skills.",
+        "src": "https://kitkatmt.itch.io/pacebreak",
+        "imageDetails": [
+            {
+                "img": "1.gif",
+                "color": "bluedark",
+                "type": 0,
+                "width": 480,
+                "height": 269
+            },
+            {
+                "img": "2.gif",
+                "color": "bluedark",
+                "type": 0,
+                "width": 400,
+                "height": 224
+            },
+            {
+                "img": "3.gif",
+                "color": "bluedark",
+                "type": 0,
+                "width": 400,
+                "height": 224
+            },
+            {
+                "img": "4.gif",
+                "color": "bluedark",
+                "type": 0,
+                "width": 400,
+                "height": 224
+            }
+        ]
+    },
+    {
+        "title": "Financial Streams",
+        "subtitle": "Financial management game winning 1st place at Gemastik XVII",
+        "slug": "financial-streams",
+        "thumbnail": "financial-streams.webp",
+        "color": "bluedark",
+        "tags": [
+            "game-dev",
+            "unity",
+            "figma",
+            "csharp",
+            "blender",
+            "hlsl"
+        ],
+        "description": "Financial management game winning 1st place at Gemastik XVII.",
+        "src": "https://kitkatmt.itch.io/financial-streams",
+        "imageDetails": [
+            {
+                "img": "financial-streams-1.gif",
+                "color": "bluedark",
+                "type": 0,
+                "width": 480,
+                "height": 270
+            },
+            {
+                "img": "financial-streams-2.gif",
+                "color": "bluedark",
+                "type": 0,
+                "width": 480,
+                "height": 270
+            },
+            {
+                "img": "financial-streams-3.gif",
+                "color": "bluedark",
+                "type": 0,
+                "width": 480,
+                "height": 270
+            },
+            {
+                "img": "financial-streams-4.gif",
+                "color": "bluedark",
+                "type": 0,
+                "width": 480,
+                "height": 270
+            }
+        ]
     },
     {
         "title": "Bezier Curve Generator",
@@ -221,1262 +235,1335 @@
         ]
     },
     {
-      "title": "Functional Defense",
-      "subtitle": "Gamification of math function/curve. A Finalist of Gemastik XVI",
-      "slug": "functional-defense",
-      "thumbnail": "functional-defense.png",
-      "color": "bluedark",
-      "tags": [
-          "game-dev",
-          "unity",
-          "figma",
-          "csharp",
-          "blender",
-          "hlsl"
-      ],
-      "description": "Financial management game winning 1st place at Gemastik XVII.",
-      "src": "https://kitkatmt.itch.io/financial-streams",
-      "imageDetails": [
-          {
-              "img": "DemoGameplay.webp",
-              "color": "bluedark",
-              "type": 1,
-              "width": 269,
-              "height": 480
-          },
-          {
-              "img": "HexaTap.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 360
-          }
-      ]
-      },
-  {
-      "title": "HexaTap",
-      "subtitle": "Highly optimized fast paced web game",
-      "slug": "hexatap",
-      "thumbnail": "HexaTap.webp",
-      "color": "bluedark",
-      "tags": [
-          "game-dev",
-          "pixi",
-          "javascript",
-          "firebase",
-          "html",
-          "css",
-          "vite"
-      ],
-      "description": "Fast paced tapping  game playable on browser. This is my first website and was built for learning web development. I decided to make a game for my first website because i already have some knowledge in game development before.",
-      "src": "https://hexatap-47a94.web.app/",
-      "imageDetails": [
-          {
-              "img": "DemoGameplay.webp",
-              "color": "bluedark",
-              "type": 1,
-              "width": 269,
-              "height": 480
-          },
-          {
-              "img": "HexaTap.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 360
-          }
-      ]
-  },
-  {
-      "title": "Rangkiang Form",
-      "subtitle": "Special made form with Google Sheets API",
-      "slug": "rangkiang-form",
-      "thumbnail": "Rangkiang Form.webp",
-      "color": "bluelight",
-      "tags": [
-          "web-dev",
-          "react",
-          "javascript",
-          "html",
-          "css",
-          "vercel",
-          "express",
-          "node"
-      ],
-      "description": "A form website integrated with google spreadsheet (google docs) api. This was created because there's no option to put commas to separate number for currency input if we use google form. This is specially created.",
-      "src": "",
-      "imageDetails": [
-          {
-              "img": "Preview Mobile.webp",
-              "color": "bluelight",
-              "type": 1,
-              "width": 275,
-              "height": 480
-          },
-          {
-              "img": "Preview Docs.webp",
-              "color": "bluelight",
-              "type": 0,
-              "width": 640,
-              "height": 360
-          }
-      ]
-  },
-  {
-      "title": "Leapy Leapy Fishy",
-      "subtitle": "3D Fast Paced Fish Game Winning 2nd Place at MAGE 7 ITS",
-      "slug": "leapy-leapy-fishy",
-      "thumbnail": "Leapy Leapy Fishy.webp",
-      "color": "blue",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "ilustrator",
-          "blender",
-          "figma",
-          "hlsl"
-      ],
-      "description": "2nd winner for a Game Dev Competition MAGE 7 issued by Sepuluh Nopember Institute of Technology. Those 2 months of development were really painfull since i also have to study for an official national level Informatics competition by The Ministry of Education, Culture, Research, and Technology and also the amount of homework from my school. Name may be lame, but i'm still proud of it.",
-      "src": "https://www.youtube.com/watch?v=M86PU0PGgaM",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "blue",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "2.webp",
-              "color": "blue",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "3.webp",
-              "color": "brownlight",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "4.webp",
-              "color": "blue",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          }
-      ]
-  },
-  {
-      "title": "SiAbsen",
-      "subtitle": "Notification bot for attendance presence in my college",
-      "slug": "siabsen",
-      "thumbnail": "siabsen.webp",
-      "color": "bluedark",
-      "tags": [
-          "web-dev",
-          "next",
-          "react",
-          "postgresql",
-          "vercel",
-          "firebase"
-      ],
-      "description": "Notification bot for attendance presence in my college. It's made because i oftenly forget to fill the attendance presence form. It's usefull for me and my friends. It's made with only free services which are vercel and inggest api.",
-      "src": "https://siabsen.vercel.app/",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "bluedark",
-              "type": 1,
-              "width": 240,
-              "height": 480
-          },
-          {
-              "img": "siabsen.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 360
-          }
-      ]
-  },
-  {
-      "title": "QR Code Reminder With ChatGPT API",
-      "subtitle": "Reminds you when a product is about to expire with qr code",
-      "slug": "expiration-reminder",
-      "thumbnail": "Expiration Reminder.webp",
-      "color": "bluelight",
-      "tags": [
-          "mobile-dev",
-          "web-dev",
-          "flutter",
-          "dart",
-          "sqlite",
-          "vercel",
-          "node",
-          "mongodb",
-          "express"
-      ],
-      "description": "Mobile app that reminds you when a product is about to expire with qr code to add the reminder. This app was created with flutter and dart. It also has an extra feature which is an auto-generated description integrated with ChatGPT API. ",
-      "src": "",
-      "imageDetails": [
-          {
-              "img": "Expiration Reminder.webp",
-              "color": "bluelight",
-              "type": 0,
-              "width": 1944,
-              "height": 1080
-          }
-      ]
-  },
-  {
-      "title": "VFX Mesh Generator",
-      "subtitle": "Generate editable 3d object for creating Realtime VFX",
-      "slug": "vfx-mesh-generator",
-      "thumbnail": "VFX Mesh Generator.webp",
-      "color": "graylight",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "tools"
-      ],
-      "description": "As a technical artist, its really annoying having to switch to Blender to make an adjustment to a 3d mesh when making a VFX. It can generate mesh with many kinds of variation in a short time. There's also a bonus which is the debug texture to preview the uv coordinate of the mesh. Features:\n- Generate primitive uv mapped 3d mesh with controllable properties\n- Edit the mesh dynamically on runtime\n- Auto update mesh on editor\n- Flip normals\n- Save mesh\n- Bonus utilites for debugging like debug texture",
-      "src": "https://github.com/DhafinFawwaz/Unity-VFX-Mesh-Generator",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "graylight",
-              "type": 0,
-              "width": 640,
-              "height": 321
-          },
-          {
-              "img": "2.webp",
-              "color": "graylight",
-              "type": 0,
-              "width": 640,
-              "height": 345
-          },
-          {
-              "img": "3.webp",
-              "color": "graylight",
-              "type": 0,
-              "width": 640,
-              "height": 296
-          },
-          {
-              "img": "4.webp",
-              "color": "graylight",
-              "type": 0,
-              "width": 640,
-              "height": 356
-          }
-      ]
-  },
-  {
-      "title": "Project Arthur",
-      "subtitle": "A Top Down pixel art game made for GIM submission",
-      "slug": "project-arthur",
-      "thumbnail": "Project Arthur.webp",
-      "color": "greenlight",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "ilustrator",
-          "blender",
-          "figma",
-          "hlsl"
-      ],
-      "description": "A Top Down pixel art game made with UnityEngine(C#, HLSL) made for GIM submission. The game is currently unfinished. This project is the one that inspire me to make a really optimized coins. Those coin animation has a lot of variation like the initial phase for spinning or initial phase for jumping but can still be made with only 1 shader, 1 texture, and 1 material without any Unity's Monobehaviour.Update() which means it can be rendered in only 1 batch and is very optimized.",
-      "src": "https://kitkatmt.itch.io/sword-boi",
-      "imageDetails": [
-          {
-              "img": "Project Arthur.gif",
-              "color": "greenlight",
-              "type": 0,
-              "width": 480,
-              "height": 270
-          },
-          {
-              "img": "2.gif",
-              "color": "greenlight",
-              "type": 0,
-              "width": 480,
-              "height": 270
-          },
-          {
-              "img": "3.gif",
-              "color": "greenlight",
-              "type": 0,
-              "width": 400,
-              "height": 225
-          },
-          {
-              "img": "4.gif",
-              "color": "greenlight",
-              "type": 0,
-              "width": 400,
-              "height": 225
-          }
-      ]
-  },
-  {
-      "title": "Grappler Crashers",
-      "subtitle": "Game built for a submission in GIM",
-      "slug": "grappler-crashers",
-      "thumbnail": "Grappler Crashers.webp",
-      "color": "orange",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "ilustrator",
-          "blender",
-          "figma",
-          "hlsl"
-      ],
-      "description": "Game built for a submission in Ganesha Interactive Media (GIM). Made with Unity Engine (C#, HLSL)",
-      "src": "https://kitkatmt.itch.io/grappler-crashers",
-      "imageDetails": [
-          {
-              "img": "1.gif",
-              "color": "blue",
-              "type": 0,
-              "width": 600,
-              "height": 338
-          },
-          {
-              "img": "2.gif",
-              "color": "blue",
-              "type": 0,
-              "width": 600,
-              "height": 338
-          },
-          {
-              "img": "3.gif",
-              "color": "blue",
-              "type": 0,
-              "width": 600,
-              "height": 338
-          },
-          {
-              "img": "4.gif",
-              "color": "blue",
-              "type": 0,
-              "width": 600,
-              "height": 338
-          }
-      ]
-  },
-  {
-      "title": "Cube Associator",
-      "subtitle": "Chaotic game built for a submission in GIM",
-      "slug": "cube-associator",
-      "thumbnail": "Cube Associator.webp",
-      "color": "redlight",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "ilustrator",
-          "figma",
-          "hlsl"
-      ],
-      "description": "A game created as submission for GMTK game jam 2020. This was created when i was still a beginner in Game Development. It was both fun and frustating experience.",
-      "src": "https://kitkatmt.itch.io/cube-associator",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "graydark",
-              "type": 0,
-              "width": 250,
-              "height": 140
-          },
-          {
-              "img": "2.webp",
-              "color": "graydark",
-              "type": 0,
-              "width": 250,
-              "height": 140
-          },
-          {
-              "img": "3.webp",
-              "color": "graydark",
-              "type": 0,
-              "width": 250,
-              "height": 140
-          },
-          {
-              "img": "4.webp",
-              "color": "graydark",
-              "type": 0,
-              "width": 250,
-              "height": 140
-          }
-      ]
-  },
-  {
-      "title": "Very Optimized Coins Shader",
-      "subtitle": "Made with a lot of shader tricks, result of years of my research.",
-      "slug": "very-optimized-coins-shader",
-      "thumbnail": "Very Optimized Coins Shader.webp",
-      "color": "green",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "hlsl",
-          "tools"
-      ],
-      "description": "A very optimized coin made with a lot of shader tricks as the result of years of my research and playing with shader.\n- The jump height varies\n- Initial phase of the spinning coins varies\n- Coin spins with the same speed as it's shadow, but the shadow didn't jump\n- Jumps with neither trigonometric function nor if statements but can still jump periodically\n- All of the parameters above can also be set to be with the same values as we want.\n- Without any C# Component, which means there's neiher Monobehaviour.Update() nor FixedUpdate(). All of it is made with shader.\n- With only 1 texture, 1 material, 1 shader (which are the requirement to make rendering with 1 batch possible)\nThe main problem in optimizing a game is mostly about rendering. Of course, you can make all of this with the default sprite shader that already exist in the engine, and make those animation individually with a C# component. This will still make it rendered in 1 batch since it uses only 1 shader and 1 material which is the default one that comes with the engine. But imagine thousands of Monobehaviour.Update() running from those thousands of instance of C# component. It's overkill. That's why we can use shader. But if we use shader, all of those coins will do it's animation simultaneously like a military march. With the shader in this project, all of those variation is made possible but with a drawback which makes tinting the sprite is not possible anymore. But this won't affect anything since we almost never need to tint a rendered sprite. This is not the only trick. Getting the decimal of Time.time, custom parabole function instead of sine function, etc. are also things a few of many tricks that makes all the above possible.",
-      "src": "https://github.com/DhafinFawwaz/Unity-Optimized-Coins-Shader",
-      "imageDetails": [
-          {
-              "img": "MonobehaviourUpdate.gif",
-              "color": "green",
-              "type": 0,
-              "width": 800,
-              "height": 450
-          },
-          {
-              "img": "MultiMaterial.gif",
-              "color": "green",
-              "type": 0,
-              "width": 800,
-              "height": 450
-          },
-          {
-              "img": "SingleMaterial.gif",
-              "color": "green",
-              "type": 0,
-              "width": 800,
-              "height": 450
-          },
-          {
-              "img": "Optimized.gif",
-              "color": "green",
-              "type": 0,
-              "width": 800,
-              "height": 450
-          }
-      ]
-  },
-  {
-      "title": "Clustered Chaos",
-      "subtitle": "Chaotic game getting awards as the best gameplay and the best apprentice game at GIM Jam.",
-      "slug": "clustered-chaos",
-      "thumbnail": "Clustered Chaos.webp",
-      "color": "greenlight",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "hlsl"
-      ],
-      "description": "A game made for submision at GIM Jam 2022. It gets an award as the best gameplay and the best apprentice game.",
-      "src": "https://kitkatmt.itch.io/clustered-chaos",
-      "imageDetails": [
-          {
-              "img": "1.gif",
-              "color": "greenlight",
-              "type": 0,
-              "width": 400,
-              "height": 225
-          },
-          {
-              "img": "3.gif",
-              "color": "greenlight",
-              "type": 0,
-              "width": 400,
-              "height": 225
-          },
-          {
-              "img": "4.gif",
-              "color": "greenlight",
-              "type": 0,
-              "width": 400,
-              "height": 225
-          },
-          {
-              "img": "5.gif",
-              "color": "greenlight",
-              "type": 0,
-              "width": 400,
-              "height": 225
-          }
-      ]
-  },
-  {
-      "title": "Unfinished Collection",
-      "subtitle": "Collection of project that is still on progress but has long since touched.",
-      "slug": "unfinished-collection",
-      "thumbnail": "Unfinished Collection.webp",
-      "color": "color16x9",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp"
-      ],
-      "description": "My collection of project that is still on progress but has long since touched. These are projects that i wanted to make from start again with the knowledge i have now but don't have time to do it yet.",
-      "src": "",
-      "imageDetails": [
-          {
-              "img": "1.gif",
-              "color": "graydark",
-              "type": 1,
-              "width": 180,
-              "height": 320
-          },
-          {
-              "img": "2.gif",
-              "color": "bluelight",
-              "type": 0,
-              "width": 569,
-              "height": 320
-          }
-      ]
-  },
-  {
-      "title": "VFX-Shader Collection",
-      "subtitle": "My collection of created Realtime VFX with shader.",
-      "slug": "vfx-shader-collection",
-      "thumbnail": "VFX-Shader Collection.webp",
-      "color": "color16x9",
-      "tags": [
-          "game-dev",
-          "unity",
-          "hlsl"
-      ],
-      "description": "My collections of game vfx made with some shaders and particle system. Everything is created with a lot of shader tricks. Some of it have optimized version with many tricks with shader but with some drawbacks.",
-      "src": "",
-      "imageDetails": [
-          {
-              "img": "1.gif",
-              "color": "bluedark",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "2.gif",
-              "color": "bluelight",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "3.gif",
-              "color": "greenlight",
-              "type": 0,
-              "width": 320,
-              "height": 179
-          },
-          {
-              "img": "4.gif",
-              "color": "orange",
-              "type": 0,
-              "width": 600,
-              "height": 338
-          }
-      ]
-  },
-  {
-      "title": "Flavy",
-      "subtitle": "A game to introduce the new campus branch of ITB.",
-      "slug": "flavy",
-      "thumbnail": "Flavy.webp",
-      "color": "bluelight",
-      "tags": [
-          "game-dev",
-          "unity",
-          "hlsl",
-          "csharp"
-      ],
-      "description": "A game to introduce the new campus branch of Bandung Institute of Technology to the student that will attend it. I work as freelance and was part of this project as programmer, animator, and realtime vfx creation. I took care of some things like shader for transition and particle vfx, and UI. I'm also the one that animate the character in this game. This project was created back when i was still in highschool and i still don't know whether i can attend Bandung Institute of Technology later. Through some effort, i manage to get accepted to Bandung Institute of Technology and meet with the other people who contribute to this.",
-      "src": "https://joshia-t.itch.io/flavy",
-      "imageDetails": [
-          {
-              "img": "Map.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 360
-          },
-          {
-              "img": "Field.webp",
-              "color": "graydark",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "Album.webp",
-              "color": "bluelight",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "Leaderboard.webp",
-              "color": "bluelight",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          }
-      ]
-  },
-  {
-      "title": "Legenda Gunung Tampomas",
-      "subtitle": "Story book kids game to tell the Legend of Tampomas Mountain.",
-      "slug": "legenda-gunung-tampomas",
-      "thumbnail": "Legenda Gunung Tampomas.webp",
-      "color": "orange",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp"
-      ],
-      "description": "A story book game for kids to tell the Legend of Tampomas Mountain. I work as freelance programmer and animator in this project. I also used Audacity, a tool for sfx creation, to help me mark at which seconds for each word to create the dub of the naration. It's a really simple project but i learn many things about managing many simple things in this project.",
-      "src": "",
-      "imageDetails": [
-          {
-              "img": "Volcano.webp",
-              "color": "orange",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "Search.webp",
-              "color": "brownlight",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "Count.webp",
-              "color": "orange",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "Ending.webp",
-              "color": "bluelight",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          }
-      ]
-  },
-  {
-      "title": "Kirana & Laplip",
-      "subtitle": "Story book kids game to tell the story of Kirana & Laplip",
-      "slug": "kirana-dan-laplip",
-      "thumbnail": "Kirana dan Laplip.webp",
-      "color": "orange",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp"
-      ],
-      "description": "A story book game for kids to tell the story of Kirana & Laplip. I work as freelance programmer and animator in this project. It's a really simple project but i learn many things about managing many simple things in this project.",
-      "src": "",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "orange",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          },
-          {
-              "img": "2.webp",
-              "color": "brownlight",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          },
-          {
-              "img": "3.webp",
-              "color": "orange",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          },
-          {
-              "img": "4.webp",
-              "color": "bluelight",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          }
-      ]
-  },
-  {
-      "title": "Dewi Sri",
-      "subtitle": "Story book kids game to tell the story of Dewi Sri",
-      "slug": "dewi-sri",
-      "thumbnail": "Dewi Sri.webp",
-      "color": "orange",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "hlsl"
-      ],
-      "description": "A story book game for kids to tell the story of Kirana & Laplip. I work as freelance programmer and animator in this project. It's a really simple project but i learn many things about managing many simple things in this project.",
-      "src": "",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "orange",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          },
-          {
-              "img": "2.webp",
-              "color": "brownlight",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          },
-          {
-              "img": "3.webp",
-              "color": "orange",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          },
-          {
-              "img": "4.webp",
-              "color": "bluelight",
-              "type": 0,
-              "width": 640,
-              "height": 444
-          }
-      ]
-  },
-  {
-      "title": "Snake 4D [+5000 Installs]",
-      "subtitle": "Snake game... but 4D!",
-      "slug": "snake-4d",
-      "thumbnail": "Snake 4D.webp",
-      "color": "orange",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "hlsl"
-      ],
-      "description": "The usual snake game but with a twist which is the ability for the snake to move to the 4th dimension. I's an old game that i made back when i'm still in highschool and is still a beginner. I managed to get +5000 downloads on this game probably because i finally understand the market after publishing some games before.",
-      "src": "https://play.google.com/store/apps/details?id=com.sppAghetti.Snake4D&hl=en&gl=US",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "green",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "2.webp",
-              "color": "greenlight",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "3.webp",
-              "color": "brownlight",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          },
-          {
-              "img": "4.webp",
-              "color": "graylight",
-              "type": 0,
-              "width": 320,
-              "height": 180
-          }
-      ]
-  },
-  {
-      "title": "Linear Equation System Matrix",
-      "subtitle": "Java program with GUI to implement things about Linear Equation System.",
-      "slug": "linear-equation-system-matrix",
-      "thumbnail": "Linear Equation System Matrix.webp",
-      "color": "bluedark",
-      "tags": [
-          "desktop-dev",
-          "java"
-      ],
-      "description": "A java program with GUI to implement things about Linear Equation System with Matrix in Linear Algebra. It contains implementation for many function such as Gauss Elimination, Gauss-jordan Elimination, Matrix Inverse with many method, Matrix Determinant, Cramer's rule, Polynomial Interpolation, Bicubic Interpolation, Multiple Linear Regression, and image enlargement with Interpolation. It's made with Java Swing for the GUI and a lot of things needs to be overiden to make it looks good. This project gets the highest score in my college year.",
-      "src": "https://github.com/ganadipa/Algeo01-22066",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 336
-          },
-          {
-              "img": "2.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 351
-          },
-          {
-              "img": "3.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 343
-          },
-          {
-              "img": "4.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 340
-          }
-      ]
-  },
-  {
-      "title": "Ocular",
-      "subtitle": "Content-Based Image Retrieval for reverse image search",
-      "slug": "ocular",
-      "thumbnail": "Ocular.webp",
-      "color": "bluedark",
-      "tags": [
-          "web-dev",
-          "c",
-          "typescript",
-          "python",
-          "next",
-          "django",
-          "tailwind",
-          "sqlite",
-          "react"
-      ],
-      "description": "Implementation of Linear Algebra in Content-Based Image Retrieval for reverse image search with a website. The frontend is made with Next.js and the backend is made with django and c. The c program is used to calculate the heavy image processing. It also uses caching and multiprocessing to speed up the whole process. It has some features such as searching based on texture, searching based on color, dataset upload, pdf export for search result, web scrapping, and automatic camera to capture image. This project gets the 2nd highest score in my college year.",
-      "src": "https://github.com/DhafinFawwaz/Algeo02-22043",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 386
-          },
-          {
-              "img": "2.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 458
-          },
-          {
-              "img": "3.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 389
-          },
-          {
-              "img": "4.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 637,
-              "height": 480
-          }
-      ]
-  },
-  {
-      "title": "Portfolio",
-      "subtitle": "My main interactive web portfolio",
-      "slug": "portfolio",
-      "thumbnail": "Portfolio.webp",
-      "color": "graydark",
-      "tags": [
-          "web-dev",
-          "next",
-          "typescript",
-          "react",
-          "html",
-          "css"
-      ],
-      "description": "This website is made to showcase my works. An opportunity for an internship would be nice :). This website was created with Next js and react. It's currently not finished yet",
-      "src": "https://dhafinfawwaz.github.io/",
-      "imageDetails": [
-          {
-              "img": "Portfolio.webp",
-              "color": "graydark",
-              "type": 0,
-              "width": 640,
-              "height": 379
-          },
-          {
-              "img": "Preview Mobile.webp",
-              "color": "graylight",
-              "type": 1,
-              "width": 211,
-              "height": 480
-          }
-      ]
-  },
-  {
-      "title": "Ecommerce Book",
-      "subtitle": "Simple book store",
-      "slug": "ecommerce-book",
-      "thumbnail": "Ecommerce Book.webp",
-      "color": "blue",
-      "tags": [
-          "web-dev",
-          "django",
-          "python",
-          "javascript",
-          "bootstrap",
-          "html",
-          "css",
-          "sqlite",
-          "heroku"
-      ],
-      "description": "A website created for an assignment of Introduction to Computation in Bandung Institute of Technology. It's created with Django and some help from javascript for the client side.",
-      "src": "https://github.com/DhafinFawwaz/Project-Book-Django",
-      "imageDetails": [
-          {
-              "img": "Ecommerce Book.webp",
-              "color": "blue",
-              "type": 0,
-              "width": 640,
-              "height": 339
-          },
-          {
-              "img": "Preview Mobile.webp",
-              "color": "blue",
-              "type": 1,
-              "width": 331,
-              "height": 480
-          }
-      ]
-  },
-  {
-      "title": "Reusable Finite State Machine with Editor",
-      "subtitle": "Unity package for Generic based FSM. It's big brain OOP.",
-      "slug": "reusable-finite-state-machine-with-editor",
-      "thumbnail": "Reusable Finite State Machine with Editor.webp",
-      "color": "graylight",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "tools"
-      ],
-      "description": "Implementation of state design pattern in Object Oriented Programming with reusable base class for the state machine and includes the editor to make creating and updating state easier. Features:\n- Reusable base class for state machine\n- Can add custom function that can be overriden on any state, for example the OnHurt one.\n- An editor to view what are the states and to create a new state including automaticallyit in \n- the states (the U of Core<T,U>)\n- Bonus feature for a good implementation for HitRequest and HitResult",
-      "src": "https://github.com/DhafinFawwaz/Unity-Reusable-Finite-State-Machine-With-Editor",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "graylight",
-              "type": 0,
-              "width": 605,
-              "height": 480
-          },
-          {
-              "img": "2.webp",
-              "color": "graylight",
-              "type": 1,
-              "width": 640,
-              "height": 454
-          }
-      ]
-  },
-  {
-      "title": "Auth with Many Frameworks",
-      "subtitle": "Authentication implementation with many frameworks.",
-      "slug": "auth-with-many-frameworks",
-      "thumbnail": "Auth with Multiple Frameworks.webp",
-      "color": "bluedark",
-      "tags": [
-          "web-dev",
-          "tailwind",
-          "typescript",
-          "next",
-          "node",
-          "express",
-          "javascript",
-          "python",
-          "django",
-          "go",
-          "fiber",
-          "php",
-          "laravel",
-          "supabase"
-      ],
-      "description": "Implementation of Authentication with Next js and Next Auth as frontend and multiple backend frameworks. It implements the best way to block access to certain page, and redirect the user. It also block access to certain api endpoints if the user is not authenticated.",
-      "src": "https://github.com/DhafinFawwaz/Auth-With-Many-Frameworks",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "graylight",
-              "type": 0,
-              "width": 640,
-              "height": 360
-          },
-          {
-              "img": "Auth with Multiple Frameworks.webp",
-              "color": "graylight",
-              "type": 0,
-              "width": 640,
-              "height": 360
-          }
-      ]
-  },
-  {
-      "title": "HitBox System with Editor",
-      "subtitle": "Unity package for hitbox system.",
-      "slug": "hitbox-system-with-editor",
-      "thumbnail": "HitBox System with Editor.webp",
-      "color": "graylight",
-      "tags": [
-          "game-dev",
-          "unity",
-          "csharp",
-          "tools"
-      ],
-      "description": "A flexible Hitbox system with its visualization and easy edit when animating. It uses the built in 2d Collider which makes it easily customizable. It supports circle and rectangle hitbox. It's already tested and has guaranteed hit on every frame, doesn't matter the framerate, as long as its using the physics update like using animate physics in animator. Features: \n- Easily edit hitbox when using animator. \n- Has HitboxCaster and HitboxReceiver. These can be customized with using layer and collision matrix to make custom things lika shield or guard. \n- Visualization with color when certain hitbox is collided. \n- Guaranteed to hit a certain hitbox only once, then reset when the HitboxCaster is disabled.",
-      "src": "https://github.com/DhafinFawwaz/2D-HitBox-System-with-Editor",
-      "imageDetails": [
-          {
-              "img": "HitBox System with Editor.webp",
-              "color": "graylight",
-              "type": 0,
-              "width": 637,
-              "height": 480
-          },
-          {
-              "img": "2.webp",
-              "color": "graylight",
-              "type": 0,
-              "width": 640,
-              "height": 456
-          }
-      ]
-  },
-  {
-      "title": "Le Mari",
-      "subtitle": "An app to manage your outfit.",
-      "slug": "le-mari",
-      "thumbnail": "le-mari.webp",
-      "color": "bluedark",
-      "tags": [
-          "desktop-dev",
-          "python",
-          "flet",
-          "ci-cd",
-          "sqlite"
-      ],
-      "description": "An app to manage your outfit.",
-      "src": "https://github.com/DhafinFawwaz/LeMari",
-      "imageDetails": [
-          {
-              "img": "4.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 372
-          },
-          {
-              "img": "5.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 372
-          },
-          {
-              "img": "2.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 371
-          },
-          {
-              "img": "1.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 369
-          }
-      ]
-  },
-  {
-      "title": "Farmer Rancher Mayor Simulator",
-      "subtitle": "Game written in c++ and qt about Farmer, Rancher & Mayor Simulator.",
-      "slug": "farmer-rancher-mayor-simulator",
-      "thumbnail": "farmer-rancher-mayor-simulator.webp",
-      "color": "bluedark",
-      "tags": [
-          "desktop-dev",
-          "cplusplus",
-          "qt"
-      ],
-      "description": "A game written in c++ and qt about Farmer, Rancher & Mayor Simulator",
-      "src": "https://github.com/DhafinFawwaz/Tubes-OOP-1",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 431
-          },
-          {
-              "img": "2.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 430
-          },
-          {
-              "img": "3.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 432
-          },
-          {
-              "img": "4.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 432
-          }
-      ]
-  },
-  {
-      "title": "Breach Protocol Solver",
-      "subtitle": "Cyberpunk 2077 Breach Protocol solver with Brute Force.",
-      "slug": "breach-protocol-solver",
-      "thumbnail": "breach-protocol-solver.webp",
-      "color": "bluedark",
-      "tags": [
-          "desktop-dev",
-          "python",
-          "qt"
-      ],
-      "description": "Cyberpunk 2077 Breach Protocol solver made in Python with implementation of the Brute Force Algorithm.",
-      "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
-      "imageDetails": [
-          {
-              "img": "breach-protocol-solver.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 633,
-              "height": 446
-          }
-      ]
-  },
-  {
-      "title": "OSLahPokoknya",
-      "subtitle": "A really cool Operating System made with C and Assembly",
-      "slug": "oslahpokoknya",
-      "thumbnail": "oslahpokoknya.png",
-      "color": "bluedark",
-      "tags": [
-          "os-dev",
-          "c",
-          "assembly",
-          "qemu"
-      ],
-      "description": "A really cool Operating System made with C and Assembly",
-      "src": "https://github.com/DhafinFawwaz/OsLahPokoknya",
-      "imageDetails": [
-          {
-              "img": "1.png",
-              "color": "graydark",
-              "type": 0,
-              "width": 716,
-              "height": 457
-          },
-          {
-              "img": "2.png",
-              "color": "graydark",
-              "type": 0,
-              "width": 717,
-              "height": 462
-          },
-          {
-              "img": "3.png",
-              "color": "graydark",
-              "type": 0,
-              "width": 717,
-              "height": 453
-          },
-          {
-              "img": "4.png",
-              "color": "graydark",
-              "type": 0,
-              "width": 713,
-              "height": 456
-          }
-      ]
-  },
-  {
-      "title": "WikiRace Solver",
-      "subtitle": "A really cool Operating System made with C and Assembly",
-      "slug": "wikirace-solver",
-      "thumbnail": "wikirace-solver.webp",
-      "color": "bluedark",
-      "tags": [
-          "web-dev",
-          "javascript",
-          "tailwind",
-          "pixi",
-          "go",
-          "fiber",
-          "docker"
-      ],
-      "description": "Solve Wikirace with web scrapping, multithreading, and implementation of Breadth First Search Algorithm and Iterative Deepening Search Algorithm. It's made with Go Fiber for the backend and Pixi.js for the frontend.",
-      "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
-      "imageDetails": [
-          {
-              "img": "1.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 359
-          },
-          {
-              "img": "2.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 359
-          },
-          {
-              "img": "3.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 359
-          },
-          {
-              "img": "4.webp",
-              "color": "bluedark",
-              "type": 0,
-              "width": 640,
-              "height": 359
-          }
-      ]
-  }
+        "title": "Functional Defense",
+        "subtitle": "Gamification of math function/curve. A Finalist of Gemastik XVI",
+        "slug": "functional-defense",
+        "thumbnail": "functional-defense.webp",
+        "color": "bluedark",
+        "tags": [
+            "game-dev",
+            "unity",
+            "figma",
+            "csharp",
+            "blender",
+            "hlsl"
+        ],
+        "description": "Financial management game winning 1st place at Gemastik XVII.",
+        "src": "https://kitkatmt.itch.io/financial-streams",
+        "imageDetails": [
+            {
+                "img": "functional-defense-1.webp",
+                "color": "greendark",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            },
+            {
+                "img": "functional-defense-2.webp",
+                "color": "greendark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "functional-defense-3.webp",
+                "color": "greendark",
+                "type": 0,
+                "width": 631,
+                "height": 355
+            },
+            {
+                "img": "functional-defense-4.webp",
+                "color": "greendark",
+                "type": 0,
+                "width": 345,
+                "height": 194
+            },
+            {
+                "img": "functional-defense-5.webp",
+                "color": "greendark",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            },
+            {
+                "img": "functional-defense-6.webp",
+                "color": "greendark",
+                "type": 0,
+                "width": 361,
+                "height": 203
+            }
+        ]
+    },
+    {
+        "title": "HexaTap",
+        "subtitle": "Highly optimized fast paced web game",
+        "slug": "hexatap",
+        "thumbnail": "HexaTap.webp",
+        "color": "bluedark",
+        "tags": [
+            "game-dev",
+            "pixi",
+            "javascript",
+            "firebase",
+            "html",
+            "css",
+            "vite"
+        ],
+        "description": "Fast paced tapping  game playable on browser. This is my first website and was built for learning web development. I decided to make a game for my first website because i already have some knowledge in game development before.",
+        "src": "https://hexatap-47a94.web.app/",
+        "imageDetails": [
+            {
+                "img": "DemoGameplay.webp",
+                "color": "bluedark",
+                "type": 1,
+                "width": 269,
+                "height": 480
+            },
+            {
+                "img": "HexaTap.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            }
+        ]
+    },
+    {
+        "title": "Rangkiang Form",
+        "subtitle": "Special made form with Google Sheets API",
+        "slug": "rangkiang-form",
+        "thumbnail": "Rangkiang Form.webp",
+        "color": "bluelight",
+        "tags": [
+            "web-dev",
+            "react",
+            "javascript",
+            "html",
+            "css",
+            "vercel",
+            "express",
+            "node"
+        ],
+        "description": "A form website integrated with google spreadsheet (google docs) api. This was created because there's no option to put commas to separate number for currency input if we use google form. This is specially created.",
+        "src": "",
+        "imageDetails": [
+            {
+                "img": "Preview Mobile.webp",
+                "color": "bluelight",
+                "type": 1,
+                "width": 275,
+                "height": 480
+            },
+            {
+                "img": "Preview Docs.webp",
+                "color": "bluelight",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            }
+        ]
+    },
+    {
+        "title": "Leapy Leapy Fishy",
+        "subtitle": "3D Fast Paced Fish Game Winning 2nd Place at MAGE 7 ITS",
+        "slug": "leapy-leapy-fishy",
+        "thumbnail": "Leapy Leapy Fishy.webp",
+        "color": "blue",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "ilustrator",
+            "blender",
+            "figma",
+            "hlsl"
+        ],
+        "description": "2nd winner for a Game Dev Competition MAGE 7 issued by Sepuluh Nopember Institute of Technology. Those 2 months of development were really painfull since i also have to study for an official national level Informatics competition by The Ministry of Education, Culture, Research, and Technology and also the amount of homework from my school. Name may be lame, but i'm still proud of it.",
+        "src": "https://www.youtube.com/watch?v=M86PU0PGgaM",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "blue",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "2.webp",
+                "color": "blue",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "3.webp",
+                "color": "brownlight",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "4.webp",
+                "color": "blue",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            }
+        ]
+    },
+    {
+        "title": "SiAbsen",
+        "subtitle": "Notification bot for attendance presence in my college",
+        "slug": "siabsen",
+        "thumbnail": "siabsen.webp",
+        "color": "bluedark",
+        "tags": [
+            "web-dev",
+            "next",
+            "react",
+            "postgresql",
+            "vercel",
+            "firebase"
+        ],
+        "description": "Notification bot for attendance presence in my college. It's made because i oftenly forget to fill the attendance presence form. It's usefull for me and my friends. It's made with only free services which are vercel and inggest api.",
+        "src": "https://siabsen.vercel.app/",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "bluedark",
+                "type": 1,
+                "width": 240,
+                "height": 480
+            },
+            {
+                "img": "siabsen.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            }
+        ]
+    },
+    {
+        "title": "QR Code Reminder With ChatGPT API",
+        "subtitle": "Reminds you when a product is about to expire with qr code",
+        "slug": "expiration-reminder",
+        "thumbnail": "Expiration Reminder.webp",
+        "color": "bluelight",
+        "tags": [
+            "mobile-dev",
+            "web-dev",
+            "flutter",
+            "dart",
+            "sqlite",
+            "vercel",
+            "node",
+            "mongodb",
+            "express"
+        ],
+        "description": "Mobile app that reminds you when a product is about to expire with qr code to add the reminder. This app was created with flutter and dart. It also has an extra feature which is an auto-generated description integrated with ChatGPT API. ",
+        "src": "",
+        "imageDetails": [
+            {
+                "img": "Expiration Reminder.webp",
+                "color": "bluelight",
+                "type": 0,
+                "width": 1944,
+                "height": 1080
+            }
+        ]
+    },
+    {
+        "title": "VFX Mesh Generator",
+        "subtitle": "Generate editable 3d object for creating Realtime VFX",
+        "slug": "vfx-mesh-generator",
+        "thumbnail": "VFX Mesh Generator.webp",
+        "color": "graylight",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "tools"
+        ],
+        "description": "As a technical artist, its really annoying having to switch to Blender to make an adjustment to a 3d mesh when making a VFX. It can generate mesh with many kinds of variation in a short time. There's also a bonus which is the debug texture to preview the uv coordinate of the mesh. Features:\n- Generate primitive uv mapped 3d mesh with controllable properties\n- Edit the mesh dynamically on runtime\n- Auto update mesh on editor\n- Flip normals\n- Save mesh\n- Bonus utilites for debugging like debug texture",
+        "src": "https://github.com/DhafinFawwaz/Unity-VFX-Mesh-Generator",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 321
+            },
+            {
+                "img": "2.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 345
+            },
+            {
+                "img": "3.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 296
+            },
+            {
+                "img": "4.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 356
+            }
+        ]
+    },
+    {
+        "title": "Project Arthur",
+        "subtitle": "A Top Down pixel art game made for GIM submission",
+        "slug": "project-arthur",
+        "thumbnail": "Project Arthur.webp",
+        "color": "greenlight",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "ilustrator",
+            "blender",
+            "figma",
+            "hlsl"
+        ],
+        "description": "A Top Down pixel art game made with UnityEngine(C#, HLSL) made for GIM submission. The game is currently unfinished. This project is the one that inspire me to make a really optimized coins. Those coin animation has a lot of variation like the initial phase for spinning or initial phase for jumping but can still be made with only 1 shader, 1 texture, and 1 material without any Unity's Monobehaviour.Update() which means it can be rendered in only 1 batch and is very optimized.",
+        "src": "https://kitkatmt.itch.io/sword-boi",
+        "imageDetails": [
+            {
+                "img": "Project Arthur.gif",
+                "color": "greenlight",
+                "type": 0,
+                "width": 480,
+                "height": 270
+            },
+            {
+                "img": "2.gif",
+                "color": "greenlight",
+                "type": 0,
+                "width": 480,
+                "height": 270
+            },
+            {
+                "img": "3.gif",
+                "color": "greenlight",
+                "type": 0,
+                "width": 400,
+                "height": 225
+            },
+            {
+                "img": "4.gif",
+                "color": "greenlight",
+                "type": 0,
+                "width": 400,
+                "height": 225
+            }
+        ]
+    },
+    {
+        "title": "Grappler Crashers",
+        "subtitle": "Game built for a submission in GIM",
+        "slug": "grappler-crashers",
+        "thumbnail": "Grappler Crashers.webp",
+        "color": "orange",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "ilustrator",
+            "blender",
+            "figma",
+            "hlsl"
+        ],
+        "description": "Game built for a submission in Ganesha Interactive Media (GIM). Made with Unity Engine (C#, HLSL)",
+        "src": "https://kitkatmt.itch.io/grappler-crashers",
+        "imageDetails": [
+            {
+                "img": "1.gif",
+                "color": "blue",
+                "type": 0,
+                "width": 600,
+                "height": 338
+            },
+            {
+                "img": "2.gif",
+                "color": "blue",
+                "type": 0,
+                "width": 600,
+                "height": 338
+            },
+            {
+                "img": "3.gif",
+                "color": "blue",
+                "type": 0,
+                "width": 600,
+                "height": 338
+            },
+            {
+                "img": "4.gif",
+                "color": "blue",
+                "type": 0,
+                "width": 600,
+                "height": 338
+            }
+        ]
+    },
+    {
+        "title": "Cube Associator",
+        "subtitle": "Chaotic game built for a submission in GIM",
+        "slug": "cube-associator",
+        "thumbnail": "Cube Associator.webp",
+        "color": "redlight",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "ilustrator",
+            "figma",
+            "hlsl"
+        ],
+        "description": "A game created as submission for GMTK game jam 2020. This was created when i was still a beginner in Game Development. It was both fun and frustating experience.",
+        "src": "https://kitkatmt.itch.io/cube-associator",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "graydark",
+                "type": 0,
+                "width": 250,
+                "height": 140
+            },
+            {
+                "img": "2.webp",
+                "color": "graydark",
+                "type": 0,
+                "width": 250,
+                "height": 140
+            },
+            {
+                "img": "3.webp",
+                "color": "graydark",
+                "type": 0,
+                "width": 250,
+                "height": 140
+            },
+            {
+                "img": "4.webp",
+                "color": "graydark",
+                "type": 0,
+                "width": 250,
+                "height": 140
+            }
+        ]
+    },
+    {
+        "title": "Very Optimized Coins Shader",
+        "subtitle": "Made with a lot of shader tricks, result of years of my research.",
+        "slug": "very-optimized-coins-shader",
+        "thumbnail": "Very Optimized Coins Shader.webp",
+        "color": "green",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "hlsl",
+            "tools"
+        ],
+        "description": "A very optimized coin made with a lot of shader tricks as the result of years of my research and playing with shader.\n- The jump height varies\n- Initial phase of the spinning coins varies\n- Coin spins with the same speed as it's shadow, but the shadow didn't jump\n- Jumps with neither trigonometric function nor if statements but can still jump periodically\n- All of the parameters above can also be set to be with the same values as we want.\n- Without any C# Component, which means there's neiher Monobehaviour.Update() nor FixedUpdate(). All of it is made with shader.\n- With only 1 texture, 1 material, 1 shader (which are the requirement to make rendering with 1 batch possible)\nThe main problem in optimizing a game is mostly about rendering. Of course, you can make all of this with the default sprite shader that already exist in the engine, and make those animation individually with a C# component. This will still make it rendered in 1 batch since it uses only 1 shader and 1 material which is the default one that comes with the engine. But imagine thousands of Monobehaviour.Update() running from those thousands of instance of C# component. It's overkill. That's why we can use shader. But if we use shader, all of those coins will do it's animation simultaneously like a military march. With the shader in this project, all of those variation is made possible but with a drawback which makes tinting the sprite is not possible anymore. But this won't affect anything since we almost never need to tint a rendered sprite. This is not the only trick. Getting the decimal of Time.time, custom parabole function instead of sine function, etc. are also things a few of many tricks that makes all the above possible.",
+        "src": "https://github.com/DhafinFawwaz/Unity-Optimized-Coins-Shader",
+        "imageDetails": [
+            {
+                "img": "MonobehaviourUpdate.gif",
+                "color": "green",
+                "type": 0,
+                "width": 800,
+                "height": 450
+            },
+            {
+                "img": "MultiMaterial.gif",
+                "color": "green",
+                "type": 0,
+                "width": 800,
+                "height": 450
+            },
+            {
+                "img": "SingleMaterial.gif",
+                "color": "green",
+                "type": 0,
+                "width": 800,
+                "height": 450
+            },
+            {
+                "img": "Optimized.gif",
+                "color": "green",
+                "type": 0,
+                "width": 800,
+                "height": 450
+            }
+        ]
+    },
+    {
+        "title": "Clustered Chaos",
+        "subtitle": "Chaotic game getting awards as the best gameplay and the best apprentice game at GIM Jam.",
+        "slug": "clustered-chaos",
+        "thumbnail": "Clustered Chaos.webp",
+        "color": "greenlight",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "hlsl"
+        ],
+        "description": "A game made for submision at GIM Jam 2022. It gets an award as the best gameplay and the best apprentice game.",
+        "src": "https://kitkatmt.itch.io/clustered-chaos",
+        "imageDetails": [
+            {
+                "img": "1.gif",
+                "color": "greenlight",
+                "type": 0,
+                "width": 400,
+                "height": 225
+            },
+            {
+                "img": "3.gif",
+                "color": "greenlight",
+                "type": 0,
+                "width": 400,
+                "height": 225
+            },
+            {
+                "img": "4.gif",
+                "color": "greenlight",
+                "type": 0,
+                "width": 400,
+                "height": 225
+            },
+            {
+                "img": "5.gif",
+                "color": "greenlight",
+                "type": 0,
+                "width": 400,
+                "height": 225
+            }
+        ]
+    },
+    {
+        "title": "Unfinished Collection",
+        "subtitle": "Collection of project that is still on progress but has long since touched.",
+        "slug": "unfinished-collection",
+        "thumbnail": "Unfinished Collection.webp",
+        "color": "color16x9",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp"
+        ],
+        "description": "My collection of project that is still on progress but has long since touched. These are projects that i wanted to make from start again with the knowledge i have now but don't have time to do it yet.",
+        "src": "",
+        "imageDetails": [
+            {
+                "img": "1.gif",
+                "color": "graydark",
+                "type": 1,
+                "width": 180,
+                "height": 320
+            },
+            {
+                "img": "2.gif",
+                "color": "bluelight",
+                "type": 0,
+                "width": 569,
+                "height": 320
+            }
+        ]
+    },
+    {
+        "title": "VFX-Shader Collection",
+        "subtitle": "My collection of created Realtime VFX with shader.",
+        "slug": "vfx-shader-collection",
+        "thumbnail": "VFX-Shader Collection.webp",
+        "color": "color16x9",
+        "tags": [
+            "game-dev",
+            "unity",
+            "hlsl"
+        ],
+        "description": "My collections of game vfx made with some shaders and particle system. Everything is created with a lot of shader tricks. Some of it have optimized version with many tricks with shader but with some drawbacks.",
+        "src": "",
+        "imageDetails": [
+            {
+                "img": "1.gif",
+                "color": "bluedark",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "2.gif",
+                "color": "bluelight",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "3.gif",
+                "color": "greenlight",
+                "type": 0,
+                "width": 320,
+                "height": 179
+            },
+            {
+                "img": "4.gif",
+                "color": "orange",
+                "type": 0,
+                "width": 600,
+                "height": 338
+            }
+        ]
+    },
+    {
+        "title": "Flavy",
+        "subtitle": "A game to introduce the new campus branch of ITB.",
+        "slug": "flavy",
+        "thumbnail": "Flavy.webp",
+        "color": "bluelight",
+        "tags": [
+            "game-dev",
+            "unity",
+            "hlsl",
+            "csharp"
+        ],
+        "description": "A game to introduce the new campus branch of Bandung Institute of Technology to the student that will attend it. I work as freelance and was part of this project as programmer, animator, and realtime vfx creation. I took care of some things like shader for transition and particle vfx, and UI. I'm also the one that animate the character in this game. This project was created back when i was still in highschool and i still don't know whether i can attend Bandung Institute of Technology later. Through some effort, i manage to get accepted to Bandung Institute of Technology and meet with the other people who contribute to this.",
+        "src": "https://joshia-t.itch.io/flavy",
+        "imageDetails": [
+            {
+                "img": "Map.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            },
+            {
+                "img": "Field.webp",
+                "color": "graydark",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "Album.webp",
+                "color": "bluelight",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "Leaderboard.webp",
+                "color": "bluelight",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            }
+        ]
+    },
+    {
+        "title": "Legenda Gunung Tampomas",
+        "subtitle": "Story book kids game to tell the Legend of Tampomas Mountain.",
+        "slug": "legenda-gunung-tampomas",
+        "thumbnail": "Legenda Gunung Tampomas.webp",
+        "color": "orange",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp"
+        ],
+        "description": "A story book game for kids to tell the Legend of Tampomas Mountain. I work as freelance programmer and animator in this project. I also used Audacity, a tool for sfx creation, to help me mark at which seconds for each word to create the dub of the naration. It's a really simple project but i learn many things about managing many simple things in this project.",
+        "src": "",
+        "imageDetails": [
+            {
+                "img": "Volcano.webp",
+                "color": "orange",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "Search.webp",
+                "color": "brownlight",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "Count.webp",
+                "color": "orange",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "Ending.webp",
+                "color": "bluelight",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            }
+        ]
+    },
+    {
+        "title": "Kirana & Laplip",
+        "subtitle": "Story book kids game to tell the story of Kirana & Laplip",
+        "slug": "kirana-dan-laplip",
+        "thumbnail": "Kirana dan Laplip.webp",
+        "color": "orange",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp"
+        ],
+        "description": "A story book game for kids to tell the story of Kirana & Laplip. I work as freelance programmer and animator in this project. It's a really simple project but i learn many things about managing many simple things in this project.",
+        "src": "",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "orange",
+                "type": 0,
+                "width": 640,
+                "height": 444
+            },
+            {
+                "img": "2.webp",
+                "color": "brownlight",
+                "type": 0,
+                "width": 640,
+                "height": 444
+            },
+            {
+                "img": "3.webp",
+                "color": "orange",
+                "type": 0,
+                "width": 640,
+                "height": 444
+            },
+            {
+                "img": "4.webp",
+                "color": "bluelight",
+                "type": 0,
+                "width": 640,
+                "height": 444
+            }
+        ]
+    },
+    {
+        "title": "Dewi Sri",
+        "subtitle": "Story book kids game to tell the story of Dewi Sri",
+        "slug": "dewi-sri",
+        "thumbnail": "dewi-sri.webp",
+        "color": "orange",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "hlsl"
+        ],
+        "description": "A story book game for kids to tell the story of Kirana & Laplip. I work as freelance programmer and animator in this project. It's a really simple project but i learn many things about managing many simple things in this project.",
+        "src": "",
+        "imageDetails": [
+            {
+                "img": "dewi-sri-1.gif",
+                "color": "orange",
+                "type": 0,
+                "width": 640,
+                "height": 432
+            },
+            {
+                "img": "dewi-sri-2.gif",
+                "color": "orange",
+                "type": 0,
+                "width": 640,
+                "height": 432
+            },
+            {
+                "img": "dewi-sri-3.gif",
+                "color": "orange",
+                "type": 0,
+                "width": 640,
+                "height": 432
+            },
+            {
+                "img": "dewi-sri-4.gif",
+                "color": "orange",
+                "type": 0,
+                "width": 640,
+                "height": 432
+            }
+        ]
+    },
+    {
+        "title": "Kinnaria",
+        "subtitle": "Rythm game telling the story of Dewi Sri",
+        "slug": "kinnaria",
+        "thumbnail": "kinnaria.webp",
+        "color": "orange",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "hlsl"
+        ],
+        "description": "Rythm game telling the story of Dewi Sri.",
+        "src": "",
+        "imageDetails": [
+            {
+                "img": "kinnaria-1.webp",
+                "color": "orange",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            },
+            {
+                "img": "kinnaria-2.webp",
+                "color": "orange",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            },
+            {
+                "img": "kinnaria-3.webp",
+                "color": "orange",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            },
+            {
+                "img": "kinnaria-4.webp",
+                "color": "orange",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            }
+        ]
+    },
+    {
+        "title": "Snake 4D [+5000 Installs]",
+        "subtitle": "Snake game... but 4D!",
+        "slug": "snake-4d",
+        "thumbnail": "Snake 4D.webp",
+        "color": "orange",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "hlsl"
+        ],
+        "description": "The usual snake game but with a twist which is the ability for the snake to move to the 4th dimension. I's an old game that i made back when i'm still in highschool and is still a beginner. I managed to get +5000 downloads on this game probably because i finally understand the market after publishing some games before.",
+        "src": "https://play.google.com/store/apps/details?id=com.sppAghetti.Snake4D&hl=en&gl=US",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "green",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "2.webp",
+                "color": "greenlight",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "3.webp",
+                "color": "brownlight",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            },
+            {
+                "img": "4.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 320,
+                "height": 180
+            }
+        ]
+    },
+    {
+        "title": "Linear Equation System Matrix",
+        "subtitle": "Java program with GUI to implement things about Linear Equation System.",
+        "slug": "linear-equation-system-matrix",
+        "thumbnail": "Linear Equation System Matrix.webp",
+        "color": "bluedark",
+        "tags": [
+            "desktop-dev",
+            "java"
+        ],
+        "description": "A java program with GUI to implement things about Linear Equation System with Matrix in Linear Algebra. It contains implementation for many function such as Gauss Elimination, Gauss-jordan Elimination, Matrix Inverse with many method, Matrix Determinant, Cramer's rule, Polynomial Interpolation, Bicubic Interpolation, Multiple Linear Regression, and image enlargement with Interpolation. It's made with Java Swing for the GUI and a lot of things needs to be overiden to make it looks good. This project gets the highest score in my college year.",
+        "src": "https://github.com/ganadipa/Algeo01-22066",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 336
+            },
+            {
+                "img": "2.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 351
+            },
+            {
+                "img": "3.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 343
+            },
+            {
+                "img": "4.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 340
+            }
+        ]
+    },
+    {
+        "title": "Ocular",
+        "subtitle": "Content-Based Image Retrieval for reverse image search",
+        "slug": "ocular",
+        "thumbnail": "Ocular.webp",
+        "color": "bluedark",
+        "tags": [
+            "web-dev",
+            "c",
+            "typescript",
+            "python",
+            "next",
+            "django",
+            "tailwind",
+            "sqlite",
+            "react"
+        ],
+        "description": "Implementation of Linear Algebra in Content-Based Image Retrieval for reverse image search with a website. The frontend is made with Next.js and the backend is made with django and c. The c program is used to calculate the heavy image processing. It also uses caching and multiprocessing to speed up the whole process. It has some features such as searching based on texture, searching based on color, dataset upload, pdf export for search result, web scrapping, and automatic camera to capture image. This project gets the 2nd highest score in my college year.",
+        "src": "https://github.com/DhafinFawwaz/Algeo02-22043",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 386
+            },
+            {
+                "img": "2.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 458
+            },
+            {
+                "img": "3.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 389
+            },
+            {
+                "img": "4.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 637,
+                "height": 480
+            }
+        ]
+    },
+    {
+        "title": "Portfolio",
+        "subtitle": "My main interactive web portfolio",
+        "slug": "portfolio",
+        "thumbnail": "Portfolio.webp",
+        "color": "graydark",
+        "tags": [
+            "web-dev",
+            "next",
+            "typescript",
+            "react",
+            "html",
+            "css"
+        ],
+        "description": "This website is made to showcase my works. An opportunity for an internship would be nice :). This website was created with Next js and react. It's currently not finished yet",
+        "src": "https://dhafinfawwaz.github.io/",
+        "imageDetails": [
+            {
+                "img": "Portfolio.webp",
+                "color": "graydark",
+                "type": 0,
+                "width": 640,
+                "height": 379
+            },
+            {
+                "img": "Preview Mobile.webp",
+                "color": "graylight",
+                "type": 1,
+                "width": 211,
+                "height": 480
+            }
+        ]
+    },
+    {
+        "title": "Ecommerce Book",
+        "subtitle": "Simple book store",
+        "slug": "ecommerce-book",
+        "thumbnail": "Ecommerce Book.webp",
+        "color": "blue",
+        "tags": [
+            "web-dev",
+            "django",
+            "python",
+            "javascript",
+            "bootstrap",
+            "html",
+            "css",
+            "sqlite",
+            "heroku"
+        ],
+        "description": "A website created for an assignment of Introduction to Computation in Bandung Institute of Technology. It's created with Django and some help from javascript for the client side.",
+        "src": "https://github.com/DhafinFawwaz/Project-Book-Django",
+        "imageDetails": [
+            {
+                "img": "Ecommerce Book.webp",
+                "color": "blue",
+                "type": 0,
+                "width": 640,
+                "height": 339
+            },
+            {
+                "img": "Preview Mobile.webp",
+                "color": "blue",
+                "type": 1,
+                "width": 331,
+                "height": 480
+            }
+        ]
+    },
+    {
+        "title": "Reusable Finite State Machine with Editor",
+        "subtitle": "Unity package for Generic based FSM. It's big brain OOP.",
+        "slug": "reusable-finite-state-machine-with-editor",
+        "thumbnail": "Reusable Finite State Machine with Editor.webp",
+        "color": "graylight",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "tools"
+        ],
+        "description": "Implementation of state design pattern in Object Oriented Programming with reusable base class for the state machine and includes the editor to make creating and updating state easier. Features:\n- Reusable base class for state machine\n- Can add custom function that can be overriden on any state, for example the OnHurt one.\n- An editor to view what are the states and to create a new state including automaticallyit in \n- the states (the U of Core<T,U>)\n- Bonus feature for a good implementation for HitRequest and HitResult",
+        "src": "https://github.com/DhafinFawwaz/Unity-Reusable-Finite-State-Machine-With-Editor",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 605,
+                "height": 480
+            },
+            {
+                "img": "2.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 454
+            }
+        ]
+    },
+    {
+        "title": "Auth with Many Frameworks",
+        "subtitle": "Authentication implementation with many frameworks.",
+        "slug": "auth-with-many-frameworks",
+        "thumbnail": "Auth with Multiple Frameworks.webp",
+        "color": "bluedark",
+        "tags": [
+            "web-dev",
+            "tailwind",
+            "typescript",
+            "next",
+            "node",
+            "express",
+            "javascript",
+            "python",
+            "django",
+            "go",
+            "fiber",
+            "php",
+            "laravel",
+            "supabase"
+        ],
+        "description": "Implementation of Authentication with Next js and Next Auth as frontend and multiple backend frameworks. It implements the best way to block access to certain page, and redirect the user. It also block access to certain api endpoints if the user is not authenticated.",
+        "src": "https://github.com/DhafinFawwaz/Auth-With-Many-Frameworks",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            },
+            {
+                "img": "Auth with Multiple Frameworks.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 360
+            }
+        ]
+    },
+    {
+        "title": "HitBox System with Editor",
+        "subtitle": "Unity package for hitbox system.",
+        "slug": "hitbox-system-with-editor",
+        "thumbnail": "HitBox System with Editor.webp",
+        "color": "graylight",
+        "tags": [
+            "game-dev",
+            "unity",
+            "csharp",
+            "tools"
+        ],
+        "description": "A flexible Hitbox system with its visualization and easy edit when animating. It uses the built in 2d Collider which makes it easily customizable. It supports circle and rectangle hitbox. It's already tested and has guaranteed hit on every frame, doesn't matter the framerate, as long as its using the physics update like using animate physics in animator. Features: \n- Easily edit hitbox when using animator. \n- Has HitboxCaster and HitboxReceiver. These can be customized with using layer and collision matrix to make custom things lika shield or guard. \n- Visualization with color when certain hitbox is collided. \n- Guaranteed to hit a certain hitbox only once, then reset when the HitboxCaster is disabled.",
+        "src": "https://github.com/DhafinFawwaz/2D-HitBox-System-with-Editor",
+        "imageDetails": [
+            {
+                "img": "HitBox System with Editor.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 637,
+                "height": 480
+            },
+            {
+                "img": "2.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 456
+            }
+        ]
+    },
+    {
+        "title": "Le Mari",
+        "subtitle": "An app to manage your outfit.",
+        "slug": "le-mari",
+        "thumbnail": "le-mari.webp",
+        "color": "bluedark",
+        "tags": [
+            "desktop-dev",
+            "python",
+            "flet",
+            "ci-cd",
+            "sqlite"
+        ],
+        "description": "An app to manage your outfit.",
+        "src": "https://github.com/DhafinFawwaz/LeMari",
+        "imageDetails": [
+            {
+                "img": "4.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 372
+            },
+            {
+                "img": "5.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 372
+            },
+            {
+                "img": "2.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 371
+            },
+            {
+                "img": "1.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 369
+            }
+        ]
+    },
+    {
+        "title": "Farmer Rancher Mayor Simulator",
+        "subtitle": "Game written in c++ and qt about Farmer, Rancher & Mayor Simulator.",
+        "slug": "farmer-rancher-mayor-simulator",
+        "thumbnail": "farmer-rancher-mayor-simulator.webp",
+        "color": "bluedark",
+        "tags": [
+            "desktop-dev",
+            "cplusplus",
+            "qt"
+        ],
+        "description": "A game written in c++ and qt about Farmer, Rancher & Mayor Simulator",
+        "src": "https://github.com/DhafinFawwaz/Tubes-OOP-1",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 431
+            },
+            {
+                "img": "2.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 430
+            },
+            {
+                "img": "3.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 432
+            },
+            {
+                "img": "4.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 432
+            }
+        ]
+    },
+    {
+        "title": "Breach Protocol Solver",
+        "subtitle": "Cyberpunk 2077 Breach Protocol solver with Brute Force.",
+        "slug": "breach-protocol-solver",
+        "thumbnail": "breach-protocol-solver.webp",
+        "color": "bluedark",
+        "tags": [
+            "desktop-dev",
+            "python",
+            "qt"
+        ],
+        "description": "Cyberpunk 2077 Breach Protocol solver made in Python with implementation of the Brute Force Algorithm.",
+        "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
+        "imageDetails": [
+            {
+                "img": "breach-protocol-solver.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 633,
+                "height": 446
+            }
+        ]
+    },
+    {
+        "title": "OSLahPokoknya",
+        "subtitle": "A really cool Operating System made with C and Assembly",
+        "slug": "oslahpokoknya",
+        "thumbnail": "oslahpokoknya.png",
+        "color": "bluedark",
+        "tags": [
+            "os-dev",
+            "c",
+            "assembly",
+            "qemu"
+        ],
+        "description": "A really cool Operating System made with C and Assembly",
+        "src": "https://github.com/DhafinFawwaz/OsLahPokoknya",
+        "imageDetails": [
+            {
+                "img": "1.png",
+                "color": "graydark",
+                "type": 0,
+                "width": 716,
+                "height": 457
+            },
+            {
+                "img": "2.png",
+                "color": "graydark",
+                "type": 0,
+                "width": 717,
+                "height": 462
+            },
+            {
+                "img": "3.png",
+                "color": "graydark",
+                "type": 0,
+                "width": 717,
+                "height": 453
+            },
+            {
+                "img": "4.png",
+                "color": "graydark",
+                "type": 0,
+                "width": 713,
+                "height": 456
+            }
+        ]
+    },
+    {
+        "title": "WikiRace Solver",
+        "subtitle": "A really cool Operating System made with C and Assembly",
+        "slug": "wikirace-solver",
+        "thumbnail": "wikirace-solver.webp",
+        "color": "bluedark",
+        "tags": [
+            "web-dev",
+            "javascript",
+            "tailwind",
+            "pixi",
+            "go",
+            "fiber",
+            "docker"
+        ],
+        "description": "Solve Wikirace with web scrapping, multithreading, and implementation of Breadth First Search Algorithm and Iterative Deepening Search Algorithm. It's made with Go Fiber for the backend and Pixi.js for the frontend.",
+        "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "2.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "3.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "4.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            }
+        ]
+    }
 ]

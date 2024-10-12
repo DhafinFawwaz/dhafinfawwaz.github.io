@@ -4,11 +4,13 @@ import { NavbarItem } from '@/types/type';
 
 const navbarMap: {[key: string]: NavbarItem} = navbarJson;
 
-export default function NavbarPage() {
+export default function NavbarPage({homeHref = "/#profile"}: {homeHref?: string}) {
+    if(!homeHref) homeHref = "/#profile";
+
     return <nav className="bg-night-900 fixed flex justify-center z-50 drop-shadow-sm w-full">
     <div className="hidden sm:flex py-2 w-full justify-between max-w-4xl px-6">
         <div className="flex gap-2">
-            <Link href="/#profile" className="nav-button">
+            <Link href={homeHref} className="nav-button">
                 <img src="/favicon.ico" className="h-4 mt-1 scale-125" alt=""/>
                 Dhafin
             </Link>
