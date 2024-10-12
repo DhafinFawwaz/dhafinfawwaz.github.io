@@ -2,7 +2,6 @@ import ProjectsJson from "@/data/projects.json";
 import tagsJsonImported from "@/data/tags.json";
 import { Tag, Project } from "@/types/type";
 import Details from "@/components/Details";
-import NavbarPage from "@/components/Navbar";
 import Head from 'next/head'
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
 
@@ -61,7 +60,6 @@ export default function DetailsFromURL( { project, nextProject, prevProject } :I
       <meta name="author" content="Dhafin Fawwaz Ikramullah"></meta>
       <meta name="description" content={project.description}/>
     </Head>
-    <NavbarPage></NavbarPage>
     <main className="w-full flex justify-center">
       <div className="max-w-4xl w-full">
         <Details project={project} tags={project.tags.map(tagKey => {

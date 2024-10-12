@@ -5,7 +5,6 @@ import tagsJsonImported from "@/data/tags.json";
 import { Project, Tag } from "@/types/type";
 import ProjectCard from "@/components/ProjectCard";
 import { useEffect, useState } from "react";
-import NavbarPage from "@/components/Navbar";
 
 const tagsMap: {[key: string]: Tag} = tagsJsonImported;
 const ProjectsList: Project[] = ProjectsJson;
@@ -101,7 +100,6 @@ export default function TagPage() {
       <meta name="author" content="Dhafin Fawwaz Ikramullah"></meta>
       <meta name="description" content="Portfolio which consist of projects about Mobile Development, Game Development, and Web Development"/>
     </Head>
-    <NavbarPage></NavbarPage>
     <main className="w-full flex justify-center">
       <div className="max-w-4xl mb-4">
         <section id="tags">

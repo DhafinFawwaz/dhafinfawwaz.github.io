@@ -1,9 +1,7 @@
 import Link from "next/link";
-import NavbarPage from "@/components/Navbar";
 
 export default function Home() {
   return (<>
-    <NavbarPage></NavbarPage>
     <main className="w-full flex justify-center h-svh items-center">
       <div className="px-2">
         <h2 className="text-9xl font-extrabold">404</h2>

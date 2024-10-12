@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { League_Spartan } from 'next/font/google';
+import NavbarPage from "@/components/Navbar";
 
 // For google analytics
 import Script from 'next/script'
@@ -37,6 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Script>
 
     <main className={`${leageSpartan.className}`}>
+      <NavbarPage></NavbarPage>
       <Component {...pageProps} />
     </main>
   </>
