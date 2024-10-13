@@ -117,7 +117,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
     }
 
     return <>
-    <div className="xs:block flex fixed bottom-0 w-full p-3 bg-night-800 shadow-rim-sm">
+    <div className="xs:hidden fixed bottom-0 w-full p-3 bg-night-800 shadow-rim-sm">
         <a href={project.src} target="_blank" className="flex w-full items-center justify-center bg-indigo-600 rounded-lg m-0 text-center cursor-pointer text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 px-4 shadow-rim-sm ring-indigo-900
             hover:scale-102
             hover:bg-indigo-700
