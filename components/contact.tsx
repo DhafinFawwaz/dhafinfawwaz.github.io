@@ -1,11 +1,12 @@
 import ContactJson from '@/data/contact.json';
 import { Contact } from '@/types/type';
+import { forwardRef } from 'react';
 
 const ContactList: {[key: string]: Contact} = ContactJson;
 
-export default function ContactPage() {
+export const ContactPage = forwardRef<HTMLElement, {}>((props, ref) => {
     return <>
-<section id="contact">
+<section id="contact" ref={ref}>
     <h2>Contact</h2>
     <h3 className='text-zinc-400 text-sm font-medium'>Opportunity for an internship would be nice :)</h3>
     <br/>
@@ -31,4 +32,6 @@ export default function ContactPage() {
     <div>Dhafin Fawwaz Ikramullah</div>
 </section>
 </>
-}
+});
+
+export default ContactPage;

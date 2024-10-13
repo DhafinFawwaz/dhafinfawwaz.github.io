@@ -1,11 +1,12 @@
 import achievementJson from "@/data/achievement.json";
 import { Achievement } from "@/types/type";
+import { forwardRef } from "react";
 
 const achievementList: Achievement[] = achievementJson;
 
-export default function AchievementPage() {
+export const AchievementPage = forwardRef<HTMLElement, {}>((props, ref) => {
     
-    return <section id="achievement">
+    return <section id="achievement" ref={ref}>
         <h2>Achievement</h2>
         <h3 className='text-zinc-400 text-sm font-medium'>What i achieve throughout My Journey</h3>
         <br/>
@@ -41,4 +42,6 @@ export default function AchievementPage() {
 
     </section>
 
-}
+});
+
+export default AchievementPage;

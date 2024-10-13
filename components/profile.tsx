@@ -1,16 +1,17 @@
 import ContactJson from '@/data/contact.json';
 import { Contact } from '@/types/type';
+import { forwardRef } from 'react';
 
 const ContactList: {[key: string]: Contact} = ContactJson;
 
-export default function ProfilePage() {
+export const ProfilePage = forwardRef<HTMLElement, {}>((props, ref) => {
     return <>
-<section id="profile" className="pt-24">
+<section id="profile" className="pt-24" ref={ref}>
     <div className="grid xs:grid-cols-12 grid-cols-1 xs:gap-4">
         
         <div className='w-full h-full flex flex-col xs:col-span-4 overflow-hidden'>
             <div className='h-full w-full'>
-                <img className="rounded-xl overflow-hidden object-cover h-full" src="/img/profile/Dhafin Fawwaz Ikramullah.png" alt="Dhafin Fawwaz Ikramullah"/>
+                <img width={272*2} height={278*2} className="rounded-xl overflow-hidden object-cover h-full" src="/img/profile/Dhafin Fawwaz Ikramullah.png" alt="Dhafin Fawwaz Ikramullah"/>
             </div>
             <div className="flex gap-2 h-6 overflow-visible mt-2 justify-center">
                 {Object.keys(ContactList).map((key, index) => {
@@ -72,4 +73,6 @@ export default function ProfilePage() {
     </div>
 </section>
 </>
-}
+});
+
+export default ProfilePage;

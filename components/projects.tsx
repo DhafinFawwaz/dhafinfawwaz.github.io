@@ -2,14 +2,15 @@ import ProjectsJson from "@/data/projects.json";
 import tagsJsonImported from "@/data/tags.json";
 import { Project, Tag } from "@/types/type";
 import ProjectCard from "@/components/projectcard";
+import { forwardRef } from "react";
 
 const tagsMap: {[key: string]: Tag} = tagsJsonImported;
 
 const ProjectsList: Project[] = ProjectsJson;
 
-export default function ProjectPage() {
+export const ProjectPage = forwardRef<HTMLElement, {}>((props, ref) => {
 
-    return <section id="project">
+    return <section id="project" ref={ref}>
     <h2>Project</h2>
     <h3 className='text-zinc-400 text-sm font-medium'>Collection of projects that i built or involved in</h3>
     <br/>
@@ -29,4 +30,6 @@ export default function ProjectPage() {
     </div>
 
 </section>
-}
+});
+
+export default ProjectPage;
