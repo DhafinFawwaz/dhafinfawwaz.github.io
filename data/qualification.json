@@ -57,17 +57,23 @@
       "target": "_self",
       "src": "/project/kirana-dan-laplip"
     },{
-      "title": "Rolling Glory Jam",
-      "subtitle": "Internship Game Programmer",
-      "date": "2024",
-      "target": "_self",
-      "src": "https://www.google.com/search?q=Rolling Glory Jam"
-    },{
       "title": "Dewi Sri",
       "subtitle": "Freelance Game Development",
       "date": "2024",
       "target": "_blank",
       "src": "https://kitkatmt.itch.io/dewi-sri"
+    },{
+      "title": "Kinnaria",
+      "subtitle": "Freelance Game Development",
+      "date": "2024",
+      "target": "_blank",
+      "src": ""
+    },{
+      "title": "Rolling Glory Jam",
+      "subtitle": "Internship Game Programmer",
+      "date": "2024",
+      "target": "_self",
+      "src": "https://www.google.com/search?q=Rolling Glory Jam"
     }
   ],
 
