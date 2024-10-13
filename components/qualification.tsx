@@ -1,6 +1,5 @@
 import qualificationJson from '@/data/qualification.json';
 import { Qualification } from '@/types/type';
-import { forwardRef } from 'react';
 
 const QualificationMap: {[key: string]: Qualification[]}  = qualificationJson;
 
