@@ -5,7 +5,7 @@ import { forwardRef } from 'react';
 const QualificationMap: {[key: string]: Qualification[]}  = qualificationJson;
 
 
-export const QualificationPage = forwardRef<HTMLElement, {}>((props, ref) => {
+export default function QualificationPage() {
     const education = QualificationMap["education"];
     const work = QualificationMap["work"];
     const organization = QualificationMap["organization"];
@@ -44,7 +44,7 @@ export const QualificationPage = forwardRef<HTMLElement, {}>((props, ref) => {
         return res;
     }
 
-    return <section id="qualification" ref={ref}>
+    return <section id="qualification">
     <h2>Qualification</h2>
     <h3 className='text-zinc-400 text-sm font-medium'>My Journey</h3>
     <br/>
@@ -87,6 +87,4 @@ export const QualificationPage = forwardRef<HTMLElement, {}>((props, ref) => {
     
     
 </section>
-});
-
-export default QualificationPage;
+};
