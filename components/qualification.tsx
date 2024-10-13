@@ -1,42 +1,50 @@
 import qualificationJson from '@/data/qualification.json';
 import { Qualification } from '@/types/type';
+import { forwardRef } from 'react';
 
 const QualificationMap: {[key: string]: Qualification[]}  = qualificationJson;
 
 
-export default function QualificationPage() {
+export const QualificationPage = forwardRef<HTMLElement, {}>((props, ref) => {
     const education = QualificationMap["education"];
     const work = QualificationMap["work"];
     const organization = QualificationMap["organization"];
 
-    function generate(education: Qualification[]) {
-        return education.map((item, index) => {
-        return <div key={index} className='flex'>
-                <div>
-                    {index === 0 ? <div className="qualification-last mt-2"></div> : <></>}
-                    <div className='w-3 h-3 absolute bg-indigo-600 rotate-45 mt-2'></div>
-                    {index === education.length - 1 ?  
-                    <div className='w-3'></div>
-                    : 
-                    <div className='h-full w-3 flex justify-center mt-2'>
-                        <div className='w-[2px] h-full bg-indigo-600'></div>
+    function generate(qualificationList: Qualification[]) {
+        const res = [];
+        for(let i = qualificationList.length - 1; i >= 0; i--) {
+            const item = qualificationList[i];
+            const index = qualificationList.length - i - 1;
+            res.push(
+                <div key={index} className='flex'>
+                    <div>
+                        {index === 0 ? <div className="qualification-last mt-2"></div> : <></>}
+                        <div className='w-3 h-3 absolute bg-indigo-600 rotate-45 mt-2'></div>
+                        {index === qualificationList.length - 1 ?  
+                        <div className='w-3'></div>
+                        : 
+                        <div className='h-full w-3 flex justify-center mt-2'>
+                            <div className='w-[2px] h-full bg-indigo-600'></div>
+                        </div>
+                        }
                     </div>
-                    }
+                    
+                    <a href={item.src} target={item.target} className='ml-3 hover:bg-night-900 p-2 mr-4 rounded-lg w-full active:bg-indigo-700'>
+                        <h5 className="font-bold text-sm xs:text-md leading-4">{item.title}</h5>
+                        <h6 className='font-medium text-zinc-400 text-xs xs:text-sm leading-3 xs:leading-5 mt-0 xs:mt-0.5'>{item.subtitle}</h6>
+                        <h6 className='font-medium flex text-[0.66rem] text-zinc-400 gap-1'>
+                            <img className='h-3 -translate-y-[0.05rem]' src="https://api.iconify.design/lets-icons/date-range-fill.svg?color=%2364748b" alt="date"/>
+                            {item.date}
+                        </h6>
+                    </a>
                 </div>
-                
-                <a href={item.src} target={item.target} className='ml-3 hover:bg-night-900 p-2 mr-4 rounded-lg w-full active:bg-indigo-700'>
-                    <h5 className="font-bold text-sm xs:text-md leading-4">{item.title}</h5>
-                    <h6 className='font-medium text-zinc-400 text-xs xs:text-sm leading-3 xs:leading-5 mt-0 xs:mt-0.5'>{item.subtitle}</h6>
-                    <h6 className='font-medium flex text-[0.66rem] text-zinc-400 gap-1'>
-                        <img className='h-3 -translate-y-[0.05rem]' src="https://api.iconify.design/lets-icons/date-range-fill.svg?color=%2364748b" alt="date"/>
-                        {item.date}
-                    </h6>
-                </a>
-            </div>
-        })
+
+            );
+        }
+        return res;
     }
 
-    return <section id="qualification">
+    return <section id="qualification" ref={ref}>
     <h2>Qualification</h2>
     <h3 className='text-zinc-400 text-sm font-medium'>My Journey</h3>
     <br/>
@@ -60,23 +68,25 @@ export default function QualificationPage() {
     
     <div className="qualification-grid grid sm:grid-cols-3 mt-2">
         <input type="radio" id="education-radio" name="qualification-radio" className="hidden peer/education"/>
-        <div className="sm:block peer-checked/education:block hidden mt-1">
+        <div className="peer-checked/education:block hidden mt-1 sm:block">
             {generate(education)}
         </div>
 
 
         <input type="radio" id="work-radio" name="qualification-radio" className="hidden peer/work" defaultChecked/>
-        <div className="sm:block peer-checked/work:block hidden mt-1">
+        <div className="peer-checked/work:block hidden mt-1 sm:block">
             {generate(work)}
         </div>
 
 
         <input type="radio" id="organization-radio" name="qualification-radio" className="hidden peer/organization" />
-        <div className="sm:block peer-checked/organization:block hidden mt-1">
+        <div className="peer-checked/organization:block hidden mt-1 sm:block">
             {generate(organization)}
         </div>
     </div>
     
     
 </section>
-}
+});
+
+export default QualificationPage;
