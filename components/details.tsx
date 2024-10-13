@@ -117,6 +117,17 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
     }
 
     return <>
+    <div className="xs:block flex fixed bottom-0 w-full p-3 bg-night-800 shadow-rim-sm">
+        <a href={project.src} target="_blank" className="flex w-full items-center justify-center bg-indigo-600 rounded-lg m-0 text-center cursor-pointer text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 px-4 shadow-rim-sm ring-indigo-900
+            hover:scale-102
+            hover:bg-indigo-700
+            focus:ring-4 
+            active:ring-4 
+            active:ease-out-expo">
+            <img className="-rotate-45 scale-115" src={"https://api.iconify.design/mingcute/arrow-right-fill.svg?color=%23ffffff"} alt="next"/>
+            <div className="text-sm translate-y-0.5">Visit</div>
+        </a>
+    </div>
     <section id="project">
         <div className="flex justify-between">
             {changePageButton("Previous", "/project/"+prevProjectSlug, "https://api.iconify.design/ooui/next-rtl.svg?color=%23ffffff")}
@@ -156,7 +167,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
                     
                     :
                     
-                    <a href={project.src} target="_blank" className="flex items-center justify-center bg-indigo-600 rounded-lg m-0 text-center cursor-pointer text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 px-4 shadow-rim-sm ring-indigo-900
+                    <a href={project.src} target="_blank" className="hidden xs:flex items-center justify-center bg-indigo-600 rounded-lg m-0 text-center cursor-pointer text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 px-4 shadow-rim-sm ring-indigo-900
                         hover:scale-105
                         hover:bg-indigo-700
                         focus:ring-4 
