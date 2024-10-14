@@ -9,7 +9,7 @@ export default function ProfilePage() {
     <div className="grid xs:grid-cols-12 grid-cols-1 xs:gap-4">
         
         <div className='w-full h-full flex flex-col xs:col-span-4 overflow-hidden'>
-            <div className='h-full w-full'>
+            <div className='xs:h-full max-h-72 w-full'>
                 <img className="rounded-xl overflow-hidden object-cover h-full" src="/img/profile/Dhafin Fawwaz Ikramullah.png" alt="Dhafin Fawwaz Ikramullah"/>
             </div>
             <div className="flex gap-2 h-6 overflow-visible mt-2 justify-center">
