@@ -11,18 +11,18 @@ export default function NavbarPage({homeHref = "/#profile"}: {homeHref?: string}
     <div className="hidden sm:flex py-2 w-full justify-between max-w-4xl px-6">
         <div className="flex gap-2">
             <Link href={homeHref} className="nav-button">
-                <img src="/favicon.ico" className="h-4 mt-1 scale-125" alt=""/>
+                <img src="/favicon.ico" className="h-4 mt-1 scale-125" alt="Dhafin Icon"/>
                 Dhafin
             </Link>
         </div>
         <div className="flex gap-2">
             {Object.keys(navbarMap).map((key, index) => {
                 return <a key={index} href={`/#${key}`} className="nav-button">
-                <img src={navbarMap[key].img} alt={navbarMap[key].title} className='mt-1 max-h-4'/>{navbarMap[key].title}
+                <img src={navbarMap[key].img} alt={navbarMap[key].title+" Icon"} className='mt-1 max-h-4'/>{navbarMap[key].title}
                 </a>
             })}
             <Link href={"/tag"} className="nav-button">
-                <img src={"https://api.iconify.design/mdi/tag.svg?color=%23ffffff"} alt={"tag"} className='mt-1'/>Tag
+                <img src={"https://api.iconify.design/mdi/tag.svg?color=%23ffffff"} alt={"Tag Icon"} className='mt-1'/>Tag
             </Link>
         </div>
     </div>

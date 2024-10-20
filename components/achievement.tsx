@@ -18,8 +18,8 @@ export default function AchievementPage() {
                             <img src={item.icon} alt={item.title} className=""/>
                         </div>
                         <div className="w-full">
-                            <h5 className="text-md font-bold">{item.title}</h5>
-                            <h6 className="text-sm font-normal text-zinc-400 text-wrap">[{item.date}] - {item.subtitle}</h6>
+                            <h4 className="text-md font-bold">{item.title}</h4>
+                            <h5 className="text-sm font-normal text-zinc-400 text-wrap">[{item.date}] - {item.subtitle}</h5>
                         </div>
                     </label>    
 

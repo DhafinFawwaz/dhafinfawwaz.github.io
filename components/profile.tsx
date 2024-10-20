@@ -10,7 +10,7 @@ export default function ProfilePage() {
         
         <div className='w-full h-full flex flex-col xs:col-span-4 overflow-hidden'>
             <div className='xs:h-full max-h-72 w-full'>
-                <img className="rounded-xl overflow-hidden object-cover h-full" src="/img/profile/Dhafin Fawwaz Ikramullah.png" alt="Dhafin Fawwaz Ikramullah"/>
+                <img className="rounded-xl overflow-hidden object-cover h-full" src="/img/profile/Dhafin Fawwaz Ikramullah.webp" alt="Dhafin Fawwaz Ikramullah"/>
             </div>
             <div className="flex gap-2 h-6 overflow-visible mt-2 justify-center">
                 {Object.keys(ContactList).map((key, index) => {

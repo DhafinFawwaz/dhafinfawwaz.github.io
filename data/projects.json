@@ -1520,7 +1520,7 @@
     },
     {
         "title": "WikiRace Solver",
-        "subtitle": "A really cool Operating System made with C and Assembly",
+        "subtitle": "Solve Wikirace with web scrapping, multithreading, BFS, IDS, etc.",
         "slug": "wikirace-solver",
         "thumbnail": "wikirace-solver.webp",
         "color": "bluedark",

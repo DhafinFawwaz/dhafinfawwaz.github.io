@@ -261,7 +261,7 @@
         "icon": "https://api.iconify.design/skill-icons/vite-dark.svg"
     },
     "go": {
-        "name": "Go",
+        "name": "Golang",
         "color": "#00acd7",
         "icon": "https://api.iconify.design/skill-icons/golang.svg"
     },
@@ -303,7 +303,7 @@
     "phaser": {
         "name": "Phaser",
         "color": "#1467db",
-        "icon": "https://cdn.phaser.io/images/logo/phaser-planet-small.png"
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Phaser_Logo.png/50px-Phaser_Logo.png"
     },
     "nginx": {
         "name": "Nginx",

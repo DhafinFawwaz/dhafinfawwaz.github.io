@@ -157,7 +157,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
                     <div className="w-full flex">
                         <div className="flex flex-wrap gap-2">
                             {tags.map((tag, index) => {
-                                return <a key={index} href={"/tag?tag=" + tag.slug} className={`text-2xs xs:text-xs font-semibold ${tag.color} bg-night-600 px-2 rounded-lg pt-0.5 h-5 grow text-center z-40 hover:bg-indigo-600 active:bg-indigo-400 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm
+                                return <a key={index} aria-label={"find "+tag.name} href={"/tag?tag=" + tag.slug} className={`text-2xs xs:text-xs font-semibold ${tag.color} bg-night-600 px-2 rounded-lg pt-0.5 h-5 grow text-center z-40 hover:bg-indigo-600 active:bg-indigo-400 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm
                                 focus:ring-4
                                 ring-indigo-800
                                 `}>{tag.name}</a>
