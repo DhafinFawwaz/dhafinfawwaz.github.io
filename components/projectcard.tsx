@@ -15,7 +15,7 @@ export default function ProjectCard({project, tags, onTagClicked, activeTag}: {p
             <img src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} className="w-full h-full object-cover"/>
         </div>
         <div className="p-4">
-            <h3 className="font-bold z-40 text-slate-50 text-left text-xl sm:text-2xl sm:leading-7">{project.title}</h3>
+            <h3 className="font-bold z-40 text-slate-50 text-left text-xl sm:text-2xl leading-6 sm:leading-7">{project.title}</h3>
             <p className="font-semibold text-zinc-400 text-sm leading-4 mt-1">{project.subtitle}</p>
             <div className="flex flex-wrap gap-1 mt-3 tag-list">
 
