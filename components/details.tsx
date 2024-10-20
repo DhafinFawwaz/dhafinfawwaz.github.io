@@ -118,6 +118,14 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
 
     return <>
     <div className="xs:hidden fixed bottom-0 w-full p-3 bg-night-800 shadow-rim-sm">
+        
+    {project.src === "" ? 
+        <div className="flex w-full items-center justify-center rounded-lg m-0 text-center cursor-not-allowed text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 px-4 shadow-rim-sm ring-indigo-900 bg-night-600">
+            <img className="-rotate-45 scale-115" src={"https://api.iconify.design/mingcute/arrow-right-fill.svg?color=%23666666"} alt="next"/>
+            <div className="text-sm translate-y-0.5 text-night-300">Visit Not Allowed</div>
+        </div>
+        
+        :
         <a href={project.src} target="_blank" className="flex w-full items-center justify-center bg-indigo-600 rounded-lg m-0 text-center cursor-pointer text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 px-4 shadow-rim-sm ring-indigo-900
             hover:scale-102
             hover:bg-indigo-700
@@ -127,6 +135,8 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
             <img className="-rotate-45 scale-115" src={"https://api.iconify.design/mingcute/arrow-right-fill.svg?color=%23ffffff"} alt="next"/>
             <div className="text-sm translate-y-0.5">Visit</div>
         </a>
+    }
+        
     </div>
     <section id="project">
         <div className="flex justify-between">
@@ -160,7 +170,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
                 <div className="whitespace-nowrap">
                     {project.src === "" ? 
                     
-                    <div className="flex items-center justify-center bg-night-600 rounded-lg m-0 text-center cursor-not-allowed text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 shadow-rim-sm ring-night-900 px-4">
+                    <div className="hidden xs:flex items-center justify-center bg-night-600 rounded-lg m-0 text-center cursor-not-allowed text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 shadow-rim-sm ring-night-900 px-4">
                         <img className="-rotate-45 scale-115" src={"https://api.iconify.design/mingcute/arrow-right-fill.svg?color=%23666666"} alt="next"/>
                         <div className="text-sm translate-y-0.5 text-night-300">Visit Not Allowed</div>
                     </div>
