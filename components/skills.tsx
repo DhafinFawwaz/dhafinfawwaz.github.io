@@ -9,10 +9,15 @@ const skillsMap: {[key: string]: string[]} = skillsJsonImported;
 
 
 export default function SkillPage() {
+    function applyPosition(key: number) {
+        if (key === 0) return " order-first md:order-none";
+        else if(key === 1) return " col-span-2 md:col-auto";
+        else if(key === 2) return " order-first md:order-none";
+    }
 
     return <>
 <section id="skill" className="pt-4">
-    <div className="grid xs:grid-cols-3 grid-cols-2 gap-4">
+    <div className="grid md:grid-cols-3 grid-cols-2 gap-4">
         {(() => {
         const arr = [];
         let key = 0;
@@ -24,7 +29,7 @@ export default function SkillPage() {
             });     
             tools.push(<div key={-1} style={{flexGrow: 1000000}}></div>)
             arr.push(
-            <div key={key++} className="bg-night-900 drop-shadow-lg rounded-xl shadow-rim-sm ring-night-900 relative">
+            <div key={key++} className={"bg-night-900 drop-shadow-lg rounded-xl shadow-rim-sm ring-night-900 relative" + applyPosition(key)}>
                 <Link href={"/tag?tag="+skill} aria-label={"find "+currentSkill.name} className='w-full h-full hover:bg-night-800 active:bg-night-600 active:ring-4 ring-night-900 absolute rounded-xl p-4'>
                     <h3 className="flex gap-1 font-bold text-sm 4xs:text-[1.1rem] leading-7">
                         <img className="-translate-y-0.5 z-10 4xs:h-auto h-3" src={currentSkill.icon} alt={currentSkill.name + " Icon"}/>
