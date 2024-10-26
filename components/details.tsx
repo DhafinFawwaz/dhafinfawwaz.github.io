@@ -30,7 +30,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
             
             if(type1 === 0 && type2 === 0)
                 result.push(
-                <div className="w-full flex gap-2 xs:gap-4">
+                <div key={i} className="w-full flex gap-2 xs:gap-4">
                     <div className="bg-night-900 rounded-xl h-full 
                     min-h-16 4xs:min-h-20 3xs:min-h-24 2xs:min-h-28 xs:min-h-36 sm:min-h-40 md:min-h-44 lg:min-h-56 
                     " style={{width: percentage1+"%"}}>
@@ -46,7 +46,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
 
             else 
                 result.push(
-                <div className="w-full flex gap-2 xs:gap-4">
+                <div key={i} className="w-full flex gap-2 xs:gap-4">
                     <div className="bg-night-900 rounded-xl
                     min-h-16 4xs:min-h-20 3xs:min-h-24 2xs:min-h-28 xs:min-h-36 sm:min-h-40 md:min-h-44 lg:min-h-56 
                     " style={{width: percentage1+"%"}}>
@@ -64,7 +64,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
             continue;
 
             if(type1 === 0 && type2 === 0){
-                result.push(<div className="w-full flex gap-2 xs:gap-4">
+                result.push(<div key={i} className="w-full flex gap-2 xs:gap-4">
                     <div className="w-full rounded-xl overflow-hidden">
                         <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i].img}`} alt={project.title} className="object-cover w-full h-full"/>
                     </div>
@@ -73,7 +73,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
                     </div>
                 </div>)
             } else if(type1 === 1 && type2 === 1){
-                result.push(<div className="w-full flex gap-2 xs:gap-4">
+                result.push(<div  key={i}className="w-full flex gap-2 xs:gap-4">
                     <div className="w-full">
                         <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i].img}`} alt={project.title} className="rounded-xl object-cover"/>
                     </div>
@@ -82,7 +82,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
                     </div>
                 </div>)
             } else if(type1 === 0 && type2 === 1){
-                result.push(<div className="w-full flex gap-2 xs:gap-4">
+                result.push(<div key={i} className="w-full flex gap-2 xs:gap-4">
                     <div className="" style={{width: percentage1+"%"}}>
                         <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i].img}`} alt={project.title} className="rounded-xl object-cover h-full"/>
                     </div>
@@ -91,7 +91,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
                     </div>
                 </div>)
             } else if(type1 === 1 && type2 === 0){
-                result.push(<div className="w-full flex gap-2 xs:gap-4">
+                result.push(<div key={i} className="w-full flex gap-2 xs:gap-4">
                     <div className="" style={{width: percentage1+"%"}}>
                         <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i].img}`} alt={project.title} className="rounded-xl w-full h-auto"/>
                     </div>
