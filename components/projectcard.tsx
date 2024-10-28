@@ -9,7 +9,7 @@ export default function ProjectCard({project, tags, onTagClicked, activeTag}: {p
     //     }
     // }
     
-    return <div id={project.slug} className="flex flex-col bg-night-900 rounded-xl overflow-hidden max-w-72 w-full drop-shadow-lg ease-out-back duration-150 hover:scale-106 active:scale-108 active:bg-night-800 relative active:z-30 active:ring-[.35rem] ring-night-900">
+    return <div id={project.slug} className="flex flex-col bg-night-900 rounded-xl overflow-hidden max-w-72 w-full drop-shadow-lg ease-out-back duration-150 hover:scale-106 active:scale-108 active:bg-night-800 relative active:z-30">
         <Link href={`/project/${project.slug}`} aria-label={project.title} className="z-30 w-full hover:cursor-pointer absolute h-full"></Link>
         <div className="relative h-40 2xs:h-32 sm:h-40 bg-night-800">
             <img src={`/img/projects/optimized/${project.slug}/${project.thumbnail}`} alt={project.title} className="w-full h-full object-cover"/>
