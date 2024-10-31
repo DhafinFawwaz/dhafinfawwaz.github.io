@@ -45,8 +45,8 @@
     "title": "Finalist ITFest 2024",
     "subtitle": "Issued by Padjadjaran University",
     "date": "September 2024",
-    "description": "Web dev competition.",
-    "img": "GemastikXVII.webp",
+    "description": "Web dev competition issued by Padjadjaran University attended by students from various University. I built an AI powered website that can help people to save their receipt. The AI will read the currencies in the receipt with Optical Character Recognition (OCR) from photo taken by user and then save it to the database. I manage to become the finalist in this competition.",
+    "img": "ITFest.webp",
     "icon": "https://api.iconify.design/mdi/web.svg?color=%23ffffff"
   },{
     "title": "1st Winner Game Development Gemastik XVII",
