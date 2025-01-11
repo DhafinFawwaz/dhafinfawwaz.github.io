@@ -1485,7 +1485,7 @@
             "assembly",
             "qemu"
         ],
-        "description": "A really cool Operating System made with C and Assembly",
+        "description": "A really cool Operating System made with C and Assembly. It has many features such as filesystem, shell, multiprocessing, etc. The filesystem is implemented with FAT32. The shell is implemented with many commands like ls, cd, mkdir, etc. The multiprocessing is implemented with interrupt handler, and context switching. You can a c program and it can be run with shell. It can also be run in a different process like clock. It's written in C and Assembly.",
         "src": "https://github.com/DhafinFawwaz/OsLahPokoknya",
         "imageDetails": [
             {
