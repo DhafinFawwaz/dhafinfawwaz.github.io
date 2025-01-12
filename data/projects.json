@@ -1417,7 +1417,7 @@
             "cplusplus",
             "qt"
         ],
-        "description": "A game written in c++ and qt about Farmer, Rancher & Mayor Simulator",
+        "description": "A game written in c++ and qt about Farmer, Rancher & Mayor Simulator. Its implemented with many design pattern like Observer, Visitor, Builder, etc. In the game there are 3 roles which are Farmer, Rancher, and Mayor. Every role has its own special ability and specific task. The game is about managing the resources and the task to get the highest score.",
         "src": "https://github.com/DhafinFawwaz/Tubes-OOP-1",
         "imageDetails": [
             {
