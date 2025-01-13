@@ -1017,7 +1017,7 @@
             "csharp",
             "hlsl"
         ],
-        "description": "Rythm game telling the story of Dewi Sri.",
+        "description": "Rythm game telling the story of Kinnaria. It's made with Unity Engine with C#. It also uses google sheet to store the rythm data. This way, developer and the client can easily modify the level without having to rebuild the game.",
         "src": "",
         "imageDetails": [
             {
@@ -1203,7 +1203,7 @@
             "css"
         ],
         "description": "This website is made to showcase my works. An opportunity for an internship would be nice :). This website was created with Next js and react. It's currently not finished yet",
-        "src": "https://dhafinfawwaz.github.io/",
+        "src": "https://dhafinfawwaz.com",
         "imageDetails": [
             {
                 "img": "Portfolio.webp",
