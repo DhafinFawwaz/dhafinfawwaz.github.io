@@ -1202,7 +1202,7 @@
             "html",
             "css"
         ],
-        "description": "This website is made to showcase my works. An opportunity for an internship would be nice :). This website was created with Next js and react. It's currently not finished yet",
+        "description": "This website is made to showcase my works. An opportunity for an internship would be nice :). This website was created with Next js and react. It's currently not finished yet and going to get a lot of updates in the future. It utilize Static Site Generation for the best performance.",
         "src": "https://dhafinfawwaz.com",
         "imageDetails": [
             {
@@ -1310,7 +1310,7 @@
             "laravel",
             "supabase"
         ],
-        "description": "Implementation of Authentication with Next js and Next Auth as frontend and multiple backend frameworks. It implements the best way to block access to certain page, and redirect the user. It also block access to certain api endpoints if the user is not authenticated.",
+        "description": "Implementation of Authentication with Next js and Next Auth as frontend and multiple backend frameworks. It implements the best way to block access to certain page, and redirect the user. It also block access to certain api endpoints if the user is not authenticated. This is usefull as reference when creating a new project with these frameworks.",
         "src": "https://github.com/DhafinFawwaz/Auth-With-Many-Frameworks",
         "imageDetails": [
             {
@@ -1461,7 +1461,7 @@
             "python",
             "qt"
         ],
-        "description": "Cyberpunk 2077 Breach Protocol solver made in Python with implementation of the Brute Force Algorithm.",
+        "description": "Cyberpunk 2077 Breach Protocol solver made in Python with implementation of the Brute Force Algorithm. It's made with PyQt5 for the interactive GUI. It can solve the problem really fast even tough it uses brute force algorithm",
         "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
         "imageDetails": [
             {
