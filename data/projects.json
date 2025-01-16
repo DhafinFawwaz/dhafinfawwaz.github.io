@@ -629,7 +629,7 @@
             "figma",
             "hlsl"
         ],
-        "description": "A game created as submission for GMTK game jam 2020. This was created when i was still a beginner in Game Development. It was both fun and frustating experience.",
+        "description": "A game created as submission for GMTK game jam 2020. This was created when i was still a beginner in Game Development. It was both fun and frustating experience. It's a game where if you collect a cube, it will be combined. Collecting certain cube can make you go faster. It may even do some explosion and destroy some cubes. Overtime the game will be more chaotic and you will have to be more careful.",
         "src": "https://kitkatmt.itch.io/cube-associator",
         "imageDetails": [
             {
@@ -720,7 +720,7 @@
             "csharp",
             "hlsl"
         ],
-        "description": "A game made for submision at GIM Jam 2022. It gets an award as the best gameplay and the best apprentice game.",
+        "description": "A game made for submision at GIM Jam 2022. It gets an award as the best gameplay and the best apprentice game. It implements many OOP Design Patterns such as Finite State Machine and Observer.",
         "src": "https://kitkatmt.itch.io/clustered-chaos",
         "imageDetails": [
             {
