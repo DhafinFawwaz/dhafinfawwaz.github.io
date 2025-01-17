@@ -582,7 +582,7 @@
             "figma",
             "hlsl"
         ],
-        "description": "Game built for a submission in Ganesha Interactive Media (GIM). Made with Unity Engine (C#, HLSL)",
+        "description": "Game built for a submission in Ganesha Interactive Media (GIM). Made with Unity Engine (C#, HLSL). Its a hypercasual game implemented with a complex physics system to make the grappling hook feels good. It also uses various OOP Design Patterns such as Observer, Singleton, and more.",
         "src": "https://kitkatmt.itch.io/grappler-crashers",
         "imageDetails": [
             {
