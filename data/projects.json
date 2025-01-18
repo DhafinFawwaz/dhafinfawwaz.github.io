@@ -462,7 +462,7 @@
             "mongodb",
             "express"
         ],
-        "description": "Mobile app that reminds you when a product is about to expire with qr code to add the reminder. This app was created with flutter and dart. It also has an extra feature which is an auto-generated description integrated with ChatGPT API. ",
+        "description": "Mobile app that reminds you when a product is about to expire with qr code to add the reminder. This app was created with flutter and dart. It also has an extra feature which is an auto-generated description integrated with ChatGPT API. You can add a product by scanning the qr code of the product. The qr code will contain the product name, the expiration date, and the product description. The product description can be auto-generated with ChatGPT API and it will also explain how long would it typically take for a product to expire. The app will remind you when the product is about to expire. The app also has a feature to show the list of the product that you have added. You can also add the product manually.",
         "src": "",
         "imageDetails": [
             {
