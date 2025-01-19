@@ -426,7 +426,9 @@
             "vercel",
             "firebase"
         ],
-        "description": "Notification bot for attendance presence in my college. It's made because i oftenly forget to fill the attendance presence form. It's usefull for me and my friends. It's made with only free services which are vercel and inggest api.",
+        "description": "Notification bot for attendance presence in my college. It's made because i oftenly forget to fill the attendance presence form. It's usefull for me and my friends. It's made with only free services which are vercel and inggest api. This is done entirely free with various free APIs. First the client side web will subscribe to the notification. Then with vercel cron job, every 7 AM the server will check if there's any class for that day. If none, then do nothing and just wait until the call from cron job tomorrow. If there is, then call the Inggest API (scheduler API) to to call the backend server endpoint at the time when the class start. When that endpoint gets called, until the class is over, the server will keep checking if the presence button is available and if it is then send the notification to all people who subscribe. If there isn't, then the server will call the Inggest API to call the backend server endpoint again in random interval between 3 to 6 minutes. This is done to prevent bot detection from the presence website. After sending the notification, the server will call the Inggest API to call the backend server endpoint again at the time when the next class start. These will keep repeating until all class is over.",
+
+
         "src": "https://siabsen.vercel.app/",
         "imageDetails": [
             {
