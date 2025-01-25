@@ -107,7 +107,7 @@
             "blender",
             "hlsl"
         ],
-        "description": "Financial management game winning 1st place at Gemastik XVII.",
+        "description": "Financial management game winning 1st place at Gemastik XVII. The game simulates a life of a streamer. We need to balance between our money, hapiness, and health. It's a top down game with many interactive elements. When streaming we can increase our hapiness but decrease health and money. When studying at campus we will decrease our hapiness and health. When shopping we will decrease our money but increase hapiness and health. Every 3 days, we will gain money from our streaming. And at that time we also need to plan our schedule for the next 3 days. The game becomes more challenging when we're on the day before payday. Because most likely our money is really low and we need to be careful. In each day, those 3 activities will have different kind of play style. There's also a story surrounding the characters in the game.",
         "src": "https://kitkatmt.itch.io/financial-streams",
         "imageDetails": [
             {
@@ -248,8 +248,8 @@
             "blender",
             "hlsl"
         ],
-        "description": "Financial management game winning 1st place at Gemastik XVII.",
-        "src": "https://kitkatmt.itch.io/financial-streams",
+        "description": "Math curve game getting finalist on Gemastik XVI.",
+        "src": "",
         "imageDetails": [
             {
                 "img": "functional-defense-1.webp",
