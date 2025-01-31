@@ -109,9 +109,9 @@ export default function TagPage() {
             <div className="gap-1 flex w-full flex-wrap">
                 {Object.keys(tagsMap).map((tag, index) => {
                     if(!activeTag[tag])
-                        return <button key={index} onClick={() => enableTag(tag)} className={`text-2xs xs:text-xs font-semibold bg-night-600 px-2 rounded-lg py-0.5 grow text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 focus:bg-night-800 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800`}>{tagsMap[tag].name}</button>
+                        return <button key={index} onClick={() => enableTag(tag)} className={`text-2xs xs:text-xs font-semibold bg-night-600 px-2 rounded-lg py-0.5 grow text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 focus:bg-night-800 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800 text-slate-50`}>{tagsMap[tag].name}</button>
                     else
-                        return <button key={index} onClick={() => disableTag(tag)} className={`text-2xs xs:text-xs font-semibold bg-indigo-600 px-2 rounded-lg py-0.5 grow text-center z-40 hover:bg-indigo-700 active:bg-indigo-800 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800`}>{tagsMap[tag].name}</button>
+                        return <button key={index} onClick={() => disableTag(tag)} className={`text-2xs xs:text-xs font-semibold bg-indigo-600 px-2 rounded-lg py-0.5 grow text-center z-40 hover:bg-indigo-700 active:bg-indigo-800 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800 text-slate-50`}>{tagsMap[tag].name}</button>
                 })}
                 <div style={{flexGrow: 1000000}}></div>
             </div>
