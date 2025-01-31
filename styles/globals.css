@@ -32,8 +32,7 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  @apply text-slate-50
 }
 
 @layer utilities {
