@@ -39,6 +39,7 @@ export default function SkillPage() {
                 </Link>
                 <div className="p-4">
                     <div className="flex gap-1 flex-wrap sm:mt-12 4xs:mt-12 mt-10">
+                        {tools}
                     </div>
                 </div>
             </div>
