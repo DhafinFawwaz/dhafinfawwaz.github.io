@@ -13,6 +13,7 @@ export default function SkillPage() {
         if (key === 0) return " order-first md:order-none";
         else if(key === 1) return " col-span-2 md:col-auto";
         else if(key === 2) return " order-first md:order-none";
+        return " col-span-1 md:col-auto";
     }
 
     return <>
@@ -25,7 +26,7 @@ export default function SkillPage() {
             const currentSkill: Tag = tagsMap[skill];
             const tools = skillsMap[skill].map((tool: string, idx: number) => {   
                 const currentTool: Tag = tagsMap[tool];
-                return <a key={idx} href={"/tag?tag="+tool} aria-label={"find "+currentSkill.name} className="text-2xs xs:text-xs font-semibold #ff5151 bg-night-600 rounded-lg pr-2 py-0.5 text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800 flex items-center gap-1"><img className="w-4 max-h-4 ml-1" src={currentTool.icon} alt={currentTool.name+" Icon"}/><span className="translate-y-[1px]">{currentTool.name}</span></a>;
+                return <a key={idx} href={"/tag?tag="+tool} aria-label={"find "+currentSkill.name} className="text-2xs xs:text-xs font-semibold bg-night-600 rounded-lg pr-2 py-0.5 text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800 flex items-center gap-1"><img className="w-4 max-h-4 ml-1" src={currentTool.icon} alt={currentTool.name+" Icon"}/><span className="translate-y-[1px]">{currentTool.name}</span></a>;
             });     
             arr.push(
             <div key={key++} className={"bg-night-900 drop-shadow-lg rounded-xl shadow-rim-sm ring-night-900 relative" + applyPosition(key)}>
