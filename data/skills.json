@@ -42,7 +42,11 @@
         "laravel",
         "php",
         "docker",
-        "nginx"
+        "nginx",
+        "hono",
+        "threejs",
+        "chartjs",
+        "swagger"
     ],
     "mobile-dev": [
         "c",

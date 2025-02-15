@@ -1567,5 +1567,52 @@
                 "height": 359
             }
         ]
+    },
+    {
+        "title": "Magic Cube Solver",
+        "subtitle": "3D Animated Visualization of Magic Cube Solver with AI algorithms.",
+        "slug": "magic-cube-solver",
+        "thumbnail": "magic-cube-solver.webp",
+        "color": "bluedark",
+        "tags": [
+            "web-dev",
+            "typescript",
+            "threejs",
+            "tailwind",
+            "vite",
+            "vercel"
+        ],
+        "description": "Implementation of several algorithm to solve the Math Magic Cube Problem. These algorithms are Steepest Ascent Hill Climbing, Steepest Ascent Hill Climbing with Sideways Move, Random Restart Hill Climb, Stochastic Hill Climbing, Simulated Annealing, and Genetic Algorithm. The visualization of the cube is done using Three.js. The project is built using Vite and Tailwind.",
+        "src": "https://magic-cube-solver-rho.vercel.app",
+        "imageDetails": [
+            {
+                "img": "magic-cube-solver.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "magic-cube-solver-curve.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "magic-cube-solver-genetic.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "magic-cube-animated.gif",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            }
+        ]
     }
 ]

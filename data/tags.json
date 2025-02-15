@@ -314,5 +314,25 @@
         "name": "CI/CD",
         "color": "#000000",
         "icon": "https://api.iconify.design/mdi:source-branch.svg"
+    },
+    "hono": {
+        "name": "hono",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/logos/hono.svg"
+    },
+    "swagger": {
+        "name": "Swagger",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/logos/swagger.svg"
+    },
+    "threejs": {
+        "name": "Three.js",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/skill-icons/threejs-dark.svg"
+    },
+    "chartjs": {
+        "name": "Chart.js",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/logos/chartjs.svg"
     }
 }

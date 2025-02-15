@@ -74,6 +74,12 @@
       "date": "2024",
       "target": "_self",
       "src": "https://www.google.com/search?q=Rolling Glory Jam"
+    },{
+      "title": "Memento",
+      "subtitle": "Freelance Software Engineer",
+      "date": "2025",
+      "target": "_self",
+      "src": ""
     }
   ],
 
@@ -102,6 +108,12 @@
       "date": "2024 - 2024",
       "target": "_blank",
       "src": "https://www.google.com/search?q=Pra Gemastik ITB"
+    },{
+      "title": "GIM ITB",
+      "subtitle": "Head of Programming",
+      "date": "2024 - 2025",
+      "target": "_blank",
+      "src": "https://www.google.com/search?q=GIM ITB"
     }
   ]
 }
