@@ -26,7 +26,7 @@ export default function SkillPage() {
             const currentSkill: Tag = tagsMap[skill];
             const tools = skillsMap[skill].map((tool: string, idx: number) => {   
                 const currentTool: Tag = tagsMap[tool];
-                return <a key={idx} href={"/tag?tag="+tool} aria-label={"find "+currentSkill.name} className="text-2xs xs:text-xs font-semibold bg-night-600 rounded-lg pr-2 pt-1 text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800 flex items-center gap-1"><img className="w-4 max-h-4 ml-1 -translate-y-0.5" src={currentTool.icon} alt={currentTool.name+" Icon"}/><span className="">{currentTool.name}</span></a>;
+                return <a key={idx} href={"/tag?tag="+tool} aria-label={"find "+currentSkill.name} className="text-2xs xs:text-xs font-semibold bg-night-600 rounded-lg pr-2 pt-1 text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800 flex items-center gap-1"><img className="w-4 max-h-4 ml-1 -translate-y-0.5 absolute" src={currentTool.icon} alt={currentTool.name+" Icon"}/><span className="ml-6">{currentTool.name}</span></a>;
             });     
             arr.push(
             <div key={key++} className={"bg-night-900 drop-shadow-lg rounded-xl shadow-rim-sm ring-night-900 relative" + applyPosition(key)}>

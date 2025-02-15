@@ -46,7 +46,9 @@
         "hono",
         "threejs",
         "chartjs",
-        "swagger"
+        "swagger",
+        "k6",
+        "socketio"
     ],
     "mobile-dev": [
         "c",

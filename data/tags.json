@@ -339,5 +339,15 @@
         "name": "Swagger",
         "color": "#000000",
         "icon": "https://api.iconify.design/logos/swagger.svg"
+    },
+    "k6": {
+        "name": "K6",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/devicon/k6.svg"
+    },
+    "socketio": {
+        "name": "Socket.io",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/logos/socket-io.svg"
     }
 }

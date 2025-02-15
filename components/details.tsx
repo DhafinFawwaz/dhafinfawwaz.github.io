@@ -31,14 +31,10 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
             if(type1 === 0 && type2 === 0)
                 result.push(
                 <div key={i} className="w-full flex gap-2 xs:gap-4">
-                    <div className="bg-night-900 rounded-xl h-full 
-                    min-h-16 4xs:min-h-20 3xs:min-h-24 2xs:min-h-28 xs:min-h-36 sm:min-h-40 md:min-h-44 lg:min-h-56 
-                    " style={{width: percentage1+"%"}}>
+                    <div className="bg-night-900 rounded-xl h-full" style={{width: percentage1+"%"}}>
                         <img key={project.slug} src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i].img}`} alt={project.title} className="rounded-xl object-cover w-full h-full"/>
                     </div>
-                    <div className="bg-night-900 rounded-xl h-full
-                    min-h-16 4xs:min-h-20 3xs:min-h-24 2xs:min-h-28 xs:min-h-36 sm:min-h-40 md:min-h-44 lg:min-h-56 
-                    " style={{width: percentage2+"%"}}>
+                    <div className="bg-night-900 rounded-xl h-full" style={{width: percentage2+"%"}}>
                         <img key={project.slug} src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i+1].img}`} alt={project.title} className="rounded-xl object-cover w-full h-full"/>
                     </div>
                 </div>

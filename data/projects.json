@@ -276,8 +276,8 @@
                 "img": "functional-defense-4.webp",
                 "color": "greendark",
                 "type": 0,
-                "width": 345,
-                "height": 194
+                "width": 631,
+                "height": 355
             },
             {
                 "img": "functional-defense-5.webp",
@@ -290,8 +290,8 @@
                 "img": "functional-defense-6.webp",
                 "color": "greendark",
                 "type": 0,
-                "width": 361,
-                "height": 203
+                "width": 640,
+                "height": 359
             }
         ]
     },
@@ -427,8 +427,6 @@
             "firebase"
         ],
         "description": "Notification bot for attendance presence in my college. It's made because i oftenly forget to fill the attendance presence form. It's usefull for me and my friends. It's made with only free services which are vercel and inggest api. This is done entirely free with various free APIs. First the client side web will subscribe to the notification. Then with vercel cron job, every 7 AM the server will check if there's any class for that day. If none, then do nothing and just wait until the call from cron job tomorrow. If there is, then call the Inggest API (scheduler API) to to call the backend server endpoint at the time when the class start. When that endpoint gets called, until the class is over, the server will keep checking if the presence button is available and if it is then send the notification to all people who subscribe. If there isn't, then the server will call the Inggest API to call the backend server endpoint again in random interval between 3 to 6 minutes. This is done to prevent bot detection from the presence website. After sending the notification, the server will call the Inggest API to call the backend server endpoint again at the time when the next class start. These will keep repeating until all class is over.",
-
-
         "src": "https://siabsen.vercel.app/",
         "imageDetails": [
             {
@@ -1610,8 +1608,8 @@
                 "img": "magic-cube-animated.gif",
                 "color": "bluedark",
                 "type": 0,
-                "width": 640,
-                "height": 359
+                "width": 800,
+                "height": 449
             }
         ]
     },
@@ -1637,84 +1635,84 @@
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 291
+            },
+            {
+                "img": "edit_low_m.webp",
+                "color": "graylight",
+                "type": 1,
+                "width": 229,
+                "height": 480
+            },
+            {
+                "img": "login_m.webp",
+                "color": "graylight",
+                "type": 1,
+                "width": 231,
+                "height": 480
             },
             {
                 "img": "detail_lamaran_comp.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 290
             },
             {
                 "img": "guest_job.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 290
+            },
+            {
+                "img": "lowongan_comp_m.webp",
+                "color": "graylight",
+                "type": 1,
+                "width": 229,
+                "height": 480
+            },
+            {
+                "img": "register_m.webp",
+                "color": "graylight",
+                "type": 1,
+                "width": 228,
+                "height": 480
             },
             {
                 "img": "home_comp.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 287
             },
             {
                 "img": "lamaran.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 296
             },
             {
                 "img": "lowongan.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 292
             },
             {
                 "img": "riwayat.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 287
             },
             {
                 "img": "profil_edit.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
-            },
-            {
-                "img": "edit_low_m.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 269,
-                "height": 480
-            },
-            {
-                "img": "login_m.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 269,
-                "height": 480
-            },
-            {
-                "img": "lowongan_comp_m.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 269,
-                "height": 480
-            },
-            {
-                "img": "register_m.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 269,
-                "height": 480
+                "height": 287
             }
         ]
     },
@@ -1726,98 +1724,87 @@
         "color": "graylight",
         "tags": [
             "web-dev",
-            "apache",
-            "php",
-            "javascript",
-            "css",
-            "docker"
+            "hono",
+            "swagger",
+            "k6",
+            "tailwind",
+            "docker",
+            "react",
+            "typescript",
+            "socketio"
         ],
         "description": "Web-based application that can be used for job search and recruitment. Users can register as a jobseeker to apply for jobs, or as a company to open job vacancies. It's made with vanilla PHP and Apache as the backend, and vanilla Javascript and CSS as the frontend. It also uses Docker as the container.",
         "src": "https://github.com/DhafinFawwaz/LinkinPurry",
         "imageDetails": [
             {
-                "img": "add.webp",
+                "img": "users.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 418
             },
             {
-                "img": "detail_lamaran_comp.webp",
+                "img": "typing-indicator.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 285
             },
             {
-                "img": "guest_job.webp",
+                "img": "register.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 421
             },
             {
-                "img": "home_comp.webp",
+                "img": "recommendation.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 420
             },
             {
-                "img": "lamaran.webp",
+                "img": "profile.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 364
             },
             {
-                "img": "lowongan.webp",
+                "img": "load-test-github.webp",
                 "color": "graylight",
                 "type": 0,
                 "width": 640,
-                "height": 359
+                "height": 364
             },
             {
-                "img": "riwayat.webp",
+                "img": "load-test-docker-feed.webp",
                 "color": "graylight",
                 "type": 0,
-                "width": 640,
-                "height": 359
-            },
-            {
-                "img": "profil_edit.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 359
-            },
-            {
-                "img": "edit_low_m.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 269,
+                "width": 628,
                 "height": 480
             },
             {
-                "img": "login_m.webp",
+                "img": "invitation.webp",
                 "color": "graylight",
                 "type": 0,
-                "width": 269,
-                "height": 480
+                "width": 640,
+                "height": 418
             },
             {
-                "img": "lowongan_comp_m.webp",
+                "img": "APIdoc.webp",
                 "color": "graylight",
                 "type": 0,
-                "width": 269,
-                "height": 480
+                "width": 640,
+                "height": 372
             },
             {
-                "img": "register_m.webp",
+                "img": "network.webp",
                 "color": "graylight",
                 "type": 0,
-                "width": 269,
-                "height": 480
+                "width": 462,
+                "height": 302
             }
         ]
     }
