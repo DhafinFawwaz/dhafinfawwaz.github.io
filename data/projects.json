@@ -1614,5 +1614,211 @@
                 "height": 359
             }
         ]
+    },
+    {
+        "title": "LinkinPurry Jobs",
+        "subtitle": "Linkedin copy Website with various features.",
+        "slug": "linkinpurry-jobs",
+        "thumbnail": "linkinpurry-jobs.webp",
+        "color": "graylight",
+        "tags": [
+            "web-dev",
+            "apache",
+            "php",
+            "javascript",
+            "css",
+            "docker"
+        ],
+        "description": "Web-based application that can be used for job search and recruitment. Users can register as a jobseeker to apply for jobs, or as a company to open job vacancies. It's made with vanilla PHP and Apache as the backend, and vanilla Javascript and CSS as the frontend. It also uses Docker as the container.",
+        "src": "https://github.com/DhafinFawwaz/LinkinPurry",
+        "imageDetails": [
+            {
+                "img": "add.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "detail_lamaran_comp.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "guest_job.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "home_comp.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "lamaran.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "lowongan.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "riwayat.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "profil_edit.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "edit_low_m.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 269,
+                "height": 480
+            },
+            {
+                "img": "login_m.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 269,
+                "height": 480
+            },
+            {
+                "img": "lowongan_comp_m.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 269,
+                "height": 480
+            },
+            {
+                "img": "register_m.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 269,
+                "height": 480
+            }
+        ]
+    },
+    {
+        "title": "LinkinPurry Social",
+        "subtitle": "Social Media Website with various features.",
+        "slug": "linkinpurry-social",
+        "thumbnail": "linkinpurry-social.webp",
+        "color": "graylight",
+        "tags": [
+            "web-dev",
+            "apache",
+            "php",
+            "javascript",
+            "css",
+            "docker"
+        ],
+        "description": "Web-based application that can be used for job search and recruitment. Users can register as a jobseeker to apply for jobs, or as a company to open job vacancies. It's made with vanilla PHP and Apache as the backend, and vanilla Javascript and CSS as the frontend. It also uses Docker as the container.",
+        "src": "https://github.com/DhafinFawwaz/LinkinPurry",
+        "imageDetails": [
+            {
+                "img": "add.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "detail_lamaran_comp.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "guest_job.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "home_comp.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "lamaran.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "lowongan.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "riwayat.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "profil_edit.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "edit_low_m.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 269,
+                "height": 480
+            },
+            {
+                "img": "login_m.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 269,
+                "height": 480
+            },
+            {
+                "img": "lowongan_comp_m.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 269,
+                "height": 480
+            },
+            {
+                "img": "register_m.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 269,
+                "height": 480
+            }
+        ]
     }
 ]
