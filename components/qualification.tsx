@@ -36,12 +36,11 @@ function generate(qualificationList: Qualification[]) {
     }
     return res;
 }
+const education = QualificationMap["education"];
+const work = QualificationMap["work"];
+const organization = QualificationMap["organization"];
 
 export default function QualificationPage() {
-    const education = QualificationMap["education"];
-    const work = QualificationMap["work"];
-    const organization = QualificationMap["organization"];
-
 
     return <section id="qualification">
     <h2>Qualification</h2>
