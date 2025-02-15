@@ -7,14 +7,14 @@ import { Tag } from "@/types/type";
 const tagsMap: {[key: string]: Tag} = tagsJsonImported;
 const skillsMap: {[key: string]: string[]} = skillsJsonImported;
 
+function applyPosition(key: number) {
+    if (key === 0) return " order-first md:order-none";
+    else if(key === 1) return " col-span-2 md:col-auto";
+    else if(key === 2) return " order-first md:order-none";
+    return " col-span-1 md:col-auto";
+}
 
 export default function SkillPage() {
-    function applyPosition(key: number) {
-        if (key === 0) return " order-first md:order-none";
-        else if(key === 1) return " col-span-2 md:col-auto";
-        else if(key === 2) return " order-first md:order-none";
-        return " col-span-1 md:col-auto";
-    }
 
     return <>
 <section id="skill" className="pt-4">

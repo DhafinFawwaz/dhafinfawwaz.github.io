@@ -3,45 +3,45 @@ import { Qualification } from '@/types/type';
 
 const QualificationMap: {[key: string]: Qualification[]}  = qualificationJson;
 
+function generate(qualificationList: Qualification[]) {
+    const res = [];
+    for(let i = qualificationList.length - 1; i >= 0; i--) {
+        const item = qualificationList[i];
+        const index = qualificationList.length - i - 1;
+        res.push(
+            <div key={index} className='flex'>
+                <div>
+                    {index === 0 ? <div className="qualification-last mt-2"></div> : <></>}
+                    <div className='w-3 h-3 absolute bg-indigo-600 rotate-45 mt-2'></div>
+                    {index === qualificationList.length - 1 ?  
+                    <div className='w-3'></div>
+                    : 
+                    <div className='h-full w-3 flex justify-center mt-2'>
+                        <div className='w-[2px] h-full bg-indigo-600'></div>
+                    </div>
+                    }
+                </div>
+                
+                <a href={item.src} target={item.target} className='ml-3 hover:bg-night-900 p-2 mr-4 rounded-lg w-full active:bg-indigo-700'>
+                    <h4 className="font-bold text-sm xs:text-md leading-4">{item.title}</h4>
+                    <h5 className='font-medium text-zinc-400 text-xs xs:text-sm leading-3 xs:leading-5 mt-0 xs:mt-0.5'>{item.subtitle}</h5>
+                    <p className='font-medium flex text-[0.66rem] text-zinc-400 gap-1'>
+                        <img className='h-3 -translate-y-[0.05rem]' src="https://api.iconify.design/lets-icons/date-range-fill.svg?color=%2364748b" alt="date"/>
+                        {item.date}
+                    </p>
+                </a>
+            </div>
+
+        );
+    }
+    return res;
+}
 
 export default function QualificationPage() {
     const education = QualificationMap["education"];
     const work = QualificationMap["work"];
     const organization = QualificationMap["organization"];
 
-    function generate(qualificationList: Qualification[]) {
-        const res = [];
-        for(let i = qualificationList.length - 1; i >= 0; i--) {
-            const item = qualificationList[i];
-            const index = qualificationList.length - i - 1;
-            res.push(
-                <div key={index} className='flex'>
-                    <div>
-                        {index === 0 ? <div className="qualification-last mt-2"></div> : <></>}
-                        <div className='w-3 h-3 absolute bg-indigo-600 rotate-45 mt-2'></div>
-                        {index === qualificationList.length - 1 ?  
-                        <div className='w-3'></div>
-                        : 
-                        <div className='h-full w-3 flex justify-center mt-2'>
-                            <div className='w-[2px] h-full bg-indigo-600'></div>
-                        </div>
-                        }
-                    </div>
-                    
-                    <a href={item.src} target={item.target} className='ml-3 hover:bg-night-900 p-2 mr-4 rounded-lg w-full active:bg-indigo-700'>
-                        <h4 className="font-bold text-sm xs:text-md leading-4">{item.title}</h4>
-                        <h5 className='font-medium text-zinc-400 text-xs xs:text-sm leading-3 xs:leading-5 mt-0 xs:mt-0.5'>{item.subtitle}</h5>
-                        <p className='font-medium flex text-[0.66rem] text-zinc-400 gap-1'>
-                            <img className='h-3 -translate-y-[0.05rem]' src="https://api.iconify.design/lets-icons/date-range-fill.svg?color=%2364748b" alt="date"/>
-                            {item.date}
-                        </p>
-                    </a>
-                </div>
-
-            );
-        }
-        return res;
-    }
 
     return <section id="qualification">
     <h2>Qualification</h2>
