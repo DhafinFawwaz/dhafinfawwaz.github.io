@@ -34,7 +34,7 @@ export default function ProjectCard({project, tags, onTagClicked, activeTag}: {p
                 <>
                     {/* home page */}
                     {tags.map((tag, index) => {
-                        return <a key={index} href={"/tag?tag=" + tag.slug} aria-label={"find "+tag.name} className={`text-2xs xs:text-xs font-semibold ${tag.color} bg-night-600 px-2 rounded-lg py-0.5 grow text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800 text-slate-50`}>{tag.name}</a>
+                        return <a key={index} href={"/tag?tag=" + tag.slug} aria-label={"find "+tag.name} className={`text-2xs xs:text-xs font-semibold ${tag.color} bg-night-600 px-2 rounded-lg pt-1 grow text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800 text-slate-50`}>{tag.name}</a>
                     })}
                 </>
                 }
