@@ -1,7 +1,10 @@
 import { Project, Tag } from "@/types/type";
 import Link from "next/link";
+import { useState } from "react";
 
-function projectGalery(project: Project) {
+const createImageSrc = (projectSlug: string, imageName: string) => `/img/projects/optimized/${projectSlug}/${imageName}`
+
+function projectGalery(project: Project, onClick: (imgSrc: string) => void) {
 
     const result: JSX.Element[] = [];
 
@@ -9,7 +12,7 @@ function projectGalery(project: Project) {
         return <div className="w-full rounded-xl overflow-hidden bg-night-900
                 min-h-16 4xs:min-h-20 3xs:min-h-24 2xs:min-h-28 xs:min-h-36 sm:min-h-40 md:min-h-44 lg:min-h-56 
                 ">
-            <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[0].img}`} alt={project.title} className="object-cover w-full"/>
+            <img src={createImageSrc(project.slug, project.imageDetails[0].img)} alt={project.title} className="object-cover w-full"/>
         </div>
     }
 
@@ -26,73 +29,36 @@ function projectGalery(project: Project) {
         const percentage1 = img1Width / totalWidth * 100;
         const percentage2 = img2Width / totalWidth * 100;
         
-        if(type1 === 0 && type2 === 0)
+        if(type1 === 0 && type2 === 0) {
+            const img1 = createImageSrc(project.slug, project.imageDetails[i].img);
+            const img2 = createImageSrc(project.slug, project.imageDetails[i+1].img);
             result.push(
             <div key={i} className="w-full flex gap-2 xs:gap-4">
-                <div className="bg-night-900 rounded-xl h-full" style={{width: percentage1+"%"}}>
-                    <img key={project.slug} src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i].img}`} alt={project.title} className="rounded-xl object-cover w-full h-full"/>
+                <div onClick={() => onClick(img1)} className=" rounded-xl h-full cursor-pointer group" style={{width: percentage1+"%"}}>
+                    <img key={project.slug} src={img1} alt={project.title} className="rounded-xl object-cover w-full h-full group-hover:scale-95 duration-150 ease-out-back-expo"/>
                 </div>
-                <div className="bg-night-900 rounded-xl h-full" style={{width: percentage2+"%"}}>
-                    <img key={project.slug} src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i+1].img}`} alt={project.title} className="rounded-xl object-cover w-full h-full"/>
+                <div onClick={() => onClick(img2)} className=" rounded-xl h-full cursor-pointer group" style={{width: percentage2+"%"}}>
+                    <img key={project.slug} src={img2} alt={project.title} className="rounded-xl object-cover w-full h-full group-hover:scale-95 duration-150 ease-out-back-expo"/>
                 </div>
             </div>
             );
+        }
 
-        else 
+        else {
+            const img1 = createImageSrc(project.slug, project.imageDetails[i].img);
+            const img2 = createImageSrc(project.slug, project.imageDetails[i+1].img);
             result.push(
             <div key={i} className="w-full flex gap-2 xs:gap-4">
-                <div className="bg-night-900 rounded-xl
-                min-h-16 4xs:min-h-20 3xs:min-h-24 2xs:min-h-28 xs:min-h-36 sm:min-h-40 md:min-h-44 lg:min-h-56 
-                " style={{width: percentage1+"%"}}>
-                    <img key={project.slug} src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i].img}`} alt={project.title} className="rounded-xl object-cover w-full h-full"/>
+                <div onClick={() => onClick(img1)} className=" rounded-xl
+                min-h-16 4xs:min-h-20 3xs:min-h-24 2xs:min-h-28 xs:min-h-36 sm:min-h-40 md:min-h-44 lg:min-h-56 cursor-pointer group" style={{width: percentage1+"%"}}>
+                    <img key={project.slug} src={img1} alt={project.title} className="rounded-xl object-cover w-full h-full group-hover:scale-95 duration-150 ease-out-back-expo"/>
                 </div>
-                <div className="bg-night-900 rounded-xl
-                min-h-24 4xs:min-h-28 3xs:min-h-36 2xs:min-h-48 xs:min-h-56 sm:min-h-64 md:min-h-72 lg:min-h-80 
-                " style={{width: percentage2+"%"}}>
-                    <img key={project.slug} src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i+1].img}`} alt={project.title} className="rounded-xl object-cover w-full h-full"/>
+                <div onClick={() => onClick(img2)} className=" rounded-xl
+                min-h-24 4xs:min-h-28 3xs:min-h-36 2xs:min-h-48 xs:min-h-56 sm:min-h-64 md:min-h-72 lg:min-h-80 cursor-pointer group" style={{width: percentage2+"%"}}>
+                    <img key={project.slug} src={img2} alt={project.title} className="rounded-xl object-cover w-full h-full group-hover:scale-95 duration-150 ease-out-back-expo"/>
                 </div>
             </div>
             );
-
-
-        continue;
-
-        if(type1 === 0 && type2 === 0){
-            result.push(<div key={i} className="w-full flex gap-2 xs:gap-4">
-                <div className="w-full rounded-xl overflow-hidden">
-                    <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i].img}`} alt={project.title} className="object-cover w-full h-full"/>
-                </div>
-                <div className="w-full rounded-xl overflow-hidden">
-                    <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i+1].img}`} alt={project.title} className="object-cover w-full h-full"/>
-                </div>
-            </div>)
-        } else if(type1 === 1 && type2 === 1){
-            result.push(<div  key={i}className="w-full flex gap-2 xs:gap-4">
-                <div className="w-full">
-                    <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i].img}`} alt={project.title} className="rounded-xl object-cover"/>
-                </div>
-                <div className="w-full">
-                    <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i+1].img}`} alt={project.title} className="rounded-xl object-cover"/>
-                </div>
-            </div>)
-        } else if(type1 === 0 && type2 === 1){
-            result.push(<div key={i} className="w-full flex gap-2 xs:gap-4">
-                <div className="" style={{width: percentage1+"%"}}>
-                    <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i].img}`} alt={project.title} className="rounded-xl object-cover h-full"/>
-                </div>
-                <div className="" style={{width: percentage2+"%"}}>
-                    <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i+1].img}`} alt={project.title} className="rounded-xl object-cover h-full"/>
-                </div>
-            </div>)
-        } else if(type1 === 1 && type2 === 0){
-            result.push(<div key={i} className="w-full flex gap-2 xs:gap-4">
-                <div className="" style={{width: percentage1+"%"}}>
-                    <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i].img}`} alt={project.title} className="rounded-xl w-full h-auto"/>
-                </div>
-                <div className="" style={{width: percentage2+"%"}}>
-                    <img src={`/img/projects/optimized/${project.slug}/${project.imageDetails[i+1].img}`} alt={project.title} className="rounded-xl w-full h-auto"/>
-                </div>
-            </div>)
         }
     }
 
@@ -110,9 +76,61 @@ function changePageButton(text: string, href: string, iconSrc: string) {
     </Link>
 }
 
+function getIsPreviewingFromURL() {
+    if(typeof window === "undefined") return "";
+    const url = new URL(window.location.href);
+    const isPreviewing = url.searchParams.get("preview");
+    return isPreviewing ? isPreviewing : "";
+}
+function setIsPreviewingToURL(isPreviewing: string) {
+    if(typeof window === "undefined") return false;
+    if(isPreviewing === "") {
+        const url = new URL(window.location.href);
+        url.searchParams.delete("preview");
+        window.history.pushState({}, "", url.toString());
+        return;
+    }
+    const url = new URL(window.location.href);
+    url.searchParams.set("preview", isPreviewing);
+    window.history.pushState({}, "", url.toString());
+}
+
+function getFocusedImageSrc(img: string) {
+    // return img;
+    const focusedSrc = img.replace("/optimized/", "/");
+    const focusedSrc2 = focusedSrc.replace(".webp", ".png");
+    return focusedSrc2;
+}
+
+function getRandomInt(max: number) {
+    return Math.floor(Math.random() * max);
+}
+
+const PreviewImage = (isPreviewing: string, closePreview: () => void) => <button key={getRandomInt(100)} className={"fixed z-50 w-screen h-svh h-screen!  " + (!isPreviewing ? "hidden" : "")} onClick={closePreview}>
+<div className="fixed -z-40 opacity-50 w-screen h-screen bg-black"></div>
+<img src={isPreviewing} alt={isPreviewing} className="z-50 p-8 object-contain w-full h-full"/>
+</button> 
+
 export default function Details({project, tags, nextProjectSlug, prevProjectSlug}: {project: Project, tags: Tag[], nextProjectSlug: string, prevProjectSlug: string}) {
+    
+    const IsPreviewingFromUrl = getIsPreviewingFromURL();
+    const [isPreviewing, setIsPreviewing] = useState(IsPreviewingFromUrl);
+    function closePreview() {
+        setIsPreviewing("");
+        setIsPreviewingToURL("");
+    }
+
+    function onImageClicked(imgSrc: string) {
+        const src = getFocusedImageSrc(imgSrc);
+        setIsPreviewingToURL(src);
+        setIsPreviewing(src);
+    }
 
     return <>
+    {/* Click To see full screen image */}
+    {PreviewImage(isPreviewing, closePreview)}
+<div className="max-w-4xl w-full">
+
     <div className="xs:hidden fixed bottom-0 w-full p-3 bg-night-800 shadow-rim-sm">
         
     {project.src === "" ? 
@@ -145,7 +163,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
             <h2 className="text-4xl font-bold"></h2>
 
             <div className="flex flex-col gap-2 xs:gap-4 w-full">
-                {projectGalery(project)}
+                {projectGalery(project, onImageClicked)}
             </div>
             
             <div className="flex mt-2 xs:mt-4 w-full gap-2 xs:gap-4">
@@ -191,6 +209,9 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
 
         </div>
     </section>
+
+</div>
+    
     </>
     
 }

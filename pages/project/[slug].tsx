@@ -72,16 +72,14 @@ export default function DetailsFromURL( { project, nextProject, prevProject } :I
     </Head>
     <NavbarPage homeHref={"/#"+project.slug}></NavbarPage>
     <main className="w-full flex justify-center">
-      <div className="max-w-4xl w-full">
-        <Details project={project} tags={project.tags.map(tagKey => {
-          return {
-            name: tagsJson[tagKey].name,
-            color: tagsJson[tagKey].color,
-            icon: tagsJson[tagKey].icon,
-            slug: tagKey
-          }
-        })} nextProjectSlug={nextProject.slug} prevProjectSlug={prevProject.slug}/>
-      </div>
+      <Details project={project} tags={project.tags.map(tagKey => {
+        return {
+          name: tagsJson[tagKey].name,
+          color: tagsJson[tagKey].color,
+          icon: tagsJson[tagKey].icon,
+          slug: tagKey
+        }
+      })} nextProjectSlug={nextProject.slug} prevProjectSlug={prevProject.slug}/>
     </main>
   </>  
   );
