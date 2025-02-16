@@ -45,7 +45,6 @@ function ProjectGalery(project: Project, onClick: (imgSrc: string) => void, cont
                 gap: windowWidth >= 550 ? 16 : 8
             };
             setContainerSize(newContainerSize);
-            console.log(newContainerSize);
         }
     }, [refValue, resolution, project]); 
     // [refresh when ref initialized, refresh when media query hit, refresh when next/prev project]
