@@ -23,7 +23,7 @@ function ImageButton({ imgSrc, alt, onClick, percentage, availableHeight, classN
     }
 }
 
-function projectGalery(project: Project, onClick: (imgSrc: string) => void, containerRef: RefObject<HTMLDivElement>
+function ProjectGalery(project: Project, onClick: (imgSrc: string) => void, containerRef: RefObject<HTMLDivElement>
 ) {
 
     const [refValue, setRefValue] = useState<HTMLDivElement>();
@@ -204,7 +204,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
             <h2 className="text-4xl font-bold"></h2>
 
             <div className="flex flex-col gap-2 xs:gap-4 w-full">
-                {projectGalery(project, onImageClicked, imageContainerRef)}
+                {ProjectGalery(project, onImageClicked, imageContainerRef)}
             </div>
             
             <div className="flex mt-2 xs:mt-4 w-full gap-2 xs:gap-4">
