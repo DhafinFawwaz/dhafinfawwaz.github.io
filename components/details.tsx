@@ -163,6 +163,14 @@ const PreviewImage = (isPreviewing: string, closePreview: () => void) => <button
 <img src={isPreviewing} alt={isPreviewing} className="z-50 p-8 object-contain w-full h-full"/>
 </button> 
 
+function CreateDescription(description: string) {
+    // new line if found \n-
+    const lines = description.split("\n");
+    return lines.map((line, index) => {
+        return <div key={index} className="text-justify">{line}</div>
+    })
+}
+
 export default function Details({project, tags, nextProjectSlug, prevProjectSlug}: {project: Project, tags: Tag[], nextProjectSlug: string, prevProjectSlug: string}) {
     
     const IsPreviewingFromUrl = getIsPreviewingFromURL();
@@ -258,7 +266,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
             </div>
             
             <div className="w-full mt-2 mb-4">
-                <p className="text-md font-normal text-justify">{project.description}</p>
+                <p className="text-md font-normal text-justify pb-16">{CreateDescription(project.description)}</p>
             </div>
 
         </div>
