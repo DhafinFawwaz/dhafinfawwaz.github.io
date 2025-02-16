@@ -51,7 +51,6 @@
         "socketio"
     ],
     "mobile-dev": [
-        "c",
         "cplusplus",
         "csharp",
         "dart",
@@ -60,7 +59,6 @@
         "java",
         "kotlin",
         "node",
-        "qt",
         "unity"
     ],
     "desktop-dev": [
@@ -70,7 +68,10 @@
         "dotnet",
         "python",
         "unity",
-        "flet"
+        "ffmpeg",
+        "rust",
+        "tauri",
+        "qt"
     ],
     "os-dev": [
         "c",
