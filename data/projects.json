@@ -1807,5 +1807,70 @@
                 "height": 302
             }
         ]
+    },
+    {
+        "title": "Memento",
+        "subtitle": "Photobooth App with video editing, Payment Gateway, Printer & Camera integration, with Website, Backend Server & Database, and Gmail Notification",
+        "slug": "memento",
+        "thumbnail": "memento-edit-result.webp",
+        "color": "graylight",
+        "tags": [
+            "web-dev",
+            "desktop-dev",
+            "next",
+            "tauri",
+            "tailwind",
+            "rust",
+            "vercel",
+            "postgresql",
+            "ffmpeg",
+            "supabase"
+        ],
+        "description": "Photobooth App with video editing, Payment Gateway, Printer & Camera integration, with Website, Backend Server & Database, and Gmail Notification.",
+        "src": "",
+        "imageDetails": [
+            {
+                "img": "memento-choose.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "memento-result-edit.gif",
+                "color": "graylight",
+                "type": 0,
+                "width": 600,
+                "height": 336
+            },
+            {
+                "img": "memento-edit-result.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "memento-filter.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "memento-payment.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "memento-scan.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            }
+        ]
     }
 ]

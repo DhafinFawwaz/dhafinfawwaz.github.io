@@ -326,12 +326,12 @@
         "icon": "https://api.iconify.design/logos/chartjs.svg"
     },
     "apache": {
-        "name": "apache",
+        "name": "Apache",
         "color": "#000000",
         "icon": "https://api.iconify.design/devicon/apache.svg"
     },
     "hono": {
-        "name": "hono",
+        "name": "Hono",
         "color": "#000000",
         "icon": "https://api.iconify.design/logos/hono.svg"
     },
@@ -349,5 +349,20 @@
         "name": "Socket.io",
         "color": "#000000",
         "icon": "https://api.iconify.design/logos/socket-io.svg"
+    },
+    "ffmpeg": {
+        "name": "FFMPEG",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/logos/ffmpeg-icon.svg"
+    },
+    "rust": {
+        "name": "Rust",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/skill-icons/rust.svg"
+    },
+    "tauri": {
+        "name": "Tauri",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/devicon/tauri.svg"
     }
 }
