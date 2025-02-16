@@ -118,7 +118,7 @@ export default function TagPage() {
 
 
             <div className="mt-2 flex justify-end">
-                <button onClick={() => disableAllTag()} className={`text-xs font-bold bg-night-600 px-3 rounded-lg py-1 text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800`}>Disable All</button>
+                <button onClick={() => disableAllTag()} className={`text-xs font-bold bg-night-600 px-3 rounded-lg pt-2 pb-1 text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800`}>Disable All</button>
             </div>
 
             <br />
