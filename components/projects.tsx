@@ -3,7 +3,6 @@ import tagsJsonImported from "@/data/tags.json";
 import { Project, Tag } from "@/types/type";
 import ProjectCard from "@/components/projectcard";
 import useResolutionChange from "@/hooks/useResolutiuonChange";
-import { useEffect } from "react";
 
 const tagsMap: {[key: string]: Tag} = tagsJsonImported;
 const ProjectsList: Project[] = ProjectsJson;

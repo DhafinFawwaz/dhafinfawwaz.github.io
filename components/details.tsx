@@ -1,19 +1,60 @@
+import useImageLoaded from "@/hooks/useImageLoaded";
 import { Project, Tag } from "@/types/type";
 import Link from "next/link";
-import { useState } from "react";
+import { RefObject, useEffect, useRef, useState } from "react";
 
 const createImageSrc = (projectSlug: string, imageName: string) => `/img/projects/optimized/${projectSlug}/${imageName}`
 
-function projectGalery(project: Project, onClick: (imgSrc: string) => void) {
+function ImageButton({ imgSrc, alt, onClick, percentage, availableHeight, className }: { imgSrc: string, alt: string, onClick: (imgSrc: string) => void, percentage: number, availableHeight: number, className: string }) {
+    
+    const {ref, loaded, onLoad} = useImageLoaded()
+    
+    if(loaded) {
+        const style = {width: percentage+"%"};
+        return <div onClick={() => onClick(imgSrc)} className={className} style={style}>
+            <img onLoad={onLoad} ref={ref} src={imgSrc} alt={alt} className="rounded-xl object-cover w-full h-full group-hover:scale-95 duration-150 ease-out-back-expo"/>
+        </div>
+    } else {
+        const style = {width: percentage+"%", height: availableHeight+"px"};
+        const extraClass = "animate-pulse bg-zinc-800";
+        return <div onClick={() => onClick(imgSrc)} className={className + extraClass} style={style}>
+            <img onLoad={onLoad} ref={ref} src={imgSrc} alt={alt} className="rounded-xl object-cover w-full h-full group-hover:scale-95 duration-150 ease-out-back-expo"/>
+        </div>
+    }
+}
 
+function projectGalery(project: Project, onClick: (imgSrc: string) => void, containerRef: RefObject<HTMLDivElement>
+) {
+
+    const [refValue, setRefValue] = useState<HTMLDivElement>();
+    const [containerSize, setContainerSize] = useState({
+        spaceWidth: 0,
+        gap: 0
+    });
+    useEffect(() => {
+        setRefValue(containerRef.current!);
+    }, [containerRef.current]);
+    useEffect(() => {
+        if (refValue) {
+            const spaceWidth = containerRef.current?.clientWidth;
+            const windowWidth = window.innerWidth;
+            setContainerSize({
+                spaceWidth: spaceWidth ? spaceWidth : 0,
+                gap: windowWidth >= 550 ? 16 : 8
+            });
+        }
+    }, [refValue]);
+
+
+    
     const result: JSX.Element[] = [];
 
     if(project.imageDetails.length === 1){
-        return <div className="w-full rounded-xl overflow-hidden bg-night-900
-                min-h-16 4xs:min-h-20 3xs:min-h-24 2xs:min-h-28 xs:min-h-36 sm:min-h-40 md:min-h-44 lg:min-h-56 
-                ">
-            <img src={createImageSrc(project.slug, project.imageDetails[0].img)} alt={project.title} className="object-cover w-full"/>
-        </div>
+        const availableWidth = containerSize.spaceWidth;
+        const availableHeight = availableWidth * project.imageDetails[0].height / project.imageDetails[0].width;
+
+        const img1 = createImageSrc(project.slug, project.imageDetails[0].img);
+        return <ImageButton onClick={() => onClick(img1)} className="rounded-xl h-full cursor-pointer group " percentage={100} availableHeight={availableHeight} key={project.slug} imgSrc={img1} alt={project.slug}/>
     }
 
     for(let i = 0; i < project.imageDetails.length; i += 2){
@@ -29,17 +70,19 @@ function projectGalery(project: Project, onClick: (imgSrc: string) => void) {
         const percentage1 = img1Width / totalWidth * 100;
         const percentage2 = img2Width / totalWidth * 100;
         
+        const availableWidth = containerSize.spaceWidth - containerSize.gap;
+        const availableHeight = availableWidth * maxHeight / totalWidth;
+
+        
         if(type1 === 0 && type2 === 0) {
             const img1 = createImageSrc(project.slug, project.imageDetails[i].img);
             const img2 = createImageSrc(project.slug, project.imageDetails[i+1].img);
             result.push(
             <div key={i} className="w-full flex gap-2 xs:gap-4">
-                <div onClick={() => onClick(img1)} className=" rounded-xl h-full cursor-pointer group" style={{width: percentage1+"%"}}>
-                    <img key={project.slug} src={img1} alt={project.title} className="rounded-xl object-cover w-full h-full group-hover:scale-95 duration-150 ease-out-back-expo"/>
-                </div>
-                <div onClick={() => onClick(img2)} className=" rounded-xl h-full cursor-pointer group" style={{width: percentage2+"%"}}>
-                    <img key={project.slug} src={img2} alt={project.title} className="rounded-xl object-cover w-full h-full group-hover:scale-95 duration-150 ease-out-back-expo"/>
-                </div>
+                <ImageButton onClick={() => onClick(img1)} className="rounded-xl h-full cursor-pointer group " percentage={percentage1} availableHeight={availableHeight} key={project.slug + i} imgSrc={img1} alt={project.slug}/>
+
+                <ImageButton onClick={() => onClick(img2)} className="rounded-xl h-full cursor-pointer group " percentage={percentage2} availableHeight={availableHeight} key={project.slug + i+1} imgSrc={img2} alt={project.slug}/>
+
             </div>
             );
         }
@@ -49,14 +92,10 @@ function projectGalery(project: Project, onClick: (imgSrc: string) => void) {
             const img2 = createImageSrc(project.slug, project.imageDetails[i+1].img);
             result.push(
             <div key={i} className="w-full flex gap-2 xs:gap-4">
-                <div onClick={() => onClick(img1)} className=" rounded-xl
-                min-h-16 4xs:min-h-20 3xs:min-h-24 2xs:min-h-28 xs:min-h-36 sm:min-h-40 md:min-h-44 lg:min-h-56 cursor-pointer group" style={{width: percentage1+"%"}}>
-                    <img key={project.slug} src={img1} alt={project.title} className="rounded-xl object-cover w-full h-full group-hover:scale-95 duration-150 ease-out-back-expo"/>
-                </div>
-                <div onClick={() => onClick(img2)} className=" rounded-xl
-                min-h-24 4xs:min-h-28 3xs:min-h-36 2xs:min-h-48 xs:min-h-56 sm:min-h-64 md:min-h-72 lg:min-h-80 cursor-pointer group" style={{width: percentage2+"%"}}>
-                    <img key={project.slug} src={img2} alt={project.title} className="rounded-xl object-cover w-full h-full group-hover:scale-95 duration-150 ease-out-back-expo"/>
-                </div>
+                
+                <ImageButton onClick={() => onClick(img1)} className="rounded-xl min-h-16 4xs:min-h-20 3xs:min-h-24 2xs:min-h-28 xs:min-h-36 sm:min-h-40 md:min-h-44 lg:min-h-56 cursor-pointer group " percentage={percentage1} availableHeight={availableHeight} key={project.slug + i} imgSrc={img1} alt={project.slug}/>
+
+                <ImageButton onClick={() => onClick(img2)} className="rounded-xl min-h-24 4xs:min-h-28 3xs:min-h-36 2xs:min-h-48 xs:min-h-56 sm:min-h-64 md:min-h-72 lg:min-h-80 cursor-pointer group " percentage={percentage2} availableHeight={availableHeight} key={project.slug + i + 1} imgSrc={img2} alt={project.slug}/>
             </div>
             );
         }
@@ -126,6 +165,8 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
         setIsPreviewing(src);
     }
 
+    const imageContainerRef = useRef<HTMLDivElement>(null);
+
     return <>
     {/* Click To see full screen image */}
     {PreviewImage(isPreviewing, closePreview)}
@@ -159,11 +200,11 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
             {changePageButton("Next", "/project/"+nextProjectSlug, "https://api.iconify.design/ooui/next-ltr.svg?color=%23ffffff")}
         </div>
 
-        <div className="flex flex-col items-center justify-center mt-3">
+        <div ref={imageContainerRef} className="flex flex-col items-center justify-center mt-3">
             <h2 className="text-4xl font-bold"></h2>
 
             <div className="flex flex-col gap-2 xs:gap-4 w-full">
-                {projectGalery(project, onImageClicked)}
+                {projectGalery(project, onImageClicked, imageContainerRef)}
             </div>
             
             <div className="flex mt-2 xs:mt-4 w-full gap-2 xs:gap-4">
