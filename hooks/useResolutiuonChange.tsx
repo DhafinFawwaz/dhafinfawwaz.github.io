@@ -1,10 +1,25 @@
 import { useEffect, useState } from "react";
 
-export default function useResolutionChange(onChange: (size: string) => void) {
-  const getScreenSize = () => {
+const allSizeMap = [
+  ["md", "(min-width: 768px)"],
+  ["xs", "(min-width: 550px)"],
+  ["2xs", "(min-width: 450px)"],
+]
+function getSizeMap(sizes: string[]) {
+  const sizeMap = [];
+  for (const [size, query] of allSizeMap) {
+    if (sizes.includes(size)) sizeMap.push([size, query]);
+  }
+  return sizeMap;
+}
+
+export default function useResolutionChange(onChange: (size: string) => void, sizes = ["md", "2xs"]) {
+  function getScreenSize() {
     if (typeof window === "undefined") return "other"; // Ensure SSR safety
-    if (window.matchMedia("(min-width: 768px)").matches) return "md";
-    if (window.matchMedia("(min-width: 450px)").matches) return "2xs";
+    const sizeMap = getSizeMap(sizes);
+    for (const [size, query] of sizeMap) {
+      if (window.matchMedia(query).matches) return size;
+    }
     return "other";
   };
 

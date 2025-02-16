@@ -1,4 +1,6 @@
 import useImageLoaded from "@/hooks/useImageLoaded";
+import useResolutionChange from "@/hooks/useResolutiuonChange";
+import useWindowWidth from "@/hooks/useDebouncedWindowWidth";
 import { Project, Tag } from "@/types/type";
 import Link from "next/link";
 import { RefObject, useEffect, useRef, useState } from "react";
@@ -25,7 +27,7 @@ function ImageButton({ imgSrc, alt, onClick, percentage, availableHeight, classN
 
 function ProjectGalery(project: Project, onClick: (imgSrc: string) => void, containerRef: RefObject<HTMLDivElement>
 ) {
-
+    const resolution = useResolutionChange(_ => {}, ["xs"]);
     const [refValue, setRefValue] = useState<HTMLDivElement>();
     const [containerSize, setContainerSize] = useState({
         spaceWidth: 0,
@@ -38,13 +40,26 @@ function ProjectGalery(project: Project, onClick: (imgSrc: string) => void, cont
         if (refValue) {
             const spaceWidth = containerRef.current?.clientWidth;
             const windowWidth = window.innerWidth;
-            setContainerSize({
+            const newContainerSize = {
                 spaceWidth: spaceWidth ? spaceWidth : 0,
                 gap: windowWidth >= 550 ? 16 : 8
-            });
+            };
+            setContainerSize(newContainerSize);
+            console.log(newContainerSize);
         }
-    }, [refValue]);
-
+    }, [refValue, resolution, project]); 
+    // [refresh when ref initialized, refresh when media query hit, refresh when next/prev project]
+    
+    useWindowWidth(width => {
+        if(!containerRef.current) return;
+        const spaceWidth = containerRef.current?.clientWidth;
+        const newContainerSize = {
+            spaceWidth: spaceWidth ? spaceWidth : 0,
+            gap: width >= 550 ? 16 : 8
+        };
+        setContainerSize(newContainerSize);
+    }, 50)
+    // debounced refresh when window width change every 50 ms
 
     
     const result: JSX.Element[] = [];
@@ -72,7 +87,6 @@ function ProjectGalery(project: Project, onClick: (imgSrc: string) => void, cont
         
         const availableWidth = containerSize.spaceWidth - containerSize.gap;
         const availableHeight = availableWidth * maxHeight / totalWidth;
-
         
         if(type1 === 0 && type2 === 0) {
             const img1 = createImageSrc(project.slug, project.imageDetails[i].img);
