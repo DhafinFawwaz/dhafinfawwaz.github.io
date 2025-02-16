@@ -1872,5 +1872,50 @@
                 "height": 359
             }
         ]
+    },
+    {
+        "title": "TCP Over UDP",
+        "subtitle": "Transmission Transport Protocol implemented Over User Datagram Protocol with Sliding Window and Checksum Algorithm, retries, and Multiplexing.",
+        "slug": "tcp-over-udp",
+        "thumbnail": "tcp-over-udp-vm.webp",
+        "color": "graylight",
+        "tags": [
+            "os-dev",
+            "cplusplus",
+            "linux",
+            "vbox"
+        ],
+        "description": "Transmission Transport Protocol implemented Over User Datagram Protocol with Sliding Window and Checksum Algorithm, retries, and Multiplexing. The program is written in C++ and can be run in any Linux Operating System. It can handle multiple client, retries when the packet is lost or corrupted, and can also handle the packet ordering.",
+        "src": "",
+        "imageDetails": [
+            {
+                "img": "tcp-over-udp-client.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 411
+            },
+            {
+                "img": "tcp-over-udp-server.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 380
+            },
+            {
+                "img": "tcp-over-udp-retries.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 448
+            },
+            {
+                "img": "tcp-over-udp-vm.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 436
+            }
+        ]
     }
 ]

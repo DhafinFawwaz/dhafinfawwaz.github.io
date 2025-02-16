@@ -76,7 +76,9 @@
     "os-dev": [
         "c",
         "assembly",
-        "qemu"
+        "qemu",
+        "linux",
+        "vbox"
     ],
     "other": [
         "blender",

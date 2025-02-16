@@ -364,5 +364,15 @@
         "name": "Tauri",
         "color": "#000000",
         "icon": "https://api.iconify.design/devicon/tauri.svg"
+    },
+    "linux": {
+        "name": "Linux",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/skill-icons/linux-light.svg"
+    },
+    "vbox": {
+        "name": "VBox",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/file-icons/virtualbox.svg"
     }
 }
