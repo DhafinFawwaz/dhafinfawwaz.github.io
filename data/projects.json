@@ -1734,7 +1734,7 @@
             "socketio"
         ],
         "description": "Web-based application that can be used for job search and recruitment. Users can register as a jobseeker to apply for jobs, or as a company to open job vacancies. It's made with vanilla PHP and Apache as the backend, and vanilla Javascript and CSS as the frontend. It also uses Docker as the container.",
-        "src": "https://github.com/DhafinFawwaz/LinkinPurry",
+        "src": "https://github.com/DhafinFawwaz/LinkinPurry-Social-Media",
         "imageDetails": [
             {
                 "img": "users.webp",
@@ -1886,7 +1886,7 @@
             "vbox"
         ],
         "description": "Transmission Transport Protocol implemented Over User Datagram Protocol with Sliding Window and Checksum Algorithm, retries, and Multiplexing. The program is written in C++ and can be run in any Linux Operating System. It can handle multiple client, retries when the packet is lost or corrupted, and can also handle the packet ordering.",
-        "src": "",
+        "src": "https://github.com/DhafinFawwaz/TCP-Over-UDP",
         "imageDetails": [
             {
                 "img": "tcp-over-udp-client.webp",
