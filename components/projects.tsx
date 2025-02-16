@@ -2,6 +2,8 @@ import ProjectsJson from "@/data/projects.json";
 import tagsJsonImported from "@/data/tags.json";
 import { Project, Tag } from "@/types/type";
 import ProjectCard from "@/components/projectcard";
+import useResolutionChange from "@/hooks/useResolutiuonChange";
+import { useEffect } from "react";
 
 const tagsMap: {[key: string]: Tag} = tagsJsonImported;
 const ProjectsList: Project[] = ProjectsJson;
@@ -30,26 +32,27 @@ const card = (item: Project, index: number) => <ProjectCard key={index} project=
 const mapper = (item: Project[], index: number) => <div key={index} className="flex flex-col gap-4">{item.map(card)}</div>;
 
 export default function ProjectPage() {
+    
+    const screenSize = useResolutionChange(_ => {});
+
+    function ProjectMasonry() {
+        if(screenSize === "2xs") return <div className="gap-4 place-items-start hidden 2xs:grid 2xs:grid-cols-2 md:hidden">
+            {ProjectsListDivided2.map(mapper)}
+        </div>
+        if(screenSize === "md") return <div className="gap-4 place-items-start hidden md:grid md:grid-cols-3">
+            {ProjectsListDivided3.map(mapper)}
+        </div>
+        return <div className="gap-4 place-items-center grid grid-cols-1 2xs:hidden">
+            {ProjectsListDivided1.map(mapper)}
+        </div>
+    }
 
     return <section id="project">
     <h2>Project</h2>
     <h3 className='text-zinc-400 text-sm font-medium'>Collection of projects that i built or involved in</h3>
     <br/>
 
-    {/* 1 columns */}
-    <div className="gap-4 place-items-center grid grid-cols-1 2xs:hidden">
-        {ProjectsListDivided1.map(mapper)}
-    </div>
-
-    {/* 2 columns */}
-    <div className="gap-4 place-items-start hidden 2xs:grid 2xs:grid-cols-2 md:hidden">
-        {ProjectsListDivided2.map(mapper)}
-    </div>
-
-    {/* 3 columns */}
-    <div className="gap-4 place-items-start hidden md:grid md:grid-cols-3">
-        {ProjectsListDivided3.map(mapper)}
-    </div>
+    <ProjectMasonry/>
 
 </section>
 }
