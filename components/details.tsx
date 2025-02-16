@@ -185,7 +185,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
     {PreviewImage(isPreviewing, closePreview)}
 <div className="max-w-4xl w-full">
 
-    <div className="xs:hidden fixed bottom-0 w-full p-3 bg-night-800 shadow-rim-sm">
+    <div className="xs:hidden fixed z-40 bottom-0 w-full p-3 bg-night-800 shadow-rim-sm">
         
     {project.src === "" ? 
         <div className="flex w-full items-center justify-center rounded-lg m-0 text-center cursor-not-allowed text-slate-50 border-none font-bold text-xs gap-2 ease-out-back duration-150 py-2 px-4 shadow-rim-sm ring-indigo-900 bg-night-600">
@@ -225,7 +225,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
                     <div className="w-full flex">
                         <div className="flex flex-wrap gap-2">
                             {tags.map((tag, index) => {
-                                return <a key={index} aria-label={"find "+tag.name} href={"/tag?tag=" + tag.slug} className={`text-2xs xs:text-xs font-semibold ${tag.color} bg-night-600 px-2 rounded-lg pt-1 h-5 grow text-center z-40 hover:bg-indigo-600 active:bg-indigo-400 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800
+                                return <a key={index} aria-label={"find "+tag.name} href={"/tag?tag=" + tag.slug} className={`text-2xs xs:text-xs font-semibold ${tag.color} bg-night-600 px-2 rounded-lg pt-1 h-5 grow text-center z-30 hover:bg-indigo-600 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800
                                 `}>{tag.name}</a>
                             })}
                             <div style={{flexGrow: 1000000000}}></div>
