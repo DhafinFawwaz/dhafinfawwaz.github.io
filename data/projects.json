@@ -1628,7 +1628,7 @@
             "css",
             "docker"
         ],
-        "description": "Web-based application that can be used for job search and recruitment. Users can register as a jobseeker to apply for jobs, or as a company to open job vacancies. It's made with vanilla PHP and Apache as the backend, and vanilla Javascript and CSS as the frontend. It also uses Docker as the container.",
+        "description": "Web-based application that can be used for job search and recruitment. Users can register as a jobseeker to apply for jobs, upload CV file, or as a company to Post job vacancies with uploading images. It's made with vanilla PHP and Apache as the backend, and vanilla Javascript and CSS as the frontend. It also uses Docker as the container.",
         "src": "https://github.com/DhafinFawwaz/LinkinPurry",
         "imageDetails": [
             {
