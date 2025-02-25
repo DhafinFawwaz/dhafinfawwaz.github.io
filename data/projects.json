@@ -199,6 +199,7 @@
             "nginx",
             "python",
             "tailwind",
+            "playwright",
             "javascript"
         ],
         "description": "Website about buying movie. It implements things like database, file storage, authentication, caching, polling, static file serving, automated end to end testing, deployment, and many more.",
@@ -617,7 +618,7 @@
     },
     {
         "title": "Cube Associator",
-        "subtitle": "Chaotic game built for a submission in GIM",
+        "subtitle": "Chaotic game built for a submission in GMTK Game Jam",
         "slug": "cube-associator",
         "thumbnail": "Cube Associator.webp",
         "color": "redlight",
@@ -1733,7 +1734,7 @@
             "typescript",
             "socketio"
         ],
-        "description": "Web-based application that can be used for job search and recruitment. Users can register as a jobseeker to apply for jobs, or as a company to open job vacancies. It's made with vanilla PHP and Apache as the backend, and vanilla Javascript and CSS as the frontend. It also uses Docker as the container.",
+        "description": "Web-based application with realtime chat, database, connecting and accepting connection to or from other people, load testing, backend REST API Server, OpenAPI Documentation with Swagger, etc. It also uses Docker as the container.",
         "src": "https://github.com/DhafinFawwaz/LinkinPurry-Social-Media",
         "imageDetails": [
             {
@@ -1875,7 +1876,7 @@
     },
     {
         "title": "TCP Over UDP",
-        "subtitle": "Transmission Transport Protocol implemented Over User Datagram Protocol with Sliding Window and Checksum Algorithm, retries, and Multiplexing.",
+        "subtitle": "Transmission Transport Protocol implemented Over User Datagram Protocol with Sliding Window, Checksum Algorithm, retries, and Multiplexing.",
         "slug": "tcp-over-udp",
         "thumbnail": "tcp-over-udp-vm.webp",
         "color": "graylight",

@@ -374,5 +374,10 @@
         "name": "VBox",
         "color": "#000000",
         "icon": "https://api.iconify.design/file-icons/virtualbox.svg"
+    },
+    "playwright": {
+        "name": "Playwright",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/devicon/playwright.svg"
     }
 }
