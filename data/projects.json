@@ -1826,7 +1826,7 @@
             "ffmpeg",
             "supabase"
         ],
-        "description": "Photobooth App with video editing, Payment Gateway, Printer & Camera integration, with Website, Backend Server & Database, and Gmail Notification.",
+        "description": "Photobooth App with video editing, Payment Gateway, Printer & Camera integration, with Website, Backend Server & Database, and Gmail Notification. It uses Fabric.js to render the video editing and FFMPEG to export the video.",
         "src": "",
         "imageDetails": [
             {
