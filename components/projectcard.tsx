@@ -18,9 +18,9 @@ export default function ProjectCard({project, tags, onTagClicked, activeTag}: {p
                 <>
                     {tags.map((tag, index) => {
                         if(!activeTag![tag.slug!])
-                            return <button key={index} onClick={() => onTagClicked(tag)} className={`text-2xs xs:text-xs font-semibold bg-night-600 px-2 rounded-lg pt-1 grow text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800`}>{tag.name}</button>
+                            return <button key={index} onClick={() => onTagClicked(tag)} className={`text-2xs xs:text-xs font-semibold bg-night-600 px-2 rounded-lg pt-1 grow text-center z-40 hover:bg-indigo-600 active:bg-indigo-700 focus:bg-night-800 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800`}>{tag.name}</button>
                         else
-                            return <button key={index} onClick={() => onTagClicked(tag)} className={`text-2xs xs:text-xs font-semibold bg-indigo-600 px-2 rounded-lg pt-1 grow text-center z-40 hover:bg-indigo-700 active:bg-indigo-800 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800`}>{tag.name}</button>
+                            return <button key={index} onClick={() => onTagClicked(tag)} className={`text-2xs xs:text-xs font-semibold bg-indigo-600 px-2 rounded-lg pt-1 grow text-center z-40 hover:bg-indigo-700 active:bg-indigo-800 hover:cursor-pointer duration-75 shadow-rim-sm drop-shadow-sm focus:ring-4 ring-indigo-800 focs`}>{tag.name}</button>
 
                     })}
                 </>
