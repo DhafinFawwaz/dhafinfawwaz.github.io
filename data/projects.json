@@ -1579,7 +1579,8 @@
             "threejs",
             "tailwind",
             "vite",
-            "vercel"
+            "vercel",
+            "chartjs"
         ],
         "description": "Implementation of several algorithm to solve the Math Magic Cube Problem. These algorithms are Steepest Ascent Hill Climbing, Steepest Ascent Hill Climbing with Sideways Move, Random Restart Hill Climb, Stochastic Hill Climbing, Simulated Annealing, and Genetic Algorithm. The visualization of the cube is done using Three.js. The project is built using Vite and Tailwind.",
         "src": "https://magic-cube-solver-rho.vercel.app",
