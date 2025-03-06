@@ -24,8 +24,8 @@ function generate(qualificationList: Qualification[]) {
                 
                 <a href={item.src} target={item.target} className='ml-3 hover:bg-night-900 p-2 mr-4 rounded-lg w-full active:bg-indigo-700'>
                     <h4 className="font-bold text-sm xs:text-md leading-4">{item.title}</h4>
-                    <h5 className='font-medium text-zinc-400 text-xs xs:text-sm leading-3 xs:leading-5 mt-0 xs:mt-0.5'>{item.subtitle}</h5>
-                    <p className='font-medium flex text-[0.66rem] text-zinc-400 gap-1'>
+                    <h5 className='font-medium text-zinc-400 text-xs xs:text-sm mt-0 xs:mt-0.5 leading-5 xs:leading-4.5'>{item.subtitle}</h5>
+                    <p className='font-medium flex text-[0.66rem] text-zinc-400 gap-1 mt-0.5'>
                         <img className='h-3 -translate-y-[0.05rem]' src="https://api.iconify.design/lets-icons/date-range-fill.svg?color=%2364748b" alt="date"/>
                         {item.date}
                     </p>

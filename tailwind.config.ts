@@ -94,6 +94,10 @@ const config = {
           'out-back': 'cubic-bezier(0.175, 2.885, 0.32, 1.275)',
           'out-back-little': 'cubic-bezier(0.175, 2.885, 0.32, 1.275)',
       },
+      
+      lineHeight: {
+        '4.5': '1.125rem',
+      }
 
     }
   },
