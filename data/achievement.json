@@ -62,6 +62,13 @@
     "description": "Game Development Gemastik XVII is a National competition about Game Development, competing for about 200 teams from all over Indonesia, by Ministry of Education, Culture, Research, and Technology held for about 2 months of development. This competition started from research, creating proposal, developing the game, video editing, scientific paper, copyright documents, and then pitch product presentation about the game.",
     "img": "GemastikXVII.webp",
     "icon": "https://api.iconify.design/icon-park-solid/game-handle.svg?color=%23ffffff"
+  },{
+    "title": "Most Outstanding Informatics Student 2025",
+    "subtitle": "Issued by Bandung Institute of Technology",
+    "date": "March 2025",
+    "description": "Most Outstanding student between every students in my major. This selection process starts from the student's GPA, the student's achievements, and then english based insterview to know the student's soft skills.",
+    "img": "MahasiswaBerprestasi.webp",
+    "icon": "https://api.iconify.design/streamline/star-badge-solid.svg?color=%23ffffff"
   }
 
 ]
