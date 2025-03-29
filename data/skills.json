@@ -48,7 +48,9 @@
         "chartjs",
         "swagger",
         "k6",
-        "socketio"
+        "socketio",
+        "aws",
+        "coolify"
     ],
     "mobile-dev": [
         "cplusplus",

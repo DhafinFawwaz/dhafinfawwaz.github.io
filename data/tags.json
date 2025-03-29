@@ -379,5 +379,15 @@
         "name": "Playwright",
         "color": "#000000",
         "icon": "https://api.iconify.design/devicon/playwright.svg"
+    },
+    "aws": {
+        "name": "AWS",
+        "color": "#000000",
+        "icon": "https://api.iconify.design/skill-icons/aws-dark.svg"
+    },
+    "coolify": {
+        "name": "Coolify",
+        "color": "#000000",
+        "icon": "https://avatars.githubusercontent.com/u/60715044?s=48&v=4"
     }
 }
