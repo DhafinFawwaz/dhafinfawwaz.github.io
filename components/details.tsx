@@ -63,6 +63,30 @@ function ProjectGalery(project: Project, onClick: (imgSrc: string) => void, cont
     
     const result: JSX.Element[] = [];
 
+    // special case if all type is 3
+    // if all type is 3
+    if(project.imageDetails.findIndex((imageDetail) => imageDetail.type !== 3) === -1) {
+        // all side by side
+        for(let i = 0; i < project.imageDetails.length; i += 3) {
+            const img1 = createImageSrc(project.slug, project.imageDetails[i].img);
+            const img2 = createImageSrc(project.slug, project.imageDetails[i+1].img);
+            const img3 = createImageSrc(project.slug, project.imageDetails[i+2].img);
+            const percentage = 100 / 3;
+            const availableWidth = containerSize.spaceWidth - containerSize.gap * 2;
+            const availableHeight = availableWidth * project.imageDetails[i].height / project.imageDetails[i].width;
+            result.push(
+            <div key={i} className="w-full flex gap-2 xs:gap-4">
+                <ImageButton onClick={() => onClick(img1)} className="rounded-xl h-full cursor-pointer group " percentage={percentage} availableHeight={availableHeight} key={project.slug + i} imgSrc={img1} alt={project.slug}/>
+
+                <ImageButton onClick={() => onClick(img2)} className="rounded-xl h-full cursor-pointer group " percentage={percentage} availableHeight={availableHeight} key={project.slug + i+1} imgSrc={img2} alt={project.slug}/>
+
+                <ImageButton onClick={() => onClick(img3)} className="rounded-xl h-full cursor-pointer group " percentage={percentage} availableHeight={availableHeight} key={project.slug + i+2} imgSrc={img3} alt={project.slug}/>
+            </div>
+            );
+        }
+        return result;
+    }
+
     if(project.imageDetails.length === 1){
         const availableWidth = containerSize.spaceWidth;
         const availableHeight = availableWidth * project.imageDetails[0].height / project.imageDetails[0].width;
@@ -266,7 +290,7 @@ export default function Details({project, tags, nextProjectSlug, prevProjectSlug
             </div>
             
             <div className="w-full mt-2 mb-4">
-                <p className="text-md font-normal text-justify pb-16">{CreateDescription(project.description)}</p>
+                <div className="text-md font-normal text-justify pb-16">{CreateDescription(project.description)}</div>
             </div>
 
         </div>
