@@ -1919,5 +1919,62 @@
                 "height": 436
             }
         ]
+    },
+    {
+        "title": "Purritify",
+        "subtitle": "Music Player & Management Mobile Application built using Jetpack Compose (Kotlin).",
+        "slug": "purritify",
+        "thumbnail": "library.webp",
+        "color": "graylight",
+        "tags": [
+            "mobile-dev",
+            "kotlin"
+        ],
+        "description": "Music Management Mobile Application built using Jetpack Compose (Kotlin).",
+        "src": "https://github.com/DhafinFawwaz/if3210-tubes-mad-2025-if3210-2025-mad-hal",
+        "imageDetails": [
+            {
+                "img": "uploadsong.webp",
+                "color": "graylight",
+                "type": 3,
+                "width": 640,
+                "height": 411
+            },
+            {
+                "img": "fullplayer.webp",
+                "color": "graylight",
+                "type": 3,
+                "width": 640,
+                "height": 380
+            },
+            {
+                "img": "login.webp",
+                "color": "graylight",
+                "type": 3,
+                "width": 640,
+                "height": 448
+            },
+            {
+                "img": "queue.webp",
+                "color": "graylight",
+                "type": 3,
+                "width": 640,
+                "height": 436
+            },
+            {
+                "img": "miniplayer.webp",
+                "color": "graylight",
+                "type": 3,
+                "width": 640,
+                "height": 436
+            },
+            {
+                "img": "search.webp",
+                "color": "graylight",
+                "type": 3,
+                "width": 640,
+                "height": 436
+            }
+        ]
     }
 ]
