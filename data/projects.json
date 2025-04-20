@@ -151,7 +151,8 @@
             "pixi",
             "tailwind",
             "javascript",
-            "vercel"
+            "vercel",
+            "vite"
         ],
         "description": "Interactive Bezier Curve Generator with really cool animation. It can generate Bezier Curve with any number of control points with either Brute Force or Divide and Conquer algorithm. The process of generating the curve can be shown with animation. It also has some nice feature such as dragable input points, navigation in viewport by zooming or dragging, and others. Of course, it's also mobile responsive.",
         "src": "https://beziercurvegenerator.vercel.app/",
@@ -1924,7 +1925,7 @@
         "title": "Purritify",
         "subtitle": "Music Player & Management Mobile Application built using Jetpack Compose (Kotlin).",
         "slug": "purritify",
-        "thumbnail": "library.webp",
+        "thumbnail": "purritify-preview.webp",
         "color": "graylight",
         "tags": [
             "mobile-dev",
