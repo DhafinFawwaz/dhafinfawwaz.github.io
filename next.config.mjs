@@ -4,7 +4,8 @@ const nextConfig = {
   trailingSlash: true,
   experimental: {
     scrollRestoration: true,
-  }
+  },
+  output: 'export',
 };
 
 export default nextConfig;
