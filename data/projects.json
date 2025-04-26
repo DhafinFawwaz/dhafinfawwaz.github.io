@@ -1461,10 +1461,11 @@
         "tags": [
             "desktop-dev",
             "python",
+            "c",
             "qt"
         ],
-        "description": "Cyberpunk 2077 Breach Protocol solver made in Python with implementation of the Brute Force Algorithm. It's made with PyQt5 for the interactive GUI. It can solve the problem really fast even tough it uses brute force algorithm",
-        "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
+        "description": "Cyberpunk 2077 Breach Protocol solver made in Python with implementation of the Brute Force Algorithm. It's made with c for the heavy bruteforce processing and the cli, and python with PyQT5 for the GUI. It can solve the problem really fast even tough it uses brute force algorithm",
+        "src": "https://github.com/DhafinFawwaz/Tucil1_13522084",
         "imageDetails": [
             {
                 "img": "breach-protocol-solver.webp",
