@@ -39,44 +39,50 @@
 
   "work": [
     {
-      "title": "Flavy",
-      "subtitle": "Freelance Game Development",
+      "title": "Game Developer at ITB Jatinangor",
+      "subtitle": "Developed Visual Novel Game to introduce the new Campus Branch in Unity Engine integrated with Firebase.",
       "date": "2021 - 2021",
       "target": "_self",
       "src": "/project/flavy"
     },{
-      "title": "Legend of Tampoemas Mountain",
-      "subtitle": "Freelance Game Development",
+      "title": "Game Developer at FSRD ITB",
+      "subtitle": "Developed an Educational Game collaborate with Digital Art Student for a Final Project called Legend of Tampoemas Mountain using Unity Engine.",
       "date": "2022 - 2022",
       "target": "_self",
       "src": "/project/legenda-gunung-tampomas"
     },{
-      "title": "Kirana & Laplip",
-      "subtitle": "Freelance Game Development",
+      "title": "Game Developer at FSRD ITB",
+      "subtitle": "Developed a Visual Novel Game collaborate with Digital Art Student for a Final Project called Kirana & Laplip using Unity Engine.",
       "date": "2023 - 2023",
       "target": "_self",
       "src": "/project/kirana-dan-laplip"
     },{
-      "title": "Dewi Sri",
-      "subtitle": "Freelance Game Development",
+      "title": "Game Developer at FSRD ITB",
+      "subtitle": "Developed a Story Book Game collaborate with Digital Art Student for a Final Project called Dewi Sri using Unity Engine.",
       "date": "2024",
       "target": "_blank",
       "src": "https://kitkatmt.itch.io/dewi-sri"
     },{
-      "title": "Kinnaria",
-      "subtitle": "Freelance Game Development",
+      "title": "Game Developer at FSRD ITB",
+      "subtitle": "Developed a Rythm Game collaborate with Digital Art Student for a Final Project called Kinnaria using Unity Engine.",
       "date": "2024",
       "target": "_blank",
       "src": ""
     },{
-      "title": "Rolling Glory Jam",
-      "subtitle": "Internship Game Programmer",
+      "title": "Internship Computer Vision Engineer & Web Game Dev at Rolling Glory",
+      "subtitle": "Developed an App for an advertising event with Computer Vision for real time 3D video filters and occlusion using GPU that hides the back part of a necklace or hat using Unity Engine. Also developed a bubble pop Web Game using Phaser.js",
       "date": "2024",
       "target": "_self",
       "src": "https://www.google.com/search?q=Rolling Glory Jam"
     },{
-      "title": "Memento",
-      "subtitle": "Freelance Software Engineer",
+      "title": "Software Engineer at Memento",
+      "subtitle": "Developed Photo Booth Desktop App with Video Editor for the frame clip layout, Payment Gateway, Printer & Camera integration, with Website, Backend Server & Database, and Gmail Notification using Tauri, Rust, Next.js, FFMPEG, Supabase, Vercel, Midtrans",
+      "date": "2025",
+      "target": "_self",
+      "src": ""
+    },{
+      "title": "Programming Lab Assistant at ITB",
+      "subtitle": "Created projects and practicum, covering Algorithm & Data Structure, Object Oriented Programming, Web Dev, Mobile Dev. Competitive selection with only 12 of 75 accepted.",
       "date": "2025",
       "target": "_self",
       "src": ""
@@ -85,32 +91,32 @@
 
   "organization": [
     {
-      "title": "BAKMISS",
-      "subtitle": "Head of Science and Technology",
+      "title": "Head of Science and Technology at BAKMISS",
+      "subtitle": "Took care of the technology needs of the organization.",
       "date": "2020 - 2021",
       "target": "_blank",
       "src": "https://www.google.com/search?q=BAKMISS smansa"
     },{
-      "title": "GIM ITB",
-      "subtitle": "Head of New Member Admission",
+      "title": "Head of New Member Admission at GIM ITB",
+      "subtitle": "6 months process of new member selection for GIM Apprenticeship 2023. A very busy, chaotic, and fun selection process. I'm the one in charge of managing the whole event. I also help being the programming tutor when the tutor is not available.",
       "date": "2023 - 2024",
       "target": "_blank",
       "src": "https://www.google.com/search?q=GIM ITB"
     },{
-      "title": "GIM ITB",
-      "subtitle": "Vice Chairman of Research and Development",
+      "title": "Vice Chairman of Research and Development at GIM ITB",
+      "subtitle": "Doing research and sharing them to the members about programming in Game Development. Sharing programming competitions. Managing team of 16 people on developing a software. Also intervene to help programming the Gesture Drawing Detection.",
       "date": "2023 - 2024",
       "target": "_blank",
       "src": "https://www.google.com/search?q=GIM ITB"
     },{
-      "title": "HMIF Pra-Gemastik ITB 2024",
-      "subtitle": "Head of Gamedev Committee of Pra-Gemastik ITB 2024 in Himpunan Mahasiswa Teknik Informatika (HMIF)",
+      "title": "Head of Gamedev Committee of Pra-Gemastik ITB 2024 at HMIF",
+      "subtitle": "Manage the Game Development Selection process for Pra-Gemastik ITB so that they will become representative from ITB to attend Gemastik 2024.",
       "date": "2024 - 2024",
       "target": "_blank",
       "src": "https://www.google.com/search?q=Pra Gemastik ITB"
     },{
-      "title": "GIM ITB",
-      "subtitle": "Head of Programming",
+      "title": "Tech Lead Web Development & Head of Programming at GIM ITB",
+      "subtitle": "Lead Software Engineer for an Organization Website, integrated with my Custom Open API Library for Next.js and Zod, Playwright, Storyblok CMS, PostgreSQL Database, Prisma ORM, Discord Bot, etc.",
       "date": "2024 - 2025",
       "target": "_blank",
       "src": "https://www.google.com/search?q=GIM ITB"
