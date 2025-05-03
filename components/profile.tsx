@@ -42,7 +42,7 @@ export default function ProfilePage() {
                 <h2 className="text-md 4xs:text-xl leading-5 font-semibold text-zinc-300 text-left">Software Engineer | Programmer</h2>
                 <h3 className="text-sm leading-4 font-medium text-zinc-300 text-left">Informatics from Bandung Institute of Technology</h3>
             </div>
-            <p className="text-zinc-300 text-sm text-justify">An Indie Game Developer for fun, a particle vfx/shader enthusiast, and a math enjoyer. My current main specialities are in Mobile, Game, and Web Development which will change in the future since I'm interested in learning more. I've published a game with +5000 installs, worked inside and led teams on projects, and able to work in fast paced environment or under pressure.</p>
+            <p className="text-zinc-300 text-sm text-justify">1st Winner Gemastik XVII, Biggest Tech Competition against 206 Universities | Most Outstanding Informatics student 2025 at Bandung Institute of Technology | Programming Lab ITB Assistant | Ex Computer Vision & Web Game Dev Intern @ RollingGlory | Software Engineer | Indie Game Developer for fun | particle vfx/shader enthusiast | published library with +500 stars on GitHub | published a game with +5000 installs.</p>
             
             <div className="grid grid-cols-2 2xs:flex gap-4 mt-4">
                 <a target="_blank" className="flex justify-center items-center bg-indigo-600 p-4 rounded-lg m-0 text-center cursor-pointer text-slate-50 border-none font-bold text-xs gap-2 px-2.5 py-3 ease-out-back duration-150 shadow-rim-md ring-indigo-900
