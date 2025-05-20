@@ -47,6 +47,211 @@
         ]
     },
     {
+        "title": "WikiRace Solver",
+        "subtitle": "Solve Wikirace with web scrapping, multithreading, BFS, IDS, etc.",
+        "slug": "wikirace-solver",
+        "thumbnail": "wikirace-solver.webp",
+        "color": "bluedark",
+        "tags": [
+            "web-dev",
+            "javascript",
+            "tailwind",
+            "pixi",
+            "go",
+            "fiber",
+            "docker"
+        ],
+        "description": "Solve Wikirace with web scrapping, multithreading, and implementation of Breadth First Search Algorithm and Iterative Deepening Search Algorithm. It's made with Go Fiber for the backend and Pixi.js for the frontend.",
+        "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
+        "imageDetails": [
+            {
+                "img": "1.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "2.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "3.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "4.webp",
+                "color": "bluedark",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            }
+        ]
+    },
+    {
+        "title": "Memento",
+        "subtitle": "Photobooth App with video editing, Payment Gateway, Printer & Camera integration, with Website, Backend Server & Database, and Gmail Notification",
+        "slug": "memento",
+        "thumbnail": "memento-edit-result.webp",
+        "color": "graylight",
+        "tags": [
+            "web-dev",
+            "desktop-dev",
+            "next",
+            "tauri",
+            "tailwind",
+            "rust",
+            "vercel",
+            "postgresql",
+            "ffmpeg",
+            "supabase"
+        ],
+        "description": "Photobooth App with video editing, Payment Gateway, Printer & Camera integration, with Website, Backend Server & Database, and Gmail Notification. It uses Fabric.js to render the video editing and FFMPEG to export the video.",
+        "src": "",
+        "imageDetails": [
+            {
+                "img": "memento-choose.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "memento-result-edit.gif",
+                "color": "graylight",
+                "type": 0,
+                "width": 600,
+                "height": 336
+            },
+            {
+                "img": "memento-edit-result.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "memento-filter.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "memento-payment.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            },
+            {
+                "img": "memento-scan.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 359
+            }
+        ]
+    },
+    {
+        "title": "LinkinPurry Social",
+        "subtitle": "Social Media Website with various features.",
+        "slug": "linkinpurry-social",
+        "thumbnail": "linkinpurry-social.webp",
+        "color": "graylight",
+        "tags": [
+            "web-dev",
+            "hono",
+            "swagger",
+            "k6",
+            "tailwind",
+            "docker",
+            "react",
+            "typescript",
+            "socketio"
+        ],
+        "description": "Web-based application with realtime chat, database, connecting and accepting connection to or from other people, load testing, backend REST API Server, OpenAPI Documentation with Swagger, etc. It also uses Docker as the container.",
+        "src": "https://github.com/DhafinFawwaz/LinkinPurry-Social-Media",
+        "imageDetails": [
+            {
+                "img": "users.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 418
+            },
+            {
+                "img": "typing-indicator.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 285
+            },
+            {
+                "img": "register.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 421
+            },
+            {
+                "img": "recommendation.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 420
+            },
+            {
+                "img": "profile.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 364
+            },
+            {
+                "img": "load-test-github.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 364
+            },
+            {
+                "img": "load-test-docker-feed.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 628,
+                "height": 480
+            },
+            {
+                "img": "invitation.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 418
+            },
+            {
+                "img": "APIdoc.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 640,
+                "height": 372
+            },
+            {
+                "img": "network.webp",
+                "color": "graylight",
+                "type": 0,
+                "width": 462,
+                "height": 302
+            }
+        ]
+    },
+    {
         "title": "Pace Break",
         "subtitle": "Platformer combat game inspired by Hollow Knight",
         "slug": "pace-break",
@@ -1522,54 +1727,6 @@
         ]
     },
     {
-        "title": "WikiRace Solver",
-        "subtitle": "Solve Wikirace with web scrapping, multithreading, BFS, IDS, etc.",
-        "slug": "wikirace-solver",
-        "thumbnail": "wikirace-solver.webp",
-        "color": "bluedark",
-        "tags": [
-            "web-dev",
-            "javascript",
-            "tailwind",
-            "pixi",
-            "go",
-            "fiber",
-            "docker"
-        ],
-        "description": "Solve Wikirace with web scrapping, multithreading, and implementation of Breadth First Search Algorithm and Iterative Deepening Search Algorithm. It's made with Go Fiber for the backend and Pixi.js for the frontend.",
-        "src": "https://github.com/DhafinFawwaz/Tubes2_FE_Tiefensuche",
-        "imageDetails": [
-            {
-                "img": "1.webp",
-                "color": "bluedark",
-                "type": 0,
-                "width": 640,
-                "height": 359
-            },
-            {
-                "img": "2.webp",
-                "color": "bluedark",
-                "type": 0,
-                "width": 640,
-                "height": 359
-            },
-            {
-                "img": "3.webp",
-                "color": "bluedark",
-                "type": 0,
-                "width": 640,
-                "height": 359
-            },
-            {
-                "img": "4.webp",
-                "color": "bluedark",
-                "type": 0,
-                "width": 640,
-                "height": 359
-            }
-        ]
-    },
-    {
         "title": "Magic Cube Solver",
         "subtitle": "3D Animated Visualization of Magic Cube Solver with AI algorithms.",
         "slug": "magic-cube-solver",
@@ -1717,163 +1874,6 @@
                 "type": 0,
                 "width": 640,
                 "height": 287
-            }
-        ]
-    },
-    {
-        "title": "LinkinPurry Social",
-        "subtitle": "Social Media Website with various features.",
-        "slug": "linkinpurry-social",
-        "thumbnail": "linkinpurry-social.webp",
-        "color": "graylight",
-        "tags": [
-            "web-dev",
-            "hono",
-            "swagger",
-            "k6",
-            "tailwind",
-            "docker",
-            "react",
-            "typescript",
-            "socketio"
-        ],
-        "description": "Web-based application with realtime chat, database, connecting and accepting connection to or from other people, load testing, backend REST API Server, OpenAPI Documentation with Swagger, etc. It also uses Docker as the container.",
-        "src": "https://github.com/DhafinFawwaz/LinkinPurry-Social-Media",
-        "imageDetails": [
-            {
-                "img": "users.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 418
-            },
-            {
-                "img": "typing-indicator.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 285
-            },
-            {
-                "img": "register.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 421
-            },
-            {
-                "img": "recommendation.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 420
-            },
-            {
-                "img": "profile.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 364
-            },
-            {
-                "img": "load-test-github.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 364
-            },
-            {
-                "img": "load-test-docker-feed.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 628,
-                "height": 480
-            },
-            {
-                "img": "invitation.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 418
-            },
-            {
-                "img": "APIdoc.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 372
-            },
-            {
-                "img": "network.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 462,
-                "height": 302
-            }
-        ]
-    },
-    {
-        "title": "Memento",
-        "subtitle": "Photobooth App with video editing, Payment Gateway, Printer & Camera integration, with Website, Backend Server & Database, and Gmail Notification",
-        "slug": "memento",
-        "thumbnail": "memento-edit-result.webp",
-        "color": "graylight",
-        "tags": [
-            "web-dev",
-            "desktop-dev",
-            "next",
-            "tauri",
-            "tailwind",
-            "rust",
-            "vercel",
-            "postgresql",
-            "ffmpeg",
-            "supabase"
-        ],
-        "description": "Photobooth App with video editing, Payment Gateway, Printer & Camera integration, with Website, Backend Server & Database, and Gmail Notification. It uses Fabric.js to render the video editing and FFMPEG to export the video.",
-        "src": "",
-        "imageDetails": [
-            {
-                "img": "memento-choose.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 359
-            },
-            {
-                "img": "memento-result-edit.gif",
-                "color": "graylight",
-                "type": 0,
-                "width": 600,
-                "height": 336
-            },
-            {
-                "img": "memento-edit-result.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 359
-            },
-            {
-                "img": "memento-filter.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 359
-            },
-            {
-                "img": "memento-payment.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 359
-            },
-            {
-                "img": "memento-scan.webp",
-                "color": "graylight",
-                "type": 0,
-                "width": 640,
-                "height": 359
             }
         ]
     },
