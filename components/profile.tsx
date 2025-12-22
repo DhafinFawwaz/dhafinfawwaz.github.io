@@ -51,7 +51,7 @@ export default function ProfilePage() {
                 focus:ring-4 
                 active:ring-4 
                 active:ease-out-expo
-                " href="/pdf/Dhafin Fawwaz Ikramullah - CV.pdf">
+                " href="/pdf/dhafin-fawwaz-ikramullah-cv.pdf">
                     <img className="-translate-y-[0.075rem]" src="https://api.iconify.design/ph/read-cv-logo-fill.svg?color=%23ffffff" alt="cv-icon"/>
                     <div className="3xs:text-sm">Download CV</div>
                 </a>
