@@ -113,7 +113,7 @@
             "supabase"
         ],
         "description": "Photobooth App with video editing, Payment Gateway, Printer & Camera integration, with Website, Backend Server & Database, and Gmail Notification. It uses Fabric.js to render the video editing and FFMPEG to export the video.",
-        "src": "",
+        "src": "https://memento-web-eosin.vercel.app",
         "imageDetails": [
             {
                 "img": "memento-choose.webp",
