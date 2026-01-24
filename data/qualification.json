@@ -87,11 +87,17 @@
       "target": "_self",
       "src": ""
     },{
-      "title": "Software Engineer at Laku6",
-      "subtitle": "Intern Software Engineer using Golang, gRPC, Kafka, PostgreSQL, PHP, Symfony, Next.js. Implement various things like SMS Scheduler for Singapore Telecomunication, Slack Integration for varioous services, ACME integration for payment with OCBC, and many more projects with big tech company partners.",
+      "title": "Software Engineer at Laku6 (Carousell)",
+      "subtitle": "Migrated payment system from OCBC to ACME with inhouse A/B testing & flagging library, modification & communication with 5 microservices using Go, gRPC, Kafka, PHP, Symfony 2, PostgreSQL, k9s, Docker. Built features for missing phone model reporter integrated with slack notification, survey question system, fix duplicate imei bug, event workflow validation, forwarding gps location, and more using Go, Gorm, gRPC. Built features in legacy system for Singtel ordering flow such as SMS Scheduler with PHP, Symfony 2, Vonage. Created a state machine based tax invoice system with Mekari Klikpajak API using Go, Gorm, gRPC, Kafka. Built new UI and integrated feature with communication with iframe embedded website using Next.js, React.",
       "date": "2025 - 2026",
       "target": "_blank",
       "src": "https://www.laku6.com"
+    },{
+      "title": "Software Engineer at Flip",
+      "subtitle": "Migrated data correction flow to single API from of multiple service call for every nonterminated transactions. Deploy services with ArgoCD and monitor logs with Grafana using data from loki, promtail, prometheus. Integrated activity logging to QRIS Service, API for updating refund automation status, disturbance management, send email for many transfer cases and more with Go, PostgreSQL, Gin, Mux, Docker, all > 95% test coverage.",
+      "date": "2026",
+      "target": "_blank",
+      "src": "https://flip.id"
     }
   ],
 
