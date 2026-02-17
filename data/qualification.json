@@ -127,8 +127,14 @@
       "target": "_blank",
       "src": "https://www.google.com/search?q=Pra Gemastik ITB"
     },{
-      "title": "Tech Lead Web Development & Head of Programming at GIM ITB",
-      "subtitle": "Lead Software Engineer for an Organization Website, integrated with my Custom Open API Library for Next.js and Zod, Playwright, Storyblok CMS, PostgreSQL Database, Prisma ORM, Discord Bot, etc.",
+      "title": "Head IT Web Development & Head of Programming at GIM ITB",
+      "subtitle": "Led 25 staffs containing Frontend Developers, Backend Developers, UI/UX, Visual Artist, Content Researcher, Copy Writer. Setup project with Next.js, OpenAPI, Scalar, Zod, Storyblok CMS, Prisma, Playwright. Integrates Storyblok with react while utilizing Next.js Server Side Rendering and instruct the developers on how to use them. Implement a custom made integration for Zod, OpenAPI, and Next.js API Routes which makes every route is typed. Impelement secure storyblok webhook to revalidate next js page cache for automatic specific page refresh when creating content. Integrates various other essential things like Prisma with Postgresql, Playwright for end to end testing, etc. Creates REST API specification for the developers.",
+      "date": "2024 - 2025",
+      "target": "_blank",
+      "src": "https://www.google.com/search?q=GIM ITB"
+    },{
+      "title": "Head IT Arkavidia 10",
+      "subtitle": "Led 8 heads and 16 staffs of Frontend, Backend, UI/UX Designer for an IT competition & event website. Implemented and integrated secure API for submission with file upload and proper deadlock prevention, authentication with Google OAuth and email code verification. Cron job auto backup with Minio, Postgres, Google Drive. Built type safe API with Go, Gorm, Huma, OpenAPI, Next.js, HeyAPI, Tanstack Query, Zod, React Hook Form. Setup CI/CD with Github Action for tests, lint checks, code coverage integrated with Sonarqube for static analysis and auto deploy to Oracle Cloud VPS using Coolify and docker compose utilizing internal network features for fast communication between server side frontend and backend. Integrated website with data analytics using google apps script on google spreadsheet. Setup, monitor, and maintain the website using Grafana, Promtail, Loki, Prometheus.",
       "date": "2024 - 2025",
       "target": "_blank",
       "src": "https://www.google.com/search?q=GIM ITB"
